@@ -1,15 +1,15 @@
 Version 4.0 HI-TECH Software Intermediate Code
-"88 /Users/jamesgarvey/Documents/Git/MI-2023_2024-PIC18/system_uC.h
+"88 ./system_uC.h
 [c E13102 58 59 60 61 62 63 16 17 18 19 .. ]
 [n E13102 . channel_DAC2 channel_VSS channel_Temp channel_DAC1 channel_FVR_Buffer1 channel_FVR_Buffer2 channel_ANC0 channel_ANC1 channel_ANC2 channel_ANC3  ]
 [p mainexit ]
-"6 /Users/jamesgarvey/Documents/Git/MI-2023_2024-PIC18/mcc_generated_files/system/system.h
+"4 ./mcc_generated_files/system/system.h
 [v _SYSTEM_Initialize `(v ~T0 @X0 0 ef ]
-"145 /Users/jamesgarvey/Documents/Git/MI-2023_2024-PIC18/mcc_generated_files/timer/tmr1.h
+"144 ./mcc_generated_files/timer/tmr1.h
 [v _TMR1_Write `(v ~T0 @X0 0 ef1`ui ]
-"118
+"117
 [v _TMR1_Start `(v ~T0 @X0 0 ef ]
-"19726 /Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8/pic/include/proc/pic18f05q40.h
+"19726 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
 [s S962 :4 `uc 1 :1 `uc 1 :3 `uc 1 ]
 [n S962 . CKPS ASYNC CS ]
 "19731
@@ -26,11 +26,11 @@ Version 4.0 HI-TECH Software Intermediate Code
 [n S961 . . . . . ]
 "19757
 [v _T0CON1bits `VS961 ~T0 @X0 0 e@795 ]
-"119 /Users/jamesgarvey/Documents/Git/MI-2023_2024-PIC18/system_uC.h
+"119 ./system_uC.h
 [v _final_TMR0 `Vul ~T0 @X0 0 e ]
-"86 /Users/jamesgarvey/Documents/Git/MI-2023_2024-PIC18/mcc_generated_files/timer/tmr0.h
+"85 ./mcc_generated_files/timer/tmr0.h
 [v _TMR0_Start `(v ~T0 @X0 0 ef ]
-"36538 /Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8/pic/include/proc/pic18f05q40.h
+"36538 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
 [s S1742 :1 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S1742 . INT0EDG INT1EDG INT2EDG . IPEN GIEL GIE ]
 "36547
@@ -41,7 +41,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [n S1741 . . . ]
 "36552
 [v _INTCON0bits `VS1741 ~T0 @X0 0 e@1238 ]
-"269 /Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8/pic/include/proc/pic18f05q40.h
+"269 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
 [; <" CLKRCON equ 039h ;# ">
 "373
 [; <" CLKRCLK equ 03Ah ;# ">
@@ -1623,7 +1623,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 1023 `i `us
 ..
 ]
-"87 /Users/jamesgarvey/Documents/Git/MI-2023_2024-PIC18/system_uC.h
+"87 ./system_uC.h
 [v _TMR0_prescaler_bits `Cuc ~T0 @X0 -> 9 `i e ]
 [i _TMR0_prescaler_bits
 :U ..

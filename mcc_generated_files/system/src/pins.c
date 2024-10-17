@@ -1,5 +1,5 @@
 #include <xc.h>
-#include "/Users/jamesgarvey/Documents/Git/MI-2023_2024-PIC18/system_uC.h"
+#include "../pins.h"
 
 
 void PIN_MANAGER_Initialize(void)

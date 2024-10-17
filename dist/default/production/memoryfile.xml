@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
-  <executable name="dist/default/production/MI-2023_2024-PIC18.production.hex">
+  <executable name="dist/default/production\MI-2023-2024-PIC18-WINDOWS.production.hex">
     <memory name="program">
       <units>bytes</units>
       <length>32768</length>
-      <used>2886</used>
-      <free>29882</free>
+      <used>2912</used>
+      <free>29856</free>
     </memory>
     <memory name="data">
       <units>bytes</units>

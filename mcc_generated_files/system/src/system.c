@@ -1,5 +1,15 @@
 #include <xc.h>
-#include "/Users/jamesgarvey/Documents/Git/MI-2023_2024-PIC18/system_uC.h"
+#include "../system.h"
+#include "../clock.h"
+#include "../pins.h"
+#include "../config_bits.h"
+#include "../../dma/dma1.h"
+#include "../../adc/adcc.h"
+#include "../../pwm/ccp1.h"
+#include "../../timer/tmr0.h"
+#include "../../timer/tmr1.h"
+#include "../../timer/tmr2.h"
+#include "../../system/interrupt.h"
 
 void CPU_Initialize(void);
 

@@ -1,8 +1,5 @@
 Version 4.0 HI-TECH Software Intermediate Code
-"88 /Users/jamesgarvey/Documents/Git/MI-2023_2024-PIC18/system_uC.h
-[c E13102 58 59 60 61 62 63 16 17 18 19 .. ]
-[n E13102 . channel_DAC2 channel_VSS channel_Temp channel_DAC1 channel_FVR_Buffer1 channel_FVR_Buffer2 channel_ANC0 channel_ANC1 channel_ANC2 channel_ANC3  ]
-"22276 /Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8/pic/include/proc/pic18f05q40.h
+"22276 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
 [v _CCP1CON `Vuc ~T0 @X0 0 e@834 ]
 "22256
 [v _CCPR1H `Vuc ~T0 @X0 0 e@833 ]
@@ -36,7 +33,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [n S1094 . . . . . ]
 "22309
 [v _CCP1CONbits `VS1094 ~T0 @X0 0 e@834 ]
-"269 /Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8/pic/include/proc/pic18f05q40.h
+"269 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
 [; <" CLKRCON equ 039h ;# ">
 "373
 [; <" CLKRCLK equ 03Ah ;# ">
@@ -1348,382 +1345,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; <" TOSH equ 04FEh ;# ">
 "37861
 [; <" TOSU equ 04FFh ;# ">
-"7 ./wavetables.h
-[v _sine_table_one_quadrant `Cus ~T0 @X0 -> 129 `i e ]
-[i _sine_table_one_quadrant
-:U ..
--> -> 512 `i `us
--> -> 518 `i `us
--> -> 524 `i `us
--> -> 530 `i `us
--> -> 537 `i `us
--> -> 543 `i `us
--> -> 549 `i `us
--> -> 555 `i `us
--> -> 562 `i `us
--> -> 568 `i `us
--> -> 574 `i `us
--> -> 580 `i `us
--> -> 587 `i `us
--> -> 593 `i `us
--> -> 599 `i `us
--> -> 605 `i `us
--> -> 611 `i `us
--> -> 617 `i `us
--> -> 624 `i `us
--> -> 630 `i `us
--> -> 636 `i `us
--> -> 642 `i `us
--> -> 648 `i `us
--> -> 654 `i `us
--> -> 660 `i `us
--> -> 666 `i `us
--> -> 672 `i `us
--> -> 678 `i `us
--> -> 684 `i `us
--> -> 690 `i `us
--> -> 696 `i `us
--> -> 701 `i `us
--> -> 707 `i `us
--> -> 713 `i `us
--> -> 719 `i `us
--> -> 725 `i `us
--> -> 730 `i `us
--> -> 736 `i `us
--> -> 741 `i `us
--> -> 747 `i `us
--> -> 753 `i `us
--> -> 758 `i `us
--> -> 764 `i `us
--> -> 769 `i `us
--> -> 774 `i `us
--> -> 780 `i `us
--> -> 785 `i `us
--> -> 790 `i `us
--> -> 796 `i `us
--> -> 801 `i `us
--> -> 806 `i `us
--> -> 811 `i `us
--> -> 816 `i `us
--> -> 821 `i `us
--> -> 826 `i `us
--> -> 831 `i `us
--> -> 836 `i `us
--> -> 841 `i `us
--> -> 846 `i `us
--> -> 850 `i `us
--> -> 855 `i `us
--> -> 860 `i `us
--> -> 864 `i `us
--> -> 869 `i `us
--> -> 873 `i `us
--> -> 878 `i `us
--> -> 882 `i `us
--> -> 886 `i `us
--> -> 890 `i `us
--> -> 895 `i `us
--> -> 899 `i `us
--> -> 903 `i `us
--> -> 907 `i `us
--> -> 911 `i `us
--> -> 915 `i `us
--> -> 919 `i `us
--> -> 922 `i `us
--> -> 926 `i `us
--> -> 930 `i `us
--> -> 933 `i `us
--> -> 937 `i `us
--> -> 940 `i `us
--> -> 944 `i `us
--> -> 947 `i `us
--> -> 950 `i `us
--> -> 953 `i `us
--> -> 957 `i `us
--> -> 960 `i `us
--> -> 963 `i `us
--> -> 966 `i `us
--> -> 968 `i `us
--> -> 971 `i `us
--> -> 974 `i `us
--> -> 977 `i `us
--> -> 979 `i `us
--> -> 982 `i `us
--> -> 984 `i `us
--> -> 986 `i `us
--> -> 989 `i `us
--> -> 991 `i `us
--> -> 993 `i `us
--> -> 995 `i `us
--> -> 997 `i `us
--> -> 999 `i `us
--> -> 1001 `i `us
--> -> 1003 `i `us
--> -> 1004 `i `us
--> -> 1006 `i `us
--> -> 1008 `i `us
--> -> 1009 `i `us
--> -> 1011 `i `us
--> -> 1012 `i `us
--> -> 1013 `i `us
--> -> 1014 `i `us
--> -> 1015 `i `us
--> -> 1017 `i `us
--> -> 1017 `i `us
--> -> 1018 `i `us
--> -> 1019 `i `us
--> -> 1020 `i `us
--> -> 1021 `i `us
--> -> 1021 `i `us
--> -> 1022 `i `us
--> -> 1022 `i `us
--> -> 1022 `i `us
--> -> 1023 `i `us
--> -> 1023 `i `us
--> -> 1023 `i `us
--> -> 1023 `i `us
-..
-]
-"8
-[v _tri_table_one_quadrant `Cus ~T0 @X0 -> 129 `i e ]
-[i _tri_table_one_quadrant
-:U ..
--> -> 512 `i `us
--> -> 516 `i `us
--> -> 520 `i `us
--> -> 524 `i `us
--> -> 528 `i `us
--> -> 532 `i `us
--> -> 536 `i `us
--> -> 540 `i `us
--> -> 544 `i `us
--> -> 548 `i `us
--> -> 552 `i `us
--> -> 556 `i `us
--> -> 560 `i `us
--> -> 564 `i `us
--> -> 568 `i `us
--> -> 572 `i `us
--> -> 576 `i `us
--> -> 580 `i `us
--> -> 584 `i `us
--> -> 588 `i `us
--> -> 592 `i `us
--> -> 596 `i `us
--> -> 600 `i `us
--> -> 604 `i `us
--> -> 608 `i `us
--> -> 612 `i `us
--> -> 616 `i `us
--> -> 620 `i `us
--> -> 624 `i `us
--> -> 628 `i `us
--> -> 632 `i `us
--> -> 636 `i `us
--> -> 640 `i `us
--> -> 644 `i `us
--> -> 648 `i `us
--> -> 652 `i `us
--> -> 656 `i `us
--> -> 660 `i `us
--> -> 664 `i `us
--> -> 668 `i `us
--> -> 672 `i `us
--> -> 676 `i `us
--> -> 680 `i `us
--> -> 684 `i `us
--> -> 688 `i `us
--> -> 692 `i `us
--> -> 696 `i `us
--> -> 700 `i `us
--> -> 704 `i `us
--> -> 708 `i `us
--> -> 712 `i `us
--> -> 716 `i `us
--> -> 720 `i `us
--> -> 724 `i `us
--> -> 728 `i `us
--> -> 732 `i `us
--> -> 736 `i `us
--> -> 740 `i `us
--> -> 744 `i `us
--> -> 748 `i `us
--> -> 752 `i `us
--> -> 756 `i `us
--> -> 760 `i `us
--> -> 763 `i `us
--> -> 767 `i `us
--> -> 771 `i `us
--> -> 775 `i `us
--> -> 779 `i `us
--> -> 783 `i `us
--> -> 787 `i `us
--> -> 791 `i `us
--> -> 795 `i `us
--> -> 799 `i `us
--> -> 803 `i `us
--> -> 807 `i `us
--> -> 811 `i `us
--> -> 815 `i `us
--> -> 819 `i `us
--> -> 823 `i `us
--> -> 827 `i `us
--> -> 831 `i `us
--> -> 835 `i `us
--> -> 839 `i `us
--> -> 843 `i `us
--> -> 847 `i `us
--> -> 851 `i `us
--> -> 855 `i `us
--> -> 859 `i `us
--> -> 863 `i `us
--> -> 867 `i `us
--> -> 871 `i `us
--> -> 875 `i `us
--> -> 879 `i `us
--> -> 883 `i `us
--> -> 887 `i `us
--> -> 891 `i `us
--> -> 895 `i `us
--> -> 899 `i `us
--> -> 903 `i `us
--> -> 907 `i `us
--> -> 911 `i `us
--> -> 915 `i `us
--> -> 919 `i `us
--> -> 923 `i `us
--> -> 927 `i `us
--> -> 931 `i `us
--> -> 935 `i `us
--> -> 939 `i `us
--> -> 943 `i `us
--> -> 947 `i `us
--> -> 951 `i `us
--> -> 955 `i `us
--> -> 959 `i `us
--> -> 963 `i `us
--> -> 967 `i `us
--> -> 971 `i `us
--> -> 975 `i `us
--> -> 979 `i `us
--> -> 983 `i `us
--> -> 987 `i `us
--> -> 991 `i `us
--> -> 995 `i `us
--> -> 999 `i `us
--> -> 1003 `i `us
--> -> 1007 `i `us
--> -> 1011 `i `us
--> -> 1015 `i `us
--> -> 1019 `i `us
--> -> 1023 `i `us
-..
-]
-"87 /Users/jamesgarvey/Documents/Git/MI-2023_2024-PIC18/system_uC.h
-[v _TMR0_prescaler_bits `Cuc ~T0 @X0 -> 9 `i e ]
-[i _TMR0_prescaler_bits
-:U ..
--> -> 8 `i `uc
--> -> 7 `i `uc
--> -> 6 `i `uc
--> -> 5 `i `uc
--> -> 4 `i `uc
--> -> 3 `i `uc
--> -> 2 `i `uc
--> -> 1 `i `uc
--> -> 0 `i `uc
-..
-]
-"88
-[v _waveshape_adc_config_value `E13102 ~T0 @X0 1 e ]
-[i _waveshape_adc_config_value
-. `E13102 6
-]
-"89
-[v _speed_adc_config_value `E13102 ~T0 @X0 1 e ]
-[i _speed_adc_config_value
-. `E13102 7
-]
-"90
-[v _depth_adc_config_value `E13102 ~T0 @X0 1 e ]
-[i _depth_adc_config_value
-. `E13102 8
-]
-"91
-[v _symmetry_adc_config_value `E13102 ~T0 @X0 1 e ]
-[i _symmetry_adc_config_value
-. `E13102 9
-]
-"92
-[v _POSITIVE `Cuc ~T0 @X0 1 e ]
-[i _POSITIVE
--> -> 1 `i `uc
-]
-"93
-[v _NEGATIVE `Cuc ~T0 @X0 1 e ]
-[i _NEGATIVE
--> -> 0 `i `uc
-]
-"94
-[v _DO_NOTHING `Cuc ~T0 @X0 1 e ]
-[i _DO_NOTHING
--> -> 0 `i `uc
-]
-"95
-[v _DIVIDE_BY_TWO `Cuc ~T0 @X0 1 e ]
-[i _DIVIDE_BY_TWO
--> -> 1 `i `uc
-]
-"96
-[v _MULTIPLY_BY_TWO `Cuc ~T0 @X0 1 e ]
-[i _MULTIPLY_BY_TWO
--> -> 2 `i `uc
-]
-"97
-[v _DIVIDE_BY_FOUR `Cuc ~T0 @X0 1 e ]
-[i _DIVIDE_BY_FOUR
--> -> 3 `i `uc
-]
-"98
-[v _DONT_CARE `Cuc ~T0 @X0 1 e ]
-[i _DONT_CARE
--> -> 4 `i `uc
-]
-"99
-[v _YES `Cuc ~T0 @X0 1 e ]
-[i _YES
--> -> 1 `i `uc
-]
-"100
-[v _NO `Cuc ~T0 @X0 1 e ]
-[i _NO
--> -> 0 `i `uc
-]
-"102
-[v _adcc_type_array `*E13102 ~T0 @X0 -> 4 `i e ]
-[i _adcc_type_array
-:U ..
-&U _waveshape_adc_config_value
-&U _speed_adc_config_value
-&U _depth_adc_config_value
-&U _symmetry_adc_config_value
-..
-]
-"103
-[v _dma_type_array `*E13102 ~T0 @X0 -> 4 `i e ]
-[i _dma_type_array
-:U ..
-&U _waveshape_adc_config_value
-&U _speed_adc_config_value
-&U _depth_adc_config_value
-&U _symmetry_adc_config_value
-..
-]
-"104
-[v _current_adcc_type_ptr `*E13102 ~T0 @X0 1 e ]
-"105
-[v _current_dma_type_ptr `*E13102 ~T0 @X0 1 e ]
-"141
-[v _ADC_result `us ~T0 @X0 1 e ]
 "14 mcc_generated_files/pwm/src/ccp1.c
 [v _CCP1_Initialize `(v ~T0 @X0 1 ef ]
 "15
@@ -1739,7 +1360,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "28
 [e = . . _CCPTMRS0bits 0 0 -> -> 1 `i `uc ]
 "29
-[e :UE 1844 ]
+[e :UE 1843 ]
 }
 "31
 [v _CCP1_LoadDutyValue `(v ~T0 @X0 1 ef1`us ]
@@ -1753,7 +1374,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "33
 [e =& _dutyValue -> -> 1023 `i `us ]
 "36
-[e $ ! != -> . . _CCP1CONbits 0 1 `i -> 0 `i 1846  ]
+[e $ ! != -> . . _CCP1CONbits 0 1 `i -> 0 `i 1845  ]
 "37
 {
 "38
@@ -1764,9 +1385,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e = _CCPR1L -> _dutyValue `uc ]
 "41
 }
-[e $U 1847  ]
+[e $U 1846  ]
 "42
-[e :U 1846 ]
+[e :U 1845 ]
 "43
 {
 "44
@@ -1775,9 +1396,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e = _CCPR1L -> _dutyValue `uc ]
 "46
 }
-[e :U 1847 ]
+[e :U 1846 ]
 "47
-[e :UE 1845 ]
+[e :UE 1844 ]
 }
 "48
 [v _CCP1_OutputStatusGet `(a ~T0 @X0 1 ef ]
@@ -1787,7 +1408,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [f ]
 "51
 [e ) -> . . _CCP1CONbits 0 2 `a ]
-[e $UE 1848  ]
+[e $UE 1847  ]
 "52
-[e :UE 1848 ]
+[e :UE 1847 ]
 }

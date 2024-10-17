@@ -2,7 +2,7 @@
 #define PWM1_H
 
 #include <xc.h>
-#include "/Users/jamesgarvey/Documents/Git/MI-2023_2024-PIC18/system_uC.h"
+#include <stdbool.h>
 
 #define PWM1_Initialize CCP1_Initialize
 #define PWM1_LoadDutyValue CCP1_LoadDutyValue

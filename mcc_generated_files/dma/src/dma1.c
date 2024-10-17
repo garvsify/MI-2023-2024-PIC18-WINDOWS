@@ -1,5 +1,6 @@
 #include <xc.h>
-#include "/Users/jamesgarvey/Documents/Git/MI-2023_2024-PIC18/system_uC.h"
+#include "../dma1.h"
+#include "../../../system_uC.h"
 
 void (*DMA1_SCNTI_InterruptHandler)(void);
 
@@ -51,7 +52,7 @@ void DMA1_Initialize(void)
     PIE2bits.DMA1DCNTIE = 1;
 	DMA1_DCNTIInterruptHandlerSet(DMA1_DefaultInterruptHandler);
     PIE2bits.DMA1SCNTIE = 1; 
-	//DMA1_SCNTIInterruptHandlerSet(DMA1_DefaultInterruptHandler);
+	DMA1_SCNTIInterruptHandlerSet(DMA1_DefaultInterruptHandler);
     PIE2bits.DMA1AIE = 0;
     PIE2bits.DMA1ORIE = 0;
 	

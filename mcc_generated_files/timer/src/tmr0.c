@@ -1,6 +1,6 @@
 #include <xc.h>
-#include "/Users/jamesgarvey/Documents/Git/MI-2023_2024-PIC18/system_uC.h"
-
+#include "../tmr0.h"
+#include "../../../system_uC.h"
 
 const struct TMR_INTERFACE Timer0 = {
     .Initialize = TMR0_Initialize,

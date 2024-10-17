@@ -2,8 +2,7 @@
 #define ADCC_H
 
 #include <xc.h>
-#include "/Users/jamesgarvey/Documents/Git/MI-2023_2024-PIC18/system_uC.h"
-
+#include <stdbool.h>
 /**
  @ingroup adcc
  @typedef adc_result_t

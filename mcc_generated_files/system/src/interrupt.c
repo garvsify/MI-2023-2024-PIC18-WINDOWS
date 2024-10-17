@@ -1,5 +1,8 @@
 #include <xc.h>
-#include "/Users/jamesgarvey/Documents/Git/MI-2023_2024-PIC18/system_uC.h"
+#include "../../timer/tmr0.h"
+#include "../../dma/dma1.h"
+#include "../../timer/tmr1.h"
+#include "../interrupt.h"
 
 
 void (*INT0_InterruptHandler)(void);
@@ -52,7 +55,7 @@ void __interrupt() INTERRUPT_InterruptManager (void)
     // interrupt handler
     if(PIE3bits.TMR0IE == 1 && PIR3bits.TMR0IF == 1)
     {
-        Timer0_OverflowISR();
+        TMR0_OverflowISR();
     }
     else if(PIE2bits.DMA1DCNTIE == 1 && PIR2bits.DMA1DCNTIF == 1)
     {
@@ -60,7 +63,7 @@ void __interrupt() INTERRUPT_InterruptManager (void)
     }
     else if(PIE3bits.TMR1IE == 1 && PIR3bits.TMR1IF == 1)
     {
-        Timer1_OverflowISR();
+        TMR1_OverflowISR();
     }
     else
     {
