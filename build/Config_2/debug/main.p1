@@ -1,0 +1,2165 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"1619 /Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 1619: extern volatile unsigned char OSCCON __attribute__((address(0x099)));
+[v _OSCCON `Vuc ~T0 @X0 0 e@153 ]
+"2814
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 2814: extern volatile unsigned char ANSELC __attribute__((address(0x18E)));
+[v _ANSELC `Vuc ~T0 @X0 0 e@398 ]
+"1165
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 1165: extern volatile unsigned char TRISC __attribute__((address(0x08E)));
+[v _TRISC `Vuc ~T0 @X0 0 e@142 ]
+"3427
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 3427: extern volatile unsigned char WPUC __attribute__((address(0x20E)));
+[v _WPUC `Vuc ~T0 @X0 0 e@526 ]
+"1880
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 1880: extern volatile unsigned char ADCON1 __attribute__((address(0x09E)));
+[v _ADCON1 `Vuc ~T0 @X0 0 e@158 ]
+"1800
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 1800: extern volatile unsigned char ADCON0 __attribute__((address(0x09D)));
+[v _ADCON0 `Vuc ~T0 @X0 0 e@157 ]
+"6468
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 6468: extern volatile __bit ADON __attribute__((address(0x4E8)));
+[v _ADON `Vb ~T0 @X0 0 e@1256 ]
+"6945
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 6945: extern volatile __bit GO_nDONE __attribute__((address(0x4E9)));
+[v _GO_nDONE `Vb ~T0 @X0 0 e@1257 ]
+"1780
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 1780: extern volatile unsigned char ADRESH __attribute__((address(0x09C)));
+[v _ADRESH `Vuc ~T0 @X0 0 e@156 ]
+"1760
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 1760: extern volatile unsigned char ADRESL __attribute__((address(0x09B)));
+[v _ADRESL `Vuc ~T0 @X0 0 e@155 ]
+"5138
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 5138: extern volatile unsigned char CCPR3L __attribute__((address(0x311)));
+[v _CCPR3L `Vuc ~T0 @X0 0 e@785 ]
+"5178
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 5178: extern volatile unsigned char CCP3CON __attribute__((address(0x313)));
+[v _CCP3CON `Vuc ~T0 @X0 0 e@787 ]
+"7446
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 7446: extern volatile __bit SRLEN __attribute__((address(0x8D7)));
+[v _SRLEN `Vb ~T0 @X0 0 e@2263 ]
+"6564
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 6564: extern volatile __bit C1ON __attribute__((address(0x88F)));
+[v _C1ON `Vb ~T0 @X0 0 e@2191 ]
+"7734
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 7734: extern volatile __bit TRISA2 __attribute__((address(0x462)));
+[v _TRISA2 `Vb ~T0 @X0 0 e@1122 ]
+"918
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 918: extern volatile unsigned char PR2 __attribute__((address(0x01B)));
+[v _PR2 `Vuc ~T0 @X0 0 e@27 ]
+"4962
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 4962: extern volatile unsigned char CCPTMRS0 __attribute__((address(0x29E)));
+[v _CCPTMRS0 `Vuc ~T0 @X0 0 e@670 ]
+"7704
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 7704: extern volatile __bit TMR2IF __attribute__((address(0x89)));
+[v _TMR2IF `Vb ~T0 @X0 0 e@137 ]
+"938
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 938: extern volatile unsigned char T2CON __attribute__((address(0x01C)));
+[v _T2CON `Vuc ~T0 @X0 0 e@28 ]
+"7707
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 7707: extern volatile __bit TMR2ON __attribute__((address(0xE2)));
+[v _TMR2ON `Vb ~T0 @X0 0 e@226 ]
+[p mainexit ]
+"13 main.c
+[p x FOSC  =  INTOSC     ]
+"14
+[p x WDTE  =  OFF        ]
+"15
+[p x PWRTE  =  OFF       ]
+"16
+[p x MCLRE  =  ON        ]
+"17
+[p x CP  =  OFF          ]
+"18
+[p x CPD  =  OFF         ]
+"19
+[p x BOREN  =  OFF       ]
+"20
+[p x CLKOUTEN  =  OFF    ]
+"21
+[p x IESO  =  OFF        ]
+"22
+[p x FCMEN  =  OFF       ]
+"25
+[p x WRT  =  OFF         ]
+"26
+[p x PLLEN  =  OFF       ]
+"27
+[p x STVREN  =  ON       ]
+"28
+[p x BORV  =  LO         ]
+"29
+[p x DEBUG  =  ON        ]
+"30
+[p x LVP  =  OFF          ]
+"54 /Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 54: __asm("INDF0 equ 00h");
+[; <" INDF0 equ 00h ;# ">
+"74
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 74: __asm("INDF1 equ 01h");
+[; <" INDF1 equ 01h ;# ">
+"94
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 94: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"114
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 114: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"177
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 177: __asm("FSR0L equ 04h");
+[; <" FSR0L equ 04h ;# ">
+"197
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 197: __asm("FSR0H equ 05h");
+[; <" FSR0H equ 05h ;# ">
+"221
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 221: __asm("FSR1L equ 06h");
+[; <" FSR1L equ 06h ;# ">
+"241
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 241: __asm("FSR1H equ 07h");
+[; <" FSR1H equ 07h ;# ">
+"261
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 261: __asm("BSR equ 08h");
+[; <" BSR equ 08h ;# ">
+"313
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 313: __asm("WREG equ 09h");
+[; <" WREG equ 09h ;# ">
+"333
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 333: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"353
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 353: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"431
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 431: __asm("PORTA equ 0Ch");
+[; <" PORTA equ 0Ch ;# ">
+"481
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 481: __asm("PORTC equ 0Eh");
+[; <" PORTC equ 0Eh ;# ">
+"531
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 531: __asm("PIR1 equ 011h");
+[; <" PIR1 equ 011h ;# ">
+"593
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 593: __asm("PIR2 equ 012h");
+[; <" PIR2 equ 012h ;# ">
+"644
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 644: __asm("PIR3 equ 013h");
+[; <" PIR3 equ 013h ;# ">
+"684
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 684: __asm("TMR0 equ 015h");
+[; <" TMR0 equ 015h ;# ">
+"704
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 704: __asm("TMR1 equ 016h");
+[; <" TMR1 equ 016h ;# ">
+"711
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 711: __asm("TMR1L equ 016h");
+[; <" TMR1L equ 016h ;# ">
+"731
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 731: __asm("TMR1H equ 017h");
+[; <" TMR1H equ 017h ;# ">
+"751
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 751: __asm("T1CON equ 018h");
+[; <" T1CON equ 018h ;# ">
+"823
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 823: __asm("T1GCON equ 019h");
+[; <" T1GCON equ 019h ;# ">
+"900
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 900: __asm("TMR2 equ 01Ah");
+[; <" TMR2 equ 01Ah ;# ">
+"920
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 920: __asm("PR2 equ 01Bh");
+[; <" PR2 equ 01Bh ;# ">
+"940
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 940: __asm("T2CON equ 01Ch");
+[; <" T2CON equ 01Ch ;# ">
+"1011
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 1011: __asm("CPSCON0 equ 01Eh");
+[; <" CPSCON0 equ 01Eh ;# ">
+"1071
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 1071: __asm("CPSCON1 equ 01Fh");
+[; <" CPSCON1 equ 01Fh ;# ">
+"1117
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 1117: __asm("TRISA equ 08Ch");
+[; <" TRISA equ 08Ch ;# ">
+"1167
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 1167: __asm("TRISC equ 08Eh");
+[; <" TRISC equ 08Eh ;# ">
+"1217
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 1217: __asm("PIE1 equ 091h");
+[; <" PIE1 equ 091h ;# ">
+"1279
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 1279: __asm("PIE2 equ 092h");
+[; <" PIE2 equ 092h ;# ">
+"1330
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 1330: __asm("PIE3 equ 093h");
+[; <" PIE3 equ 093h ;# ">
+"1370
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 1370: __asm("OPTION_REG equ 095h");
+[; <" OPTION_REG equ 095h ;# ">
+"1453
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 1453: __asm("PCON equ 096h");
+[; <" PCON equ 096h ;# ">
+"1504
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 1504: __asm("WDTCON equ 097h");
+[; <" WDTCON equ 097h ;# ">
+"1563
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 1563: __asm("OSCTUNE equ 098h");
+[; <" OSCTUNE equ 098h ;# ">
+"1621
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 1621: __asm("OSCCON equ 099h");
+[; <" OSCCON equ 099h ;# ">
+"1693
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 1693: __asm("OSCSTAT equ 09Ah");
+[; <" OSCSTAT equ 09Ah ;# ">
+"1755
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 1755: __asm("ADRES equ 09Bh");
+[; <" ADRES equ 09Bh ;# ">
+"1762
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 1762: __asm("ADRESL equ 09Bh");
+[; <" ADRESL equ 09Bh ;# ">
+"1782
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 1782: __asm("ADRESH equ 09Ch");
+[; <" ADRESH equ 09Ch ;# ">
+"1802
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 1802: __asm("ADCON0 equ 09Dh");
+[; <" ADCON0 equ 09Dh ;# ">
+"1882
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 1882: __asm("ADCON1 equ 09Eh");
+[; <" ADCON1 equ 09Eh ;# ">
+"1954
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 1954: __asm("LATA equ 010Ch");
+[; <" LATA equ 010Ch ;# ">
+"1999
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 1999: __asm("LATC equ 010Eh");
+[; <" LATC equ 010Eh ;# ">
+"2049
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 2049: __asm("CM1CON0 equ 0111h");
+[; <" CM1CON0 equ 0111h ;# ">
+"2106
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 2106: __asm("CM1CON1 equ 0112h");
+[; <" CM1CON1 equ 0112h ;# ">
+"2172
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 2172: __asm("CM2CON0 equ 0113h");
+[; <" CM2CON0 equ 0113h ;# ">
+"2229
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 2229: __asm("CM2CON1 equ 0114h");
+[; <" CM2CON1 equ 0114h ;# ">
+"2295
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 2295: __asm("CMOUT equ 0115h");
+[; <" CMOUT equ 0115h ;# ">
+"2321
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 2321: __asm("BORCON equ 0116h");
+[; <" BORCON equ 0116h ;# ">
+"2348
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 2348: __asm("FVRCON equ 0117h");
+[; <" FVRCON equ 0117h ;# ">
+"2424
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 2424: __asm("DACCON0 equ 0118h");
+[; <" DACCON0 equ 0118h ;# ">
+"2485
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 2485: __asm("DACCON1 equ 0119h");
+[; <" DACCON1 equ 0119h ;# ">
+"2537
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 2537: __asm("SRCON0 equ 011Ah");
+[; <" SRCON0 equ 011Ah ;# ">
+"2608
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 2608: __asm("SRCON1 equ 011Bh");
+[; <" SRCON1 equ 011Bh ;# ">
+"2670
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 2670: __asm("APFCON0 equ 011Dh");
+[; <" APFCON0 equ 011Dh ;# ">
+"2731
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 2731: __asm("APFCON1 equ 011Eh");
+[; <" APFCON1 equ 011Eh ;# ">
+"2769
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 2769: __asm("ANSELA equ 018Ch");
+[; <" ANSELA equ 018Ch ;# ">
+"2816
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 2816: __asm("ANSELC equ 018Eh");
+[; <" ANSELC equ 018Eh ;# ">
+"2862
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 2862: __asm("EEADR equ 0191h");
+[; <" EEADR equ 0191h ;# ">
+"2869
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 2869: __asm("EEADRL equ 0191h");
+[; <" EEADRL equ 0191h ;# ">
+"2889
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 2889: __asm("EEADRH equ 0192h");
+[; <" EEADRH equ 0192h ;# ">
+"2909
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 2909: __asm("EEDAT equ 0193h");
+[; <" EEDAT equ 0193h ;# ">
+"2916
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 2916: __asm("EEDATL equ 0193h");
+[; <" EEDATL equ 0193h ;# ">
+"2921
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 2921: __asm("EEDATA equ 0193h");
+[; <" EEDATA equ 0193h ;# ">
+"2954
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 2954: __asm("EEDATH equ 0194h");
+[; <" EEDATH equ 0194h ;# ">
+"2974
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 2974: __asm("EECON1 equ 0195h");
+[; <" EECON1 equ 0195h ;# ">
+"3036
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 3036: __asm("EECON2 equ 0196h");
+[; <" EECON2 equ 0196h ;# ">
+"3056
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 3056: __asm("RCREG equ 0199h");
+[; <" RCREG equ 0199h ;# ">
+"3076
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 3076: __asm("TXREG equ 019Ah");
+[; <" TXREG equ 019Ah ;# ">
+"3096
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 3096: __asm("SP1BRG equ 019Bh");
+[; <" SP1BRG equ 019Bh ;# ">
+"3103
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 3103: __asm("SP1BRGL equ 019Bh");
+[; <" SP1BRGL equ 019Bh ;# ">
+"3108
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 3108: __asm("SPBRG equ 019Bh");
+[; <" SPBRG equ 019Bh ;# ">
+"3112
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 3112: __asm("SPBRGL equ 019Bh");
+[; <" SPBRGL equ 019Bh ;# ">
+"3157
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 3157: __asm("SP1BRGH equ 019Ch");
+[; <" SP1BRGH equ 019Ch ;# ">
+"3162
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 3162: __asm("SPBRGH equ 019Ch");
+[; <" SPBRGH equ 019Ch ;# ">
+"3195
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 3195: __asm("RCSTA equ 019Dh");
+[; <" RCSTA equ 019Dh ;# ">
+"3257
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 3257: __asm("TXSTA equ 019Eh");
+[; <" TXSTA equ 019Eh ;# ">
+"3319
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 3319: __asm("BAUDCON equ 019Fh");
+[; <" BAUDCON equ 019Fh ;# ">
+"3371
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 3371: __asm("WPUA equ 020Ch");
+[; <" WPUA equ 020Ch ;# ">
+"3429
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 3429: __asm("WPUC equ 020Eh");
+[; <" WPUC equ 020Eh ;# ">
+"3479
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 3479: __asm("SSP1BUF equ 0211h");
+[; <" SSP1BUF equ 0211h ;# ">
+"3484
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 3484: __asm("SSPBUF equ 0211h");
+[; <" SSPBUF equ 0211h ;# ">
+"3517
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 3517: __asm("SSP1ADD equ 0212h");
+[; <" SSP1ADD equ 0212h ;# ">
+"3522
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 3522: __asm("SSPADD equ 0212h");
+[; <" SSPADD equ 0212h ;# ">
+"3555
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 3555: __asm("SSP1MSK equ 0213h");
+[; <" SSP1MSK equ 0213h ;# ">
+"3560
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 3560: __asm("SSPMSK equ 0213h");
+[; <" SSPMSK equ 0213h ;# ">
+"3593
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 3593: __asm("SSP1STAT equ 0214h");
+[; <" SSP1STAT equ 0214h ;# ">
+"3598
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 3598: __asm("SSPSTAT equ 0214h");
+[; <" SSPSTAT equ 0214h ;# ">
+"3715
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 3715: __asm("SSP1CON equ 0215h");
+[; <" SSP1CON equ 0215h ;# ">
+"3720
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 3720: __asm("SSP1CON1 equ 0215h");
+[; <" SSP1CON1 equ 0215h ;# ">
+"3724
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 3724: __asm("SSPCON1 equ 0215h");
+[; <" SSPCON1 equ 0215h ;# ">
+"3728
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 3728: __asm("SSPCON equ 0215h");
+[; <" SSPCON equ 0215h ;# ">
+"3985
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 3985: __asm("SSP1CON2 equ 0216h");
+[; <" SSP1CON2 equ 0216h ;# ">
+"3990
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 3990: __asm("SSPCON2 equ 0216h");
+[; <" SSPCON2 equ 0216h ;# ">
+"4107
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 4107: __asm("SSP1CON3 equ 0217h");
+[; <" SSP1CON3 equ 0217h ;# ">
+"4112
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 4112: __asm("SSPCON3 equ 0217h");
+[; <" SSPCON3 equ 0217h ;# ">
+"4229
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 4229: __asm("CCPR1 equ 0291h");
+[; <" CCPR1 equ 0291h ;# ">
+"4236
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 4236: __asm("CCPR1L equ 0291h");
+[; <" CCPR1L equ 0291h ;# ">
+"4256
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 4256: __asm("CCPR1H equ 0292h");
+[; <" CCPR1H equ 0292h ;# ">
+"4276
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 4276: __asm("CCP1CON equ 0293h");
+[; <" CCP1CON equ 0293h ;# ">
+"4358
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 4358: __asm("PWM1CON equ 0294h");
+[; <" PWM1CON equ 0294h ;# ">
+"4428
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 4428: __asm("CCP1AS equ 0295h");
+[; <" CCP1AS equ 0295h ;# ">
+"4433
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 4433: __asm("ECCP1AS equ 0295h");
+[; <" ECCP1AS equ 0295h ;# ">
+"4590
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 4590: __asm("PSTR1CON equ 0296h");
+[; <" PSTR1CON equ 0296h ;# ">
+"4634
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 4634: __asm("CCPR2 equ 0298h");
+[; <" CCPR2 equ 0298h ;# ">
+"4641
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 4641: __asm("CCPR2L equ 0298h");
+[; <" CCPR2L equ 0298h ;# ">
+"4661
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 4661: __asm("CCPR2H equ 0299h");
+[; <" CCPR2H equ 0299h ;# ">
+"4681
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 4681: __asm("CCP2CON equ 029Ah");
+[; <" CCP2CON equ 029Ah ;# ">
+"4763
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 4763: __asm("PWM2CON equ 029Bh");
+[; <" PWM2CON equ 029Bh ;# ">
+"4833
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 4833: __asm("CCP2AS equ 029Ch");
+[; <" CCP2AS equ 029Ch ;# ">
+"4915
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 4915: __asm("PSTR2CON equ 029Dh");
+[; <" PSTR2CON equ 029Dh ;# ">
+"4959
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 4959: __asm("CCPTMRS equ 029Eh");
+[; <" CCPTMRS equ 029Eh ;# ">
+"4964
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 4964: __asm("CCPTMRS0 equ 029Eh");
+[; <" CCPTMRS0 equ 029Eh ;# ">
+"5133
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 5133: __asm("CCPR3 equ 0311h");
+[; <" CCPR3 equ 0311h ;# ">
+"5140
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 5140: __asm("CCPR3L equ 0311h");
+[; <" CCPR3L equ 0311h ;# ">
+"5160
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 5160: __asm("CCPR3H equ 0312h");
+[; <" CCPR3H equ 0312h ;# ">
+"5180
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 5180: __asm("CCP3CON equ 0313h");
+[; <" CCP3CON equ 0313h ;# ">
+"5244
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 5244: __asm("CCPR4 equ 0318h");
+[; <" CCPR4 equ 0318h ;# ">
+"5251
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 5251: __asm("CCPR4L equ 0318h");
+[; <" CCPR4L equ 0318h ;# ">
+"5271
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 5271: __asm("CCPR4H equ 0319h");
+[; <" CCPR4H equ 0319h ;# ">
+"5291
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 5291: __asm("CCP4CON equ 031Ah");
+[; <" CCP4CON equ 031Ah ;# ">
+"5355
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 5355: __asm("INLVLA equ 038Ch");
+[; <" INLVLA equ 038Ch ;# ">
+"5413
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 5413: __asm("INLVLC equ 038Eh");
+[; <" INLVLC equ 038Eh ;# ">
+"5471
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 5471: __asm("IOCAP equ 0391h");
+[; <" IOCAP equ 0391h ;# ">
+"5529
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 5529: __asm("IOCAN equ 0392h");
+[; <" IOCAN equ 0392h ;# ">
+"5587
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 5587: __asm("IOCAF equ 0393h");
+[; <" IOCAF equ 0393h ;# ">
+"5645
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 5645: __asm("CLKRCON equ 039Ah");
+[; <" CLKRCON equ 039Ah ;# ">
+"5721
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 5721: __asm("MDCON equ 039Ch");
+[; <" MDCON equ 039Ch ;# ">
+"5772
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 5772: __asm("MDSRC equ 039Dh");
+[; <" MDSRC equ 039Dh ;# ">
+"5825
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 5825: __asm("MDCARL equ 039Eh");
+[; <" MDCARL equ 039Eh ;# ">
+"5890
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 5890: __asm("MDCARH equ 039Fh");
+[; <" MDCARH equ 039Fh ;# ">
+"5955
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 5955: __asm("TMR4 equ 0415h");
+[; <" TMR4 equ 0415h ;# ">
+"5975
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 5975: __asm("PR4 equ 0416h");
+[; <" PR4 equ 0416h ;# ">
+"5995
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 5995: __asm("T4CON equ 0417h");
+[; <" T4CON equ 0417h ;# ">
+"6066
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 6066: __asm("TMR6 equ 041Ch");
+[; <" TMR6 equ 041Ch ;# ">
+"6086
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 6086: __asm("PR6 equ 041Dh");
+[; <" PR6 equ 041Dh ;# ">
+"6106
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 6106: __asm("T6CON equ 041Eh");
+[; <" T6CON equ 041Eh ;# ">
+"6177
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 6177: __asm("STATUS_SHAD equ 0FE4h");
+[; <" STATUS_SHAD equ 0FE4h ;# ">
+"6209
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 6209: __asm("WREG_SHAD equ 0FE5h");
+[; <" WREG_SHAD equ 0FE5h ;# ">
+"6229
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 6229: __asm("BSR_SHAD equ 0FE6h");
+[; <" BSR_SHAD equ 0FE6h ;# ">
+"6249
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 6249: __asm("PCLATH_SHAD equ 0FE7h");
+[; <" PCLATH_SHAD equ 0FE7h ;# ">
+"6269
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 6269: __asm("FSR0L_SHAD equ 0FE8h");
+[; <" FSR0L_SHAD equ 0FE8h ;# ">
+"6289
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 6289: __asm("FSR0H_SHAD equ 0FE9h");
+[; <" FSR0H_SHAD equ 0FE9h ;# ">
+"6309
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 6309: __asm("FSR1L_SHAD equ 0FEAh");
+[; <" FSR1L_SHAD equ 0FEAh ;# ">
+"6329
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 6329: __asm("FSR1H_SHAD equ 0FEBh");
+[; <" FSR1H_SHAD equ 0FEBh ;# ">
+"6349
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 6349: __asm("STKPTR equ 0FEDh");
+[; <" STKPTR equ 0FEDh ;# ">
+"6369
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 6369: __asm("TOSL equ 0FEEh");
+[; <" TOSL equ 0FEEh ;# ">
+"6389
+[; ;/Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h: 6389: __asm("TOSH equ 0FEFh");
+[; <" TOSH equ 0FEFh ;# ">
+"44 main.c
+[; ;main.c: 44: const uint16_t sine_table_one_quadrant[128]={512,518,524,530,537,543,549,555,562,568,574,580,587,593,599,605,611,617,624,630,636,642,648,654,660,666,672,678,684,690,696,701,707,713,719,725,730,736,741,747,753,758,764,769,774,780,785,790,796,801,806,811,816,821,826,831,836,841,846,850,855,860,864,869,873,878,882,886,890,895,899,903,907,911,915,919,922,926,930,933,937,940,944,947,950,953,957,960,963,966,968,971,974,977,979,982,984,986,989,991,993,995,997,999,1001,1003,1004,1006,1008,1009,1011,1012,1013,1014,1015,1017,1017,1018,1019,1020,1021,1021,1022,1022,1022,1023,1023,1023};
+[v _sine_table_one_quadrant `Cus ~T0 @X0 -> 128 `i e ]
+[i _sine_table_one_quadrant
+:U ..
+-> -> 512 `i `us
+-> -> 518 `i `us
+-> -> 524 `i `us
+-> -> 530 `i `us
+-> -> 537 `i `us
+-> -> 543 `i `us
+-> -> 549 `i `us
+-> -> 555 `i `us
+-> -> 562 `i `us
+-> -> 568 `i `us
+-> -> 574 `i `us
+-> -> 580 `i `us
+-> -> 587 `i `us
+-> -> 593 `i `us
+-> -> 599 `i `us
+-> -> 605 `i `us
+-> -> 611 `i `us
+-> -> 617 `i `us
+-> -> 624 `i `us
+-> -> 630 `i `us
+-> -> 636 `i `us
+-> -> 642 `i `us
+-> -> 648 `i `us
+-> -> 654 `i `us
+-> -> 660 `i `us
+-> -> 666 `i `us
+-> -> 672 `i `us
+-> -> 678 `i `us
+-> -> 684 `i `us
+-> -> 690 `i `us
+-> -> 696 `i `us
+-> -> 701 `i `us
+-> -> 707 `i `us
+-> -> 713 `i `us
+-> -> 719 `i `us
+-> -> 725 `i `us
+-> -> 730 `i `us
+-> -> 736 `i `us
+-> -> 741 `i `us
+-> -> 747 `i `us
+-> -> 753 `i `us
+-> -> 758 `i `us
+-> -> 764 `i `us
+-> -> 769 `i `us
+-> -> 774 `i `us
+-> -> 780 `i `us
+-> -> 785 `i `us
+-> -> 790 `i `us
+-> -> 796 `i `us
+-> -> 801 `i `us
+-> -> 806 `i `us
+-> -> 811 `i `us
+-> -> 816 `i `us
+-> -> 821 `i `us
+-> -> 826 `i `us
+-> -> 831 `i `us
+-> -> 836 `i `us
+-> -> 841 `i `us
+-> -> 846 `i `us
+-> -> 850 `i `us
+-> -> 855 `i `us
+-> -> 860 `i `us
+-> -> 864 `i `us
+-> -> 869 `i `us
+-> -> 873 `i `us
+-> -> 878 `i `us
+-> -> 882 `i `us
+-> -> 886 `i `us
+-> -> 890 `i `us
+-> -> 895 `i `us
+-> -> 899 `i `us
+-> -> 903 `i `us
+-> -> 907 `i `us
+-> -> 911 `i `us
+-> -> 915 `i `us
+-> -> 919 `i `us
+-> -> 922 `i `us
+-> -> 926 `i `us
+-> -> 930 `i `us
+-> -> 933 `i `us
+-> -> 937 `i `us
+-> -> 940 `i `us
+-> -> 944 `i `us
+-> -> 947 `i `us
+-> -> 950 `i `us
+-> -> 953 `i `us
+-> -> 957 `i `us
+-> -> 960 `i `us
+-> -> 963 `i `us
+-> -> 966 `i `us
+-> -> 968 `i `us
+-> -> 971 `i `us
+-> -> 974 `i `us
+-> -> 977 `i `us
+-> -> 979 `i `us
+-> -> 982 `i `us
+-> -> 984 `i `us
+-> -> 986 `i `us
+-> -> 989 `i `us
+-> -> 991 `i `us
+-> -> 993 `i `us
+-> -> 995 `i `us
+-> -> 997 `i `us
+-> -> 999 `i `us
+-> -> 1001 `i `us
+-> -> 1003 `i `us
+-> -> 1004 `i `us
+-> -> 1006 `i `us
+-> -> 1008 `i `us
+-> -> 1009 `i `us
+-> -> 1011 `i `us
+-> -> 1012 `i `us
+-> -> 1013 `i `us
+-> -> 1014 `i `us
+-> -> 1015 `i `us
+-> -> 1017 `i `us
+-> -> 1017 `i `us
+-> -> 1018 `i `us
+-> -> 1019 `i `us
+-> -> 1020 `i `us
+-> -> 1021 `i `us
+-> -> 1021 `i `us
+-> -> 1022 `i `us
+-> -> 1022 `i `us
+-> -> 1022 `i `us
+-> -> 1023 `i `us
+-> -> 1023 `i `us
+-> -> 1023 `i `us
+..
+]
+"45
+[; ;main.c: 45: const uint16_t tri_table_one_quadrant[128]={512,516,520,524,528,532,536,540,544,548,552,556,560,564,568,572,576,580,584,588,592,596,600,604,608,612,616,620,624,628,632,636,640,644,648,652,656,660,664,668,672,676,680,684,688,692,696,700,704,708,712,716,720,724,728,732,736,740,744,748,752,756,760,764,768,772,776,780,784,788,792,796,800,804,808,812,816,820,824,828,832,836,840,844,848,852,856,860,864,868,872,876,880,884,888,892,896,900,904,908,912,916,920,924,928,932,936,940,944,948,952,956,960,964,968,972,976,980,984,988,992,996,1000,1004,1008,1012,1016,1020};
+[v _tri_table_one_quadrant `Cus ~T0 @X0 -> 128 `i e ]
+[i _tri_table_one_quadrant
+:U ..
+-> -> 512 `i `us
+-> -> 516 `i `us
+-> -> 520 `i `us
+-> -> 524 `i `us
+-> -> 528 `i `us
+-> -> 532 `i `us
+-> -> 536 `i `us
+-> -> 540 `i `us
+-> -> 544 `i `us
+-> -> 548 `i `us
+-> -> 552 `i `us
+-> -> 556 `i `us
+-> -> 560 `i `us
+-> -> 564 `i `us
+-> -> 568 `i `us
+-> -> 572 `i `us
+-> -> 576 `i `us
+-> -> 580 `i `us
+-> -> 584 `i `us
+-> -> 588 `i `us
+-> -> 592 `i `us
+-> -> 596 `i `us
+-> -> 600 `i `us
+-> -> 604 `i `us
+-> -> 608 `i `us
+-> -> 612 `i `us
+-> -> 616 `i `us
+-> -> 620 `i `us
+-> -> 624 `i `us
+-> -> 628 `i `us
+-> -> 632 `i `us
+-> -> 636 `i `us
+-> -> 640 `i `us
+-> -> 644 `i `us
+-> -> 648 `i `us
+-> -> 652 `i `us
+-> -> 656 `i `us
+-> -> 660 `i `us
+-> -> 664 `i `us
+-> -> 668 `i `us
+-> -> 672 `i `us
+-> -> 676 `i `us
+-> -> 680 `i `us
+-> -> 684 `i `us
+-> -> 688 `i `us
+-> -> 692 `i `us
+-> -> 696 `i `us
+-> -> 700 `i `us
+-> -> 704 `i `us
+-> -> 708 `i `us
+-> -> 712 `i `us
+-> -> 716 `i `us
+-> -> 720 `i `us
+-> -> 724 `i `us
+-> -> 728 `i `us
+-> -> 732 `i `us
+-> -> 736 `i `us
+-> -> 740 `i `us
+-> -> 744 `i `us
+-> -> 748 `i `us
+-> -> 752 `i `us
+-> -> 756 `i `us
+-> -> 760 `i `us
+-> -> 764 `i `us
+-> -> 768 `i `us
+-> -> 772 `i `us
+-> -> 776 `i `us
+-> -> 780 `i `us
+-> -> 784 `i `us
+-> -> 788 `i `us
+-> -> 792 `i `us
+-> -> 796 `i `us
+-> -> 800 `i `us
+-> -> 804 `i `us
+-> -> 808 `i `us
+-> -> 812 `i `us
+-> -> 816 `i `us
+-> -> 820 `i `us
+-> -> 824 `i `us
+-> -> 828 `i `us
+-> -> 832 `i `us
+-> -> 836 `i `us
+-> -> 840 `i `us
+-> -> 844 `i `us
+-> -> 848 `i `us
+-> -> 852 `i `us
+-> -> 856 `i `us
+-> -> 860 `i `us
+-> -> 864 `i `us
+-> -> 868 `i `us
+-> -> 872 `i `us
+-> -> 876 `i `us
+-> -> 880 `i `us
+-> -> 884 `i `us
+-> -> 888 `i `us
+-> -> 892 `i `us
+-> -> 896 `i `us
+-> -> 900 `i `us
+-> -> 904 `i `us
+-> -> 908 `i `us
+-> -> 912 `i `us
+-> -> 916 `i `us
+-> -> 920 `i `us
+-> -> 924 `i `us
+-> -> 928 `i `us
+-> -> 932 `i `us
+-> -> 936 `i `us
+-> -> 940 `i `us
+-> -> 944 `i `us
+-> -> 948 `i `us
+-> -> 952 `i `us
+-> -> 956 `i `us
+-> -> 960 `i `us
+-> -> 964 `i `us
+-> -> 968 `i `us
+-> -> 972 `i `us
+-> -> 976 `i `us
+-> -> 980 `i `us
+-> -> 984 `i `us
+-> -> 988 `i `us
+-> -> 992 `i `us
+-> -> 996 `i `us
+-> -> 1000 `i `us
+-> -> 1004 `i `us
+-> -> 1008 `i `us
+-> -> 1012 `i `us
+-> -> 1016 `i `us
+-> -> 1020 `i `us
+..
+]
+"46
+[; ;main.c: 46: const uint8_t A2D_lookup[3]={0b100,0b101,0b110};
+[v _A2D_lookup `Cuc ~T0 @X0 -> 3 `i e ]
+[i _A2D_lookup
+:U ..
+-> -> 4 `i `uc
+-> -> 5 `i `uc
+-> -> 6 `i `uc
+..
+]
+"47
+[; ;main.c: 47: const uint16_t lin_to_log_10_bit[1024]={0,102,162,205,238,264,287,307,324,340,354,367,379,390,400,409,418,427,435,442,449,456,463,469,475,481,486,492,497,502,507,512,516,521,525,529,533,537,541,545,548,552,555,559,562,565,568,571,574,577,580,583,586,589,592,594,597,599,602,604,607,609,612,614,616,618,621,623,625,627,629,631,633,635,637,639,641,643,645,647,649,650,652,654,656,657,659,661,663,664,666,667,669,671,672,674,675,677,678,680,681,683,684,686,687,688,690,691,692,694,695,696,698,699,700,702,703,704,705,707,708,709,710,712,713,714,715,716,717,718,720,721,722,723,724,725,726,727,728,729,730,732,733,734,735,736,737,738,739,740,741,742,743,743,744,745,746,747,748,749,750,751,752,753,754,755,755,756,757,758,759,760,761,762,762,763,764,765,766,767,767,768,769,770,771,771,772,773,774,775,775,776,777,778,778,779,780,781,781,782,783,784,784,785,786,786,787,788,789,789,790,791,791,792,793,793,794,795,795,796,797,797,798,799,799,800,801,801,802,803,803,804,805,805,806,807,807,808,808,809,810,810,811,811,812,813,813,814,814,815,816,816,817,817,818,819,819,820,820,821,821,822,822,823,824,824,825,825,826,826,827,827,828,829,829,830,830,831,831,832,832,833,833,834,834,835,835,836,836,837,837,838,838,839,839,840,840,841,841,842,842,843,843,844,844,845,845,846,846,847,847,848,848,849,849,850,850,851,851,851,852,852,853,853,854,854,855,855,856,856,856,857,857,858,858,859,859,860,860,860,861,861,862,862,863,863,863,864,864,865,865,866,866,866,867,867,868,868,868,869,869,870,870,870,871,871,872,872,872,873,873,874,874,874,875,875,876,876,876,877,877,878,878,878,879,879,880,880,880,881,881,881,882,882,883,883,883,884,884,884,885,885,885,886,886,887,887,887,888,888,888,889,889,889,890,890,891,891,891,892,892,892,893,893,893,894,894,894,895,895,895,896,896,896,897,897,897,898,898,898,899,899,899,900,900,900,901,901,901,902,902,902,903,903,903,904,904,904,905,905,905,906,906,906,907,907,907,908,908,908,909,909,909,909,910,910,910,911,911,911,912,912,912,913,913,913,913,914,914,914,915,915,915,916,916,916,916,917,917,917,918,918,918,919,919,919,919,920,920,920,921,921,921,921,922,922,922,923,923,923,923,924,924,924,925,925,925,925,926,926,926,926,927,927,927,928,928,928,928,929,929,929,930,930,930,930,931,931,931,931,932,932,932,932,933,933,933,934,934,934,934,935,935,935,935,936,936,936,936,937,937,937,937,938,938,938,938,939,939,939,939,940,940,940,941,941,941,941,942,942,942,942,943,943,943,943,944,944,944,944,944,945,945,945,945,946,946,946,946,947,947,947,947,948,948,948,948,949,949,949,949,950,950,950,950,951,951,951,951,951,952,952,952,952,953,953,953,953,954,954,954,954,954,955,955,955,955,956,956,956,956,957,957,957,957,957,958,958,958,958,959,959,959,959,959,960,960,960,960,961,961,961,961,961,962,962,962,962,962,963,963,963,963,964,964,964,964,964,965,965,965,965,966,966,966,966,966,967,967,967,967,967,968,968,968,968,968,969,969,969,969,970,970,970,970,970,971,971,971,971,971,972,972,972,972,972,973,973,973,973,973,974,974,974,974,974,975,975,975,975,975,976,976,976,976,976,977,977,977,977,977,978,978,978,978,978,979,979,979,979,979,980,980,980,980,980,980,981,981,981,981,981,982,982,982,982,982,983,983,983,983,983,984,984,984,984,984,984,985,985,985,985,985,986,986,986,986,986,987,987,987,987,987,987,988,988,988,988,988,989,989,989,989,989,989,990,990,990,990,990,991,991,991,991,991,991,992,992,992,992,992,992,993,993,993,993,993,994,994,994,994,994,994,995,995,995,995,995,995,996,996,996,996,996,997,997,997,997,997,997,998,998,998,998,998,998,999,999,999,999,999,999,1000,1000,1000,1000,1000,1000,1001,1001,1001,1001,1001,1001,1002,1002,1002,1002,1002,1002,1003,1003,1003,1003,1003,1003,1004,1004,1004,1004,1004,1004,1005,1005,1005,1005,1005,1005,1006,1006,1006,1006,1006,1006,1007,1007,1007,1007,1007,1007,1007,1008,1008,1008,1008,1008,1008,1009,1009,1009,1009,1009,1009,1010,1010,1010,1010,1010,1010,1011,1011,1011,1011,1011,1011,1011,1012,1012,1012,1012,1012,1012,1013,1013,1013,1013,1013,1013,1013,1014,1014,1014,1014,1014,1014,1015,1015,1015,1015,1015,1015,1015,1016,1016,1016,1016,1016,1016,1017,1017,1017,1017,1017,1017,1017,1018,1018,1018,1018,1018,1018,1018,1019,1019,1019,1019,1019,1019,1019,1020,1020,1020,1020,1020,1020,1021,1021,1021,1021,1021,1021,1021,1022,1022,1022,1022,1022,1022,1022,1023,1023,1023,1023};
+[v _lin_to_log_10_bit `Cus ~T0 @X0 -> 1024 `i e ]
+[i _lin_to_log_10_bit
+:U ..
+-> -> 0 `i `us
+-> -> 102 `i `us
+-> -> 162 `i `us
+-> -> 205 `i `us
+-> -> 238 `i `us
+-> -> 264 `i `us
+-> -> 287 `i `us
+-> -> 307 `i `us
+-> -> 324 `i `us
+-> -> 340 `i `us
+-> -> 354 `i `us
+-> -> 367 `i `us
+-> -> 379 `i `us
+-> -> 390 `i `us
+-> -> 400 `i `us
+-> -> 409 `i `us
+-> -> 418 `i `us
+-> -> 427 `i `us
+-> -> 435 `i `us
+-> -> 442 `i `us
+-> -> 449 `i `us
+-> -> 456 `i `us
+-> -> 463 `i `us
+-> -> 469 `i `us
+-> -> 475 `i `us
+-> -> 481 `i `us
+-> -> 486 `i `us
+-> -> 492 `i `us
+-> -> 497 `i `us
+-> -> 502 `i `us
+-> -> 507 `i `us
+-> -> 512 `i `us
+-> -> 516 `i `us
+-> -> 521 `i `us
+-> -> 525 `i `us
+-> -> 529 `i `us
+-> -> 533 `i `us
+-> -> 537 `i `us
+-> -> 541 `i `us
+-> -> 545 `i `us
+-> -> 548 `i `us
+-> -> 552 `i `us
+-> -> 555 `i `us
+-> -> 559 `i `us
+-> -> 562 `i `us
+-> -> 565 `i `us
+-> -> 568 `i `us
+-> -> 571 `i `us
+-> -> 574 `i `us
+-> -> 577 `i `us
+-> -> 580 `i `us
+-> -> 583 `i `us
+-> -> 586 `i `us
+-> -> 589 `i `us
+-> -> 592 `i `us
+-> -> 594 `i `us
+-> -> 597 `i `us
+-> -> 599 `i `us
+-> -> 602 `i `us
+-> -> 604 `i `us
+-> -> 607 `i `us
+-> -> 609 `i `us
+-> -> 612 `i `us
+-> -> 614 `i `us
+-> -> 616 `i `us
+-> -> 618 `i `us
+-> -> 621 `i `us
+-> -> 623 `i `us
+-> -> 625 `i `us
+-> -> 627 `i `us
+-> -> 629 `i `us
+-> -> 631 `i `us
+-> -> 633 `i `us
+-> -> 635 `i `us
+-> -> 637 `i `us
+-> -> 639 `i `us
+-> -> 641 `i `us
+-> -> 643 `i `us
+-> -> 645 `i `us
+-> -> 647 `i `us
+-> -> 649 `i `us
+-> -> 650 `i `us
+-> -> 652 `i `us
+-> -> 654 `i `us
+-> -> 656 `i `us
+-> -> 657 `i `us
+-> -> 659 `i `us
+-> -> 661 `i `us
+-> -> 663 `i `us
+-> -> 664 `i `us
+-> -> 666 `i `us
+-> -> 667 `i `us
+-> -> 669 `i `us
+-> -> 671 `i `us
+-> -> 672 `i `us
+-> -> 674 `i `us
+-> -> 675 `i `us
+-> -> 677 `i `us
+-> -> 678 `i `us
+-> -> 680 `i `us
+-> -> 681 `i `us
+-> -> 683 `i `us
+-> -> 684 `i `us
+-> -> 686 `i `us
+-> -> 687 `i `us
+-> -> 688 `i `us
+-> -> 690 `i `us
+-> -> 691 `i `us
+-> -> 692 `i `us
+-> -> 694 `i `us
+-> -> 695 `i `us
+-> -> 696 `i `us
+-> -> 698 `i `us
+-> -> 699 `i `us
+-> -> 700 `i `us
+-> -> 702 `i `us
+-> -> 703 `i `us
+-> -> 704 `i `us
+-> -> 705 `i `us
+-> -> 707 `i `us
+-> -> 708 `i `us
+-> -> 709 `i `us
+-> -> 710 `i `us
+-> -> 712 `i `us
+-> -> 713 `i `us
+-> -> 714 `i `us
+-> -> 715 `i `us
+-> -> 716 `i `us
+-> -> 717 `i `us
+-> -> 718 `i `us
+-> -> 720 `i `us
+-> -> 721 `i `us
+-> -> 722 `i `us
+-> -> 723 `i `us
+-> -> 724 `i `us
+-> -> 725 `i `us
+-> -> 726 `i `us
+-> -> 727 `i `us
+-> -> 728 `i `us
+-> -> 729 `i `us
+-> -> 730 `i `us
+-> -> 732 `i `us
+-> -> 733 `i `us
+-> -> 734 `i `us
+-> -> 735 `i `us
+-> -> 736 `i `us
+-> -> 737 `i `us
+-> -> 738 `i `us
+-> -> 739 `i `us
+-> -> 740 `i `us
+-> -> 741 `i `us
+-> -> 742 `i `us
+-> -> 743 `i `us
+-> -> 743 `i `us
+-> -> 744 `i `us
+-> -> 745 `i `us
+-> -> 746 `i `us
+-> -> 747 `i `us
+-> -> 748 `i `us
+-> -> 749 `i `us
+-> -> 750 `i `us
+-> -> 751 `i `us
+-> -> 752 `i `us
+-> -> 753 `i `us
+-> -> 754 `i `us
+-> -> 755 `i `us
+-> -> 755 `i `us
+-> -> 756 `i `us
+-> -> 757 `i `us
+-> -> 758 `i `us
+-> -> 759 `i `us
+-> -> 760 `i `us
+-> -> 761 `i `us
+-> -> 762 `i `us
+-> -> 762 `i `us
+-> -> 763 `i `us
+-> -> 764 `i `us
+-> -> 765 `i `us
+-> -> 766 `i `us
+-> -> 767 `i `us
+-> -> 767 `i `us
+-> -> 768 `i `us
+-> -> 769 `i `us
+-> -> 770 `i `us
+-> -> 771 `i `us
+-> -> 771 `i `us
+-> -> 772 `i `us
+-> -> 773 `i `us
+-> -> 774 `i `us
+-> -> 775 `i `us
+-> -> 775 `i `us
+-> -> 776 `i `us
+-> -> 777 `i `us
+-> -> 778 `i `us
+-> -> 778 `i `us
+-> -> 779 `i `us
+-> -> 780 `i `us
+-> -> 781 `i `us
+-> -> 781 `i `us
+-> -> 782 `i `us
+-> -> 783 `i `us
+-> -> 784 `i `us
+-> -> 784 `i `us
+-> -> 785 `i `us
+-> -> 786 `i `us
+-> -> 786 `i `us
+-> -> 787 `i `us
+-> -> 788 `i `us
+-> -> 789 `i `us
+-> -> 789 `i `us
+-> -> 790 `i `us
+-> -> 791 `i `us
+-> -> 791 `i `us
+-> -> 792 `i `us
+-> -> 793 `i `us
+-> -> 793 `i `us
+-> -> 794 `i `us
+-> -> 795 `i `us
+-> -> 795 `i `us
+-> -> 796 `i `us
+-> -> 797 `i `us
+-> -> 797 `i `us
+-> -> 798 `i `us
+-> -> 799 `i `us
+-> -> 799 `i `us
+-> -> 800 `i `us
+-> -> 801 `i `us
+-> -> 801 `i `us
+-> -> 802 `i `us
+-> -> 803 `i `us
+-> -> 803 `i `us
+-> -> 804 `i `us
+-> -> 805 `i `us
+-> -> 805 `i `us
+-> -> 806 `i `us
+-> -> 807 `i `us
+-> -> 807 `i `us
+-> -> 808 `i `us
+-> -> 808 `i `us
+-> -> 809 `i `us
+-> -> 810 `i `us
+-> -> 810 `i `us
+-> -> 811 `i `us
+-> -> 811 `i `us
+-> -> 812 `i `us
+-> -> 813 `i `us
+-> -> 813 `i `us
+-> -> 814 `i `us
+-> -> 814 `i `us
+-> -> 815 `i `us
+-> -> 816 `i `us
+-> -> 816 `i `us
+-> -> 817 `i `us
+-> -> 817 `i `us
+-> -> 818 `i `us
+-> -> 819 `i `us
+-> -> 819 `i `us
+-> -> 820 `i `us
+-> -> 820 `i `us
+-> -> 821 `i `us
+-> -> 821 `i `us
+-> -> 822 `i `us
+-> -> 822 `i `us
+-> -> 823 `i `us
+-> -> 824 `i `us
+-> -> 824 `i `us
+-> -> 825 `i `us
+-> -> 825 `i `us
+-> -> 826 `i `us
+-> -> 826 `i `us
+-> -> 827 `i `us
+-> -> 827 `i `us
+-> -> 828 `i `us
+-> -> 829 `i `us
+-> -> 829 `i `us
+-> -> 830 `i `us
+-> -> 830 `i `us
+-> -> 831 `i `us
+-> -> 831 `i `us
+-> -> 832 `i `us
+-> -> 832 `i `us
+-> -> 833 `i `us
+-> -> 833 `i `us
+-> -> 834 `i `us
+-> -> 834 `i `us
+-> -> 835 `i `us
+-> -> 835 `i `us
+-> -> 836 `i `us
+-> -> 836 `i `us
+-> -> 837 `i `us
+-> -> 837 `i `us
+-> -> 838 `i `us
+-> -> 838 `i `us
+-> -> 839 `i `us
+-> -> 839 `i `us
+-> -> 840 `i `us
+-> -> 840 `i `us
+-> -> 841 `i `us
+-> -> 841 `i `us
+-> -> 842 `i `us
+-> -> 842 `i `us
+-> -> 843 `i `us
+-> -> 843 `i `us
+-> -> 844 `i `us
+-> -> 844 `i `us
+-> -> 845 `i `us
+-> -> 845 `i `us
+-> -> 846 `i `us
+-> -> 846 `i `us
+-> -> 847 `i `us
+-> -> 847 `i `us
+-> -> 848 `i `us
+-> -> 848 `i `us
+-> -> 849 `i `us
+-> -> 849 `i `us
+-> -> 850 `i `us
+-> -> 850 `i `us
+-> -> 851 `i `us
+-> -> 851 `i `us
+-> -> 851 `i `us
+-> -> 852 `i `us
+-> -> 852 `i `us
+-> -> 853 `i `us
+-> -> 853 `i `us
+-> -> 854 `i `us
+-> -> 854 `i `us
+-> -> 855 `i `us
+-> -> 855 `i `us
+-> -> 856 `i `us
+-> -> 856 `i `us
+-> -> 856 `i `us
+-> -> 857 `i `us
+-> -> 857 `i `us
+-> -> 858 `i `us
+-> -> 858 `i `us
+-> -> 859 `i `us
+-> -> 859 `i `us
+-> -> 860 `i `us
+-> -> 860 `i `us
+-> -> 860 `i `us
+-> -> 861 `i `us
+-> -> 861 `i `us
+-> -> 862 `i `us
+-> -> 862 `i `us
+-> -> 863 `i `us
+-> -> 863 `i `us
+-> -> 863 `i `us
+-> -> 864 `i `us
+-> -> 864 `i `us
+-> -> 865 `i `us
+-> -> 865 `i `us
+-> -> 866 `i `us
+-> -> 866 `i `us
+-> -> 866 `i `us
+-> -> 867 `i `us
+-> -> 867 `i `us
+-> -> 868 `i `us
+-> -> 868 `i `us
+-> -> 868 `i `us
+-> -> 869 `i `us
+-> -> 869 `i `us
+-> -> 870 `i `us
+-> -> 870 `i `us
+-> -> 870 `i `us
+-> -> 871 `i `us
+-> -> 871 `i `us
+-> -> 872 `i `us
+-> -> 872 `i `us
+-> -> 872 `i `us
+-> -> 873 `i `us
+-> -> 873 `i `us
+-> -> 874 `i `us
+-> -> 874 `i `us
+-> -> 874 `i `us
+-> -> 875 `i `us
+-> -> 875 `i `us
+-> -> 876 `i `us
+-> -> 876 `i `us
+-> -> 876 `i `us
+-> -> 877 `i `us
+-> -> 877 `i `us
+-> -> 878 `i `us
+-> -> 878 `i `us
+-> -> 878 `i `us
+-> -> 879 `i `us
+-> -> 879 `i `us
+-> -> 880 `i `us
+-> -> 880 `i `us
+-> -> 880 `i `us
+-> -> 881 `i `us
+-> -> 881 `i `us
+-> -> 881 `i `us
+-> -> 882 `i `us
+-> -> 882 `i `us
+-> -> 883 `i `us
+-> -> 883 `i `us
+-> -> 883 `i `us
+-> -> 884 `i `us
+-> -> 884 `i `us
+-> -> 884 `i `us
+-> -> 885 `i `us
+-> -> 885 `i `us
+-> -> 885 `i `us
+-> -> 886 `i `us
+-> -> 886 `i `us
+-> -> 887 `i `us
+-> -> 887 `i `us
+-> -> 887 `i `us
+-> -> 888 `i `us
+-> -> 888 `i `us
+-> -> 888 `i `us
+-> -> 889 `i `us
+-> -> 889 `i `us
+-> -> 889 `i `us
+-> -> 890 `i `us
+-> -> 890 `i `us
+-> -> 891 `i `us
+-> -> 891 `i `us
+-> -> 891 `i `us
+-> -> 892 `i `us
+-> -> 892 `i `us
+-> -> 892 `i `us
+-> -> 893 `i `us
+-> -> 893 `i `us
+-> -> 893 `i `us
+-> -> 894 `i `us
+-> -> 894 `i `us
+-> -> 894 `i `us
+-> -> 895 `i `us
+-> -> 895 `i `us
+-> -> 895 `i `us
+-> -> 896 `i `us
+-> -> 896 `i `us
+-> -> 896 `i `us
+-> -> 897 `i `us
+-> -> 897 `i `us
+-> -> 897 `i `us
+-> -> 898 `i `us
+-> -> 898 `i `us
+-> -> 898 `i `us
+-> -> 899 `i `us
+-> -> 899 `i `us
+-> -> 899 `i `us
+-> -> 900 `i `us
+-> -> 900 `i `us
+-> -> 900 `i `us
+-> -> 901 `i `us
+-> -> 901 `i `us
+-> -> 901 `i `us
+-> -> 902 `i `us
+-> -> 902 `i `us
+-> -> 902 `i `us
+-> -> 903 `i `us
+-> -> 903 `i `us
+-> -> 903 `i `us
+-> -> 904 `i `us
+-> -> 904 `i `us
+-> -> 904 `i `us
+-> -> 905 `i `us
+-> -> 905 `i `us
+-> -> 905 `i `us
+-> -> 906 `i `us
+-> -> 906 `i `us
+-> -> 906 `i `us
+-> -> 907 `i `us
+-> -> 907 `i `us
+-> -> 907 `i `us
+-> -> 908 `i `us
+-> -> 908 `i `us
+-> -> 908 `i `us
+-> -> 909 `i `us
+-> -> 909 `i `us
+-> -> 909 `i `us
+-> -> 909 `i `us
+-> -> 910 `i `us
+-> -> 910 `i `us
+-> -> 910 `i `us
+-> -> 911 `i `us
+-> -> 911 `i `us
+-> -> 911 `i `us
+-> -> 912 `i `us
+-> -> 912 `i `us
+-> -> 912 `i `us
+-> -> 913 `i `us
+-> -> 913 `i `us
+-> -> 913 `i `us
+-> -> 913 `i `us
+-> -> 914 `i `us
+-> -> 914 `i `us
+-> -> 914 `i `us
+-> -> 915 `i `us
+-> -> 915 `i `us
+-> -> 915 `i `us
+-> -> 916 `i `us
+-> -> 916 `i `us
+-> -> 916 `i `us
+-> -> 916 `i `us
+-> -> 917 `i `us
+-> -> 917 `i `us
+-> -> 917 `i `us
+-> -> 918 `i `us
+-> -> 918 `i `us
+-> -> 918 `i `us
+-> -> 919 `i `us
+-> -> 919 `i `us
+-> -> 919 `i `us
+-> -> 919 `i `us
+-> -> 920 `i `us
+-> -> 920 `i `us
+-> -> 920 `i `us
+-> -> 921 `i `us
+-> -> 921 `i `us
+-> -> 921 `i `us
+-> -> 921 `i `us
+-> -> 922 `i `us
+-> -> 922 `i `us
+-> -> 922 `i `us
+-> -> 923 `i `us
+-> -> 923 `i `us
+-> -> 923 `i `us
+-> -> 923 `i `us
+-> -> 924 `i `us
+-> -> 924 `i `us
+-> -> 924 `i `us
+-> -> 925 `i `us
+-> -> 925 `i `us
+-> -> 925 `i `us
+-> -> 925 `i `us
+-> -> 926 `i `us
+-> -> 926 `i `us
+-> -> 926 `i `us
+-> -> 926 `i `us
+-> -> 927 `i `us
+-> -> 927 `i `us
+-> -> 927 `i `us
+-> -> 928 `i `us
+-> -> 928 `i `us
+-> -> 928 `i `us
+-> -> 928 `i `us
+-> -> 929 `i `us
+-> -> 929 `i `us
+-> -> 929 `i `us
+-> -> 930 `i `us
+-> -> 930 `i `us
+-> -> 930 `i `us
+-> -> 930 `i `us
+-> -> 931 `i `us
+-> -> 931 `i `us
+-> -> 931 `i `us
+-> -> 931 `i `us
+-> -> 932 `i `us
+-> -> 932 `i `us
+-> -> 932 `i `us
+-> -> 932 `i `us
+-> -> 933 `i `us
+-> -> 933 `i `us
+-> -> 933 `i `us
+-> -> 934 `i `us
+-> -> 934 `i `us
+-> -> 934 `i `us
+-> -> 934 `i `us
+-> -> 935 `i `us
+-> -> 935 `i `us
+-> -> 935 `i `us
+-> -> 935 `i `us
+-> -> 936 `i `us
+-> -> 936 `i `us
+-> -> 936 `i `us
+-> -> 936 `i `us
+-> -> 937 `i `us
+-> -> 937 `i `us
+-> -> 937 `i `us
+-> -> 937 `i `us
+-> -> 938 `i `us
+-> -> 938 `i `us
+-> -> 938 `i `us
+-> -> 938 `i `us
+-> -> 939 `i `us
+-> -> 939 `i `us
+-> -> 939 `i `us
+-> -> 939 `i `us
+-> -> 940 `i `us
+-> -> 940 `i `us
+-> -> 940 `i `us
+-> -> 941 `i `us
+-> -> 941 `i `us
+-> -> 941 `i `us
+-> -> 941 `i `us
+-> -> 942 `i `us
+-> -> 942 `i `us
+-> -> 942 `i `us
+-> -> 942 `i `us
+-> -> 943 `i `us
+-> -> 943 `i `us
+-> -> 943 `i `us
+-> -> 943 `i `us
+-> -> 944 `i `us
+-> -> 944 `i `us
+-> -> 944 `i `us
+-> -> 944 `i `us
+-> -> 944 `i `us
+-> -> 945 `i `us
+-> -> 945 `i `us
+-> -> 945 `i `us
+-> -> 945 `i `us
+-> -> 946 `i `us
+-> -> 946 `i `us
+-> -> 946 `i `us
+-> -> 946 `i `us
+-> -> 947 `i `us
+-> -> 947 `i `us
+-> -> 947 `i `us
+-> -> 947 `i `us
+-> -> 948 `i `us
+-> -> 948 `i `us
+-> -> 948 `i `us
+-> -> 948 `i `us
+-> -> 949 `i `us
+-> -> 949 `i `us
+-> -> 949 `i `us
+-> -> 949 `i `us
+-> -> 950 `i `us
+-> -> 950 `i `us
+-> -> 950 `i `us
+-> -> 950 `i `us
+-> -> 951 `i `us
+-> -> 951 `i `us
+-> -> 951 `i `us
+-> -> 951 `i `us
+-> -> 951 `i `us
+-> -> 952 `i `us
+-> -> 952 `i `us
+-> -> 952 `i `us
+-> -> 952 `i `us
+-> -> 953 `i `us
+-> -> 953 `i `us
+-> -> 953 `i `us
+-> -> 953 `i `us
+-> -> 954 `i `us
+-> -> 954 `i `us
+-> -> 954 `i `us
+-> -> 954 `i `us
+-> -> 954 `i `us
+-> -> 955 `i `us
+-> -> 955 `i `us
+-> -> 955 `i `us
+-> -> 955 `i `us
+-> -> 956 `i `us
+-> -> 956 `i `us
+-> -> 956 `i `us
+-> -> 956 `i `us
+-> -> 957 `i `us
+-> -> 957 `i `us
+-> -> 957 `i `us
+-> -> 957 `i `us
+-> -> 957 `i `us
+-> -> 958 `i `us
+-> -> 958 `i `us
+-> -> 958 `i `us
+-> -> 958 `i `us
+-> -> 959 `i `us
+-> -> 959 `i `us
+-> -> 959 `i `us
+-> -> 959 `i `us
+-> -> 959 `i `us
+-> -> 960 `i `us
+-> -> 960 `i `us
+-> -> 960 `i `us
+-> -> 960 `i `us
+-> -> 961 `i `us
+-> -> 961 `i `us
+-> -> 961 `i `us
+-> -> 961 `i `us
+-> -> 961 `i `us
+-> -> 962 `i `us
+-> -> 962 `i `us
+-> -> 962 `i `us
+-> -> 962 `i `us
+-> -> 962 `i `us
+-> -> 963 `i `us
+-> -> 963 `i `us
+-> -> 963 `i `us
+-> -> 963 `i `us
+-> -> 964 `i `us
+-> -> 964 `i `us
+-> -> 964 `i `us
+-> -> 964 `i `us
+-> -> 964 `i `us
+-> -> 965 `i `us
+-> -> 965 `i `us
+-> -> 965 `i `us
+-> -> 965 `i `us
+-> -> 966 `i `us
+-> -> 966 `i `us
+-> -> 966 `i `us
+-> -> 966 `i `us
+-> -> 966 `i `us
+-> -> 967 `i `us
+-> -> 967 `i `us
+-> -> 967 `i `us
+-> -> 967 `i `us
+-> -> 967 `i `us
+-> -> 968 `i `us
+-> -> 968 `i `us
+-> -> 968 `i `us
+-> -> 968 `i `us
+-> -> 968 `i `us
+-> -> 969 `i `us
+-> -> 969 `i `us
+-> -> 969 `i `us
+-> -> 969 `i `us
+-> -> 970 `i `us
+-> -> 970 `i `us
+-> -> 970 `i `us
+-> -> 970 `i `us
+-> -> 970 `i `us
+-> -> 971 `i `us
+-> -> 971 `i `us
+-> -> 971 `i `us
+-> -> 971 `i `us
+-> -> 971 `i `us
+-> -> 972 `i `us
+-> -> 972 `i `us
+-> -> 972 `i `us
+-> -> 972 `i `us
+-> -> 972 `i `us
+-> -> 973 `i `us
+-> -> 973 `i `us
+-> -> 973 `i `us
+-> -> 973 `i `us
+-> -> 973 `i `us
+-> -> 974 `i `us
+-> -> 974 `i `us
+-> -> 974 `i `us
+-> -> 974 `i `us
+-> -> 974 `i `us
+-> -> 975 `i `us
+-> -> 975 `i `us
+-> -> 975 `i `us
+-> -> 975 `i `us
+-> -> 975 `i `us
+-> -> 976 `i `us
+-> -> 976 `i `us
+-> -> 976 `i `us
+-> -> 976 `i `us
+-> -> 976 `i `us
+-> -> 977 `i `us
+-> -> 977 `i `us
+-> -> 977 `i `us
+-> -> 977 `i `us
+-> -> 977 `i `us
+-> -> 978 `i `us
+-> -> 978 `i `us
+-> -> 978 `i `us
+-> -> 978 `i `us
+-> -> 978 `i `us
+-> -> 979 `i `us
+-> -> 979 `i `us
+-> -> 979 `i `us
+-> -> 979 `i `us
+-> -> 979 `i `us
+-> -> 980 `i `us
+-> -> 980 `i `us
+-> -> 980 `i `us
+-> -> 980 `i `us
+-> -> 980 `i `us
+-> -> 980 `i `us
+-> -> 981 `i `us
+-> -> 981 `i `us
+-> -> 981 `i `us
+-> -> 981 `i `us
+-> -> 981 `i `us
+-> -> 982 `i `us
+-> -> 982 `i `us
+-> -> 982 `i `us
+-> -> 982 `i `us
+-> -> 982 `i `us
+-> -> 983 `i `us
+-> -> 983 `i `us
+-> -> 983 `i `us
+-> -> 983 `i `us
+-> -> 983 `i `us
+-> -> 984 `i `us
+-> -> 984 `i `us
+-> -> 984 `i `us
+-> -> 984 `i `us
+-> -> 984 `i `us
+-> -> 984 `i `us
+-> -> 985 `i `us
+-> -> 985 `i `us
+-> -> 985 `i `us
+-> -> 985 `i `us
+-> -> 985 `i `us
+-> -> 986 `i `us
+-> -> 986 `i `us
+-> -> 986 `i `us
+-> -> 986 `i `us
+-> -> 986 `i `us
+-> -> 987 `i `us
+-> -> 987 `i `us
+-> -> 987 `i `us
+-> -> 987 `i `us
+-> -> 987 `i `us
+-> -> 987 `i `us
+-> -> 988 `i `us
+-> -> 988 `i `us
+-> -> 988 `i `us
+-> -> 988 `i `us
+-> -> 988 `i `us
+-> -> 989 `i `us
+-> -> 989 `i `us
+-> -> 989 `i `us
+-> -> 989 `i `us
+-> -> 989 `i `us
+-> -> 989 `i `us
+-> -> 990 `i `us
+-> -> 990 `i `us
+-> -> 990 `i `us
+-> -> 990 `i `us
+-> -> 990 `i `us
+-> -> 991 `i `us
+-> -> 991 `i `us
+-> -> 991 `i `us
+-> -> 991 `i `us
+-> -> 991 `i `us
+-> -> 991 `i `us
+-> -> 992 `i `us
+-> -> 992 `i `us
+-> -> 992 `i `us
+-> -> 992 `i `us
+-> -> 992 `i `us
+-> -> 992 `i `us
+-> -> 993 `i `us
+-> -> 993 `i `us
+-> -> 993 `i `us
+-> -> 993 `i `us
+-> -> 993 `i `us
+-> -> 994 `i `us
+-> -> 994 `i `us
+-> -> 994 `i `us
+-> -> 994 `i `us
+-> -> 994 `i `us
+-> -> 994 `i `us
+-> -> 995 `i `us
+-> -> 995 `i `us
+-> -> 995 `i `us
+-> -> 995 `i `us
+-> -> 995 `i `us
+-> -> 995 `i `us
+-> -> 996 `i `us
+-> -> 996 `i `us
+-> -> 996 `i `us
+-> -> 996 `i `us
+-> -> 996 `i `us
+-> -> 997 `i `us
+-> -> 997 `i `us
+-> -> 997 `i `us
+-> -> 997 `i `us
+-> -> 997 `i `us
+-> -> 997 `i `us
+-> -> 998 `i `us
+-> -> 998 `i `us
+-> -> 998 `i `us
+-> -> 998 `i `us
+-> -> 998 `i `us
+-> -> 998 `i `us
+-> -> 999 `i `us
+-> -> 999 `i `us
+-> -> 999 `i `us
+-> -> 999 `i `us
+-> -> 999 `i `us
+-> -> 999 `i `us
+-> -> 1000 `i `us
+-> -> 1000 `i `us
+-> -> 1000 `i `us
+-> -> 1000 `i `us
+-> -> 1000 `i `us
+-> -> 1000 `i `us
+-> -> 1001 `i `us
+-> -> 1001 `i `us
+-> -> 1001 `i `us
+-> -> 1001 `i `us
+-> -> 1001 `i `us
+-> -> 1001 `i `us
+-> -> 1002 `i `us
+-> -> 1002 `i `us
+-> -> 1002 `i `us
+-> -> 1002 `i `us
+-> -> 1002 `i `us
+-> -> 1002 `i `us
+-> -> 1003 `i `us
+-> -> 1003 `i `us
+-> -> 1003 `i `us
+-> -> 1003 `i `us
+-> -> 1003 `i `us
+-> -> 1003 `i `us
+-> -> 1004 `i `us
+-> -> 1004 `i `us
+-> -> 1004 `i `us
+-> -> 1004 `i `us
+-> -> 1004 `i `us
+-> -> 1004 `i `us
+-> -> 1005 `i `us
+-> -> 1005 `i `us
+-> -> 1005 `i `us
+-> -> 1005 `i `us
+-> -> 1005 `i `us
+-> -> 1005 `i `us
+-> -> 1006 `i `us
+-> -> 1006 `i `us
+-> -> 1006 `i `us
+-> -> 1006 `i `us
+-> -> 1006 `i `us
+-> -> 1006 `i `us
+-> -> 1007 `i `us
+-> -> 1007 `i `us
+-> -> 1007 `i `us
+-> -> 1007 `i `us
+-> -> 1007 `i `us
+-> -> 1007 `i `us
+-> -> 1007 `i `us
+-> -> 1008 `i `us
+-> -> 1008 `i `us
+-> -> 1008 `i `us
+-> -> 1008 `i `us
+-> -> 1008 `i `us
+-> -> 1008 `i `us
+-> -> 1009 `i `us
+-> -> 1009 `i `us
+-> -> 1009 `i `us
+-> -> 1009 `i `us
+-> -> 1009 `i `us
+-> -> 1009 `i `us
+-> -> 1010 `i `us
+-> -> 1010 `i `us
+-> -> 1010 `i `us
+-> -> 1010 `i `us
+-> -> 1010 `i `us
+-> -> 1010 `i `us
+-> -> 1011 `i `us
+-> -> 1011 `i `us
+-> -> 1011 `i `us
+-> -> 1011 `i `us
+-> -> 1011 `i `us
+-> -> 1011 `i `us
+-> -> 1011 `i `us
+-> -> 1012 `i `us
+-> -> 1012 `i `us
+-> -> 1012 `i `us
+-> -> 1012 `i `us
+-> -> 1012 `i `us
+-> -> 1012 `i `us
+-> -> 1013 `i `us
+-> -> 1013 `i `us
+-> -> 1013 `i `us
+-> -> 1013 `i `us
+-> -> 1013 `i `us
+-> -> 1013 `i `us
+-> -> 1013 `i `us
+-> -> 1014 `i `us
+-> -> 1014 `i `us
+-> -> 1014 `i `us
+-> -> 1014 `i `us
+-> -> 1014 `i `us
+-> -> 1014 `i `us
+-> -> 1015 `i `us
+-> -> 1015 `i `us
+-> -> 1015 `i `us
+-> -> 1015 `i `us
+-> -> 1015 `i `us
+-> -> 1015 `i `us
+-> -> 1015 `i `us
+-> -> 1016 `i `us
+-> -> 1016 `i `us
+-> -> 1016 `i `us
+-> -> 1016 `i `us
+-> -> 1016 `i `us
+-> -> 1016 `i `us
+-> -> 1017 `i `us
+-> -> 1017 `i `us
+-> -> 1017 `i `us
+-> -> 1017 `i `us
+-> -> 1017 `i `us
+-> -> 1017 `i `us
+-> -> 1017 `i `us
+-> -> 1018 `i `us
+-> -> 1018 `i `us
+-> -> 1018 `i `us
+-> -> 1018 `i `us
+-> -> 1018 `i `us
+-> -> 1018 `i `us
+-> -> 1018 `i `us
+-> -> 1019 `i `us
+-> -> 1019 `i `us
+-> -> 1019 `i `us
+-> -> 1019 `i `us
+-> -> 1019 `i `us
+-> -> 1019 `i `us
+-> -> 1019 `i `us
+-> -> 1020 `i `us
+-> -> 1020 `i `us
+-> -> 1020 `i `us
+-> -> 1020 `i `us
+-> -> 1020 `i `us
+-> -> 1020 `i `us
+-> -> 1021 `i `us
+-> -> 1021 `i `us
+-> -> 1021 `i `us
+-> -> 1021 `i `us
+-> -> 1021 `i `us
+-> -> 1021 `i `us
+-> -> 1021 `i `us
+-> -> 1022 `i `us
+-> -> 1022 `i `us
+-> -> 1022 `i `us
+-> -> 1022 `i `us
+-> -> 1022 `i `us
+-> -> 1022 `i `us
+-> -> 1022 `i `us
+-> -> 1023 `i `us
+-> -> 1023 `i `us
+-> -> 1023 `i `us
+-> -> 1023 `i `us
+..
+]
+"63
+[; ;main.c: 63: uint16_t duty;
+[v _duty `us ~T0 @X0 1 e ]
+"64
+[; ;main.c: 64: uint8_t current_waveshape;
+[v _current_waveshape `uc ~T0 @X0 1 e ]
+"65
+[; ;main.c: 65: uint16_t current_speed_linear;
+[v _current_speed_linear `us ~T0 @X0 1 e ]
+"66
+[; ;main.c: 66: uint16_t current_speed_log;
+[v _current_speed_log `us ~T0 @X0 1 e ]
+"67
+[; ;main.c: 67: uint16_t current_depth;
+[v _current_depth `us ~T0 @X0 1 e ]
+"73
+[; ;main.c: 73: void CONFIG_INT_OSC(void){
+[v _CONFIG_INT_OSC `(v ~T0 @X0 1 ef ]
+{
+[e :U _CONFIG_INT_OSC ]
+[f ]
+"74
+[; ;main.c: 74:     OSCCON = 0b01110000;
+[e = _OSCCON -> -> 112 `i `uc ]
+"75
+[; ;main.c: 75: }
+[e :UE 341 ]
+}
+"77
+[; ;main.c: 77: void CONFIG_PORTS(void){
+[v _CONFIG_PORTS `(v ~T0 @X0 1 ef ]
+{
+[e :U _CONFIG_PORTS ]
+[f ]
+"78
+[; ;main.c: 78:     ANSELC = ANSELC | 0b111;
+[e = _ANSELC -> | -> _ANSELC `i -> 7 `i `uc ]
+"79
+[; ;main.c: 79:     TRISC = TRISC | 0b111;
+[e = _TRISC -> | -> _TRISC `i -> 7 `i `uc ]
+"80
+[; ;main.c: 80:     WPUC = WPUC | 0b000;
+[e = _WPUC -> | -> _WPUC `i -> 0 `i `uc ]
+"81
+[; ;main.c: 81: }
+[e :UE 342 ]
+}
+"83
+[; ;main.c: 83: void CONFIG_ADC_PINS(void){
+[v _CONFIG_ADC_PINS `(v ~T0 @X0 1 ef ]
+{
+[e :U _CONFIG_ADC_PINS ]
+[f ]
+"85
+[; ;main.c: 85:     ADCON1 = 0b10100000;
+[e = _ADCON1 -> -> 160 `i `uc ]
+"86
+[; ;main.c: 86: }
+[e :UE 343 ]
+}
+"88
+[; ;main.c: 88: uint16_t DO_ADC(uint8_t modifier){
+[v _DO_ADC `(us ~T0 @X0 1 ef1`uc ]
+{
+[e :U _DO_ADC ]
+[v _modifier `uc ~T0 @X0 1 r1 ]
+[f ]
+"96
+[; ;main.c: 96:     ADCON0 = ADCON0 | A2D_lookup[modifier];
+[e = _ADCON0 -> | -> _ADCON0 `i -> *U + &U _A2D_lookup * -> _modifier `ux -> -> # *U &U _A2D_lookup `ui `ux `i `uc ]
+"97
+[; ;main.c: 97:         ADON = 1;
+[e = _ADON -> -> 1 `i `b ]
+"98
+[; ;main.c: 98:         GO_nDONE = 1;
+[e = _GO_nDONE -> -> 1 `i `b ]
+"99
+[; ;main.c: 99:         while(GO_nDONE == 1){}
+[e $U 345  ]
+[e :U 346 ]
+{
+}
+[e :U 345 ]
+[e $ == -> _GO_nDONE `i -> 1 `i 346  ]
+[e :U 347 ]
+"100
+[; ;main.c: 100:         ADON = 0;
+[e = _ADON -> -> 0 `i `b ]
+"101
+[; ;main.c: 101:         uint16_t adc_result = ((ADRESH << 8) | ADRESL);
+[v _adc_result `us ~T0 @X0 1 a ]
+[e = _adc_result -> | << -> _ADRESH `i -> 8 `i -> _ADRESL `i `us ]
+"102
+[; ;main.c: 102:         return adc_result;
+[e ) _adc_result ]
+[e $UE 344  ]
+"103
+[; ;main.c: 103: }
+[e :UE 344 ]
+}
+"105
+[; ;main.c: 105: uint8_t DETERMINE_WAVESHAPE(){
+[v _DETERMINE_WAVESHAPE `(uc ~T0 @X0 1 ef ]
+{
+[e :U _DETERMINE_WAVESHAPE ]
+[f ]
+"106
+[; ;main.c: 106:     uint16_t ADC = DO_ADC(0);
+[v _ADC `us ~T0 @X0 1 a ]
+[e = _ADC ( _DO_ADC (1 -> -> 0 `i `uc ]
+"107
+[; ;main.c: 107:     if(ADC <= 341){
+[e $ ! <= -> _ADC `ui -> -> 341 `i `ui 349  ]
+{
+"108
+[; ;main.c: 108:             return 0;
+[e ) -> -> 0 `i `uc ]
+[e $UE 348  ]
+"109
+[; ;main.c: 109:         }
+}
+[e :U 349 ]
+"110
+[; ;main.c: 110:         if (ADC <= 682){
+[e $ ! <= -> _ADC `ui -> -> 682 `i `ui 350  ]
+{
+"111
+[; ;main.c: 111:             return 1;
+[e ) -> -> 1 `i `uc ]
+[e $UE 348  ]
+"112
+[; ;main.c: 112:         }
+}
+[e :U 350 ]
+"113
+[; ;main.c: 113:         if (ADC <= 1023){
+[e $ ! <= -> _ADC `ui -> -> 1023 `i `ui 351  ]
+{
+"114
+[; ;main.c: 114:             return 2;
+[e ) -> -> 2 `i `uc ]
+[e $UE 348  ]
+"115
+[; ;main.c: 115:         }
+}
+[e $U 352  ]
+"116
+[; ;main.c: 116:         else{
+[e :U 351 ]
+{
+"117
+[; ;main.c: 117:             return 1;
+[e ) -> -> 1 `i `uc ]
+[e $UE 348  ]
+"118
+[; ;main.c: 118:         }
+}
+[e :U 352 ]
+"119
+[; ;main.c: 119: }
+[e :UE 348 ]
+}
+"121
+[; ;main.c: 121: void CONVERT_SPEED_TO_LOG(uint16_t *linear_speed, uint16_t *log_speed){
+[v _CONVERT_SPEED_TO_LOG `(v ~T0 @X0 1 ef2`*us`*us ]
+{
+[e :U _CONVERT_SPEED_TO_LOG ]
+[v _linear_speed `*us ~T0 @X0 1 r1 ]
+[v _log_speed `*us ~T0 @X0 1 r2 ]
+[f ]
+"124
+[; ;main.c: 124:     *log_speed = lin_to_log_10_bit[*linear_speed];
+[e = *U _log_speed *U + &U _lin_to_log_10_bit * -> *U _linear_speed `ux -> -> # *U &U _lin_to_log_10_bit `ui `ux ]
+"125
+[; ;main.c: 125: }
+[e :UE 353 ]
+}
+"127
+[; ;main.c: 127: void SET_DUTY_CCP3(uint16_t *duty_ptr){
+[v _SET_DUTY_CCP3 `(v ~T0 @X0 1 ef1`*us ]
+{
+[e :U _SET_DUTY_CCP3 ]
+[v _duty_ptr `*us ~T0 @X0 1 r1 ]
+[f ]
+"129
+[; ;main.c: 129:     CCPR3L = *duty_ptr / 0b100;
+[e = _CCPR3L -> / -> *U _duty_ptr `ui -> -> 4 `i `ui `uc ]
+"130
+[; ;main.c: 130:     int temp = *duty_ptr % 0b100;
+[v _temp `i ~T0 @X0 1 a ]
+[e = _temp -> % -> *U _duty_ptr `ui -> -> 4 `i `ui `i ]
+"131
+[; ;main.c: 131:     CCP3CON = CCP3CON | (temp << 4);
+[e = _CCP3CON -> | -> _CCP3CON `i << _temp -> 4 `i `uc ]
+"134
+[; ;main.c: 134: }
+[e :UE 354 ]
+}
+"136
+[; ;main.c: 136: void CONFIG_PWM_CCP3(void){
+[v _CONFIG_PWM_CCP3 `(v ~T0 @X0 1 ef ]
+{
+[e :U _CONFIG_PWM_CCP3 ]
+[f ]
+"137
+[; ;main.c: 137:     SRLEN = 0;
+[e = _SRLEN -> -> 0 `i `b ]
+"138
+[; ;main.c: 138:     C1ON = 0;
+[e = _C1ON -> -> 0 `i `b ]
+"140
+[; ;main.c: 140:     TRISA2 = 1;
+[e = _TRISA2 -> -> 1 `i `b ]
+"141
+[; ;main.c: 141:     PR2 = 0xFF;
+[e = _PR2 -> -> 255 `i `uc ]
+"142
+[; ;main.c: 142:     CCP3CON = CCP3CON | 00001111;
+[e = _CCP3CON -> | -> _CCP3CON `i -> 585 `i `uc ]
+"144
+[; ;main.c: 144:     CCPTMRS0 = 0x00;
+[e = _CCPTMRS0 -> -> 0 `i `uc ]
+"145
+[; ;main.c: 145:     TMR2IF = 0;
+[e = _TMR2IF -> -> 0 `i `b ]
+"146
+[; ;main.c: 146:     T2CON = T2CON | 0b00000000;
+[e = _T2CON -> | -> _T2CON `i -> 0 `i `uc ]
+"149
+[; ;main.c: 149: }
+[e :UE 355 ]
+}
+"151
+[; ;main.c: 151: void TURN_ON_CCP3_PWM(void){
+[v _TURN_ON_CCP3_PWM `(v ~T0 @X0 1 ef ]
+{
+[e :U _TURN_ON_CCP3_PWM ]
+[f ]
+"153
+[; ;main.c: 153:     TMR2IF = 0;
+[e = _TMR2IF -> -> 0 `i `b ]
+"154
+[; ;main.c: 154:     TMR2ON = 1;
+[e = _TMR2ON -> -> 1 `i `b ]
+"155
+[; ;main.c: 155:     while(TMR2IF == 0){}
+[e $U 357  ]
+[e :U 358 ]
+{
+}
+[e :U 357 ]
+[e $ == -> _TMR2IF `i -> 0 `i 358  ]
+[e :U 359 ]
+"156
+[; ;main.c: 156:     TMR2IF = 0;
+[e = _TMR2IF -> -> 0 `i `b ]
+"157
+[; ;main.c: 157:     TRISA2 = 0;
+[e = _TRISA2 -> -> 0 `i `b ]
+"158
+[; ;main.c: 158: }
+[e :UE 356 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"170
+[; ;main.c: 170: void main(void) {
+[v _main `(v ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"171
+[; ;main.c: 171:     CONFIG_INT_OSC();
+[e ( _CONFIG_INT_OSC ..  ]
+"172
+[; ;main.c: 172:     CONFIG_PORTS();
+[e ( _CONFIG_PORTS ..  ]
+"173
+[; ;main.c: 173:     CONFIG_ADC_PINS();
+[e ( _CONFIG_ADC_PINS ..  ]
+"174
+[; ;main.c: 174:     CONFIG_PWM_CCP3();
+[e ( _CONFIG_PWM_CCP3 ..  ]
+"177
+[; ;main.c: 177:         current_waveshape = DETERMINE_WAVESHAPE();
+[e = _current_waveshape ( _DETERMINE_WAVESHAPE ..  ]
+"178
+[; ;main.c: 178:         current_speed_linear = DO_ADC(1);
+[e = _current_speed_linear ( _DO_ADC (1 -> -> 1 `i `uc ]
+"179
+[; ;main.c: 179:         current_depth = DO_ADC(2);
+[e = _current_depth ( _DO_ADC (1 -> -> 2 `i `uc ]
+"181
+[; ;main.c: 181:         CONVERT_SPEED_TO_LOG(&current_speed_linear, &current_speed_log);
+[e ( _CONVERT_SPEED_TO_LOG (2 , &U _current_speed_linear &U _current_speed_log ]
+"183
+[; ;main.c: 183:     while(1){
+[e :U 362 ]
+{
+"185
+[; ;main.c: 185:         }
+}
+[e :U 361 ]
+[e $U 362  ]
+[e :U 363 ]
+"186
+[; ;main.c: 186: }
+[e :UE 360 ]
+}

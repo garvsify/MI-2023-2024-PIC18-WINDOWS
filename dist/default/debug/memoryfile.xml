@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/default/debug/MI-2023_2024-PIC18.debug.hex">
+    <memory name="program">
+      <units>bytes</units>
+      <length>32768</length>
+      <used>2888</used>
+      <free>29880</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>2048</length>
+      <used>132</used>
+      <free>1916</free>
+    </memory>
+  </executable>
+</project>

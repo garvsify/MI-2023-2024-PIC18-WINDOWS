@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/Config_2/debug/Modulation_Index_2023_PIC16F1824.X.debug.hex">
+    <memory name="program">
+      <units>words</units>
+      <length>4096</length>
+      <used>2743</used>
+      <free>1353</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>256</length>
+      <used>18</used>
+      <free>238</free>
+    </memory>
+  </executable>
+</project>

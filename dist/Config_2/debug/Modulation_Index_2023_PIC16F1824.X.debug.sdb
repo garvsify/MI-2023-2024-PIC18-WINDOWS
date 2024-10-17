@@ -1,0 +1,131 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1824 ]
+[d frameptr 6 ]
+"10 /Applications/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 /Applications/microchip/xc8/v2.45/pic/sources/c99/common/Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 /Applications/microchip/xc8/v2.45/pic/sources/c99/pic/__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"73 /Users/jamesgarvey/Desktop/PIC PWM Files/Modulation Index 2023 MPLAB Project/Modulation_Index_2023_PIC16F1824.X/main.c
+[v _CONFIG_INT_OSC CONFIG_INT_OSC `(v  1 e 1 0 ]
+"77
+[v _CONFIG_PORTS CONFIG_PORTS `(v  1 e 1 0 ]
+"83
+[v _CONFIG_ADC_PINS CONFIG_ADC_PINS `(v  1 e 1 0 ]
+"88
+[v _DO_ADC DO_ADC `(us  1 e 2 0 ]
+"105
+[v _DETERMINE_WAVESHAPE DETERMINE_WAVESHAPE `(uc  1 e 1 0 ]
+"121
+[v _CONVERT_SPEED_TO_LOG CONVERT_SPEED_TO_LOG `(v  1 e 1 0 ]
+"136
+[v _CONFIG_PWM_CCP3 CONFIG_PWM_CCP3 `(v  1 e 1 0 ]
+"170
+[v _main main `(v  1 e 1 0 ]
+"918 /Applications/microchip/mplabx/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8/pic/include/proc/pic16f1824.h
+[v _PR2 PR2 `VEuc  1 e 1 @27 ]
+"938
+[v _T2CON T2CON `VEuc  1 e 1 @28 ]
+"1165
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+"1619
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"1760
+[v _ADRESL ADRESL `VEuc  1 e 1 @155 ]
+"1780
+[v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
+"1800
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @157 ]
+"1880
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @158 ]
+"2814
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"3427
+[v _WPUC WPUC `VEuc  1 e 1 @526 ]
+"4962
+[v _CCPTMRS0 CCPTMRS0 `VEuc  1 e 1 @670 ]
+"5178
+[v _CCP3CON CCP3CON `VEuc  1 e 1 @787 ]
+"6468
+[v _ADON ADON `VEb  1 e 0 @1256 ]
+"6564
+[v _C1ON C1ON `VEb  1 e 0 @2191 ]
+"6945
+[v _GO_nDONE GO_nDONE `VEb  1 e 0 @1257 ]
+"7446
+[v _SRLEN SRLEN `VEb  1 e 0 @2263 ]
+"7704
+[v _TMR2IF TMR2IF `VEb  1 e 0 @137 ]
+"7734
+[v _TRISA2 TRISA2 `VEb  1 e 0 @1122 ]
+"46 /Users/jamesgarvey/Desktop/PIC PWM Files/Modulation Index 2023 MPLAB Project/Modulation_Index_2023_PIC16F1824.X/main.c
+[v _A2D_lookup A2D_lookup `DC[3]uc  1 e 3 0 ]
+"47
+[v _lin_to_log_10_bit lin_to_log_10_bit `DC[1024]us  1 e 2048 0 ]
+"64
+[v _current_waveshape current_waveshape `uc  1 e 1 0 ]
+"65
+[v _current_speed_linear current_speed_linear `us  1 e 2 0 ]
+"66
+[v _current_speed_log current_speed_log `us  1 e 2 0 ]
+"67
+[v _current_depth current_depth `us  1 e 2 0 ]
+"170
+[v _main main `(v  1 e 1 0 ]
+{
+"186
+} 0
+"105
+[v _DETERMINE_WAVESHAPE DETERMINE_WAVESHAPE `(uc  1 e 1 0 ]
+{
+"106
+[v DETERMINE_WAVESHAPE@ADC ADC `us  1 a 2 5 ]
+"119
+} 0
+"88
+[v _DO_ADC DO_ADC `(us  1 e 2 0 ]
+{
+[v DO_ADC@modifier modifier `uc  1 a 1 wreg ]
+"101
+[v DO_ADC@adc_result adc_result `us  1 a 2 2 ]
+"88
+[v DO_ADC@modifier modifier `uc  1 a 1 wreg ]
+"96
+[v DO_ADC@modifier modifier `uc  1 a 1 4 ]
+"103
+} 0
+"121
+[v _CONVERT_SPEED_TO_LOG CONVERT_SPEED_TO_LOG `(v  1 e 1 0 ]
+{
+[v CONVERT_SPEED_TO_LOG@linear_speed linear_speed `*.1us  1 a 1 wreg ]
+[v CONVERT_SPEED_TO_LOG@linear_speed linear_speed `*.1us  1 a 1 wreg ]
+[v CONVERT_SPEED_TO_LOG@log_speed log_speed `*.1us  1 p 1 0 ]
+"124
+[v CONVERT_SPEED_TO_LOG@linear_speed linear_speed `*.1us  1 a 1 5 ]
+"125
+} 0
+"136
+[v _CONFIG_PWM_CCP3 CONFIG_PWM_CCP3 `(v  1 e 1 0 ]
+{
+"149
+} 0
+"77
+[v _CONFIG_PORTS CONFIG_PORTS `(v  1 e 1 0 ]
+{
+"81
+} 0
+"73
+[v _CONFIG_INT_OSC CONFIG_INT_OSC `(v  1 e 1 0 ]
+{
+"75
+} 0
+"83
+[v _CONFIG_ADC_PINS CONFIG_ADC_PINS `(v  1 e 1 0 ]
+{
+"86
+} 0
