@@ -2,6 +2,7 @@
 #include "../../timer/tmr0.h"
 #include "../../dma/dma1.h"
 #include "../../timer/tmr1.h"
+#include "../../timer/tmr3.h"
 #include "../interrupt.h"
 
 
@@ -64,6 +65,10 @@ void __interrupt() INTERRUPT_InterruptManager (void)
     else if(PIE3bits.TMR1IE == 1 && PIR3bits.TMR1IF == 1)
     {
         TMR1_OverflowISR();
+    }
+    else if(PIE4bits.TMR3IE == 1 && PIR4bits.TMR3IF == 1)
+    {
+        TMR3_OverflowISR();
     }
     else
     {

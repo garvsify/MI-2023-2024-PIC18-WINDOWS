@@ -1,11 +1,11 @@
 Version 4.0 HI-TECH Software Intermediate Code
 "16 mcc_generated_files/system/src/../clock.h
 [v _CLOCK_Initialize `(v ~T0 @X0 0 ef ]
-"144 mcc_generated_files/system/src/../pins.h
+"164 mcc_generated_files/system/src/../pins.h
 [v _PIN_MANAGER_Initialize `(v ~T0 @X0 0 ef ]
 "45 mcc_generated_files/system/src/../../adc/adcc.h
 [v _ADCC_Initialize `(v ~T0 @X0 0 ef ]
-"14 mcc_generated_files/system/src/system.c
+"15 mcc_generated_files/system/src/system.c
 [v _CPU_Initialize `(v ~T0 @X0 0 ef ]
 "78 mcc_generated_files/system/src/../../dma/dma1.h
 [v _DMA1_Initialize `(v ~T0 @X0 0 ef ]
@@ -17,9 +17,11 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _TMR1_Initialize `(v ~T0 @X0 0 ef ]
 "343 mcc_generated_files/system/src/../../timer/tmr2.h
 [v _TMR2_Initialize `(v ~T0 @X0 0 ef ]
+"140 mcc_generated_files/system/src/../../timer/tmr3.h
+[v _TMR3_Initialize `(v ~T0 @X0 0 ef ]
 "38 mcc_generated_files/system/src/../../system/interrupt.h
 [v _INTERRUPT_Initialize `(v ~T0 @X0 0 ef ]
-"16 mcc_generated_files/system/src/system.c
+"17 mcc_generated_files/system/src/system.c
 [v _SystemArbiter_Initialize `(v ~T0 @X0 0 ef ]
 "5622 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
 [v _PRLOCK `Vuc ~T0 @X0 0 e@180 ]
@@ -1361,78 +1363,80 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; <" TOSH equ 04FEh ;# ">
 "37861
 [; <" TOSU equ 04FFh ;# ">
-"18 mcc_generated_files/system/src/system.c
+"19 mcc_generated_files/system/src/system.c
 [v _SYSTEM_Initialize `(v ~T0 @X0 1 ef ]
-"19
+"20
 {
 [e :U _SYSTEM_Initialize ]
 [f ]
-"20
-[e ( _CLOCK_Initialize ..  ]
 "21
-[e ( _PIN_MANAGER_Initialize ..  ]
+[e ( _CLOCK_Initialize ..  ]
 "22
-[e ( _ADCC_Initialize ..  ]
+[e ( _PIN_MANAGER_Initialize ..  ]
 "23
-[e ( _CPU_Initialize ..  ]
+[e ( _ADCC_Initialize ..  ]
 "24
-[e ( _DMA1_Initialize ..  ]
+[e ( _CPU_Initialize ..  ]
 "25
-[e ( _CCP1_Initialize ..  ]
+[e ( _DMA1_Initialize ..  ]
 "26
-[e ( _TMR0_Initialize ..  ]
+[e ( _CCP1_Initialize ..  ]
 "27
-[e ( _TMR1_Initialize ..  ]
+[e ( _TMR0_Initialize ..  ]
 "28
-[e ( _TMR2_Initialize ..  ]
+[e ( _TMR1_Initialize ..  ]
 "29
-[e ( _INTERRUPT_Initialize ..  ]
+[e ( _TMR2_Initialize ..  ]
 "30
-[e ( _SystemArbiter_Initialize ..  ]
+[e ( _TMR3_Initialize ..  ]
 "31
+[e ( _INTERRUPT_Initialize ..  ]
+"32
+[e ( _SystemArbiter_Initialize ..  ]
+"33
 [e :UE 1846 ]
 }
-"33
+"35
 [v _CPU_Initialize `(v ~T0 @X0 1 ef ]
-"34
+"36
 {
 [e :U _CPU_Initialize ]
 [f ]
-"36
-[e = _PRLOCK -> -> 0 `i `uc ]
 "38
-[e = _SCANPR -> -> 7 `i `uc ]
+[e = _PRLOCK -> -> 0 `i `uc ]
 "40
-[e = _DMA1PR -> -> 7 `i `uc ]
+[e = _SCANPR -> -> 7 `i `uc ]
 "42
-[e = _DMA2PR -> -> 7 `i `uc ]
+[e = _DMA1PR -> -> 7 `i `uc ]
 "44
-[e = _DMA3PR -> -> 7 `i `uc ]
+[e = _DMA2PR -> -> 7 `i `uc ]
 "46
-[e = _DMA4PR -> -> 7 `i `uc ]
+[e = _DMA3PR -> -> 7 `i `uc ]
 "48
-[e = _MAINPR -> -> 7 `i `uc ]
+[e = _DMA4PR -> -> 7 `i `uc ]
 "50
-[e = _ISRPR -> -> 7 `i `uc ]
+[e = _MAINPR -> -> 7 `i `uc ]
 "52
-[e = _PRODH -> -> 0 `i `uc ]
+[e = _ISRPR -> -> 7 `i `uc ]
 "54
+[e = _PRODH -> -> 0 `i `uc ]
+"56
 [e = _PRODL -> -> 0 `i `uc ]
-"55
+"57
 [e :UE 1847 ]
 }
-"58
+"60
 [v _SystemArbiter_Initialize `(v ~T0 @X0 1 ef ]
-"59
+"61
 {
 [e :U _SystemArbiter_Initialize ]
 [f ]
-"61
-[e = _PRLOCK -> -> 85 `i `uc ]
-"62
-[e = _PRLOCK -> -> 170 `i `uc ]
 "63
-[e = . . _PRLOCKbits 0 0 -> -> 1 `i `uc ]
+[e = _PRLOCK -> -> 85 `i `uc ]
 "64
+[e = _PRLOCK -> -> 170 `i `uc ]
+"65
+[e = . . _PRLOCKbits 0 0 -> -> 1 `i `uc ]
+"66
 [e :UE 1848 ]
 }

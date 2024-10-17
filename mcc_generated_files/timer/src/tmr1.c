@@ -127,7 +127,6 @@ void TMR1_OverflowISR(void)
 
     // Clear the TMR1 interrupt flag
     PIR3bits.TMR1IF = 0;
-    TMR1_Write(timer1ReloadVal);
 
     // ticker function call;
     // ticker is 1 -> Callback function gets called everytime this ISR executes
@@ -146,6 +145,8 @@ static void TMR1_DefaultOverflowCallback(void)
 {
     //Add your interrupt code here or
     //Use TMR1_OverflowCallbackRegister function to use Custom ISR
+    //LATC4 = 0;
+    TMR1_Stop();
     
     if(*current_adcc_type_ptr == waveshape_adc_config_value){
         
@@ -173,7 +174,7 @@ static void TMR1_DefaultOverflowCallback(void)
             
         current_adcc_type_ptr++;
             
-        }
+    }
 
     else if(*current_adcc_type_ptr == symmetry_adc_config_value){
             
@@ -185,12 +186,13 @@ static void TMR1_DefaultOverflowCallback(void)
             
         current_adcc_type_ptr = adcc_type_array[0];
             
-        }
+    }
     
     size_t tmr3_value = TMR3_OVERFLOW_COUNT;
     
     TMR3_Write(tmr3_value);
-    TMR3_Start(); //time delay to allow ADCC conversion to complete, DMA is triggered on overflow.
+    TMR3_Start();
+    LATC4 = 1;
     
 }
 

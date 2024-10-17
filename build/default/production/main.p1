@@ -1748,24 +1748,24 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e ( _TMR1_Write (1 _tmr1_value ]
 "53
 [e ( _TMR1_Start ..  ]
-"55
-[e = . . _T0CON1bits 0 0 -> -> 4 `i `uc ]
 "56
-[e = _final_TMR0 -> -> -> 100 `i `l `ul ]
+[e = . . _T0CON1bits 0 0 -> -> 4 `i `uc ]
 "57
+[e = _final_TMR0 -> -> -> 100 `i `l `ul ]
+"58
 [e ( _TMR0_Start ..  ]
-"59
+"60
 [e = . . _INTCON0bits 0 6 -> -> 1 `i `uc ]
-"61
+"62
 [e :U 1846 ]
 {
-"68
-[; <"  clrwdt ;# ">
 "69
+[; <"  clrwdt ;# ">
+"70
 }
 [e :U 1845 ]
 [e $U 1846  ]
 [e :U 1847 ]
-"70
+"71
 [e :UE 1844 ]
 }

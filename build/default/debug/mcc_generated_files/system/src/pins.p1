@@ -1359,69 +1359,69 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; <" TOSH equ 04FEh ;# ">
 "37861
 [; <" TOSU equ 04FFh ;# ">
-"5 mcc_generated_files/system/src/pins.c
+"21 mcc_generated_files/system/src/pins.c
 [v _PIN_MANAGER_Initialize `(v ~T0 @X0 1 ef ]
-"6
+"22
 {
 [e :U _PIN_MANAGER_Initialize ]
 [f ]
-"10
+"26
 [e = _LATA -> -> 0 `i `uc ]
-"11
-[e = _LATC -> -> 0 `i `uc ]
-"15
-[e = _ODCONA -> -> 0 `i `uc ]
-"16
-[e = _ODCONC -> -> 0 `i `uc ]
-"21
-[e = _TRISA -> -> 59 `i `uc ]
-"22
-[e = _TRISC -> -> 31 `i `uc ]
 "27
+[e = _LATC -> -> 0 `i `uc ]
+"31
+[e = _ODCONA -> -> 0 `i `uc ]
+"32
+[e = _ODCONC -> -> 0 `i `uc ]
+"37
+[e = _TRISA -> -> 59 `i `uc ]
+"38
+[e = _TRISC -> -> 15 `i `uc ]
+"43
 [e = _ANSELA -> -> 55 `i `uc ]
-"28
-[e = _ANSELC -> -> 31 `i `uc ]
-"33
+"44
+[e = _ANSELC -> -> 15 `i `uc ]
+"49
 [e = _WPUA -> -> 0 `i `uc ]
-"34
+"50
 [e = _WPUC -> -> 0 `i `uc ]
-"40
+"56
 [e = _SLRCONA -> -> 55 `i `uc ]
-"41
-[e = _SLRCONC -> -> 63 `i `uc ]
-"46
-[e = _INLVLA -> -> 63 `i `uc ]
-"47
-[e = _INLVLC -> -> 63 `i `uc ]
-"52
-[e = _RC0I2C -> -> 0 `i `uc ]
-"53
-[e = _RC1I2C -> -> 0 `i `uc ]
 "57
-[e = _CCP1PPS -> -> 2 `i `uc ]
-"58
-[e = _RA2PPS -> -> 9 `i `uc ]
+[e = _SLRCONC -> -> 63 `i `uc ]
+"62
+[e = _INLVLA -> -> 63 `i `uc ]
 "63
-[e = _IOCAP -> -> 0 `i `uc ]
-"64
-[e = _IOCAN -> -> 0 `i `uc ]
-"65
-[e = _IOCAF -> -> 0 `i `uc ]
-"66
-[e = _IOCCP -> -> 0 `i `uc ]
-"67
-[e = _IOCCN -> -> 0 `i `uc ]
+[e = _INLVLC -> -> 63 `i `uc ]
 "68
+[e = _RC0I2C -> -> 0 `i `uc ]
+"69
+[e = _RC1I2C -> -> 0 `i `uc ]
+"73
+[e = _CCP1PPS -> -> 2 `i `uc ]
+"74
+[e = _RA2PPS -> -> 9 `i `uc ]
+"79
+[e = _IOCAP -> -> 0 `i `uc ]
+"80
+[e = _IOCAN -> -> 0 `i `uc ]
+"81
+[e = _IOCAF -> -> 0 `i `uc ]
+"82
+[e = _IOCCP -> -> 0 `i `uc ]
+"83
+[e = _IOCCN -> -> 0 `i `uc ]
+"84
 [e = _IOCCF -> -> 0 `i `uc ]
-"71
+"87
 [e :UE 1843 ]
 }
-"73
+"89
 [v _PIN_MANAGER_IOC `(v ~T0 @X0 1 ef ]
-"74
+"90
 {
 [e :U _PIN_MANAGER_IOC ]
 [f ]
-"75
+"91
 [e :UE 1844 ]
 }

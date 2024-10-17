@@ -36,6 +36,7 @@
 
 #include <xc.h>
 #include "../tmr3.h"
+#include "../../../system_uC.h"
 
 /**
  * Section: Global Variables Definitions
@@ -47,9 +48,9 @@ const struct TMR_INTERFACE Timer3 = {
     .Initialize = TMR3_Initialize,
     .Start = TMR3_Start,
     .Stop = TMR3_Stop,
-    .PeriodCountSet = TMR3_Write,
+    .PeriodCountSet = TMR3_PeriodCountSet,
     .TimeoutCallbackRegister = TMR3_OverflowCallbackRegister,
-    .Tasks = TMR3_Tasks
+    .Tasks = NULL
 };
 static void (*TMR3_OverflowCallback)(void);
 static void TMR3_DefaultOverflowCallback(void);
@@ -80,9 +81,10 @@ void TMR3_Initialize(void)
     //Set default callback for TMR3 gate interrupt
     TMR3_GateCallbackRegister(TMR3_DefaultGateCallback);
 
-    //Clear interrupt flags
+    // Clearing TMRI IF flag before enabling the interrupt.
     PIR4bits.TMR3IF = 0;
-    PIR4bits.TMR3GIF = 0;
+    // Enabling TMRI interrupt.
+    PIE4bits.TMR3IE = 1;
     
     //TMRON enabled; TRD16 disabled; nTSYNC do_not_synchronize; TCKPS 1:8; 
     T3CON = 0x35;
@@ -156,6 +158,17 @@ uint8_t TMR3_CheckGateValueStatus(void)
     return (T3GCONbits.T3GVAL);
 }
 
+void TMR3_OverflowISR(void)
+{
+
+    // Clear the TMR3 interrupt flag
+    PIR4bits.TMR3IF = 0;
+
+    if(TMR3_OverflowCallback)
+    {
+        TMR3_OverflowCallback();
+    }
+}
 
 void TMR3_OverflowCallbackRegister(void (* CallbackHandler)(void))
 {
@@ -166,7 +179,14 @@ static void TMR3_DefaultOverflowCallback(void)
 {
     //Add your interrupt code here or
     //Use TMR3_OverflowCallbackRegister function to use Custom ISR
+    /*TMR3_Stop();
+    LATC5 = 0;
+    size_t tmr1_value = TMR1_OVERFLOW_COUNT;
+    TMR1_Write(tmr1_value);
+    TMR1_Start();
+    LATC4 = 1;*/
     
+    LATC4 = 0;
 }
 
 bool TMR3_HasOverflowOccured(void)
@@ -193,17 +213,8 @@ static void TMR3_DefaultGateCallback(void)
 {
     //Add your interrupt code here or
     //Use TMR3_GateCallbackRegister function to use Custom ISR
-    
 }
 
-void TMR3_Tasks(void)
-{
-    if(PIR4bits.TMR3IF)
-    {
-        PIR4bits.TMR3IF = 0;
-        TMR3_OverflowCallback();
-    }
-}
 
 /**
   End of File

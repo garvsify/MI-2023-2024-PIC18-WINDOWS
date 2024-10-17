@@ -1,6 +1,22 @@
 #include <xc.h>
 #include "../pins.h"
 
+/*    RC0 -> Waveshape CV
+    RC1 -> Speed CV
+    RC2 -> Depth CV
+    RC3 -> Symmetry CV
+    RC4 -> NC
+    RC5 -> ISR length measurement OUT
+    RA0 -> ICSPDAT
+    RA1 -> ICSPCLK
+    RA2 -> PWM OUT
+    RA3 -> MCLR
+    RA4 -> NC
+    RA5 -> NC
+*/
+
+#include "../pins.h"
+
 
 void PIN_MANAGER_Initialize(void)
 {
@@ -19,13 +35,13 @@ void PIN_MANAGER_Initialize(void)
     TRISx registers
     */
     TRISA = 0x3B;
-    TRISC = 0x1F;
+    TRISC = 0xF;
 
     /**
     ANSELx registers
     */
     ANSELA = 0x37;
-    ANSELC = 0x1F;
+    ANSELC = 0xF;
 
     /**
     WPUx registers

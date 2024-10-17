@@ -77,9 +77,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _current_depth `Vus ~T0 @X0 0 e ]
 "119
 [v _final_TMR0 `Vul ~T0 @X0 0 e ]
-"41863 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
-[v _LATC5 `Vb ~T0 @X0 0 e@9733 ]
-"45541
+"45541 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
 [v _TMR0IF `Vb ~T0 @X0 0 e@9655 ]
 "130 mcc_generated_files/timer/src/../../../system_uC.h
 [v _current_waveshape `Vuc ~T0 @X0 0 e ]
@@ -2016,8 +2014,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 [f ]
 "131
 [e = _TMR0H -> _final_TMR0 `uc ]
-"132
-[e = _LATC5 -> -> 1 `i `b ]
 "133
 [e = _TMR0IF -> -> 0 `i `b ]
 "135
@@ -2108,8 +2104,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U 1869 ]
 "181
 [e ( _CCP1_LoadDutyValue (1 _duty ]
-"184
-[e = _LATC5 -> -> 0 `i `b ]
 "185
 [e :UE 1856 ]
 }

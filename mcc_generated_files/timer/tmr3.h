@@ -122,12 +122,6 @@
  */
 #define Timer3_OverflowCallbackRegister TMR3_OverflowCallbackRegister
 
-/**
- * @ingroup tmr3
- * @brief Defines the Custom Name for the \ref TMR3_Tasks API
- */
-#define Timer3_Tasks TMR3_Tasks
-
 
 /**
  * @ingroup tmr3
@@ -216,6 +210,13 @@ void TMR3_StartSinglePulseAcquisition(void);
  */
 uint8_t TMR3_CheckGateValueStatus(void);
 
+/**
+ * @ingroup tmr3
+ * @brief Timer Interrupt Service Routine (ISR) called by the Interrupt Manager for overflow.
+ * @param None.
+ * @return None.
+ */
+void TMR3_OverflowISR(void);
 
 /**
  * @ingroup tmr3
@@ -225,13 +226,6 @@ uint8_t TMR3_CheckGateValueStatus(void);
  */
  void TMR3_OverflowCallbackRegister(void (* CallbackHandler)(void));
 
-/**
- * @ingroup tmr3
- * @brief Performs the tasks to be executed on timer overflow event.
- * @param None.
- * @return None.
- */
-void TMR3_Tasks(void);
 
 /**
  * @ingroup tmr3

@@ -35,7 +35,7 @@ HOW THE DMA/ADCC STUFF WORKS:
 
  */
 
-int main(void) {
+int main(void){
 
     SYSTEM_Initialize();
 
@@ -51,6 +51,7 @@ int main(void) {
 
     TMR1_Write(tmr1_value);
     TMR1_Start(); //ADCC is triggered on overflow
+    //LATC4 = 1;
 
     T0CON1bits.CKPS = 0b0100;
     final_TMR0 = 100;

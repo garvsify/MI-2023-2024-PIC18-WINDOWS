@@ -9,6 +9,7 @@
 #include "../../timer/tmr0.h"
 #include "../../timer/tmr1.h"
 #include "../../timer/tmr2.h"
+#include "../../timer/tmr3.h"
 #include "../../system/interrupt.h"
 
 void CPU_Initialize(void);
@@ -26,6 +27,7 @@ void SYSTEM_Initialize(void)
     TMR0_Initialize();
     TMR1_Initialize();
     TMR2_Initialize();
+    TMR3_Initialize();
     INTERRUPT_Initialize();
     SystemArbiter_Initialize();
 }

@@ -1,5 +1,8 @@
 Version 4.0 HI-TECH Software Intermediate Code
-[v F12961 `(v ~T0 @X0 0 tf ]
+"88 mcc_generated_files/timer/src/../../../system_uC.h
+[c E13102 58 59 60 61 62 63 16 17 18 19 .. ]
+[n E13102 . channel_DAC2 channel_VSS channel_Temp channel_DAC1 channel_FVR_Buffer1 channel_FVR_Buffer2 channel_ANC0 channel_ANC1 channel_ANC2 channel_ANC3  ]
+[v F13259 `(v ~T0 @X0 0 tf ]
 [v F12922 `(v ~T0 @X0 0 tf ]
 [v F12924 `(v ~T0 @X0 0 tf ]
 [v F12926 `(v ~T0 @X0 0 tf ]
@@ -7,24 +10,23 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v F12932 `(v ~T0 @X0 0 tf ]
 [v F12931 `(v ~T0 @X0 0 tf1`*F12932 ]
 [v F12935 `(v ~T0 @X0 0 tf ]
-"51 mcc_generated_files/timer/src/../timer_interface.h
+"51 ./mcc_generated_files/timer/timer_interface.h
 [s S1843 `*F12922 1 `*F12924 1 `*F12926 1 `*F12928 1 `*F12931 1 `*F12935 1 ]
 [n S1843 TMR_INTERFACE Initialize Start Stop PeriodCountSet TimeoutCallbackRegister Tasks ]
-"146 mcc_generated_files/timer/src/../tmr3.h
+"140 ./mcc_generated_files/timer/tmr3.h
 [v _TMR3_Initialize `(v ~T0 @X0 0 ef ]
-"155
+"149
 [v _TMR3_Start `(v ~T0 @X0 0 ef ]
-"164
+"158
 [v _TMR3_Stop `(v ~T0 @X0 0 ef ]
-"182
-[v _TMR3_Write `(v ~T0 @X0 0 ef1`ui ]
-[v F12949 `(v ~T0 @X0 0 tf ]
-"226
-[v _TMR3_OverflowCallbackRegister `(v ~T0 @X0 0 ef1`*F12949 ]
-"234
-[v _TMR3_Tasks `(v ~T0 @X0 0 ef ]
-[v F12973 `(v ~T0 @X0 0 tf ]
-[v F12976 `(v ~T0 @X0 0 tf ]
+"193
+[v _TMR3_PeriodCountSet `(v ~T0 @X0 0 ef1`ui ]
+[v F12950 `(v ~T0 @X0 0 tf ]
+"227
+[v _TMR3_OverflowCallbackRegister `(v ~T0 @X0 0 ef1`*F12950 ]
+[v F13269 `(v ~T0 @X0 0 tf ]
+[v F13271 `(v ~T0 @X0 0 tf ]
+[v F13274 `(v ~T0 @X0 0 tf ]
 "20720 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
 [s S1008 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 ]
 [n S1008 . ON RD16 NOT_SYNC . CKPS ]
@@ -55,12 +57,12 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _TMR3H `Vuc ~T0 @X0 0 e@804 ]
 "20469
 [v _TMR3L `Vuc ~T0 @X0 0 e@803 ]
-"55 mcc_generated_files/timer/src/tmr3.c
+"56 mcc_generated_files/timer/src/tmr3.c
 [v _TMR3_DefaultOverflowCallback `(v ~T0 @X0 0 sf ]
 [v F12956 `(v ~T0 @X0 0 tf ]
-"259 mcc_generated_files/timer/src/../tmr3.h
+"253 ./mcc_generated_files/timer/tmr3.h
 [v _TMR3_GateCallbackRegister `(v ~T0 @X0 0 ef1`*F12956 ]
-"57 mcc_generated_files/timer/src/tmr3.c
+"58 mcc_generated_files/timer/src/tmr3.c
 [v _TMR3_DefaultGateCallback `(v ~T0 @X0 0 sf ]
 "35836 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
 [s S1715 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
@@ -70,6 +72,14 @@ Version 4.0 HI-TECH Software Intermediate Code
 [n S1714 . . ]
 "35847
 [v _PIR4bits `VS1714 ~T0 @X0 0 e@1207 ]
+"35189
+[s S1691 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1691 . U1RXIE U1TXIE U1EIE U1IE TMR3IE TMR3GIE PWM1PIE PWM1IE ]
+"35188
+[u S1690 `S1691 1 ]
+[n S1690 . . ]
+"35200
+[v _PIE4bits `VS1690 ~T0 @X0 0 e@1196 ]
 "20709
 [v _T3CON `Vuc ~T0 @X0 0 e@805 ]
 "20942
@@ -101,11 +111,12 @@ Version 4.0 HI-TECH Software Intermediate Code
 [n S1019 . . . . . . . . . ]
 "20985
 [v _T3GCONbits `VS1019 ~T0 @X0 0 e@806 ]
-[v F12995 `(v ~T0 @X0 0 tf ]
-[v F12997 `(v ~T0 @X0 0 tf ]
-[v F13002 `(v ~T0 @X0 0 tf ]
-[v F13004 `(v ~T0 @X0 0 tf ]
-[v F13006 `(v ~T0 @X0 0 tf ]
+[v F13293 `(v ~T0 @X0 0 tf ]
+[v F13295 `(v ~T0 @X0 0 tf ]
+[v F13297 `(v ~T0 @X0 0 tf ]
+[v F13302 `(v ~T0 @X0 0 tf ]
+[v F13304 `(v ~T0 @X0 0 tf ]
+[v F13306 `(v ~T0 @X0 0 tf ]
 "269 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
 [; <" CLKRCON equ 039h ;# ">
 "373
@@ -1418,11 +1429,387 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; <" TOSH equ 04FEh ;# ">
 "37861
 [; <" TOSU equ 04FFh ;# ">
-"43 mcc_generated_files/timer/src/tmr3.c
+"7 ./wavetables.h
+[v _sine_table_one_quadrant `Cus ~T0 @X0 -> 129 `i e ]
+[i _sine_table_one_quadrant
+:U ..
+-> -> 512 `i `us
+-> -> 518 `i `us
+-> -> 524 `i `us
+-> -> 530 `i `us
+-> -> 537 `i `us
+-> -> 543 `i `us
+-> -> 549 `i `us
+-> -> 555 `i `us
+-> -> 562 `i `us
+-> -> 568 `i `us
+-> -> 574 `i `us
+-> -> 580 `i `us
+-> -> 587 `i `us
+-> -> 593 `i `us
+-> -> 599 `i `us
+-> -> 605 `i `us
+-> -> 611 `i `us
+-> -> 617 `i `us
+-> -> 624 `i `us
+-> -> 630 `i `us
+-> -> 636 `i `us
+-> -> 642 `i `us
+-> -> 648 `i `us
+-> -> 654 `i `us
+-> -> 660 `i `us
+-> -> 666 `i `us
+-> -> 672 `i `us
+-> -> 678 `i `us
+-> -> 684 `i `us
+-> -> 690 `i `us
+-> -> 696 `i `us
+-> -> 701 `i `us
+-> -> 707 `i `us
+-> -> 713 `i `us
+-> -> 719 `i `us
+-> -> 725 `i `us
+-> -> 730 `i `us
+-> -> 736 `i `us
+-> -> 741 `i `us
+-> -> 747 `i `us
+-> -> 753 `i `us
+-> -> 758 `i `us
+-> -> 764 `i `us
+-> -> 769 `i `us
+-> -> 774 `i `us
+-> -> 780 `i `us
+-> -> 785 `i `us
+-> -> 790 `i `us
+-> -> 796 `i `us
+-> -> 801 `i `us
+-> -> 806 `i `us
+-> -> 811 `i `us
+-> -> 816 `i `us
+-> -> 821 `i `us
+-> -> 826 `i `us
+-> -> 831 `i `us
+-> -> 836 `i `us
+-> -> 841 `i `us
+-> -> 846 `i `us
+-> -> 850 `i `us
+-> -> 855 `i `us
+-> -> 860 `i `us
+-> -> 864 `i `us
+-> -> 869 `i `us
+-> -> 873 `i `us
+-> -> 878 `i `us
+-> -> 882 `i `us
+-> -> 886 `i `us
+-> -> 890 `i `us
+-> -> 895 `i `us
+-> -> 899 `i `us
+-> -> 903 `i `us
+-> -> 907 `i `us
+-> -> 911 `i `us
+-> -> 915 `i `us
+-> -> 919 `i `us
+-> -> 922 `i `us
+-> -> 926 `i `us
+-> -> 930 `i `us
+-> -> 933 `i `us
+-> -> 937 `i `us
+-> -> 940 `i `us
+-> -> 944 `i `us
+-> -> 947 `i `us
+-> -> 950 `i `us
+-> -> 953 `i `us
+-> -> 957 `i `us
+-> -> 960 `i `us
+-> -> 963 `i `us
+-> -> 966 `i `us
+-> -> 968 `i `us
+-> -> 971 `i `us
+-> -> 974 `i `us
+-> -> 977 `i `us
+-> -> 979 `i `us
+-> -> 982 `i `us
+-> -> 984 `i `us
+-> -> 986 `i `us
+-> -> 989 `i `us
+-> -> 991 `i `us
+-> -> 993 `i `us
+-> -> 995 `i `us
+-> -> 997 `i `us
+-> -> 999 `i `us
+-> -> 1001 `i `us
+-> -> 1003 `i `us
+-> -> 1004 `i `us
+-> -> 1006 `i `us
+-> -> 1008 `i `us
+-> -> 1009 `i `us
+-> -> 1011 `i `us
+-> -> 1012 `i `us
+-> -> 1013 `i `us
+-> -> 1014 `i `us
+-> -> 1015 `i `us
+-> -> 1017 `i `us
+-> -> 1017 `i `us
+-> -> 1018 `i `us
+-> -> 1019 `i `us
+-> -> 1020 `i `us
+-> -> 1021 `i `us
+-> -> 1021 `i `us
+-> -> 1022 `i `us
+-> -> 1022 `i `us
+-> -> 1022 `i `us
+-> -> 1023 `i `us
+-> -> 1023 `i `us
+-> -> 1023 `i `us
+-> -> 1023 `i `us
+..
+]
+"8
+[v _tri_table_one_quadrant `Cus ~T0 @X0 -> 129 `i e ]
+[i _tri_table_one_quadrant
+:U ..
+-> -> 512 `i `us
+-> -> 516 `i `us
+-> -> 520 `i `us
+-> -> 524 `i `us
+-> -> 528 `i `us
+-> -> 532 `i `us
+-> -> 536 `i `us
+-> -> 540 `i `us
+-> -> 544 `i `us
+-> -> 548 `i `us
+-> -> 552 `i `us
+-> -> 556 `i `us
+-> -> 560 `i `us
+-> -> 564 `i `us
+-> -> 568 `i `us
+-> -> 572 `i `us
+-> -> 576 `i `us
+-> -> 580 `i `us
+-> -> 584 `i `us
+-> -> 588 `i `us
+-> -> 592 `i `us
+-> -> 596 `i `us
+-> -> 600 `i `us
+-> -> 604 `i `us
+-> -> 608 `i `us
+-> -> 612 `i `us
+-> -> 616 `i `us
+-> -> 620 `i `us
+-> -> 624 `i `us
+-> -> 628 `i `us
+-> -> 632 `i `us
+-> -> 636 `i `us
+-> -> 640 `i `us
+-> -> 644 `i `us
+-> -> 648 `i `us
+-> -> 652 `i `us
+-> -> 656 `i `us
+-> -> 660 `i `us
+-> -> 664 `i `us
+-> -> 668 `i `us
+-> -> 672 `i `us
+-> -> 676 `i `us
+-> -> 680 `i `us
+-> -> 684 `i `us
+-> -> 688 `i `us
+-> -> 692 `i `us
+-> -> 696 `i `us
+-> -> 700 `i `us
+-> -> 704 `i `us
+-> -> 708 `i `us
+-> -> 712 `i `us
+-> -> 716 `i `us
+-> -> 720 `i `us
+-> -> 724 `i `us
+-> -> 728 `i `us
+-> -> 732 `i `us
+-> -> 736 `i `us
+-> -> 740 `i `us
+-> -> 744 `i `us
+-> -> 748 `i `us
+-> -> 752 `i `us
+-> -> 756 `i `us
+-> -> 760 `i `us
+-> -> 763 `i `us
+-> -> 767 `i `us
+-> -> 771 `i `us
+-> -> 775 `i `us
+-> -> 779 `i `us
+-> -> 783 `i `us
+-> -> 787 `i `us
+-> -> 791 `i `us
+-> -> 795 `i `us
+-> -> 799 `i `us
+-> -> 803 `i `us
+-> -> 807 `i `us
+-> -> 811 `i `us
+-> -> 815 `i `us
+-> -> 819 `i `us
+-> -> 823 `i `us
+-> -> 827 `i `us
+-> -> 831 `i `us
+-> -> 835 `i `us
+-> -> 839 `i `us
+-> -> 843 `i `us
+-> -> 847 `i `us
+-> -> 851 `i `us
+-> -> 855 `i `us
+-> -> 859 `i `us
+-> -> 863 `i `us
+-> -> 867 `i `us
+-> -> 871 `i `us
+-> -> 875 `i `us
+-> -> 879 `i `us
+-> -> 883 `i `us
+-> -> 887 `i `us
+-> -> 891 `i `us
+-> -> 895 `i `us
+-> -> 899 `i `us
+-> -> 903 `i `us
+-> -> 907 `i `us
+-> -> 911 `i `us
+-> -> 915 `i `us
+-> -> 919 `i `us
+-> -> 923 `i `us
+-> -> 927 `i `us
+-> -> 931 `i `us
+-> -> 935 `i `us
+-> -> 939 `i `us
+-> -> 943 `i `us
+-> -> 947 `i `us
+-> -> 951 `i `us
+-> -> 955 `i `us
+-> -> 959 `i `us
+-> -> 963 `i `us
+-> -> 967 `i `us
+-> -> 971 `i `us
+-> -> 975 `i `us
+-> -> 979 `i `us
+-> -> 983 `i `us
+-> -> 987 `i `us
+-> -> 991 `i `us
+-> -> 995 `i `us
+-> -> 999 `i `us
+-> -> 1003 `i `us
+-> -> 1007 `i `us
+-> -> 1011 `i `us
+-> -> 1015 `i `us
+-> -> 1019 `i `us
+-> -> 1023 `i `us
+..
+]
+"87 mcc_generated_files/timer/src/../../../system_uC.h
+[v _TMR0_prescaler_bits `Cuc ~T0 @X0 -> 9 `i e ]
+[i _TMR0_prescaler_bits
+:U ..
+-> -> 8 `i `uc
+-> -> 7 `i `uc
+-> -> 6 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 3 `i `uc
+-> -> 2 `i `uc
+-> -> 1 `i `uc
+-> -> 0 `i `uc
+..
+]
+"88
+[v _waveshape_adc_config_value `E13102 ~T0 @X0 1 e ]
+[i _waveshape_adc_config_value
+. `E13102 6
+]
+"89
+[v _speed_adc_config_value `E13102 ~T0 @X0 1 e ]
+[i _speed_adc_config_value
+. `E13102 7
+]
+"90
+[v _depth_adc_config_value `E13102 ~T0 @X0 1 e ]
+[i _depth_adc_config_value
+. `E13102 8
+]
+"91
+[v _symmetry_adc_config_value `E13102 ~T0 @X0 1 e ]
+[i _symmetry_adc_config_value
+. `E13102 9
+]
+"92
+[v _POSITIVE `Cuc ~T0 @X0 1 e ]
+[i _POSITIVE
+-> -> 1 `i `uc
+]
+"93
+[v _NEGATIVE `Cuc ~T0 @X0 1 e ]
+[i _NEGATIVE
+-> -> 0 `i `uc
+]
+"94
+[v _DO_NOTHING `Cuc ~T0 @X0 1 e ]
+[i _DO_NOTHING
+-> -> 0 `i `uc
+]
+"95
+[v _DIVIDE_BY_TWO `Cuc ~T0 @X0 1 e ]
+[i _DIVIDE_BY_TWO
+-> -> 1 `i `uc
+]
+"96
+[v _MULTIPLY_BY_TWO `Cuc ~T0 @X0 1 e ]
+[i _MULTIPLY_BY_TWO
+-> -> 2 `i `uc
+]
+"97
+[v _DIVIDE_BY_FOUR `Cuc ~T0 @X0 1 e ]
+[i _DIVIDE_BY_FOUR
+-> -> 3 `i `uc
+]
+"98
+[v _DONT_CARE `Cuc ~T0 @X0 1 e ]
+[i _DONT_CARE
+-> -> 4 `i `uc
+]
+"99
+[v _YES `Cuc ~T0 @X0 1 e ]
+[i _YES
+-> -> 1 `i `uc
+]
+"100
+[v _NO `Cuc ~T0 @X0 1 e ]
+[i _NO
+-> -> 0 `i `uc
+]
+"102
+[v _adcc_type_array `*E13102 ~T0 @X0 -> 4 `i e ]
+[i _adcc_type_array
+:U ..
+&U _waveshape_adc_config_value
+&U _speed_adc_config_value
+&U _depth_adc_config_value
+&U _symmetry_adc_config_value
+..
+]
+"103
+[v _dma_type_array `*E13102 ~T0 @X0 -> 4 `i e ]
+[i _dma_type_array
+:U ..
+&U _waveshape_adc_config_value
+&U _speed_adc_config_value
+&U _depth_adc_config_value
+&U _symmetry_adc_config_value
+..
+]
+"104
+[v _current_adcc_type_ptr `*E13102 ~T0 @X0 1 e ]
+"105
+[v _current_dma_type_ptr `*E13102 ~T0 @X0 1 e ]
+"141
+[v _ADC_result `us ~T0 @X0 1 e ]
+"44 mcc_generated_files/timer/src/tmr3.c
 [v _timer3ReloadVal `Vus ~T0 @X0 1 e ]
-"44
-[v _TMR3_InterruptHandler `*F12961 ~T0 @X0 1 e ]
-"46
+"45
+[v _TMR3_InterruptHandler `*F13259 ~T0 @X0 1 e ]
+"47
 [v _Timer3 `CS1843 ~T0 @X0 1 e ]
 [i _Timer3
 :U ..
@@ -1430,276 +1817,276 @@ Version 4.0 HI-TECH Software Intermediate Code
 &U _TMR3_Initialize
 &U _TMR3_Start
 &U _TMR3_Stop
-&U _TMR3_Write
+&U _TMR3_PeriodCountSet
 &U _TMR3_OverflowCallbackRegister
-&U _TMR3_Tasks
+-> -> -> 0 `i `*v `*F13269
 ..
 ..
 ]
-"54
-[v _TMR3_OverflowCallback `*F12973 ~T0 @X0 1 s ]
-"56
-[v _TMR3_GateCallback `*F12976 ~T0 @X0 1 s ]
-"59
-[v _TMR3_Initialize `(v ~T0 @X0 1 ef ]
+"55
+[v _TMR3_OverflowCallback `*F13271 ~T0 @X0 1 s ]
+"57
+[v _TMR3_GateCallback `*F13274 ~T0 @X0 1 s ]
 "60
+[v _TMR3_Initialize `(v ~T0 @X0 1 ef ]
+"61
 {
 [e :U _TMR3_Initialize ]
 [f ]
-"62
+"63
 [e = . . _T3CONbits 1 0 -> -> 0 `i `uc ]
-"64
+"65
 [e = _T3GCON -> -> 0 `i `uc ]
-"66
+"67
 [e = _T3GATE -> -> 0 `i `uc ]
-"68
+"69
 [e = _T3CLK -> -> 4 `i `uc ]
-"70
+"71
 [e = _TMR3H -> -> 255 `i `uc ]
-"72
+"73
 [e = _TMR3L -> -> 170 `i `uc ]
-"75
+"76
 [e = _timer3ReloadVal -> | << -> -> _TMR3H `us `ui -> 8 `i -> _TMR3L `ui `us ]
-"78
+"79
 [e ( _TMR3_OverflowCallbackRegister (1 &U _TMR3_DefaultOverflowCallback ]
-"81
+"82
 [e ( _TMR3_GateCallbackRegister (1 &U _TMR3_DefaultGateCallback ]
-"84
-[e = . . _PIR4bits 0 4 -> -> 0 `i `uc ]
 "85
-[e = . . _PIR4bits 0 5 -> -> 0 `i `uc ]
-"88
+[e = . . _PIR4bits 0 4 -> -> 0 `i `uc ]
+"87
+[e = . . _PIE4bits 0 4 -> -> 1 `i `uc ]
+"90
 [e = _T3CON -> -> 53 `i `uc ]
-"89
+"91
 [e :UE 1844 ]
 }
-"91
+"93
 [v _TMR3_Start `(v ~T0 @X0 1 ef ]
-"92
+"94
 {
 [e :U _TMR3_Start ]
 [f ]
-"94
+"96
 [e = . . _T3CONbits 1 0 -> -> 1 `i `uc ]
-"95
+"97
 [e :UE 1845 ]
 }
-"97
+"99
 [v _TMR3_Stop `(v ~T0 @X0 1 ef ]
-"98
+"100
 {
 [e :U _TMR3_Stop ]
 [f ]
-"100
+"102
 [e = . . _T3CONbits 1 0 -> -> 0 `i `uc ]
-"101
+"103
 [e :UE 1846 ]
 }
-"103
+"105
 [v _TMR3_Read `(us ~T0 @X0 1 ef ]
-"104
+"106
 {
 [e :U _TMR3_Read ]
 [f ]
-"105
-[v _readVal `us ~T0 @X0 1 a ]
-"106
-[v _readValHigh `uc ~T0 @X0 1 a ]
 "107
-[v _readValLow `uc ~T0 @X0 1 a ]
+[v _readVal `us ~T0 @X0 1 a ]
+"108
+[v _readValHigh `uc ~T0 @X0 1 a ]
 "109
+[v _readValLow `uc ~T0 @X0 1 a ]
+"111
 [e = _readValLow _TMR3L ]
-"110
-[e = _readValHigh _TMR3H ]
 "112
-[e = _readVal -> | << -> -> _readValHigh `us `ui -> 8 `i -> _readValLow `ui `us ]
+[e = _readValHigh _TMR3H ]
 "114
+[e = _readVal -> | << -> -> _readValHigh `us `ui -> 8 `i -> _readValLow `ui `us ]
+"116
 [e ) _readVal ]
 [e $UE 1847  ]
-"115
+"117
 [e :UE 1847 ]
 }
-"117
-[v _TMR3_Write `(v ~T0 @X0 1 ef1`ui ]
-"118
-{
-[e :U _TMR3_Write ]
-"117
-[v _timerVal `ui ~T0 @X0 1 r1 ]
-"118
-[f ]
 "119
-[e $ ! == -> . . _T3CONbits 4 1 `i -> 1 `i 1849  ]
+[v _TMR3_Write `(v ~T0 @X0 1 ef1`ui ]
 "120
 {
+[e :U _TMR3_Write ]
+"119
+[v _timerVal `ui ~T0 @X0 1 r1 ]
+"120
+[f ]
+"121
+[e $ ! == -> . . _T3CONbits 4 1 `i -> 1 `i 1849  ]
 "122
+{
+"124
 [e = . . _T3CONbits 1 0 -> -> 0 `i `uc ]
-"125
+"127
 [e = _TMR3H -> >> _timerVal -> 8 `i `uc ]
-"126
+"128
 [e = _TMR3L -> _timerVal `uc ]
-"129
+"131
 [e = . . _T3CONbits 1 0 -> -> 1 `i `uc ]
-"130
+"132
 }
 [e $U 1850  ]
-"131
+"133
 [e :U 1849 ]
-"132
-{
 "134
-[e = _TMR3H -> >> _timerVal -> 8 `i `uc ]
-"135
-[e = _TMR3L -> _timerVal `uc ]
+{
 "136
+[e = _TMR3H -> >> _timerVal -> 8 `i `uc ]
+"137
+[e = _TMR3L -> _timerVal `uc ]
+"138
 }
 [e :U 1850 ]
-"137
+"139
 [e :UE 1848 ]
 }
-"139
+"141
 [v _TMR3_Reload `(v ~T0 @X0 1 ef ]
-"140
+"142
 {
 [e :U _TMR3_Reload ]
 [f ]
-"141
+"143
 [e ( _TMR3_Write (1 -> _timer3ReloadVal `ui ]
-"142
+"144
 [e :UE 1851 ]
 }
-"144
+"146
 [v _TMR3_PeriodCountSet `(v ~T0 @X0 1 ef1`ui ]
-"145
+"147
 {
 [e :U _TMR3_PeriodCountSet ]
-"144
-[v _periodVal `ui ~T0 @X0 1 r1 ]
-"145
-[f ]
 "146
-[e = _timer3ReloadVal -> _periodVal `us ]
+[v _periodVal `ui ~T0 @X0 1 r1 ]
 "147
+[f ]
+"148
+[e = _timer3ReloadVal -> _periodVal `us ]
+"149
 [e :UE 1852 ]
 }
-"149
+"151
 [v _TMR3_StartSinglePulseAcquisition `(v ~T0 @X0 1 ef ]
-"150
+"152
 {
 [e :U _TMR3_StartSinglePulseAcquisition ]
 [f ]
-"151
+"153
 [e = . . _T3GCONbits 1 2 -> -> 1 `i `uc ]
-"152
+"154
 [e :UE 1853 ]
 }
-"154
+"156
 [v _TMR3_CheckGateValueStatus `(uc ~T0 @X0 1 ef ]
-"155
+"157
 {
 [e :U _TMR3_CheckGateValueStatus ]
 [f ]
-"156
+"158
 [e ) . . _T3GCONbits 1 1 ]
 [e $UE 1854  ]
-"157
+"159
 [e :UE 1854 ]
 }
-"160
-[v _TMR3_OverflowCallbackRegister `(v ~T0 @X0 1 ef1`*F12995 ]
 "161
-{
-[e :U _TMR3_OverflowCallbackRegister ]
-"160
-[v _CallbackHandler `*F12997 ~T0 @X0 1 r1 ]
-"161
-[f ]
+[v _TMR3_OverflowISR `(v ~T0 @X0 1 ef ]
 "162
-[e = _TMR3_OverflowCallback _CallbackHandler ]
-"163
+{
+[e :U _TMR3_OverflowISR ]
+[f ]
+"165
+[e = . . _PIR4bits 0 4 -> -> 0 `i `uc ]
+"167
+[e $ ! != _TMR3_OverflowCallback -> -> 0 `i `*F13293 1856  ]
+"168
+{
+"169
+[e ( *U _TMR3_OverflowCallback ..  ]
+"170
+}
+[e :U 1856 ]
+"171
 [e :UE 1855 ]
 }
-"165
+"173
+[v _TMR3_OverflowCallbackRegister `(v ~T0 @X0 1 ef1`*F13295 ]
+"174
+{
+[e :U _TMR3_OverflowCallbackRegister ]
+"173
+[v _CallbackHandler `*F13297 ~T0 @X0 1 r1 ]
+"174
+[f ]
+"175
+[e = _TMR3_OverflowCallback _CallbackHandler ]
+"176
+[e :UE 1857 ]
+}
+"178
 [v _TMR3_DefaultOverflowCallback `(v ~T0 @X0 1 sf ]
-"166
+"179
 {
 [e :U _TMR3_DefaultOverflowCallback ]
 [f ]
-"170
-[e :UE 1856 ]
+"188
+[e :UE 1858 ]
 }
-"172
+"190
 [v _TMR3_HasOverflowOccured `(a ~T0 @X0 1 ef ]
-"173
+"191
 {
 [e :U _TMR3_HasOverflowOccured ]
 [f ]
-"174
+"192
 [e ) -> . . _PIR4bits 0 4 `a ]
-[e $UE 1857  ]
-"175
-[e :UE 1857 ]
+[e $UE 1859  ]
+"193
+[e :UE 1859 ]
 }
-"177
+"195
 [v _TMR3_GateISR `(v ~T0 @X0 1 ef ]
-"178
+"196
 {
 [e :U _TMR3_GateISR ]
 [f ]
-"180
+"198
 [e = . . _PIR4bits 0 5 -> -> 0 `i `uc ]
-"181
-[e $ ! != _TMR3_GateCallback -> -> 0 `i `*F13002 1859  ]
-"182
+"199
+[e $ ! != _TMR3_GateCallback -> -> 0 `i `*F13302 1861  ]
+"200
 {
-"183
+"201
 [e ( *U _TMR3_GateCallback ..  ]
-"184
+"202
 }
-[e :U 1859 ]
-"185
-[e :UE 1858 ]
-}
-"187
-[v _TMR3_GateCallbackRegister `(v ~T0 @X0 1 ef1`*F13004 ]
-"188
-{
-[e :U _TMR3_GateCallbackRegister ]
-"187
-[v _CallbackHandler `*F13006 ~T0 @X0 1 r1 ]
-"188
-[f ]
-"189
-[e = _TMR3_GateCallback _CallbackHandler ]
-"190
+[e :U 1861 ]
+"203
 [e :UE 1860 ]
 }
-"192
+"205
+[v _TMR3_GateCallbackRegister `(v ~T0 @X0 1 ef1`*F13304 ]
+"206
+{
+[e :U _TMR3_GateCallbackRegister ]
+"205
+[v _CallbackHandler `*F13306 ~T0 @X0 1 r1 ]
+"206
+[f ]
+"207
+[e = _TMR3_GateCallback _CallbackHandler ]
+"208
+[e :UE 1862 ]
+}
+"210
 [v _TMR3_DefaultGateCallback `(v ~T0 @X0 1 sf ]
-"193
+"211
 {
 [e :U _TMR3_DefaultGateCallback ]
 [f ]
-"197
-[e :UE 1861 ]
-}
-"199
-[v _TMR3_Tasks `(v ~T0 @X0 1 ef ]
-"200
-{
-[e :U _TMR3_Tasks ]
-[f ]
-"201
-[e $ ! != -> . . _PIR4bits 0 4 `i -> 0 `i 1863  ]
-"202
-{
-"203
-[e = . . _PIR4bits 0 4 -> -> 0 `i `uc ]
-"204
-[e ( *U _TMR3_OverflowCallback ..  ]
-"205
-}
-[e :U 1863 ]
-"206
-[e :UE 1862 ]
+"214
+[e :UE 1863 ]
 }

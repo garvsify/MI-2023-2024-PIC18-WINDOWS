@@ -114,11 +114,13 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v F13293 `(v ~T0 @X0 0 tf ]
 [v F13295 `(v ~T0 @X0 0 tf ]
 [v F13297 `(v ~T0 @X0 0 tf ]
+"41860
+[v _LATC4 `Vb ~T0 @X0 0 e@9732 ]
 "55 ./mcc_generated_files/adc/adcc.h
 [v _ADCC_StartConversion `(v ~T0 @X0 0 ef1`E13102 ]
-"182 ./mcc_generated_files/timer/tmr3.h
+"176 ./mcc_generated_files/timer/tmr3.h
 [v _TMR3_Write `(v ~T0 @X0 0 ef1`ui ]
-"155
+"149
 [v _TMR3_Start `(v ~T0 @X0 0 ef ]
 [v F13303 `(v ~T0 @X0 0 tf ]
 [v F13305 `(v ~T0 @X0 0 tf ]
@@ -2006,144 +2008,146 @@ Version 4.0 HI-TECH Software Intermediate Code
 [f ]
 "129
 [e = . . _PIR3bits 0 4 -> -> 0 `i `uc ]
-"130
-[e ( _TMR1_Write (1 -> _timer1ReloadVal `ui ]
-"134
+"133
 [e $ ! != _TMR1_OverflowCallback -> -> 0 `i `*F13293 1856  ]
-"135
+"134
 {
-"136
+"135
 [e ( *U _TMR1_OverflowCallback ..  ]
-"137
+"136
 }
 [e :U 1856 ]
-"138
+"137
 [e :UE 1855 ]
 }
-"140
+"139
 [v _TMR1_OverflowCallbackRegister `(v ~T0 @X0 1 ef1`*F13295 ]
-"141
+"140
 {
 [e :U _TMR1_OverflowCallbackRegister ]
-"140
+"139
 [v _CallbackHandler `*F13297 ~T0 @X0 1 r1 ]
-"141
+"140
 [f ]
-"142
+"141
 [e = _TMR1_OverflowCallback _CallbackHandler ]
-"143
+"142
 [e :UE 1857 ]
 }
-"145
+"144
 [v _TMR1_DefaultOverflowCallback `(v ~T0 @X0 1 sf ]
-"146
+"145
 {
 [e :U _TMR1_DefaultOverflowCallback ]
 [f ]
-"150
+"148
+[e = _LATC4 -> -> 0 `i `b ]
+"149
+[e ( _TMR1_Stop ..  ]
+"151
 [e $ ! == -> *U _current_adcc_type_ptr `ui -> _waveshape_adc_config_value `ui 1859  ]
 {
-"152
+"153
 [e ( _ADCC_StartConversion (1 _waveshape_adc_config_value ]
-"154
+"155
 [e ++ _current_adcc_type_ptr * -> -> 1 `i `x -> -> # *U _current_adcc_type_ptr `i `x ]
-"156
+"157
 }
 [e $U 1860  ]
-"158
+"159
 [e :U 1859 ]
 [e $ ! == -> *U _current_adcc_type_ptr `ui -> _speed_adc_config_value `ui 1861  ]
 {
-"160
+"161
 [e ( _ADCC_StartConversion (1 _speed_adc_config_value ]
-"162
+"163
 [e ++ _current_adcc_type_ptr * -> -> 1 `i `x -> -> # *U _current_adcc_type_ptr `i `x ]
-"164
+"165
 }
 [e $U 1862  ]
-"166
+"167
 [e :U 1861 ]
 [e $ ! == -> *U _current_adcc_type_ptr `ui -> _depth_adc_config_value `ui 1863  ]
 {
-"174
+"175
 [e ++ _current_adcc_type_ptr * -> -> 1 `i `x -> -> # *U _current_adcc_type_ptr `i `x ]
-"176
+"177
 }
 [e $U 1864  ]
-"178
+"179
 [e :U 1863 ]
 [e $ ! == -> *U _current_adcc_type_ptr `ui -> _symmetry_adc_config_value `ui 1865  ]
 {
-"186
+"187
 [e = _current_adcc_type_ptr *U + &U _adcc_type_array * -> -> -> 0 `i `ui `ux -> -> # *U &U _adcc_type_array `ui `ux ]
-"188
+"189
 }
 [e :U 1865 ]
 [e :U 1864 ]
 [e :U 1862 ]
 [e :U 1860 ]
-"190
+"191
 [v _tmr3_value `ui ~T0 @X0 1 a ]
 [e = _tmr3_value -> -> 65450 `l `ui ]
-"192
-[e ( _TMR3_Write (1 _tmr3_value ]
 "193
+[e ( _TMR3_Write (1 _tmr3_value ]
+"194
 [e ( _TMR3_Start ..  ]
-"195
+"196
 [e :UE 1858 ]
 }
-"197
-[v _TMR1_HasOverflowOccured `(a ~T0 @X0 1 ef ]
 "198
+[v _TMR1_HasOverflowOccured `(a ~T0 @X0 1 ef ]
+"199
 {
 [e :U _TMR1_HasOverflowOccured ]
 [f ]
-"199
+"200
 [e ) -> . . _PIR3bits 0 4 `a ]
 [e $UE 1866  ]
-"200
+"201
 [e :UE 1866 ]
 }
-"202
-[v _TMR1_GateISR `(v ~T0 @X0 1 ef ]
 "203
+[v _TMR1_GateISR `(v ~T0 @X0 1 ef ]
+"204
 {
 [e :U _TMR1_GateISR ]
 [f ]
-"205
-[e = . . _PIR3bits 0 5 -> -> 0 `i `uc ]
 "206
-[e $ ! != _TMR1_GateCallback -> -> 0 `i `*F13303 1868  ]
+[e = . . _PIR3bits 0 5 -> -> 0 `i `uc ]
 "207
-{
+[e $ ! != _TMR1_GateCallback -> -> 0 `i `*F13303 1868  ]
 "208
-[e ( *U _TMR1_GateCallback ..  ]
+{
 "209
+[e ( *U _TMR1_GateCallback ..  ]
+"210
 }
 [e :U 1868 ]
-"210
+"211
 [e :UE 1867 ]
 }
-"212
-[v _TMR1_GateCallbackRegister `(v ~T0 @X0 1 ef1`*F13305 ]
 "213
+[v _TMR1_GateCallbackRegister `(v ~T0 @X0 1 ef1`*F13305 ]
+"214
 {
 [e :U _TMR1_GateCallbackRegister ]
-"212
-[v _CallbackHandler `*F13307 ~T0 @X0 1 r1 ]
 "213
-[f ]
+[v _CallbackHandler `*F13307 ~T0 @X0 1 r1 ]
 "214
-[e = _TMR1_GateCallback _CallbackHandler ]
+[f ]
 "215
+[e = _TMR1_GateCallback _CallbackHandler ]
+"216
 [e :UE 1869 ]
 }
-"217
-[v _TMR1_DefaultGateCallback `(v ~T0 @X0 1 sf ]
 "218
+[v _TMR1_DefaultGateCallback `(v ~T0 @X0 1 sf ]
+"219
 {
 [e :U _TMR1_DefaultGateCallback ]
 [f ]
-"221
+"222
 [e :UE 1870 ]
 }
