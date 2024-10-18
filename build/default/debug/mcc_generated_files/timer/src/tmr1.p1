@@ -114,8 +114,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v F13293 `(v ~T0 @X0 0 tf ]
 [v F13295 `(v ~T0 @X0 0 tf ]
 [v F13297 `(v ~T0 @X0 0 tf ]
-"41860
-[v _LATC4 `Vb ~T0 @X0 0 e@9732 ]
 "55 ./mcc_generated_files/adc/adcc.h
 [v _ADCC_StartConversion `(v ~T0 @X0 0 ef1`E13102 ]
 "176 ./mcc_generated_files/timer/tmr3.h
@@ -2040,8 +2038,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 {
 [e :U _TMR1_DefaultOverflowCallback ]
 [f ]
-"148
-[e = _LATC4 -> -> 0 `i `b ]
 "149
 [e ( _TMR1_Stop ..  ]
 "151

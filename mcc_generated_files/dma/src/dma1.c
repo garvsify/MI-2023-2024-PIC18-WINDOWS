@@ -228,13 +228,7 @@ void DMA1_DefaultInterruptHandler(void){
     // add your DMA1 interrupt custom code
     // or set custom function using DMA1_SCNTIInterruptHandlerSet() /DMA1_DCNTIInterruptHandlerSet() /DMA1_AIInterruptHandlerSet() /DMA1_ORIInterruptHandlerSet()
     
-    LATC5 = 1;
-    
     uint16_t index = 0;
-    
-    for(index = 0; index < 1000; index++){
-        
-    }
     
     uint16_t ADC_result; //concatenated ADC result
     ADC_result = (uint16_t)adres[0] + ((uint16_t)adres[1] << 8);
@@ -242,7 +236,7 @@ void DMA1_DefaultInterruptHandler(void){
     
     if(*current_dma_type_ptr == waveshape_adc_config_value){
         
-        if(ADC_result <= TRIANGLE_MODE_ADC_THRESHOLD){
+        /*if(ADC_result <= TRIANGLE_MODE_ADC_THRESHOLD){
             current_waveshape = TRIANGLE_MODE; //triangle wave
         }
         else if (ADC_result <= SINE_MODE_ADC_THRESHOLD){
@@ -253,7 +247,7 @@ void DMA1_DefaultInterruptHandler(void){
         }
         else{
             current_waveshape = SINE_MODE; //if error, return sine
-        }
+        }*/
         
         current_dma_type_ptr++;
         
@@ -300,7 +294,6 @@ void DMA1_DefaultInterruptHandler(void){
     
     TMR1_Write(tmr1_value);
     TMR1_Start(); //ADCC is triggered on overflow
-    LATC5 = 0;
     
 }
 /**

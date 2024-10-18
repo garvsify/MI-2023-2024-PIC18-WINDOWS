@@ -2032,61 +2032,61 @@ Version 4.0 HI-TECH Software Intermediate Code
 {
 [e :U _TMR3_DefaultOverflowCallback ]
 [f ]
-"188
+"183
 [e :UE 1858 ]
 }
-"190
+"185
 [v _TMR3_HasOverflowOccured `(a ~T0 @X0 1 ef ]
-"191
+"186
 {
 [e :U _TMR3_HasOverflowOccured ]
 [f ]
-"192
+"187
 [e ) -> . . _PIR4bits 0 4 `a ]
 [e $UE 1859  ]
-"193
+"188
 [e :UE 1859 ]
 }
-"195
+"190
 [v _TMR3_GateISR `(v ~T0 @X0 1 ef ]
-"196
+"191
 {
 [e :U _TMR3_GateISR ]
 [f ]
-"198
+"193
 [e = . . _PIR4bits 0 5 -> -> 0 `i `uc ]
-"199
+"194
 [e $ ! != _TMR3_GateCallback -> -> 0 `i `*F13302 1861  ]
-"200
+"195
 {
-"201
+"196
 [e ( *U _TMR3_GateCallback ..  ]
-"202
+"197
 }
 [e :U 1861 ]
-"203
+"198
 [e :UE 1860 ]
 }
-"205
+"200
 [v _TMR3_GateCallbackRegister `(v ~T0 @X0 1 ef1`*F13304 ]
-"206
+"201
 {
 [e :U _TMR3_GateCallbackRegister ]
-"205
+"200
 [v _CallbackHandler `*F13306 ~T0 @X0 1 r1 ]
-"206
+"201
 [f ]
-"207
+"202
 [e = _TMR3_GateCallback _CallbackHandler ]
-"208
+"203
 [e :UE 1862 ]
 }
-"210
+"205
 [v _TMR3_DefaultGateCallback `(v ~T0 @X0 1 sf ]
-"211
+"206
 {
 [e :U _TMR3_DefaultGateCallback ]
 [f ]
-"214
+"209
 [e :UE 1863 ]
 }

@@ -11,69 +11,69 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_9.o
-init CODE 0 1A 1A 4 1 2
-reset_vec CODE 0 0 0 6 1 2
-config CONFIG 4 300000 300000 9 1 1
 $dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 ivt0x8 CODE 0 8 8 12 1 2
-cinit CODE 0 3AE 3AE 6E 1 2
-text0 CODE 0 554 554 52 1 2
-text1 CODE 0 67C 67C 32 1 2
-text2 CODE 0 8F0 8F0 10 1 2
-text3 CODE 0 97C 97C 6 1 2
-text4 CODE 0 6AE 6AE 32 1 2
-text5 CODE 0 5A6 5A6 4E 1 2
-text6 CODE 0 90E 90E A 1 2
-text7 CODE 0 918 918 A 1 2
-text8 CODE 0 7D2 7D2 2A 1 2
-text9 CODE 0 922 922 A 1 2
-nvCOMRAM COMRAM 1 551 551 6 1 1
-text10 CODE 0 5F4 5F4 4E 1 2
-text11 CODE 0 92C 92C A 1 2
-text12 CODE 0 936 936 A 1 2
-text13 CODE 0 850 850 26 1 2
-text14 CODE 0 940 940 A 1 2
-text15 CODE 0 900 900 E 1 2
-text16 CODE 0 486 486 68 1 2
-text17 CODE 0 642 642 3A 1 2
-text18 CODE 0 94A 94A A 1 2
-text19 CODE 0 954 954 A 1 2
-text20 CODE 0 95E 95E A 1 2
-text21 CODE 0 41C 41C 6A 1 2
-text22 CODE 0 968 968 A 1 2
-text23 CODE 0 972 972 A 1 2
-text24 CODE 0 7A6 7A6 2C 1 2
-text25 CODE 0 896 896 1C 1 2
-text26 CODE 0 8B2 8B2 18 1 2
-text27 CODE 0 4EE 4EE 66 1 2
-text28 CODE 0 310 310 9E 1 2
-text29 CODE 0 6E0 6E0 32 1 2
-text30 CODE 0 712 712 32 1 2
-text31 CODE 0 268 268 A8 1 2
-text32 CODE 0 15A 15A 10E 1 2
-text33 CODE 0 998 998 2 1 2
-text34 CODE 0 99A 99A 2 1 2
-text35 CODE 0 7FC 7FC 2A 1 2
-text36 CODE 0 982 982 6 1 2
-text37 CODE 0 988 988 6 1 2
-text38 CODE 0 876 876 20 1 2
-text39 CODE 0 8CA 8CA 16 1 2
-text40 CODE 0 776 776 30 1 2
-text41 CODE 0 744 744 32 1 2
-text42 CODE 0 1E 1E 13C 1 2
-text43 CODE 0 826 826 2A 1 2
-text44 CODE 0 98E 98E 6 1 2
-nvBANK5 BANK5 1 560 560 14 1 1
-idataCOMRAM CODE 0 994 994 4 1 1
-cstackCOMRAM COMRAM 1 543 543 E 1 1
-cstackBANK5 BANK5 1 588 588 4 1 1
-bssBANK5 BANK5 1 584 584 4 1 1
-idataBANK5 CODE 0 8E0 8E0 10 1 1
-dataBANK5 BANK5 1 574 574 10 1 1
+cinit CODE 0 32A 32A 6E 1 2
+text0 CODE 0 4D0 4D0 50 1 2
+text1 CODE 0 5F6 5F6 32 1 2
+text2 CODE 0 868 868 10 1 2
+text3 CODE 0 8F4 8F4 6 1 2
+text4 CODE 0 628 628 32 1 2
+text5 CODE 0 520 520 4E 1 2
+text6 CODE 0 886 886 A 1 2
+text7 CODE 0 890 890 A 1 2
+text8 CODE 0 74A 74A 2A 1 2
+text9 CODE 0 89A 89A A 1 2
+nvCOMRAM COMRAM 1 54F 54F 8 1 1
+text10 CODE 0 56E 56E 4E 1 2
+text11 CODE 0 8A4 8A4 A 1 2
+text12 CODE 0 8AE 8AE A 1 2
+text13 CODE 0 7C8 7C8 26 1 2
+text14 CODE 0 8B8 8B8 A 1 2
+text15 CODE 0 878 878 E 1 2
+text16 CODE 0 402 402 68 1 2
+text17 CODE 0 5BC 5BC 3A 1 2
+text18 CODE 0 8C2 8C2 A 1 2
+text19 CODE 0 8CC 8CC A 1 2
+text20 CODE 0 8D6 8D6 A 1 2
+text21 CODE 0 398 398 6A 1 2
+text22 CODE 0 8E0 8E0 A 1 2
+text23 CODE 0 8EA 8EA A 1 2
+text24 CODE 0 71E 71E 2C 1 2
+text25 CODE 0 80E 80E 1C 1 2
+text26 CODE 0 82A 82A 18 1 2
+text27 CODE 0 46A 46A 66 1 2
+text28 CODE 0 28C 28C 9E 1 2
+text29 CODE 0 65A 65A 32 1 2
+text30 CODE 0 68C 68C 32 1 2
+text31 CODE 0 1E6 1E6 A6 1 2
+text32 CODE 0 1E 1E 10E 1 2
+text33 CODE 0 910 910 2 1 2
+text34 CODE 0 912 912 2 1 2
+text35 CODE 0 774 774 2A 1 2
+text36 CODE 0 8FA 8FA 6 1 2
+text37 CODE 0 900 900 6 1 2
+text38 CODE 0 7EE 7EE 20 1 2
+text39 CODE 0 842 842 16 1 2
+text40 CODE 0 6BE 6BE 30 1 2
+text41 CODE 0 6EE 6EE 30 1 2
+text42 CODE 0 12C 12C BA 1 2
+text43 CODE 0 79E 79E 2A 1 2
+text44 CODE 0 906 906 6 1 2
+nvBANK5 BANK5 1 560 560 12 1 1
+idataCOMRAM CODE 0 90C 90C 4 1 1
+cstackCOMRAM COMRAM 1 543 543 C 1 1
+cstackBANK5 BANK5 1 586 586 4 1 1
+bssBANK5 BANK5 1 582 582 4 1 1
+idataBANK5 CODE 0 858 858 10 1 1
+dataBANK5 BANK5 1 572 572 10 1 1
 dataCOMRAM COMRAM 1 557 557 4 1 1
 bssCOMRAM COMRAM 1 501 501 42 1 1
 mediumconst MEDIUMCONST 0 7DB8 7DB8 248 1 2
+config CONFIG 4 300000 300000 9 1 1
+$C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_9.o
+init CODE 0 1A 1A 4 1 2
+reset_vec CODE 0 0 0 6 1 2
 config CONFIG 4 300000 300000 9 1 1
 # %UNUSED Section
 # This section enumerates the unused ranges of each CLASS. Each entry
@@ -81,25 +81,25 @@ config CONFIG 4 300000 300000 9 1 1
 #    <class name> <range> <delta>
 # Addresses given in the range are in hexadecimal and units of delta.
 %UNUSED
-RAM 58C-CFF 1
+RAM 58A-CFF 1
 SFR 0-4FF 1
 SFR D00-DFF 1
-BANK5 58C-5FF 1
+BANK5 58A-5FF 1
 BANK6 600-6FF 1
 BANK7 700-7FF 1
 BANK8 800-8FF 1
 BANK9 900-9FF 1
 CONST 6-7 1
-CONST 99C-7DB7 1
+CONST 914-7DB7 1
 IDLOC 200000-20003F 1
 SMALLCONST D00-7DB7 1
 CODE 6-7 1
-CODE 99C-7DB7 1
+CODE 914-7DB7 1
 BANK10 A00-AFF 1
 BANK11 B00-BFF 1
 BANK12 C00-CFF 1
 BIGRAM 55B-55F 1
-BIGRAM 58C-CFF 1
+BIGRAM 58A-CFF 1
 BIGSFR 0-4FF 1
 BIGSFR D00-DFF 1
 COMRAM 55B-55F 1
@@ -120,454 +120,439 @@ MEDIUMCONST D00-7DB7 1
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-98E text44 CODE >57:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-98E text44 CODE >60:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-992 text44 CODE >61:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-826 text43 CODE >83:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-826 text43 CODE >85:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-836 text43 CODE >88:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-838 text43 CODE >91:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-83C text43 CODE >92:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-840 text43 CODE >95:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-842 text43 CODE >96:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-846 text43 CODE >100:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-84A text43 CODE >101:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-84E text43 CODE >103:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-1E text42 CODE >227:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-1E text42 CODE >231:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-20 text42 CODE >233:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-28 text42 CODE >235:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-30 text42 CODE >237:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-4A text42 CODE >240:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-56 text42 CODE >241:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-66 text42 CODE >243:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-80 text42 CODE >245:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-96 text42 CODE >246:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-9A text42 CODE >247:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-9E text42 CODE >248:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-B4 text42 CODE >249:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-B8 text42 CODE >250:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-BC text42 CODE >251:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-CE text42 CODE >252:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-D2 text42 CODE >258:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-D6 text42 CODE >260:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-DA text42 CODE >262:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-F4 text42 CODE >264:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-100 text42 CODE >270:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-11E text42 CODE >283:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-138 text42 CODE >295:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-144 text42 CODE >297:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-144 text42 CODE >299:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-144 text42 CODE >301:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-150 text42 CODE >302:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-154 text42 CODE >303:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-156 text42 CODE >304:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-158 text42 CODE >306:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-744 text41 CODE >213:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-744 text41 CODE >216:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-746 text41 CODE >218:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-75A text41 CODE >219:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-774 text41 CODE >220:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-776 text40 CODE >31:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/pwm/src/ccp1.c
-776 text40 CODE >33:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/pwm/src/ccp1.c
-77E text40 CODE >36:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/pwm/src/ccp1.c
-78E text40 CODE >38:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/pwm/src/ccp1.c
-79C text40 CODE >39:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/pwm/src/ccp1.c
-7A0 text40 CODE >40:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/pwm/src/ccp1.c
-7A4 text40 CODE >47:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/pwm/src/ccp1.c
-8CA text39 CODE >82:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-8CA text39 CODE >85:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-8DE text39 CODE >86:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-876 text38 CODE >70:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-878 text38 CODE >73:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-88C text38 CODE >76:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-890 text38 CODE >79:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-894 text38 CODE >80:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-988 text37 CODE >63:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-988 text37 CODE >66:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-98C text37 CODE >67:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-982 text36 CODE >93:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-982 text36 CODE >96:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-986 text36 CODE >97:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-7FC text35 CODE >119:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-7FC text35 CODE >121:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-80C text35 CODE >124:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-80E text35 CODE >127:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-812 text35 CODE >128:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-816 text35 CODE >131:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-818 text35 CODE >132:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-81C text35 CODE >136:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-820 text35 CODE >137:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-824 text35 CODE >139:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-99A text34 CODE >178:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-99A text34 CODE >188:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-998 text33 CODE >106:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
-998 text33 CODE >110:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
-15A text32 CODE >129:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-15A text32 CODE >131:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-15E text32 CODE >133:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-160 text32 CODE >135:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-170 text32 CODE >136:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-18C text32 CODE >137:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-190 text32 CODE >138:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-1A0 text32 CODE >139:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-1BC text32 CODE >140:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-1C0 text32 CODE >141:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-1D2 text32 CODE >142:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-1D8 text32 CODE >144:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-1EA text32 CODE >145:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-1EE text32 CODE >146:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-1F2 text32 CODE >147:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-202 text32 CODE >148:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-206 text32 CODE >149:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-216 text32 CODE >150:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-21A text32 CODE >151:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-21E text32 CODE >153:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-222 text32 CODE >155:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-222 text32 CODE >156:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-232 text32 CODE >157:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-234 text32 CODE >158:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-238 text32 CODE >160:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-23A text32 CODE >162:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-24A text32 CODE >163:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-25A text32 CODE >181:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-266 text32 CODE >185:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-268 text31 CODE >144:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-268 text31 CODE >148:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-26A text31 CODE >149:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-26E text31 CODE >151:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-288 text31 CODE >153:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-28E text31 CODE >155:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-292 text31 CODE >157:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-296 text31 CODE >159:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-2B0 text31 CODE >161:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-2BA text31 CODE >167:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-2D8 text31 CODE >179:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-2F2 text31 CODE >187:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-2FE text31 CODE >189:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-2FE text31 CODE >191:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-2FE text31 CODE >193:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-30A text31 CODE >194:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-30E text31 CODE >196:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-712 text30 CODE >90:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-712 text30 CODE >93:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-714 text30 CODE >94:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-728 text30 CODE >96:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-742 text30 CODE >98:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-6E0 text29 CODE >125:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-6E0 text29 CODE >129:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-6E2 text29 CODE >133:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-6F6 text29 CODE >135:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-710 text29 CODE >137:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-310 text28 CODE >51:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-328 text28 CODE >54:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-32A text28 CODE >57:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-346 text28 CODE >59:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-34A text28 CODE >60:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-34E text28 CODE >61:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-36A text28 CODE >63:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-36E text28 CODE >64:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-372 text28 CODE >65:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-38E text28 CODE >67:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-392 text28 CODE >76:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-392 text28 CODE >78:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-394 text28 CODE >79:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-4EE text27 CODE >9:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-4EE text27 CODE >13:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-4F4 text27 CODE >15:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-4F8 text27 CODE >17:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-4FC text27 CODE >19:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-500 text27 CODE >21:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-504 text27 CODE >23:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-508 text27 CODE >25:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-50C text27 CODE >27:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-510 text27 CODE >29:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-514 text27 CODE >31:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-518 text27 CODE >33:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-51C text27 CODE >35:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-520 text27 CODE >37:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-524 text27 CODE >39:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-528 text27 CODE >41:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-52C text27 CODE >43:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-530 text27 CODE >45:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-534 text27 CODE >47:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-538 text27 CODE >49:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-53C text27 CODE >51:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-540 text27 CODE >53:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-544 text27 CODE >55:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-548 text27 CODE >57:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-54A text27 CODE >58:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-54C text27 CODE >61:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-54E text27 CODE >64:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-550 text27 CODE >67:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-552 text27 CODE >68:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
-8B2 text26 CODE >14:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/pwm/src/ccp1.c
-8B2 text26 CODE >19:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/pwm/src/ccp1.c
-8B8 text26 CODE >22:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/pwm/src/ccp1.c
-8BC text26 CODE >25:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/pwm/src/ccp1.c
-8C0 text26 CODE >28:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/pwm/src/ccp1.c
-8C8 text26 CODE >29:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/pwm/src/ccp1.c
-896 text25 CODE >4:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/clock.c
-896 text25 CODE >7:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/clock.c
-89C text25 CODE >9:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/clock.c
-8A0 text25 CODE >11:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/clock.c
-8A4 text25 CODE >18:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/clock.c
-8A8 text25 CODE >19:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/clock.c
-8AC text25 CODE >20:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/clock.c
-8B0 text25 CODE >23:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/clock.c
-7A6 text24 CODE >35:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
-7A6 text24 CODE >38:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
-7AC text24 CODE >40:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
-7B0 text24 CODE >42:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
-7B4 text24 CODE >44:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
-7B8 text24 CODE >46:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
-7BC text24 CODE >48:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
-7C0 text24 CODE >50:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
-7C4 text24 CODE >52:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
-7C8 text24 CODE >54:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
-7CC text24 CODE >56:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
-7D0 text24 CODE >57:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
-972 text23 CODE >222:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-972 text23 CODE >224:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-97A text23 CODE >225:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-968 text22 CODE >208:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-968 text22 CODE >210:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-970 text22 CODE >211:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-41C text21 CODE >23:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-41C text21 CODE >27:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-422 text21 CODE >29:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-42E text21 CODE >31:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-436 text21 CODE >33:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-43A text21 CODE >35:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-442 text21 CODE >37:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-44A text21 CODE >39:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-44E text21 CODE >41:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-452 text21 CODE >44:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-454 text21 CODE >46:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-456 text21 CODE >48:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-458 text21 CODE >50:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-45A text21 CODE >52:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-45C text21 CODE >53:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-46A text21 CODE >54:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-46C text21 CODE >55:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-47A text21 CODE >56:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-47C text21 CODE >57:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-47E text21 CODE >60:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-484 text21 CODE >62:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
-95E text20 CODE >99:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-95E text20 CODE >100:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-966 text20 CODE >101:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-954 text19 CODE >125:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-954 text19 CODE >126:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-95C text19 CODE >127:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-94A text18 CODE >151:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-94A text18 CODE >152:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-952 text18 CODE >153:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-642 text17 CODE >13:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-642 text17 CODE >16:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-644 text17 CODE >20:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-646 text17 CODE >21:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-648 text17 CODE >23:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-656 text17 CODE >28:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-658 text17 CODE >29:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-65A text17 CODE >31:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-668 text17 CODE >36:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-66A text17 CODE >37:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-66C text17 CODE >39:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-67A text17 CODE >42:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
-486 text16 CODE >21:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
-486 text16 CODE >26:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
-48A text16 CODE >27:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
-48E text16 CODE >31:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
-494 text16 CODE >32:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
-498 text16 CODE >37:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
-49C text16 CODE >38:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
-4A0 text16 CODE >43:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
-4A4 text16 CODE >44:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
-4A8 text16 CODE >49:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
-4AC text16 CODE >50:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
-4B0 text16 CODE >56:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
-4B4 text16 CODE >57:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
-4B8 text16 CODE >62:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
-4BC text16 CODE >63:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
-4C0 text16 CODE >68:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
-4C6 text16 CODE >69:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
-4CA text16 CODE >73:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
-4CE text16 CODE >74:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
-4D2 text16 CODE >79:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
-4D8 text16 CODE >80:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
-4DC text16 CODE >81:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
-4E0 text16 CODE >82:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
-4E4 text16 CODE >83:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
-4E8 text16 CODE >84:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
-4EC text16 CODE >87:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
-900 text15 CODE >60:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
-900 text15 CODE >63:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
-906 text15 CODE >64:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
-90A text15 CODE >65:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
-90C text15 CODE >66:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
-940 text14 CODE >100:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-940 text14 CODE >102:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-948 text14 CODE >103:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-850 text13 CODE >33:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-850 text13 CODE >36:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-854 text13 CODE >39:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-858 text13 CODE >42:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-85C text13 CODE >46:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-86A text13 CODE >49:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-86C text13 CODE >52:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-86E text13 CODE >55:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-874 text13 CODE >56:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-936 text12 CODE >213:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-936 text12 CODE >215:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-93E text12 CODE >216:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-92C text11 CODE >139:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-92C text11 CODE >141:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-934 text11 CODE >142:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-5F4 text10 CODE >24:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-5F4 text10 CODE >27:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-5F8 text10 CODE >29:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-5FC text10 CODE >31:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-600 text10 CODE >33:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-604 text10 CODE >35:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-606 text10 CODE >37:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-60A text10 CODE >40:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-61A text10 CODE >43:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-628 text10 CODE >46:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-636 text10 CODE >49:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-638 text10 CODE >51:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-63A text10 CODE >54:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-640 text10 CODE >55:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-922 text9 CODE >101:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
-922 text9 CODE >103:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
-92A text9 CODE >104:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
-7D2 text8 CODE >20:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
-7D2 text8 CODE >24:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
-7D8 text8 CODE >26:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
-7DC text8 CODE >28:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
-7E0 text8 CODE >30:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
-7E2 text8 CODE >32:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
-7E6 text8 CODE >35:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
-7F4 text8 CODE >45:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
-7FA text8 CODE >46:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
-918 text7 CODE >205:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-918 text7 CODE >207:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-920 text7 CODE >208:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-90E text6 CODE >173:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-90E text6 CODE >175:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-916 text6 CODE >176:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-5A6 text5 CODE >60:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-5A6 text5 CODE >63:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-5AA text5 CODE >65:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-5AE text5 CODE >67:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-5B2 text5 CODE >69:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-5B6 text5 CODE >71:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-5B8 text5 CODE >73:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-5BC text5 CODE >76:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-5CC text5 CODE >79:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-5DA text5 CODE >82:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-5E8 text5 CODE >85:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-5EA text5 CODE >87:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-5EC text5 CODE >90:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-5F2 text5 CODE >91:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
-6AE text4 CODE >19:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
-6AE text4 CODE >21:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
-6B2 text4 CODE >22:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
-6B6 text4 CODE >23:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
-6BA text4 CODE >24:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
-6BE text4 CODE >25:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
-6C2 text4 CODE >26:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
-6C6 text4 CODE >27:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
-6CA text4 CODE >28:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
-6CE text4 CODE >29:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
-6D2 text4 CODE >30:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
-6D6 text4 CODE >31:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
-6DA text4 CODE >32:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
-6DE text4 CODE >33:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
-97C text3 CODE >58:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-97C text3 CODE >60:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-980 text3 CODE >61:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
-8F0 text2 CODE >57:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-8FA text2 CODE >60:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-8FE text2 CODE >61:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-67C text1 CODE >83:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-67C text1 CODE >85:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-68C text1 CODE >88:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-68E text1 CODE >91:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-696 text1 CODE >92:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-69A text1 CODE >95:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-69C text1 CODE >96:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-6A0 text1 CODE >100:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-6A8 text1 CODE >101:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-6AC text1 CODE >103:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
-554 text0 CODE >38:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\main.c
-554 text0 CODE >40:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\main.c
-558 text0 CODE >47:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\main.c
-560 text0 CODE >48:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\main.c
-568 text0 CODE >50:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\main.c
-568 text0 CODE >52:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\main.c
-576 text0 CODE >53:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\main.c
-57A text0 CODE >54:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\main.c
-57C text0 CODE >56:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\main.c
-586 text0 CODE >57:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\main.c
-596 text0 CODE >58:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\main.c
-59A text0 CODE >60:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\main.c
-59C text0 CODE >62:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\main.c
-59C text0 CODE >69:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\main.c
-3AE cinit CODE >19524:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3AE cinit CODE >19526:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3AE cinit CODE >19529:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3AE cinit CODE >19702:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3B0 cinit CODE >19703:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3B2 cinit CODE >19704:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3B4 cinit CODE >19705:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3B6 cinit CODE >19706:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3B8 cinit CODE >19707:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3BA cinit CODE >19708:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3BE cinit CODE >19709:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3C2 cinit CODE >19710:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3C2 cinit CODE >19711:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3C4 cinit CODE >19712:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3C8 cinit CODE >19713:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3CA cinit CODE >19714:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3CC cinit CODE >19715:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3CE cinit CODE >19719:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3D0 cinit CODE >19720:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3D2 cinit CODE >19721:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3D4 cinit CODE >19722:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3D6 cinit CODE >19723:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3D8 cinit CODE >19724:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3DA cinit CODE >19725:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3DE cinit CODE >19726:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3E2 cinit CODE >19727:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3E2 cinit CODE >19728:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3E4 cinit CODE >19729:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3E8 cinit CODE >19730:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3EA cinit CODE >19731:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3EC cinit CODE >19732:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3EE cinit CODE >19736:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3F0 cinit CODE >19737:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3F2 cinit CODE >19738:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3F4 cinit CODE >19739:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3F6 cinit CODE >19740:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3F8 cinit CODE >19743:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3FC cinit CODE >19744:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3FE cinit CODE >19745:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-3FE cinit CODE >19746:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-400 cinit CODE >19747:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-402 cinit CODE >19748:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-404 cinit CODE >19756:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-406 cinit CODE >19757:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-408 cinit CODE >19758:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-40A cinit CODE >19759:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-40C cinit CODE >19760:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-40E cinit CODE >19761:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-410 cinit CODE >19762:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-412 cinit CODE >19768:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-412 cinit CODE >19771:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-414 cinit CODE >19772:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-416 cinit CODE >19773:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
-418 cinit CODE >19774:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_1.s
+906 text44 CODE >57:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+906 text44 CODE >60:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+90A text44 CODE >61:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+79E text43 CODE >83:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+79E text43 CODE >85:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+7AE text43 CODE >88:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+7B0 text43 CODE >91:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+7B4 text43 CODE >92:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+7B8 text43 CODE >95:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+7BA text43 CODE >96:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+7BE text43 CODE >100:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+7C2 text43 CODE >101:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+7C6 text43 CODE >103:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+12C text42 CODE >227:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+12C text42 CODE >231:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+12C text42 CODE >234:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+138 text42 CODE >235:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+148 text42 CODE >237:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+162 text42 CODE >252:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+166 text42 CODE >254:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+16A text42 CODE >256:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+184 text42 CODE >258:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+190 text42 CODE >264:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+1AE text42 CODE >277:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+1C8 text42 CODE >289:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+1D4 text42 CODE >291:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+1D4 text42 CODE >293:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+1D4 text42 CODE >295:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+1E0 text42 CODE >296:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+1E4 text42 CODE >298:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+6EE text41 CODE >213:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+6EE text41 CODE >216:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+6F0 text41 CODE >218:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+702 text41 CODE >219:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+71C text41 CODE >220:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+6BE text40 CODE >31:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/pwm/src/ccp1.c
+6BE text40 CODE >33:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/pwm/src/ccp1.c
+6C6 text40 CODE >36:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/pwm/src/ccp1.c
+6D6 text40 CODE >38:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/pwm/src/ccp1.c
+6E4 text40 CODE >39:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/pwm/src/ccp1.c
+6E8 text40 CODE >40:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/pwm/src/ccp1.c
+6EC text40 CODE >47:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/pwm/src/ccp1.c
+842 text39 CODE >82:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+842 text39 CODE >85:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+856 text39 CODE >86:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+7EE text38 CODE >70:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+7F0 text38 CODE >73:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+804 text38 CODE >76:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+808 text38 CODE >79:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+80C text38 CODE >80:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+900 text37 CODE >63:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+900 text37 CODE >66:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+904 text37 CODE >67:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+8FA text36 CODE >93:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+8FA text36 CODE >96:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+8FE text36 CODE >97:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+774 text35 CODE >119:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+774 text35 CODE >121:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+784 text35 CODE >124:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+786 text35 CODE >127:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+78A text35 CODE >128:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+78E text35 CODE >131:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+790 text35 CODE >132:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+794 text35 CODE >136:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+798 text35 CODE >137:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+79C text35 CODE >139:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+912 text34 CODE >178:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+912 text34 CODE >183:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+910 text33 CODE >106:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
+910 text33 CODE >110:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
+1E text32 CODE >129:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+1E text32 CODE >131:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+22 text32 CODE >133:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+24 text32 CODE >135:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+34 text32 CODE >136:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+50 text32 CODE >137:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+54 text32 CODE >138:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+64 text32 CODE >139:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+80 text32 CODE >140:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+84 text32 CODE >141:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+96 text32 CODE >142:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+9C text32 CODE >144:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+AE text32 CODE >145:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+B2 text32 CODE >146:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+B6 text32 CODE >147:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+C6 text32 CODE >148:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+CA text32 CODE >149:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+DA text32 CODE >150:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+DE text32 CODE >151:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+E2 text32 CODE >153:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+E6 text32 CODE >155:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+E6 text32 CODE >156:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+F6 text32 CODE >157:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+F8 text32 CODE >158:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+FC text32 CODE >160:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+FE text32 CODE >162:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+10E text32 CODE >163:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+11E text32 CODE >183:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+12A text32 CODE >187:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+1E6 text31 CODE >144:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+1E6 text31 CODE >149:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+1EA text31 CODE >151:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+204 text31 CODE >153:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+20A text31 CODE >155:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+20E text31 CODE >157:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+212 text31 CODE >159:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+22C text31 CODE >161:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+236 text31 CODE >167:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+254 text31 CODE >179:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+26E text31 CODE >187:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+27A text31 CODE >189:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+27A text31 CODE >191:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+27A text31 CODE >193:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+286 text31 CODE >194:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+28A text31 CODE >196:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+68C text30 CODE >90:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+68C text30 CODE >93:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+68E text30 CODE >94:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+6A2 text30 CODE >96:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+6BC text30 CODE >98:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+65A text29 CODE >125:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+65A text29 CODE >129:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+65C text29 CODE >133:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+670 text29 CODE >135:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+68A text29 CODE >137:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+28C text28 CODE >51:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+2A4 text28 CODE >54:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+2A6 text28 CODE >57:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+2C2 text28 CODE >59:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+2C6 text28 CODE >60:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+2CA text28 CODE >61:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+2E6 text28 CODE >63:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+2EA text28 CODE >64:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+2EE text28 CODE >65:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+30A text28 CODE >67:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+30E text28 CODE >76:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+30E text28 CODE >78:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+310 text28 CODE >79:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+46A text27 CODE >9:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+46A text27 CODE >13:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+470 text27 CODE >15:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+474 text27 CODE >17:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+478 text27 CODE >19:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+47C text27 CODE >21:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+480 text27 CODE >23:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+484 text27 CODE >25:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+488 text27 CODE >27:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+48C text27 CODE >29:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+490 text27 CODE >31:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+494 text27 CODE >33:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+498 text27 CODE >35:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+49C text27 CODE >37:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+4A0 text27 CODE >39:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+4A4 text27 CODE >41:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+4A8 text27 CODE >43:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+4AC text27 CODE >45:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+4B0 text27 CODE >47:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+4B4 text27 CODE >49:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+4B8 text27 CODE >51:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+4BC text27 CODE >53:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+4C0 text27 CODE >55:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+4C4 text27 CODE >57:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+4C6 text27 CODE >58:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+4C8 text27 CODE >61:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+4CA text27 CODE >64:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+4CC text27 CODE >67:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+4CE text27 CODE >68:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+82A text26 CODE >14:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/pwm/src/ccp1.c
+82A text26 CODE >19:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/pwm/src/ccp1.c
+830 text26 CODE >22:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/pwm/src/ccp1.c
+834 text26 CODE >25:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/pwm/src/ccp1.c
+838 text26 CODE >28:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/pwm/src/ccp1.c
+840 text26 CODE >29:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/pwm/src/ccp1.c
+80E text25 CODE >4:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/clock.c
+80E text25 CODE >7:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/clock.c
+814 text25 CODE >9:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/clock.c
+818 text25 CODE >11:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/clock.c
+81C text25 CODE >18:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/clock.c
+820 text25 CODE >19:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/clock.c
+824 text25 CODE >20:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/clock.c
+828 text25 CODE >23:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/clock.c
+71E text24 CODE >35:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+71E text24 CODE >38:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+724 text24 CODE >40:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+728 text24 CODE >42:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+72C text24 CODE >44:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+730 text24 CODE >46:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+734 text24 CODE >48:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+738 text24 CODE >50:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+73C text24 CODE >52:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+740 text24 CODE >54:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+744 text24 CODE >56:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+748 text24 CODE >57:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+8EA text23 CODE >222:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+8EA text23 CODE >224:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+8F2 text23 CODE >225:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+8E0 text22 CODE >208:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+8E0 text22 CODE >210:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+8E8 text22 CODE >211:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+398 text21 CODE >23:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+398 text21 CODE >27:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+39E text21 CODE >29:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+3AA text21 CODE >31:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+3B2 text21 CODE >33:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+3B6 text21 CODE >35:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+3BE text21 CODE >37:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+3C6 text21 CODE >39:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+3CA text21 CODE >41:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+3CE text21 CODE >44:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+3D0 text21 CODE >46:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+3D2 text21 CODE >48:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+3D4 text21 CODE >50:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+3D6 text21 CODE >52:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+3D8 text21 CODE >53:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+3E6 text21 CODE >54:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+3E8 text21 CODE >55:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+3F6 text21 CODE >56:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+3F8 text21 CODE >57:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+3FA text21 CODE >60:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+400 text21 CODE >62:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+8D6 text20 CODE >99:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+8D6 text20 CODE >100:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+8DE text20 CODE >101:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+8CC text19 CODE >125:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+8CC text19 CODE >126:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+8D4 text19 CODE >127:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+8C2 text18 CODE >151:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+8C2 text18 CODE >152:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+8CA text18 CODE >153:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+5BC text17 CODE >13:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+5BC text17 CODE >16:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+5BE text17 CODE >20:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+5C0 text17 CODE >21:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+5C2 text17 CODE >23:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+5D0 text17 CODE >28:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+5D2 text17 CODE >29:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+5D4 text17 CODE >31:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+5E2 text17 CODE >36:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+5E4 text17 CODE >37:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+5E6 text17 CODE >39:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+5F4 text17 CODE >42:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+402 text16 CODE >21:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
+402 text16 CODE >26:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
+406 text16 CODE >27:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
+40A text16 CODE >31:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
+410 text16 CODE >32:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
+414 text16 CODE >37:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
+418 text16 CODE >38:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
+41C text16 CODE >43:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
+420 text16 CODE >44:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
+424 text16 CODE >49:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
+428 text16 CODE >50:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
+42C text16 CODE >56:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
+430 text16 CODE >57:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
+434 text16 CODE >62:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
+438 text16 CODE >63:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
+43C text16 CODE >68:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
+442 text16 CODE >69:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
+446 text16 CODE >73:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
+44A text16 CODE >74:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
+44E text16 CODE >79:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
+454 text16 CODE >80:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
+458 text16 CODE >81:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
+45C text16 CODE >82:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
+460 text16 CODE >83:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
+464 text16 CODE >84:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
+468 text16 CODE >87:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
+878 text15 CODE >60:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+878 text15 CODE >63:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+87E text15 CODE >64:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+882 text15 CODE >65:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+884 text15 CODE >66:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+8B8 text14 CODE >100:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+8B8 text14 CODE >102:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+8C0 text14 CODE >103:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+7C8 text13 CODE >33:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+7C8 text13 CODE >36:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+7CC text13 CODE >39:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+7D0 text13 CODE >42:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+7D4 text13 CODE >46:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+7E2 text13 CODE >49:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+7E4 text13 CODE >52:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+7E6 text13 CODE >55:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+7EC text13 CODE >56:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+8AE text12 CODE >213:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+8AE text12 CODE >215:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+8B6 text12 CODE >216:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+8A4 text11 CODE >139:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+8A4 text11 CODE >141:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+8AC text11 CODE >142:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+56E text10 CODE >24:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+56E text10 CODE >27:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+572 text10 CODE >29:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+576 text10 CODE >31:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+57A text10 CODE >33:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+57E text10 CODE >35:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+580 text10 CODE >37:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+584 text10 CODE >40:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+594 text10 CODE >43:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+5A2 text10 CODE >46:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+5B0 text10 CODE >49:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+5B2 text10 CODE >51:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+5B4 text10 CODE >54:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+5BA text10 CODE >55:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+89A text9 CODE >101:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
+89A text9 CODE >103:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
+8A2 text9 CODE >104:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
+74A text8 CODE >20:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
+74A text8 CODE >24:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
+750 text8 CODE >26:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
+754 text8 CODE >28:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
+758 text8 CODE >30:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
+75A text8 CODE >32:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
+75E text8 CODE >35:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
+76C text8 CODE >45:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
+772 text8 CODE >46:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
+890 text7 CODE >200:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+890 text7 CODE >202:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+898 text7 CODE >203:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+886 text6 CODE >173:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+886 text6 CODE >175:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+88E text6 CODE >176:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+520 text5 CODE >60:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+520 text5 CODE >63:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+524 text5 CODE >65:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+528 text5 CODE >67:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+52C text5 CODE >69:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+530 text5 CODE >71:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+532 text5 CODE >73:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+536 text5 CODE >76:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+546 text5 CODE >79:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+554 text5 CODE >82:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+562 text5 CODE >85:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+564 text5 CODE >87:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+566 text5 CODE >90:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+56C text5 CODE >91:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+628 text4 CODE >19:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+628 text4 CODE >21:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+62C text4 CODE >22:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+630 text4 CODE >23:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+634 text4 CODE >24:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+638 text4 CODE >25:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+63C text4 CODE >26:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+640 text4 CODE >27:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+644 text4 CODE >28:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+648 text4 CODE >29:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+64C text4 CODE >30:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+650 text4 CODE >31:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+654 text4 CODE >32:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+658 text4 CODE >33:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+8F4 text3 CODE >58:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+8F4 text3 CODE >60:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+8F8 text3 CODE >61:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+868 text2 CODE >57:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+872 text2 CODE >60:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+876 text2 CODE >61:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+5F6 text1 CODE >83:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+5F6 text1 CODE >85:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+606 text1 CODE >88:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+608 text1 CODE >91:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+610 text1 CODE >92:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+614 text1 CODE >95:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+616 text1 CODE >96:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+61A text1 CODE >100:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+622 text1 CODE >101:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+626 text1 CODE >103:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+4D0 text0 CODE >38:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\main.c
+4D0 text0 CODE >40:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\main.c
+4D4 text0 CODE >47:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\main.c
+4DC text0 CODE >48:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\main.c
+4E4 text0 CODE >50:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\main.c
+4E4 text0 CODE >52:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\main.c
+4F2 text0 CODE >53:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\main.c
+4F6 text0 CODE >56:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\main.c
+500 text0 CODE >57:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\main.c
+510 text0 CODE >58:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\main.c
+514 text0 CODE >60:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\main.c
+516 text0 CODE >62:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\main.c
+516 text0 CODE >69:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\main.c
+32A cinit CODE >19520:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+32A cinit CODE >19522:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+32A cinit CODE >19525:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+32A cinit CODE >19698:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+32C cinit CODE >19699:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+32E cinit CODE >19700:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+330 cinit CODE >19701:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+332 cinit CODE >19702:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+334 cinit CODE >19703:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+336 cinit CODE >19704:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+33A cinit CODE >19705:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+33E cinit CODE >19706:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+33E cinit CODE >19707:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+340 cinit CODE >19708:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+344 cinit CODE >19709:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+346 cinit CODE >19710:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+348 cinit CODE >19711:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+34A cinit CODE >19715:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+34C cinit CODE >19716:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+34E cinit CODE >19717:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+350 cinit CODE >19718:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+352 cinit CODE >19719:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+354 cinit CODE >19720:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+356 cinit CODE >19721:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+35A cinit CODE >19722:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+35E cinit CODE >19723:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+35E cinit CODE >19724:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+360 cinit CODE >19725:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+364 cinit CODE >19726:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+366 cinit CODE >19727:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+368 cinit CODE >19728:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+36A cinit CODE >19732:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+36C cinit CODE >19733:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+36E cinit CODE >19734:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+370 cinit CODE >19735:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+372 cinit CODE >19736:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+374 cinit CODE >19739:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+378 cinit CODE >19740:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+37A cinit CODE >19741:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+37A cinit CODE >19742:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+37C cinit CODE >19743:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+37E cinit CODE >19744:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+380 cinit CODE >19752:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+382 cinit CODE >19753:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+384 cinit CODE >19754:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+386 cinit CODE >19755:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+388 cinit CODE >19756:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+38A cinit CODE >19757:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+38C cinit CODE >19758:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+38E cinit CODE >19764:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+38E cinit CODE >19767:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+390 cinit CODE >19768:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+392 cinit CODE >19769:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
+394 cinit CODE >19770:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_1.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -580,27 +565,27 @@ F4 text42 CODE >264:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_gene
 # was defined in a psect then <psect> will be "-". File-name
 # is the name of the object file in which the symbol was defined.
 %SYMTAB
-TMR3_OverflowCallbackRegister@CallbackHandler 588 0 BANK5 1 cstackBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+TMR3_OverflowCallbackRegister@CallbackHandler 586 0 BANK5 1 cstackBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _TMR3_PeriodCountSet 0 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __LdataBANK5 0 0 ABS 0 dataBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Lmediumconst 7DB8 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _TMR1_OverflowCallback 566 0 BANK5 1 nvBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hspace_0 8000 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__Hspace_1 58C 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__Hspace_1 58A 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hspace_2 0 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hspace_4 600009 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __HidataBANK5 0 0 ABS 0 idataBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__mediumconst 7DB8 0 MEDIUMCONST 0 mediumconst C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_9.o
+__mediumconst 7DB8 0 MEDIUMCONST 0 mediumconst C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_9.o
 _INT0_DefaultInterruptHandler 0 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_CCP1_Initialize 8CA 0 CODE 0 text26 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_CCP1_Initialize 842 0 CODE 0 text26 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _DMASELECT E8 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_INTERRUPT_Initialize 67C 0 CODE 0 text17 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_INTERRUPT_Initialize 5F6 0 CODE 0 text17 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _T1CONbits 314 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _NO 7FF6 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __L__absolute__ 0 0 ABS 0 __absolute__ dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-TMR1_OverflowCallbackRegister@CallbackHandler 588 0 BANK5 1 cstackBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+TMR1_OverflowCallbackRegister@CallbackHandler 586 0 BANK5 1 cstackBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _TMR3_GateCallback 560 0 BANK5 1 nvBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _LATA 4BE 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
@@ -609,64 +594,64 @@ _T2PR 31D 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _TMR2 31C 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _WPUA 401 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _WPUC 411 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-___sp 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_9.o
+___sp 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_9.o
 _duty 527 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_main 554 0 CODE 0 text0 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_main 4D0 0 CODE 0 text0 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _res0 53C 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _res1 53B 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _res2 53A 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _res3 539 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-___stack_hi 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_9.o
-___stack_lo 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_9.o
-start 1A 0 CODE 0 init C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_9.o
-__end_of_TMR1_Stop 98E 0 CODE 0 text37 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_TMR1_Start 8F0 0 CODE 0 text2 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+___stack_hi 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_9.o
+___stack_lo 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_9.o
+start 1A 0 CODE 0 init C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_9.o
+__end_of_TMR1_Stop 906 0 CODE 0 text37 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_TMR1_Start 868 0 CODE 0 text2 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _current_dma_type_ptr 553 0 COMRAM 1 nvCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_TMR1_Write 67C 0 CODE 0 text1 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_TMR1_Write 5F6 0 CODE 0 text1 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _TMR0_base_prescaler_bits_index 533 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-INT2_SetInterruptHandler@InterruptHandler 588 0 BANK5 1 cstackBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+INT2_SetInterruptHandler@InterruptHandler 586 0 BANK5 1 cstackBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _TMR0_OverflowCallback 568 0 BANK5 1 nvBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_INT2_SetInterruptHandler 94A 0 CODE 0 text18 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_INT2_SetInterruptHandler 8C2 0 CODE 0 text18 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _current_quadrant 53E 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_TMR3_GateCallbackRegister 918 0 CODE 0 text7 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_TMR3_GateCallbackRegister 890 0 CODE 0 text7 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __LidataBANK5 0 0 ABS 0 idataBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _waveshape_adc_config_value 55A 0 COMRAM 1 dataCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hpowerup 0 0 CODE 0 powerup dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _TMR0_Stop 0 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 ADCC_StartConversion@channel 543 0 COMRAM 1 cstackCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_TMR2_Initialize 7D2 0 CODE 0 text8 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_TMR2_Initialize 74A 0 CODE 0 text8 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __end_of_DIVIDE_BY_TWO 7FFC 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __end_of_Timer0 7FE1 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __end_of_Timer1 7FD5 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __end_of_Timer2 7FED 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __end_of_Timer3 7FC9 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __LnvCOMRAM 0 0 ABS 0 nvCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_TMR1_Stop 988 0 CODE 0 text37 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_TMR1_Stop 900 0 CODE 0 text37 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __HdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _TMR2_Stop 0 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__accesstop 560 0 ABS 0 - C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_9.o
-intlevel0 0 0 CODE 0 text C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_9.o
-intlevel1 0 0 CODE 0 text C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_9.o
-intlevel2 0 0 CODE 0 text C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_9.o
-intlevel3 0 0 CODE 0 text C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_9.o
+__accesstop 560 0 ABS 0 - C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_9.o
+intlevel0 0 0 CODE 0 text C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_9.o
+intlevel1 0 0 CODE 0 text C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_9.o
+intlevel2 0 0 CODE 0 text C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_9.o
+intlevel3 0 0 CODE 0 text C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_9.o
 __LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _duty_low_byte 531 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _TMR3_Stop 0 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_ADCC_StartConversion 876 0 CODE 0 text38 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_ADCC_StartConversion 7EE 0 CODE 0 text38 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_CCP1_Initialize 8B2 0 CODE 0 text26 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_TMR0_OverflowISR 744 0 CODE 0 text30 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_CCP1_Initialize 82A 0 CODE 0 text26 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_TMR0_OverflowISR 6BE 0 CODE 0 text30 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hifardata 0 0 CODE 0 ifardata dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_TMR1_OverflowCallbackRegister 936 0 CODE 0 text11 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-TMR1_Write@timerVal 588 0 BANK5 1 cstackBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_TMR1_OverflowCallbackRegister 8AE 0 CODE 0 text11 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+TMR1_Write@timerVal 586 0 BANK5 1 cstackBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hclrtext 0 0 ABS 0 clrtext dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_TMR3_OverflowCallbackRegister 90E 0 CODE 0 text6 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__pidataCOMRAM 994 0 CODE 0 idataCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_INT1_SetInterruptHandler 95E 0 CODE 0 text19 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_ADCC_IsConversionDone 8E0 0 CODE 0 text39 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_TMR3_OverflowCallbackRegister 886 0 CODE 0 text6 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__pidataCOMRAM 90C 0 CODE 0 idataCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_INT1_SetInterruptHandler 8D6 0 CODE 0 text19 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_ADCC_IsConversionDone 858 0 CODE 0 text39 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 ivt0x8_base 8 0 CODE 0 ivt0x8 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_TMR3_Initialize 5F4 0 CODE 0 text5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_TMR3_Initialize 56E 0 CODE 0 text5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _ACTCON AC 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _ADACCH 3E4 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _ADACCL 3E3 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
@@ -692,45 +677,45 @@ _TMR0_prescaler_final_index 52E 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-
 CCP1_LoadDutyValue@dutyValue 543 0 COMRAM 1 cstackCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _ANSELA 400 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _ANSELC 410 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_TMR1_GateCallbackRegister 936 0 CODE 0 text12 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_TMR1_DefaultOverflowCallback 310 0 CODE 0 text31 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-___inthi_sp 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_9.o
-___intlo_sp 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_9.o
-__end_of_TMR1_Start 900 0 CODE 0 text2 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_TMR1_Write 6AE 0 CODE 0 text1 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_TMR1_GateCallbackRegister 8AE 0 CODE 0 text12 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_TMR1_DefaultOverflowCallback 28C 0 CODE 0 text31 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_9.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_9.o
+__end_of_TMR1_Start 878 0 CODE 0 text2 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_TMR1_Write 628 0 CODE 0 text1 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __LdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _CCPR1H 341 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _CCPR1L 340 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_INTERRUPT_InterruptManager 3AE 0 CODE 0 text28 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_TMR0_DefaultOverflowCallback 15A 0 CODE 0 text32 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_CPU_Initialize 7A6 0 CODE 0 text24 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_INTERRUPT_InterruptManager 32A 0 CODE 0 text28 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_TMR0_DefaultOverflowCallback 1E 0 CODE 0 text32 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_CPU_Initialize 71E 0 CODE 0 text24 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _DMA1PR B6 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _DMA2PR B7 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _DMA3PR B8 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _DMA4PR B9 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_TMR3_DefaultOverflowCallback 99A 0 CODE 0 text34 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_TMR3_DefaultOverflowCallback 912 0 CODE 0 text34 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_ADCC_IsConversionDone 8CA 0 CODE 0 text39 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_ADCC_IsConversionDone 842 0 CODE 0 text39 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _ADCPbits 3D8 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hmediumconst 8000 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __LnvBANK5 0 0 ABS 0 nvBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_current_symmetry 584 0 BANK5 1 bssBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_current_symmetry 582 0 BANK5 1 bssBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 TMR3_Write@timerVal 543 0 COMRAM 1 cstackCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _TMR0_prescaler_bits 7FED 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _result_of_low_by_low 523 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _INLVLA 404 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _INLVLC 414 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _TMR0_prescaler_overflow_flag 52F 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_TMR1_OverflowISR 6E0 0 CODE 0 text29 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_TMR1_OverflowISR 65A 0 CODE 0 text29 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _TMR1_DefaultGateCallback 0 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __LidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _MAINPR BE 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __HnvCOMRAM 0 0 ABS 0 nvCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _speed_control 519 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _INTCON0bits 4D6 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_TMR3_Initialize 5A6 0 CODE 0 text5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_PIN_MANAGER_Initialize 486 0 CODE 0 text16 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-start_initialization 3AE 0 CODE 0 cinit dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_TMR3_Initialize 520 0 CODE 0 text5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_PIN_MANAGER_Initialize 402 0 CODE 0 text16 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+start_initialization 32A 0 CODE 0 cinit dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _DMA1_SCNTI_InterruptHandler 551 0 COMRAM 1 nvCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _ODCONA 402 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _ODCONC 412 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
@@ -740,17 +725,17 @@ _DMAnDSZ EE 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _DMAnSSA F9 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _DMAnSSZ F7 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_DMA1_Initialize 486 0 CODE 0 text21 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_DMA1_Initialize 402 0 CODE 0 text21 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _PRLOCK B4 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_CPU_Initialize 7D2 0 CODE 0 text24 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-TMR1_GateCallbackRegister@CallbackHandler 588 0 BANK5 1 cstackBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_CPU_Initialize 74A 0 CODE 0 text24 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+TMR1_GateCallbackRegister@CallbackHandler 586 0 BANK5 1 cstackBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _ADFLTRH 3E2 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _ADFLTRL 3E1 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_SystemArbiter_Initialize 900 0 CODE 0 text15 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_SystemArbiter_Initialize 878 0 CODE 0 text15 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _ADPREVH 3E9 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _ADPREVL 3E8 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 ___rparam_used 1 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_TMR2_OverflowCallbackRegister 92C 0 CODE 0 text9 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_TMR2_OverflowCallbackRegister 8A4 0 CODE 0 text9 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _ADSTPTH 3E0 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _ADSTPTL 3DF 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _RA2PPS 203 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
@@ -758,10 +743,10 @@ _RC0I2C 289 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _RC1I2C 288 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __end_of_NO 7FF7 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _multiply_product 50D 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_SYSTEM_Initialize 6E0 0 CODE 0 text4 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_SYSTEM_Initialize 65A 0 CODE 0 text4 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _T3GCONbits 326 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _SCANPR B5 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__pcstackBANK5 588 0 BANK5 1 cstackBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__pcstackBANK5 586 0 BANK5 1 cstackBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _T0CON0 31A 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _T0CON1 31B 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _T1GATE 316 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
@@ -770,19 +755,19 @@ _T3GATE 327 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _T3GCON 326 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _T2CLKCON 320 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _TMR0IF 25B7 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_CCP1_LoadDutyValue 7A6 0 CODE 0 text40 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_CCP1_LoadDutyValue 6EE 0 CODE 0 text40 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _TMR2_Start 0 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _INT2_DefaultInterruptHandler 0 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _Timer0 7FD5 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _Timer1 7FC9 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _Timer2 7FE1 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _Timer3 7FBD 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_TMR1_Start$intlevel0 8FA 0 CODE 0 text2 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_TMR1_Start$intlevel0 872 0 CODE 0 text2 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _depth_adc_config_value 558 0 COMRAM 1 dataCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-isa$xinst 0 0 ABS 0 - C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_9.o
+isa$xinst 0 0 ABS 0 - C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_9.o
 _DMAnCON0bits FC 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _DMAnCON1bits FD 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_ADCC_Initialize 554 0 CODE 0 text27 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_ADCC_Initialize 4D0 0 CODE 0 text27 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hbank5 0 0 ABS 0 bank5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hbank6 0 0 ABS 0 bank6 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hbank7 0 0 ABS 0 bank7 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
@@ -812,8 +797,8 @@ __Hbank12 0 0 ABS 0 bank12 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hbigram 0 0 ABS 0 bigram dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hbigsfr 0 0 ABS 0 bigsfr dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_9.o
-_DMA1_DCNTIInterruptHandlerSet 972 0 CODE 0 text23 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_9.o
+_DMA1_DCNTIInterruptHandlerSet 8EA 0 CODE 0 text23 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hcomram 0 0 ABS 0 comram dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hconfig 300009 0 CONFIG 4 config dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __end_of_DO_NOTHING 7FFD 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
@@ -830,7 +815,7 @@ _T1GCONbits 315 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Lidata 0 0 CODE 0 idata dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Lidloc 0 0 ABS 0 idloc dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Lnvbit 0 0 COMRAM 1 nvbit dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-INT1_SetInterruptHandler@InterruptHandler 588 0 BANK5 1 cstackBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+INT1_SetInterruptHandler@InterruptHandler 586 0 BANK5 1 cstackBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Lparam 0 0 COMRAM 1 rparam dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Lrdata 0 0 COMRAM 1 rdata dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Lstack 0 0 STACK 2 stack dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
@@ -844,14 +829,14 @@ __Ltext6 0 0 ABS 0 text6 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Ltext7 0 0 ABS 0 text7 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Ltext8 0 0 ABS 0 text8 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Ltext9 0 0 ABS 0 text9 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_DMA1_Initialize 41C 0 CODE 0 text21 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_INT0_SetInterruptHandler 95E 0 CODE 0 text20 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_DMA1_Initialize 398 0 CODE 0 text21 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_INT0_SetInterruptHandler 8D6 0 CODE 0 text20 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 i2TMR1_Write@timerVal 543 0 COMRAM 1 cstackCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hfarbss 0 0 FARRAM 0 farbss dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_CCP1_LoadDutyValue 776 0 CODE 0 text40 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_TMR1_OverflowISR 712 0 CODE 0 text29 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_CCP1_LoadDutyValue 6BE 0 CODE 0 text40 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_TMR1_OverflowISR 68C 0 CODE 0 text29 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __end_of_TMR0_prescaler_bits 7FF6 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_INTERRUPT_Initialize 642 0 CODE 0 text17 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_INTERRUPT_Initialize 5BC 0 CODE 0 text17 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Habs1 0 0 ABS 0 abs1 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hdata 0 0 ABS 0 data dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hheap 0 0 HEAP 7 heap dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
@@ -875,49 +860,49 @@ __Hirdata 0 0 CODE 0 irdata dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.
 _PR2 31D 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _YES 7FF7 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __S0 8000 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__S1 58C 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__S1 58A 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __S4 0 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __S5 0 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hivt0x8 1A 0 CODE 0 ivt0x8 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_CLOCK_Initialize 896 0 CODE 0 text25 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_CLOCK_Initialize 80E 0 CODE 0 text25 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _current_adcc_type_ptr 555 0 COMRAM 1 nvCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _final_TMR0 515 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _how_many_128 535 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_INT2_SetInterruptHandler 954 0 CODE 0 text18 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_INT2_SetInterruptHandler 8CC 0 CODE 0 text18 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _duty_high_byte 530 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 IVTBASEH 45E 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 IVTBASEL 45D 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 IVTBASEU 45F 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__pnvCOMRAM 551 0 COMRAM 1 nvCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__pnvCOMRAM 54F 0 COMRAM 1 nvCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _PRLOCKbits B4 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _T2RSTbits 321 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_ADCC_Initialize 4EE 0 CODE 0 text27 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_ADCC_Initialize 46A 0 CODE 0 text27 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __pivt0x8 8 0 CODE 0 ivt0x8 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_TMR0_DefaultOverflowCallback 268 0 CODE 0 text32 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_TMR0_DefaultOverflowCallback 12C 0 CODE 0 text32 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __HidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_TMR3_OverflowCallbackRegister 918 0 CODE 0 text6 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_TMR3_OverflowCallbackRegister 890 0 CODE 0 text6 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Lbigdata 0 0 BIGRAM 1 bigdata dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hnvrram 0 0 COMRAM 1 nvrram dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _POSITIVE 7FFE 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_SYSTEM_Initialize 6AE 0 CODE 0 text4 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_SYSTEM_Initialize 628 0 CODE 0 text4 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _current_depth 525 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _TMR0_prescaler_adjust 534 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_TMR3_DefaultOverflowCallback 99C 0 CODE 0 text34 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_TMR3_DefaultOverflowCallback 914 0 CODE 0 text34 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __end_of_YES 7FF8 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_DMA1_SCNTIInterruptHandlerSet 968 0 CODE 0 text22 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_DMA1_SCNTIInterruptHandlerSet 8E0 0 CODE 0 text22 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _tri_table_one_quadrant 7DB9 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __HnvBANK5 0 0 ABS 0 nvBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_TMR2_DefaultOverflowCallback 998 0 CODE 0 text33 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_TMR2_DefaultOverflowCallback 910 0 CODE 0 text33 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hramtop D00 0 RAM 0 ramtop dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __end_of_POSITIVE 7FFF 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _current_waveshape 540 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hrparam 0 0 COMRAM 1 rparam dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _CCPTMRS0bits 34C 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-TMR0_OverflowCallbackRegister@CallbackHandler 588 0 BANK5 1 cstackBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+TMR0_OverflowCallbackRegister@CallbackHandler 586 0 BANK5 1 cstackBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _NEGATIVE 7FFD 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__pdataBANK5 574 0 BANK5 1 dataBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__pdataBANK5 572 0 BANK5 1 dataBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __activetblptr 2 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_DMA1_DefaultInterruptHandler 1E 0 CODE 0 text42 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_DMA1_DefaultInterruptHandler 12C 0 CODE 0 text42 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hstruct 0 0 COMRAM 1 struct dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __LbssBANK5 0 0 ABS 0 bssBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Htext10 0 0 ABS 0 text10 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
@@ -956,54 +941,54 @@ __Htext42 0 0 ABS 0 text42 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Htext43 0 0 ABS 0 text43 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Htext44 0 0 ABS 0 text44 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _TMR1_GateCallback 564 0 BANK5 1 nvBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_INTERRUPT_InterruptManager 310 0 CODE 0 text28 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-DMA1_DCNTIInterruptHandlerSet@InterruptHandler 588 0 BANK5 1 cstackBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-TMR3_GateCallbackRegister@CallbackHandler 588 0 BANK5 1 cstackBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_INTERRUPT_InterruptManager 28C 0 CODE 0 text28 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+DMA1_DCNTIInterruptHandlerSet@InterruptHandler 586 0 BANK5 1 cstackBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+TMR3_GateCallbackRegister@CallbackHandler 586 0 BANK5 1 cstackBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _PIE1bits 4A9 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_DMA1_DCNTI_InterruptHandler 572 0 BANK5 1 nvBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_DMA1_DCNTI_InterruptHandler 54F 0 COMRAM 1 nvCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _PIE2bits 4AA 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _PIE3bits 4AB 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _PIE4bits 4AC 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _PIR10bits 4BD 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __end_of_NEGATIVE 7FFE 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext10 5F4 0 CODE 0 text10 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext11 92C 0 CODE 0 text11 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext12 936 0 CODE 0 text12 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext13 850 0 CODE 0 text13 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext14 940 0 CODE 0 text14 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext15 900 0 CODE 0 text15 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext16 486 0 CODE 0 text16 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext17 642 0 CODE 0 text17 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext18 94A 0 CODE 0 text18 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext19 954 0 CODE 0 text19 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext20 95E 0 CODE 0 text20 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext21 41C 0 CODE 0 text21 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext22 968 0 CODE 0 text22 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext23 972 0 CODE 0 text23 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext24 7A6 0 CODE 0 text24 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext25 896 0 CODE 0 text25 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext26 8B2 0 CODE 0 text26 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext27 4EE 0 CODE 0 text27 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext28 310 0 CODE 0 text28 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext29 6E0 0 CODE 0 text29 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext30 712 0 CODE 0 text30 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext31 268 0 CODE 0 text31 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext32 15A 0 CODE 0 text32 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext33 998 0 CODE 0 text33 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext34 99A 0 CODE 0 text34 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext35 7FC 0 CODE 0 text35 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext36 982 0 CODE 0 text36 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext37 988 0 CODE 0 text37 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext38 876 0 CODE 0 text38 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext39 8CA 0 CODE 0 text39 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext40 776 0 CODE 0 text40 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext41 744 0 CODE 0 text41 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext42 1E 0 CODE 0 text42 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext43 826 0 CODE 0 text43 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext44 98E 0 CODE 0 text44 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_PIN_MANAGER_Initialize 4EE 0 CODE 0 text16 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_TMR0_Initialize 876 0 CODE 0 text13 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_TMR0_OverflowCallbackRegister 940 0 CODE 0 text14 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext10 56E 0 CODE 0 text10 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext11 8A4 0 CODE 0 text11 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext12 8AE 0 CODE 0 text12 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext13 7C8 0 CODE 0 text13 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext14 8B8 0 CODE 0 text14 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext15 878 0 CODE 0 text15 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext16 402 0 CODE 0 text16 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext17 5BC 0 CODE 0 text17 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext18 8C2 0 CODE 0 text18 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext19 8CC 0 CODE 0 text19 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext20 8D6 0 CODE 0 text20 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext21 398 0 CODE 0 text21 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext22 8E0 0 CODE 0 text22 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext23 8EA 0 CODE 0 text23 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext24 71E 0 CODE 0 text24 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext25 80E 0 CODE 0 text25 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext26 82A 0 CODE 0 text26 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext27 46A 0 CODE 0 text27 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext28 28C 0 CODE 0 text28 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext29 65A 0 CODE 0 text29 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext30 68C 0 CODE 0 text30 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext31 1E6 0 CODE 0 text31 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext32 1E 0 CODE 0 text32 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext33 910 0 CODE 0 text33 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext34 912 0 CODE 0 text34 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext35 774 0 CODE 0 text35 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext36 8FA 0 CODE 0 text36 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext37 900 0 CODE 0 text37 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext38 7EE 0 CODE 0 text38 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext39 842 0 CODE 0 text39 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext40 6BE 0 CODE 0 text40 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext41 6EE 0 CODE 0 text41 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext42 12C 0 CODE 0 text42 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext43 79E 0 CODE 0 text43 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext44 906 0 CODE 0 text44 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_PIN_MANAGER_Initialize 46A 0 CODE 0 text16 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_TMR0_Initialize 7EE 0 CODE 0 text13 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_TMR0_OverflowCallbackRegister 8B8 0 CODE 0 text14 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Lbank10 0 0 ABS 0 bank10 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Lbank11 0 0 ABS 0 bank11 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Lbank12 0 0 ABS 0 bank12 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
@@ -1011,24 +996,23 @@ __Lbigbss 0 0 BIGRAM 1 bigbss dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debu
 __Lbigram 0 0 ABS 0 bigram dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Lbigsfr 0 0 ABS 0 bigsfr dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _INT2_InterruptHandler 56C 0 BANK5 1 nvBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_DMA1_DMADCNTI_ISR 776 0 CODE 0 text41 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_DMA1_DMADCNTI_ISR 71E 0 CODE 0 text41 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Lcomram 0 0 ABS 0 comram dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Lconfig 0 0 CONFIG 4 config dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Lfarbss 0 0 FARRAM 0 farbss dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-___inthi_stack_hi 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_9.o
-___inthi_stack_lo 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_9.o
+___inthi_stack_hi 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_9.o
+___inthi_stack_lo 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_9.o
 _raw_TMR0 505 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Lfardata 0 0 FARRAM 0 fardata dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-isa$std 1 0 ABS 0 - C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_9.o
-__end_of_CLOCK_Initialize 8B2 0 CODE 0 text25 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+isa$std 1 0 ABS 0 - C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_9.o
+__end_of_CLOCK_Initialize 82A 0 CODE 0 text25 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _ADC_type_flag 52D 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_TMR3_Start 982 0 CODE 0 text36 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_TMR3_Write 7FC 0 CODE 0 text35 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_TMR3_Start 8FA 0 CODE 0 text36 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_TMR3_Write 774 0 CODE 0 text35 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _current_speed_linear 52B 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-stackhi 0 0 ABS 0 - C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_9.o
-stacklo 0 0 ABS 0 - C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_9.o
-DMA1_DefaultInterruptHandler@index 547 0 COMRAM 1 cstackCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_dma_type_array 574 0 BANK5 1 dataBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+stackhi 0 0 ABS 0 - C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_9.o
+stacklo 0 0 ABS 0 - C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_9.o
+_dma_type_array 572 0 BANK5 1 dataBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _OSCCON1 AD 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _OSCCON3 AF 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _OSCTUNE B0 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
@@ -1040,8 +1024,8 @@ _ADCON1bits 3F4 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _ADCON2bits 3F5 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _ADCON3bits 3F6 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _INT1_InterruptHandler 56E 0 BANK5 1 nvBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-i2_TMR1_Start 98E 0 CODE 0 text44 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-i2_TMR1_Write 826 0 CODE 0 text43 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+i2_TMR1_Start 906 0 CODE 0 text44 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+i2_TMR1_Write 79E 0 CODE 0 text43 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _symmetry_adc_config_value 557 0 COMRAM 1 dataCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _INT1_DefaultInterruptHandler 0 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Lspace_0 0 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
@@ -1058,47 +1042,47 @@ _DMAnSIRQ FF 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _DMAnSPTR F4 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __pbssCOMRAM 501 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __HcstackBANK5 0 0 ABS 0 cstackBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-DMA1_SCNTIInterruptHandlerSet@InterruptHandler 588 0 BANK5 1 cstackBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+DMA1_SCNTIInterruptHandlerSet@InterruptHandler 586 0 BANK5 1 cstackBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _PIR1bits 4B4 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _PIR2bits 4B5 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _PIR3bits 4B6 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _PIR4bits 4B7 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _PIR6bits 4B9 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_TMR3_GateCallbackRegister 922 0 CODE 0 text7 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_ADCC_StartConversion 896 0 CODE 0 text38 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_TMR3_GateCallbackRegister 89A 0 CODE 0 text7 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_ADCC_StartConversion 80E 0 CODE 0 text38 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _speed_control_32 501 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-end_of_initialization 412 0 CODE 0 cinit dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+end_of_initialization 38E 0 CODE 0 cinit dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _speed_adc_config_value 559 0 COMRAM 1 dataCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_TMR0_Initialize 850 0 CODE 0 text13 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_TMR0_Initialize 7C8 0 CODE 0 text13 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Lnvrram 0 0 COMRAM 1 nvrram dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _current_halfcycle 53D 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __end_of_DONT_CARE 7FF9 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _result_of_low_by_high 511 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hreset_vec 6 0 CODE 0 reset_vec dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _sine_table_one_quadrant 7EBB 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_SystemArbiter_Initialize 90E 0 CODE 0 text15 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_SystemArbiter_Initialize 886 0 CODE 0 text15 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __HbssBANK5 0 0 ABS 0 bssBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _INT0_InterruptHandler 570 0 BANK5 1 nvBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_INT1_SetInterruptHandler 954 0 CODE 0 text19 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_INT1_SetInterruptHandler 8CC 0 CODE 0 text19 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Lramtop D00 0 RAM 0 ramtop dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __end_of_sine_table_one_quadrant 7FBD 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __end_of_MULTIPLY_BY_TWO 7FFB 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Lrparam 0 0 COMRAM 1 rparam dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_TMR0_Start 97C 0 CODE 0 text3 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__pcinit 3AE 0 CODE 0 cinit dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_TMR0_Start 8F4 0 CODE 0 text3 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__pcinit 32A 0 CODE 0 cinit dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _current_depthL 536 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext0 554 0 CODE 0 text0 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext1 67C 0 CODE 0 text1 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext2 8F0 0 CODE 0 text2 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext3 97C 0 CODE 0 text3 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext4 6AE 0 CODE 0 text4 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext5 5A6 0 CODE 0 text5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext6 90E 0 CODE 0 text6 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext7 918 0 CODE 0 text7 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext8 7D2 0 CODE 0 text8 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ptext9 922 0 CODE 0 text9 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_DMA1_DCNTIInterruptHandlerSet 97C 0 CODE 0 text23 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext0 4D0 0 CODE 0 text0 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext1 5F6 0 CODE 0 text1 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext2 868 0 CODE 0 text2 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext3 8F4 0 CODE 0 text3 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext4 628 0 CODE 0 text4 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext5 520 0 CODE 0 text5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext6 886 0 CODE 0 text6 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext7 890 0 CODE 0 text7 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext8 74A 0 CODE 0 text8 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__ptext9 89A 0 CODE 0 text9 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_DMA1_DCNTIInterruptHandlerSet 8F4 0 CODE 0 text23 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Lstruct 0 0 COMRAM 1 struct dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Ltext10 0 0 ABS 0 text10 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Ltext11 0 0 ABS 0 text11 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
@@ -1135,56 +1119,56 @@ __Ltext41 0 0 ABS 0 text41 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Ltext42 0 0 ABS 0 text42 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Ltext43 0 0 ABS 0 text43 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Ltext44 0 0 ABS 0 text44 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ramtop D00 0 RAM 0 ramtop C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_9.o
+__ramtop D00 0 RAM 0 ramtop C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_9.o
 __Lpowerup 0 0 CODE 0 powerup dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_TMR1_OverflowCallbackRegister 92C 0 CODE 0 text11 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_TMR1_OverflowCallbackRegister 8A4 0 CODE 0 text11 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _DONT_CARE 7FF8 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __H__absolute__ 0 0 ABS 0 __absolute__ dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_TMR3_Start 988 0 CODE 0 text36 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_TMR3_Write 826 0 CODE 0 text35 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_TMR1_Initialize 642 0 CODE 0 text10 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_DMA1_DMADCNTI_ISR 744 0 CODE 0 text41 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_TMR3_Start 900 0 CODE 0 text36 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_TMR3_Write 79E 0 CODE 0 text35 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_TMR1_Initialize 5BC 0 CODE 0 text10 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_DMA1_DMADCNTI_ISR 6EE 0 CODE 0 text41 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Lreset_vec 0 0 CODE 0 reset_vec dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-INT0_SetInterruptHandler@InterruptHandler 588 0 BANK5 1 cstackBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_TMR1_GateCallbackRegister 940 0 CODE 0 text12 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+INT0_SetInterruptHandler@InterruptHandler 586 0 BANK5 1 cstackBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_TMR1_GateCallbackRegister 8B8 0 CODE 0 text12 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _SLRCONA 403 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _SLRCONC 413 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-___heap_hi 0 0 ABS 0 - C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_9.o
-___heap_lo 0 0 ABS 0 - C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_9.o
+___heap_hi 0 0 ABS 0 - C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_9.o
+___heap_lo 0 0 ABS 0 - C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_9.o
 ___param_bank 0 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-___intlo_stack_hi 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_9.o
-___intlo_stack_lo 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAs64o.\driver_tmp_9.o
+___intlo_stack_hi 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_9.o
+___intlo_stack_lo 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAsll4.\driver_tmp_9.o
 __Hbigdata 0 0 BIGRAM 1 bigdata dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of__initialization 412 0 CODE 0 cinit dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of__initialization 38E 0 CODE 0 cinit dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _ADC_result 529 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Libigdata 0 0 CODE 0 ibigdata dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _ADSTATbits 3F7 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __end_of_tri_table_one_quadrant 7EBB 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_ofi2_TMR1_Start 994 0 CODE 0 text44 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__pidataBANK5 8E0 0 CODE 0 idataBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_ofi2_TMR1_Write 850 0 CODE 0 text43 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_ofi2_TMR1_Start 90C 0 CODE 0 text44 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__pidataBANK5 858 0 CODE 0 idataBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_ofi2_TMR1_Write 7C8 0 CODE 0 text43 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _TMR3_InterruptHandler 51B 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Lclrtext 0 0 ABS 0 clrtext dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_INT0_SetInterruptHandler 968 0 CODE 0 text20 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_INT0_SetInterruptHandler 8E0 0 CODE 0 text20 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _timer1ReloadVal 521 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _TMR3_OverflowCallback 562 0 BANK5 1 nvBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_TMR2_DefaultOverflowCallback 99A 0 CODE 0 text33 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_TMR2_DefaultOverflowCallback 912 0 CODE 0 text33 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __pcstackCOMRAM 543 0 COMRAM 1 cstackCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_TMR1_DefaultOverflowCallback 268 0 CODE 0 text31 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_TMR1_DefaultOverflowCallback 1E6 0 CODE 0 text31 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _T3CONbits 325 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _T0CON0bits 31A 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _T0CON1bits 31B 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 INTSTAT_ADDR D7 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __pmediumconst 7DB8 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_DMA1_DefaultInterruptHandler 15A 0 CODE 0 text42 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_DMA1_DefaultInterruptHandler 1E6 0 CODE 0 text42 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _symmetry_status 532 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _timer3ReloadVal 51D 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_DMA1_SCNTIInterruptHandlerSet 972 0 CODE 0 text22 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_TMR0_Start 982 0 CODE 0 text3 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_DMA1_SCNTIInterruptHandlerSet 8EA 0 CODE 0 text22 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_TMR0_Start 8FA 0 CODE 0 text3 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _TMR1_PeriodCountSet 0 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_main 5A6 0 CODE 0 text0 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_adcc_type_array 57C 0 BANK5 1 dataBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_main 520 0 CODE 0 text0 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_adcc_type_array 57A 0 BANK5 1 dataBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _ADACT 3F9 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _ADCAP 3F0 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _ADCLK 3FA 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
@@ -1199,8 +1183,6 @@ _IOCCF 417 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _IOCCN 416 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _IOCCP 415 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _ISRPR BF 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_LATC4 2604 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_LATC5 2605 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _OSCEN B3 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _PRODH 4F4 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _PRODL 4F3 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
@@ -1230,32 +1212,32 @@ __Lbss 0 0 RAM 1 bss dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Lram 0 0 ABS 0 ram dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Lsfr 0 0 ABS 0 sfr dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _adres 541 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_TMR1_Initialize 5F4 0 CODE 0 text10 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_TMR1_Initialize 56E 0 CODE 0 text10 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _dutyH 537 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _dutyL 538 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-DMA1_DefaultInterruptHandler@ADC_result 549 0 COMRAM 1 cstackCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+DMA1_DefaultInterruptHandler@ADC_result 547 0 COMRAM 1 cstackCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _CCP1CON 342 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _CCP1PPS 24F 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _TMR2_OverflowCallback 56A 0 BANK5 1 nvBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __HdataBANK5 0 0 ABS 0 dataBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _TMR2_PeriodCountSet 0 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__initialization 3AE 0 CODE 0 cinit dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__pbssBANK5 584 0 BANK5 1 bssBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__initialization 32A 0 CODE 0 cinit dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__pbssBANK5 582 0 BANK5 1 bssBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __pdataCOMRAM 557 0 COMRAM 1 dataCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _T2CONbits 31E 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hfardata 0 0 FARRAM 0 fardata dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hsmallconst 0 0 SMALLCONST 0 smallconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_TMR0_OverflowISR 712 0 CODE 0 text30 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_TMR0_OverflowCallbackRegister 94A 0 CODE 0 text14 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_TMR0_OverflowISR 68C 0 CODE 0 text30 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_TMR0_OverflowCallbackRegister 8C2 0 CODE 0 text14 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __end_of_DIVIDE_BY_FOUR 7FFA 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Lifardata 0 0 CODE 0 ifardata dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _CCP1CONbits 342 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-_TMR2_OverflowCallbackRegister 922 0 CODE 0 text9 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-TMR2_OverflowCallbackRegister@InterruptHandler 588 0 BANK5 1 cstackBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+_TMR2_OverflowCallbackRegister 89A 0 CODE 0 text9 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+TMR2_OverflowCallbackRegister@InterruptHandler 586 0 BANK5 1 cstackBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _TMR1_InterruptHandler 51F 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _current_one_quadrant_index 53F 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__end_of_TMR2_Initialize 7FC 0 CODE 0 text8 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+__end_of_TMR2_Initialize 774 0 CODE 0 text8 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 # %SPLITSTAB Section
 # This section enumerates all the psect splits performed by the assembler.
 # The beginning of the section is indicated by %SPLITSTAB.
@@ -1280,8 +1262,8 @@ __end_of_TMR2_Initialize 7FC 0 CODE 0 text8 dist/default/debug\MI-2023-2024-PIC1
 # and size are in units of delta. The file address is in units of bytes.
 # All other numeric quantities are in decimal.
 %SEGMENTS
-ivt0x8 0 8 8 994 1
-nvBANK5 1 560 560 2C 1
+ivt0x8 0 8 8 90C 1
+nvBANK5 1 560 560 2A 1
 reset_vec 0 0 0 6 1
 bssCOMRAM 1 501 501 5A 1
 mediumconst 0 7DB8 7DB8 248 1

@@ -145,7 +145,7 @@ static void TMR1_DefaultOverflowCallback(void)
 {
     //Add your interrupt code here or
     //Use TMR1_OverflowCallbackRegister function to use Custom ISR
-    //LATC4 = 0;
+    
     TMR1_Stop();
     
     if(*current_adcc_type_ptr == waveshape_adc_config_value){
@@ -192,7 +192,6 @@ static void TMR1_DefaultOverflowCallback(void)
     
     TMR3_Write(tmr3_value);
     TMR3_Start();
-    LATC4 = 1;
     
 }
 

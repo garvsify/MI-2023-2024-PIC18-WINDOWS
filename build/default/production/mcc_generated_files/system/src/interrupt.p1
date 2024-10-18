@@ -95,24 +95,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _DMA1_DMADCNTI_ISR `(v ~T0 @X0 0 ef ]
 "187 mcc_generated_files/system/src/../../timer/tmr1.h
 [v _TMR1_OverflowISR `(v ~T0 @X0 0 ef ]
-"35189 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
-[s S1691 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S1691 . U1RXIE U1TXIE U1EIE U1IE TMR3IE TMR3GIE PWM1PIE PWM1IE ]
-"35188
-[u S1690 `S1691 1 ]
-[n S1690 . . ]
-"35200
-[v _PIE4bits `VS1690 ~T0 @X0 0 e@1196 ]
-"35836
-[s S1715 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S1715 . U1RXIF U1TXIF U1EIF U1IF TMR3IF TMR3GIF PWM1PIF PWM1IF ]
-"35835
-[u S1714 `S1715 1 ]
-[n S1714 . . ]
-"35847
-[v _PIR4bits `VS1714 ~T0 @X0 0 e@1207 ]
-"219 mcc_generated_files/system/src/../../timer/tmr3.h
-[v _TMR3_OverflowISR `(v ~T0 @X0 0 ef ]
 "196 mcc_generated_files/system/src/../interrupt.h
 [v _INT0_CallBack `(v ~T0 @X0 0 ef ]
 [v F13096 `(v ~T0 @X0 0 tf ]
@@ -1513,23 +1495,12 @@ Version 4.0 HI-TECH Software Intermediate Code
 "68
 }
 [e $U 1853  ]
-"69
-[e :U 1852 ]
-[e $ ! && == -> . . _PIE4bits 0 4 `i -> 1 `i == -> . . _PIR4bits 0 4 `i -> 1 `i 1854  ]
-"70
-{
-"71
-[e ( _TMR3_OverflowISR ..  ]
-"72
-}
-[e $U 1855  ]
 "73
-[e :U 1854 ]
+[e :U 1852 ]
 "74
 {
 "76
 }
-[e :U 1855 ]
 [e :U 1853 ]
 [e :U 1851 ]
 [e :U 1849 ]
@@ -1549,7 +1520,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "86
 [e ( _INT0_CallBack ..  ]
 "87
-[e :UE 1856 ]
+[e :UE 1854 ]
 }
 "90
 [v _INT0_CallBack `(v ~T0 @X0 1 ef ]
@@ -1558,16 +1529,16 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U _INT0_CallBack ]
 [f ]
 "93
-[e $ ! != _INT0_InterruptHandler -> -> 0 `i `*F13096 1858  ]
+[e $ ! != _INT0_InterruptHandler -> -> 0 `i `*F13096 1856  ]
 "94
 {
 "95
 [e ( *U _INT0_InterruptHandler ..  ]
 "96
 }
-[e :U 1858 ]
+[e :U 1856 ]
 "97
-[e :UE 1857 ]
+[e :UE 1855 ]
 }
 "99
 [v _INT0_SetInterruptHandler `(v ~T0 @X0 1 ef1`*F13098 ]
@@ -1578,7 +1549,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "100
 [e = _INT0_InterruptHandler _InterruptHandler ]
 "101
-[e :UE 1859 ]
+[e :UE 1857 ]
 }
 "103
 [v _INT0_DefaultInterruptHandler `(v ~T0 @X0 1 ef ]
@@ -1586,7 +1557,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U _INT0_DefaultInterruptHandler ]
 [f ]
 "106
-[e :UE 1860 ]
+[e :UE 1858 ]
 }
 "107
 [v _INT1_ISR `(v ~T0 @X0 1 ef ]
@@ -1599,7 +1570,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "112
 [e ( _INT1_CallBack ..  ]
 "113
-[e :UE 1861 ]
+[e :UE 1859 ]
 }
 "116
 [v _INT1_CallBack `(v ~T0 @X0 1 ef ]
@@ -1608,16 +1579,16 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U _INT1_CallBack ]
 [f ]
 "119
-[e $ ! != _INT1_InterruptHandler -> -> 0 `i `*F13105 1863  ]
+[e $ ! != _INT1_InterruptHandler -> -> 0 `i `*F13105 1861  ]
 "120
 {
 "121
 [e ( *U _INT1_InterruptHandler ..  ]
 "122
 }
-[e :U 1863 ]
+[e :U 1861 ]
 "123
-[e :UE 1862 ]
+[e :UE 1860 ]
 }
 "125
 [v _INT1_SetInterruptHandler `(v ~T0 @X0 1 ef1`*F13107 ]
@@ -1628,7 +1599,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "126
 [e = _INT1_InterruptHandler _InterruptHandler ]
 "127
-[e :UE 1864 ]
+[e :UE 1862 ]
 }
 "129
 [v _INT1_DefaultInterruptHandler `(v ~T0 @X0 1 ef ]
@@ -1636,7 +1607,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U _INT1_DefaultInterruptHandler ]
 [f ]
 "132
-[e :UE 1865 ]
+[e :UE 1863 ]
 }
 "133
 [v _INT2_ISR `(v ~T0 @X0 1 ef ]
@@ -1649,7 +1620,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "138
 [e ( _INT2_CallBack ..  ]
 "139
-[e :UE 1866 ]
+[e :UE 1864 ]
 }
 "142
 [v _INT2_CallBack `(v ~T0 @X0 1 ef ]
@@ -1658,16 +1629,16 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U _INT2_CallBack ]
 [f ]
 "145
-[e $ ! != _INT2_InterruptHandler -> -> 0 `i `*F13114 1868  ]
+[e $ ! != _INT2_InterruptHandler -> -> 0 `i `*F13114 1866  ]
 "146
 {
 "147
 [e ( *U _INT2_InterruptHandler ..  ]
 "148
 }
-[e :U 1868 ]
+[e :U 1866 ]
 "149
-[e :UE 1867 ]
+[e :UE 1865 ]
 }
 "151
 [v _INT2_SetInterruptHandler `(v ~T0 @X0 1 ef1`*F13116 ]
@@ -1678,7 +1649,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "152
 [e = _INT2_InterruptHandler _InterruptHandler ]
 "153
-[e :UE 1869 ]
+[e :UE 1867 ]
 }
 "155
 [v _INT2_DefaultInterruptHandler `(v ~T0 @X0 1 ef ]
@@ -1686,5 +1657,5 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U _INT2_DefaultInterruptHandler ]
 [f ]
 "158
-[e :UE 1870 ]
+[e :UE 1868 ]
 }

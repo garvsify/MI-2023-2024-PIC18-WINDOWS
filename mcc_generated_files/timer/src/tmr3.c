@@ -179,14 +179,7 @@ static void TMR3_DefaultOverflowCallback(void)
 {
     //Add your interrupt code here or
     //Use TMR3_OverflowCallbackRegister function to use Custom ISR
-    /*TMR3_Stop();
-    LATC5 = 0;
-    size_t tmr1_value = TMR1_OVERFLOW_COUNT;
-    TMR1_Write(tmr1_value);
-    TMR1_Start();
-    LATC4 = 1;*/
-    
-    LATC4 = 0;
+
 }
 
 bool TMR3_HasOverflowOccured(void)

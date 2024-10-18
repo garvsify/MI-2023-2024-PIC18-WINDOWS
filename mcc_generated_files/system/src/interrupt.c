@@ -66,10 +66,10 @@ void __interrupt() INTERRUPT_InterruptManager (void)
     {
         TMR1_OverflowISR();
     }
-    else if(PIE4bits.TMR3IE == 1 && PIR4bits.TMR3IF == 1)
+    /*else if(PIE4bits.TMR3IE == 1 && PIR4bits.TMR3IF == 1)
     {
         TMR3_OverflowISR();
-    }
+    }*/
     else
     {
         //Unhandled Interrupt

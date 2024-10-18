@@ -164,6 +164,7 @@ static void TMR0_DefaultOverflowCallback(void)
         }
 
         #if DEPTH_ON_OR_OFF == 1
+
             //Apply Depth
             if(current_depth == 255){
                 duty = 1023 - duty;
@@ -175,6 +176,7 @@ static void TMR0_DefaultOverflowCallback(void)
             else{
                 duty = 1023; //if depth is 0, just output 1023
             }
+        
         #endif
 
         //Write Duty
