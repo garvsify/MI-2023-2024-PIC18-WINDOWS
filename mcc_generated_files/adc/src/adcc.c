@@ -27,7 +27,7 @@ void ADCC_Initialize(void){
     ADRPT = 0x0;
     //ADCHS ANC0; 
     ADPCH = 0x10;
-    //ADACQL 82; //increasing aquisition time to ~2us
+    //ADACQL 130; 
     ADACQL = 0x82;
     //ADACQH 0; 
     ADACQH = 0x0;
@@ -54,9 +54,6 @@ void ADCC_Initialize(void){
     //GO_nDONE undefined; ADFM right; ADON enabled; ADCS FOSC; ADCONT disabled; 
     ADCON0 = 0x84;
     
-    ADCPbits.CPON = 1; //turn on charge pump, will this fix things?
-    ADCON0bits.ADCONT = 0; //fix things plz?
-    
     //Clear the ADC interrupt flag
     PIR1bits.ADIF = 0;
     
@@ -69,9 +66,6 @@ void ADCC_Initialize(void){
 
 void ADCC_StartConversion(adcc_channel_t channel)
 {
-    
-    while(!ADCC_IsConversionDone()); // make sure no other conversion occurring.
-    
     //Selects the A/D channel
     ADPCH = channel;
 

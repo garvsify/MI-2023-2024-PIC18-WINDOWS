@@ -228,15 +228,13 @@ void DMA1_DefaultInterruptHandler(void){
     // add your DMA1 interrupt custom code
     // or set custom function using DMA1_SCNTIInterruptHandlerSet() /DMA1_DCNTIInterruptHandlerSet() /DMA1_AIInterruptHandlerSet() /DMA1_ORIInterruptHandlerSet()
     
-    uint16_t index = 0;
-    
     uint16_t ADC_result; //concatenated ADC result
-    ADC_result = (uint16_t)adres[0] + ((uint16_t)adres[1] << 8);
-    ADC_result = TWELVEBITMINUSONE - ADC_result;
+    ADC_result = (uint16_t)adres[0] | ((uint16_t)adres[1] << 8);
+    //ADC_result = TWELVEBITMINUSONE - ADC_result;
     
     if(*current_dma_type_ptr == waveshape_adc_config_value){
         
-        /*if(ADC_result <= TRIANGLE_MODE_ADC_THRESHOLD){
+        if(ADC_result <= TRIANGLE_MODE_ADC_THRESHOLD){
             current_waveshape = TRIANGLE_MODE; //triangle wave
         }
         else if (ADC_result <= SINE_MODE_ADC_THRESHOLD){
@@ -247,13 +245,13 @@ void DMA1_DefaultInterruptHandler(void){
         }
         else{
             current_waveshape = SINE_MODE; //if error, return sine
-        }*/
+        }
         
-        current_dma_type_ptr++;
+        //current_dma_type_ptr++;
         
     }
     
-    else if(*current_dma_type_ptr == speed_adc_config_value){
+    /*else if(*current_dma_type_ptr == speed_adc_config_value){
         
         current_speed_linear = ADC_result;
         
@@ -289,7 +287,7 @@ void DMA1_DefaultInterruptHandler(void){
         current_dma_type_ptr = dma_type_array[0];
                         
     }
-    
+    */
     size_t tmr1_value = TMR1_OVERFLOW_COUNT;
     
     TMR1_Write(tmr1_value);

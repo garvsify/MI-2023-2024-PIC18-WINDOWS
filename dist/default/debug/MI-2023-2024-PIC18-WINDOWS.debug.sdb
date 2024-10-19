@@ -3,7 +3,7 @@
 [d edition pro ]
 [d chip 18F05Q40 ]
 [d frameptr 1249 ]
-"70 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+"67 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
 [e E12921 . `uc
 channel_DAC2 58
 channel_VSS 59
@@ -168,10 +168,8 @@ channel_ANC3 19
 [v _main main `(i  1 e 2 0 ]
 "9 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
 [v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
-"70
+"67
 [v _ADCC_StartConversion ADCC_StartConversion `(v  1 e 1 0 ]
-"82
-[v _ADCC_IsConversionDone ADCC_IsConversionDone `(a  1 e 1 0 ]
 "23 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
 [v _DMA1_Initialize DMA1_Initialize `(v  1 e 1 0 ]
 "208
@@ -250,9 +248,9 @@ channel_ANC3 19
 [v _TMR1_OverflowCallbackRegister TMR1_OverflowCallbackRegister `(v  1 e 1 0 ]
 "144
 [v _TMR1_DefaultOverflowCallback TMR1_DefaultOverflowCallback `(v  1 s 1 TMR1_DefaultOverflowCallback ]
-"213
+"214
 [v _TMR1_GateCallbackRegister TMR1_GateCallbackRegister `(v  1 e 1 0 ]
-"218
+"219
 [v _TMR1_DefaultGateCallback TMR1_DefaultGateCallback `(v  1 s 1 TMR1_DefaultGateCallback ]
 "20 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
 [v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
@@ -322,11 +320,11 @@ channel_ANC3 19
 [v _OSCEN OSCEN `VEuc  1 e 1 @179 ]
 "5622
 [v _PRLOCK PRLOCK `VEuc  1 e 1 @180 ]
-[s S669 . 1 `uc 1 PRLOCKED 1 0 :1:0 
+[s S635 . 1 `uc 1 PRLOCKED 1 0 :1:0 
 ]
 "5632
-[u S671 . 1 `S669 1 . 1 0 ]
-[v _PRLOCKbits PRLOCKbits `VES671  1 e 1 @180 ]
+[u S637 . 1 `S635 1 . 1 0 ]
+[v _PRLOCKbits PRLOCKbits `VES637  1 e 1 @180 ]
 "5642
 [v _SCANPR SCANPR `VEuc  1 e 1 @181 ]
 "5710
@@ -361,7 +359,7 @@ channel_ANC3 19
 [v _DMAnSSA DMAnSSA `VEum  1 e 3 @249 ]
 "8108
 [v _DMAnCON0 DMAnCON0 `VEuc  1 e 1 @252 ]
-[s S604 . 1 `uc 1 XIP 1 0 :1:0 
+[s S570 . 1 `uc 1 XIP 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 AIRQEN 1 0 :1:2 
 `uc 1 . 1 0 :2:3 
@@ -370,19 +368,19 @@ channel_ANC3 19
 `uc 1 EN 1 0 :1:7 
 ]
 "8124
-[u S612 . 1 `S604 1 . 1 0 ]
-[v _DMAnCON0bits DMAnCON0bits `VES612  1 e 1 @252 ]
+[u S578 . 1 `S570 1 . 1 0 ]
+[v _DMAnCON0bits DMAnCON0bits `VES578  1 e 1 @252 ]
 "8154
 [v _DMAnCON1 DMAnCON1 `VEuc  1 e 1 @253 ]
-[s S623 . 1 `uc 1 SSTP 1 0 :1:0 
+[s S589 . 1 `uc 1 SSTP 1 0 :1:0 
 `uc 1 SMODE 1 0 :2:1 
 `uc 1 SMR 1 0 :2:3 
 `uc 1 DSTP 1 0 :1:5 
 `uc 1 DMODE 1 0 :2:6 
 ]
 "8168
-[u S629 . 1 `S623 1 . 1 0 ]
-[v _DMAnCON1bits DMAnCON1bits `VES629  1 e 1 @253 ]
+[u S595 . 1 `S589 1 . 1 0 ]
+[v _DMAnCON1bits DMAnCON1bits `VES595  1 e 1 @253 ]
 "8198
 [v _DMAnAIRQ DMAnAIRQ `VEuc  1 e 1 @254 ]
 "8262
@@ -401,37 +399,37 @@ channel_ANC3 19
 [v _TMR1H TMR1H `VEuc  1 e 1 @787 ]
 "18284
 [v _T1CON T1CON `VEuc  1 e 1 @788 ]
-[s S1780 . 1 `uc 1 ON 1 0 :1:0 
+[s S1745 . 1 `uc 1 ON 1 0 :1:0 
 `uc 1 RD16 1 0 :1:1 
 `uc 1 NOT_SYNC 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
 `uc 1 CKPS 1 0 :2:4 
 ]
 "18326
-[s S1786 . 1 `uc 1 TMR1ON 1 0 :1:0 
+[s S1751 . 1 `uc 1 TMR1ON 1 0 :1:0 
 `uc 1 T1RD16 1 0 :1:1 
 `uc 1 NOT_T1SYNC 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
 `uc 1 T1CKPS0 1 0 :1:4 
 `uc 1 T1CKPS1 1 0 :1:5 
 ]
-[s S1793 . 1 `uc 1 . 1 0 :2:0 
+[s S1758 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 nSYNC 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
 `uc 1 CKPS0 1 0 :1:4 
 `uc 1 CKPS1 1 0 :1:5 
 ]
-[s S1799 . 1 `uc 1 . 1 0 :1:0 
+[s S1764 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 RD161 1 0 :1:1 
 ]
-[s S1802 . 1 `uc 1 . 1 0 :2:0 
+[s S1767 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 nT1SYNC 1 0 :1:2 
 ]
-[u S1805 . 1 `S1780 1 . 1 0 `S1786 1 . 1 0 `S1793 1 . 1 0 `S1799 1 . 1 0 `S1802 1 . 1 0 ]
-[v _T1CONbits T1CONbits `VES1805  1 e 1 @788 ]
+[u S1770 . 1 `S1745 1 . 1 0 `S1751 1 . 1 0 `S1758 1 . 1 0 `S1764 1 . 1 0 `S1767 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES1770  1 e 1 @788 ]
 "18506
 [v _T1GCON T1GCON `VEuc  1 e 1 @789 ]
-[s S1881 . 1 `uc 1 . 1 0 :2:0 
+[s S1846 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 GVAL 1 0 :1:2 
 `uc 1 GGO 1 0 :1:3 
 `uc 1 GSPM 1 0 :1:4 
@@ -440,7 +438,7 @@ channel_ANC3 19
 `uc 1 GE 1 0 :1:7 
 ]
 "18560
-[s S1889 . 1 `uc 1 . 1 0 :2:0 
+[s S1854 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 T1GVAL 1 0 :1:2 
 `uc 1 T1GGO 1 0 :1:3 
 `uc 1 T1GSPM 1 0 :1:4 
@@ -448,26 +446,26 @@ channel_ANC3 19
 `uc 1 T1GPOL 1 0 :1:6 
 `uc 1 T1GE 1 0 :1:7 
 ]
-[s S1897 . 1 `uc 1 . 1 0 :3:0 
+[s S1862 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 NOT_DONE 1 0 :1:3 
 ]
-[s S1900 . 1 `uc 1 . 1 0 :3:0 
+[s S1865 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 NOT_T1DONE 1 0 :1:3 
 ]
-[s S1903 . 1 `uc 1 . 1 0 :3:0 
+[s S1868 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 GGO_NOT_DONE 1 0 :1:3 
 ]
-[s S1906 . 1 `uc 1 . 1 0 :3:0 
+[s S1871 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 GGO_nDONE 1 0 :1:3 
 ]
-[s S1909 . 1 `uc 1 . 1 0 :3:0 
+[s S1874 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 T1GGO_NOT_DONE 1 0 :1:3 
 ]
-[s S1912 . 1 `uc 1 . 1 0 :3:0 
+[s S1877 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 T1GGO_nDONE 1 0 :1:3 
 ]
-[u S1915 . 1 `S1881 1 . 1 0 `S1889 1 . 1 0 `S1897 1 . 1 0 `S1900 1 . 1 0 `S1903 1 . 1 0 `S1906 1 . 1 0 `S1909 1 . 1 0 `S1912 1 . 1 0 ]
-[v _T1GCONbits T1GCONbits `VES1915  1 e 1 @789 ]
+[u S1880 . 1 `S1846 1 . 1 0 `S1854 1 . 1 0 `S1862 1 . 1 0 `S1865 1 . 1 0 `S1868 1 . 1 0 `S1871 1 . 1 0 `S1874 1 . 1 0 `S1877 1 . 1 0 ]
+[v _T1GCONbits T1GCONbits `VES1880  1 e 1 @789 ]
 "18792
 [v _T1GATE T1GATE `VEuc  1 e 1 @790 ]
 "18958
@@ -478,40 +476,40 @@ channel_ANC3 19
 [v _TMR0H TMR0H `VEuc  1 e 1 @793 ]
 "19596
 [v _T0CON0 T0CON0 `VEuc  1 e 1 @794 ]
-[s S1602 . 1 `uc 1 OUTPS 1 0 :4:0 
+[s S1567 . 1 `uc 1 OUTPS 1 0 :4:0 
 `uc 1 MD16 1 0 :1:4 
 `uc 1 OUT 1 0 :1:5 
 `uc 1 . 1 0 :1:6 
 `uc 1 EN 1 0 :1:7 
 ]
 "19630
-[s S1608 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+[s S1573 . 1 `uc 1 T0OUTPS 1 0 :4:0 
 `uc 1 T0MD16 1 0 :1:4 
 `uc 1 T0OUT 1 0 :1:5 
 `uc 1 . 1 0 :1:6 
 `uc 1 T0EN 1 0 :1:7 
 ]
-[s S1614 . 1 `uc 1 OUTPS0 1 0 :1:0 
+[s S1579 . 1 `uc 1 OUTPS0 1 0 :1:0 
 `uc 1 OUTPS1 1 0 :1:1 
 `uc 1 OUTPS2 1 0 :1:2 
 `uc 1 OUTPS3 1 0 :1:3 
 `uc 1 T016BIT 1 0 :1:4 
 ]
-[s S1620 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
+[s S1585 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
 `uc 1 T0OUTPS1 1 0 :1:1 
 `uc 1 T0OUTPS2 1 0 :1:2 
 `uc 1 T0OUTPS3 1 0 :1:3 
 ]
-[u S1625 . 1 `S1602 1 . 1 0 `S1608 1 . 1 0 `S1614 1 . 1 0 `S1620 1 . 1 0 ]
-[v _T0CON0bits T0CON0bits `VES1625  1 e 1 @794 ]
+[u S1590 . 1 `S1567 1 . 1 0 `S1573 1 . 1 0 `S1579 1 . 1 0 `S1585 1 . 1 0 ]
+[v _T0CON0bits T0CON0bits `VES1590  1 e 1 @794 ]
 "19720
 [v _T0CON1 T0CON1 `VEuc  1 e 1 @795 ]
-[s S2408 . 1 `uc 1 CKPS 1 0 :4:0 
+[s S2373 . 1 `uc 1 CKPS 1 0 :4:0 
 `uc 1 ASYNC 1 0 :1:4 
 `uc 1 CS 1 0 :3:5 
 ]
 "19757
-[s S2412 . 1 `uc 1 CKPS0 1 0 :1:0 
+[s S2377 . 1 `uc 1 CKPS0 1 0 :1:0 
 `uc 1 CKPS1 1 0 :1:1 
 `uc 1 CKPS2 1 0 :1:2 
 `uc 1 CKPS3 1 0 :1:3 
@@ -520,11 +518,11 @@ channel_ANC3 19
 `uc 1 CS1 1 0 :1:6 
 `uc 1 CS2 1 0 :1:7 
 ]
-[s S2421 . 1 `uc 1 T0CKPS 1 0 :4:0 
+[s S2386 . 1 `uc 1 T0CKPS 1 0 :4:0 
 `uc 1 . 1 0 :1:4 
 `uc 1 T0CS 1 0 :3:5 
 ]
-[s S2425 . 1 `uc 1 T0CKPS0 1 0 :1:0 
+[s S2390 . 1 `uc 1 T0CKPS0 1 0 :1:0 
 `uc 1 T0CKPS1 1 0 :1:1 
 `uc 1 T0CKPS2 1 0 :1:2 
 `uc 1 T0CKPS3 1 0 :1:3 
@@ -533,8 +531,8 @@ channel_ANC3 19
 `uc 1 T0CS1 1 0 :1:6 
 `uc 1 T0CS2 1 0 :1:7 
 ]
-[u S2434 . 1 `S2408 1 . 1 0 `S2412 1 . 1 0 `S2421 1 . 1 0 `S2425 1 . 1 0 ]
-[v _T0CON1bits T0CON1bits `VES2434  1 e 1 @795 ]
+[u S2399 . 1 `S2373 1 . 1 0 `S2377 1 . 1 0 `S2386 1 . 1 0 `S2390 1 . 1 0 ]
+[v _T0CON1bits T0CON1bits `VES2399  1 e 1 @795 ]
 "19862
 [v _T2TMR T2TMR `VEuc  1 e 1 @796 ]
 "19867
@@ -545,16 +543,16 @@ channel_ANC3 19
 [v _PR2 PR2 `VEuc  1 e 1 @797 ]
 "19938
 [v _T2CON T2CON `VEuc  1 e 1 @798 ]
-[s S1402 . 1 `uc 1 OUTPS 1 0 :4:0 
+[s S1367 . 1 `uc 1 OUTPS 1 0 :4:0 
 `uc 1 CKPS 1 0 :3:4 
 `uc 1 ON 1 0 :1:7 
 ]
 "19974
-[s S1406 . 1 `uc 1 T2OUTPS 1 0 :4:0 
+[s S1371 . 1 `uc 1 T2OUTPS 1 0 :4:0 
 `uc 1 T2CKPS 1 0 :3:4 
 `uc 1 T2ON 1 0 :1:7 
 ]
-[s S1410 . 1 `uc 1 T2OUTPS0 1 0 :1:0 
+[s S1375 . 1 `uc 1 T2OUTPS0 1 0 :1:0 
 `uc 1 T2OUTPS1 1 0 :1:1 
 `uc 1 T2OUTPS2 1 0 :1:2 
 `uc 1 T2OUTPS3 1 0 :1:3 
@@ -562,7 +560,7 @@ channel_ANC3 19
 `uc 1 T2CKPS1 1 0 :1:5 
 `uc 1 T2CKPS2 1 0 :1:6 
 ]
-[s S1418 . 1 `uc 1 OUTPS0 1 0 :1:0 
+[s S1383 . 1 `uc 1 OUTPS0 1 0 :1:0 
 `uc 1 OUTPS1 1 0 :1:1 
 `uc 1 OUTPS2 1 0 :1:2 
 `uc 1 OUTPS3 1 0 :1:3 
@@ -571,58 +569,58 @@ channel_ANC3 19
 `uc 1 CKPS2 1 0 :1:6 
 `uc 1 TMR2ON 1 0 :1:7 
 ]
-[u S1427 . 1 `S1402 1 . 1 0 `S1406 1 . 1 0 `S1410 1 . 1 0 `S1418 1 . 1 0 ]
-[v _T2CONbits T2CONbits `VES1427  1 e 1 @798 ]
+[u S1392 . 1 `S1367 1 . 1 0 `S1371 1 . 1 0 `S1375 1 . 1 0 `S1383 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES1392  1 e 1 @798 ]
 "20084
 [v _T2HLT T2HLT `VEuc  1 e 1 @799 ]
-[s S1291 . 1 `uc 1 MODE 1 0 :5:0 
+[s S1256 . 1 `uc 1 MODE 1 0 :5:0 
 `uc 1 CKSYNC 1 0 :1:5 
 `uc 1 CKPOL 1 0 :1:6 
 `uc 1 PSYNC 1 0 :1:7 
 ]
 "20117
-[s S1296 . 1 `uc 1 MODE0 1 0 :1:0 
+[s S1261 . 1 `uc 1 MODE0 1 0 :1:0 
 `uc 1 MODE1 1 0 :1:1 
 `uc 1 MODE2 1 0 :1:2 
 `uc 1 MODE3 1 0 :1:3 
 `uc 1 MODE4 1 0 :1:4 
 ]
-[s S1302 . 1 `uc 1 T2MODE 1 0 :5:0 
+[s S1267 . 1 `uc 1 T2MODE 1 0 :5:0 
 `uc 1 T2CKSYNC 1 0 :1:5 
 `uc 1 T2CKPOL 1 0 :1:6 
 `uc 1 T2PSYNC 1 0 :1:7 
 ]
-[s S1307 . 1 `uc 1 T2MODE0 1 0 :1:0 
+[s S1272 . 1 `uc 1 T2MODE0 1 0 :1:0 
 `uc 1 T2MODE1 1 0 :1:1 
 `uc 1 T2MODE2 1 0 :1:2 
 `uc 1 T2MODE3 1 0 :1:3 
 `uc 1 T2MODE4 1 0 :1:4 
 ]
-[u S1313 . 1 `S1291 1 . 1 0 `S1296 1 . 1 0 `S1302 1 . 1 0 `S1307 1 . 1 0 ]
-[v _T2HLTbits T2HLTbits `VES1313  1 e 1 @799 ]
+[u S1278 . 1 `S1256 1 . 1 0 `S1261 1 . 1 0 `S1267 1 . 1 0 `S1272 1 . 1 0 ]
+[v _T2HLTbits T2HLTbits `VES1278  1 e 1 @799 ]
 "20212
 [v _T2CLKCON T2CLKCON `VEuc  1 e 1 @800 ]
 "20370
 [v _T2RST T2RST `VEuc  1 e 1 @801 ]
-[s S1364 . 1 `uc 1 RSEL 1 0 :8:0 
+[s S1329 . 1 `uc 1 RSEL 1 0 :8:0 
 ]
 "20397
-[s S1366 . 1 `uc 1 RSEL0 1 0 :1:0 
+[s S1331 . 1 `uc 1 RSEL0 1 0 :1:0 
 `uc 1 RSEL1 1 0 :1:1 
 `uc 1 RSEL2 1 0 :1:2 
 `uc 1 RSEL3 1 0 :1:3 
 `uc 1 RSEL4 1 0 :1:4 
 ]
-[s S1372 . 1 `uc 1 T2RSEL 1 0 :8:0 
+[s S1337 . 1 `uc 1 T2RSEL 1 0 :8:0 
 ]
-[s S1374 . 1 `uc 1 T2RSEL0 1 0 :1:0 
+[s S1339 . 1 `uc 1 T2RSEL0 1 0 :1:0 
 `uc 1 T2RSEL1 1 0 :1:1 
 `uc 1 T2RSEL2 1 0 :1:2 
 `uc 1 T2RSEL3 1 0 :1:3 
 `uc 1 T2RSEL4 1 0 :1:4 
 ]
-[u S1380 . 1 `S1364 1 . 1 0 `S1366 1 . 1 0 `S1372 1 . 1 0 `S1374 1 . 1 0 ]
-[v _T2RSTbits T2RSTbits `VES1380  1 e 1 @801 ]
+[u S1345 . 1 `S1329 1 . 1 0 `S1331 1 . 1 0 `S1337 1 . 1 0 `S1339 1 . 1 0 ]
+[v _T2RSTbits T2RSTbits `VES1345  1 e 1 @801 ]
 "20469
 [v _TMR3L TMR3L `VEuc  1 e 1 @803 ]
 "20589
@@ -630,25 +628,25 @@ channel_ANC3 19
 "20709
 [v _T3CON T3CON `VEuc  1 e 1 @805 ]
 "20751
-[s S2109 . 1 `uc 1 TMR3ON 1 0 :1:0 
+[s S2074 . 1 `uc 1 TMR3ON 1 0 :1:0 
 `uc 1 T3RD16 1 0 :1:1 
 `uc 1 NOT_T3SYNC 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
 `uc 1 T3CKPS0 1 0 :1:4 
 `uc 1 T3CKPS1 1 0 :1:5 
 ]
-[s S2122 . 1 `uc 1 . 1 0 :1:0 
+[s S2087 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 RD163 1 0 :1:1 
 ]
-[s S2125 . 1 `uc 1 . 1 0 :2:0 
+[s S2090 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 nT3SYNC 1 0 :1:2 
 ]
-[u S2128 . 1 `S1780 1 . 1 0 `S2109 1 . 1 0 `S1793 1 . 1 0 `S2122 1 . 1 0 `S2125 1 . 1 0 ]
-[v _T3CONbits T3CONbits `VES2128  1 e 1 @805 ]
+[u S2093 . 1 `S1745 1 . 1 0 `S2074 1 . 1 0 `S1758 1 . 1 0 `S2087 1 . 1 0 `S2090 1 . 1 0 ]
+[v _T3CONbits T3CONbits `VES2093  1 e 1 @805 ]
 "20931
 [v _T3GCON T3GCON `VEuc  1 e 1 @806 ]
 "20985
-[s S2230 . 1 `uc 1 . 1 0 :2:0 
+[s S2195 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 T3GVAL 1 0 :1:2 
 `uc 1 T3GGO 1 0 :1:3 
 `uc 1 T3GSPM 1 0 :1:4 
@@ -656,17 +654,17 @@ channel_ANC3 19
 `uc 1 T3GPOL 1 0 :1:6 
 `uc 1 T3GE 1 0 :1:7 
 ]
-[s S2241 . 1 `uc 1 . 1 0 :3:0 
+[s S2206 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 NOT_T3DONE 1 0 :1:3 
 ]
-[s S2250 . 1 `uc 1 . 1 0 :3:0 
+[s S2215 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 T3GGO_NOT_DONE 1 0 :1:3 
 ]
-[s S2253 . 1 `uc 1 . 1 0 :3:0 
+[s S2218 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 T3GGO_nDONE 1 0 :1:3 
 ]
-[u S2256 . 1 `S1881 1 . 1 0 `S2230 1 . 1 0 `S1897 1 . 1 0 `S2241 1 . 1 0 `S1903 1 . 1 0 `S1906 1 . 1 0 `S2250 1 . 1 0 `S2253 1 . 1 0 ]
-[v _T3GCONbits T3GCONbits `VES2256  1 e 1 @806 ]
+[u S2221 . 1 `S1846 1 . 1 0 `S2195 1 . 1 0 `S1862 1 . 1 0 `S2206 1 . 1 0 `S1868 1 . 1 0 `S1871 1 . 1 0 `S2215 1 . 1 0 `S2218 1 . 1 0 ]
+[v _T3GCONbits T3GCONbits `VES2221  1 e 1 @806 ]
 "21217
 [v _T3GATE T3GATE `VEuc  1 e 1 @807 ]
 "21383
@@ -677,53 +675,39 @@ channel_ANC3 19
 [v _CCPR1H CCPR1H `VEuc  1 e 1 @833 ]
 "22276
 [v _CCP1CON CCP1CON `VEuc  1 e 1 @834 ]
-[s S807 . 1 `uc 1 MODE 1 0 :4:0 
+[s S772 . 1 `uc 1 MODE 1 0 :4:0 
 `uc 1 FMT 1 0 :1:4 
 `uc 1 OUT 1 0 :1:5 
 `uc 1 . 1 0 :1:6 
 `uc 1 EN 1 0 :1:7 
 ]
 "22309
-[s S813 . 1 `uc 1 MODE0 1 0 :1:0 
+[s S778 . 1 `uc 1 MODE0 1 0 :1:0 
 `uc 1 MODE1 1 0 :1:1 
 `uc 1 MODE2 1 0 :1:2 
 `uc 1 MODE3 1 0 :1:3 
 ]
-[s S818 . 1 `uc 1 CCP1MODE 1 0 :4:0 
+[s S783 . 1 `uc 1 CCP1MODE 1 0 :4:0 
 `uc 1 CCP1FMT 1 0 :1:4 
 `uc 1 CCP1OUT 1 0 :1:5 
 `uc 1 . 1 0 :1:6 
 `uc 1 CCP1EN 1 0 :1:7 
 ]
-[s S824 . 1 `uc 1 CCP1MODE0 1 0 :1:0 
+[s S789 . 1 `uc 1 CCP1MODE0 1 0 :1:0 
 `uc 1 CCP1MODE1 1 0 :1:1 
 `uc 1 CCP1MODE2 1 0 :1:2 
 `uc 1 CCP1MODE3 1 0 :1:3 
 ]
-[u S829 . 1 `S807 1 . 1 0 `S813 1 . 1 0 `S818 1 . 1 0 `S824 1 . 1 0 ]
-[v _CCP1CONbits CCP1CONbits `VES829  1 e 1 @834 ]
-[s S793 . 1 `uc 1 C1TSEL 1 0 :2:0 
+[u S794 . 1 `S772 1 . 1 0 `S778 1 . 1 0 `S783 1 . 1 0 `S789 1 . 1 0 ]
+[v _CCP1CONbits CCP1CONbits `VES794  1 e 1 @834 ]
+[s S758 . 1 `uc 1 C1TSEL 1 0 :2:0 
 ]
 "22476
-[s S795 . 1 `uc 1 C1TSEL0 1 0 :1:0 
+[s S760 . 1 `uc 1 C1TSEL0 1 0 :1:0 
 `uc 1 C1TSEL1 1 0 :1:1 
 ]
-[u S798 . 1 `S793 1 . 1 0 `S795 1 . 1 0 ]
-[v _CCPTMRS0bits CCPTMRS0bits `VES798  1 e 1 @844 ]
-[s S46 . 1 `uc 1 CPRDY 1 0 :1:0 
-`uc 1 . 1 0 :6:1 
-`uc 1 ON 1 0 :1:7 
-]
-"27137
-[s S50 . 1 `uc 1 ADCPRDY 1 0 :1:0 
-`uc 1 . 1 0 :6:1 
-`uc 1 CPON 1 0 :1:7 
-]
-[s S54 . 1 `uc 1 . 1 0 :7:0 
-`uc 1 ADCPON 1 0 :1:7 
-]
-[u S57 . 1 `S46 1 . 1 0 `S50 1 . 1 0 `S54 1 . 1 0 ]
-[v _ADCPbits ADCPbits `VES57  1 e 1 @984 ]
+[u S763 . 1 `S758 1 . 1 0 `S760 1 . 1 0 ]
+[v _CCPTMRS0bits CCPTMRS0bits `VES763  1 e 1 @844 ]
 "27174
 [v _ADLTHL ADLTHL `VEuc  1 e 1 @985 ]
 "27302
@@ -776,7 +760,7 @@ channel_ANC3 19
 [v _ADPREH ADPREH `VEuc  1 e 1 @1010 ]
 "30213
 [v _ADCON0 ADCON0 `VEuc  1 e 1 @1011 ]
-[s S73 . 1 `uc 1 GO 1 0 :1:0 
+[s S130 . 1 `uc 1 GO 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 FM 1 0 :2:2 
 `uc 1 CS 1 0 :1:4 
@@ -785,7 +769,7 @@ channel_ANC3 19
 `uc 1 ON 1 0 :1:7 
 ]
 "30253
-[s S81 . 1 `uc 1 ADGO 1 0 :1:0 
+[s S138 . 1 `uc 1 ADGO 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 ADFM 1 0 :2:2 
 `uc 1 ADCS 1 0 :1:4 
@@ -793,46 +777,46 @@ channel_ANC3 19
 `uc 1 ADCONT 1 0 :1:6 
 `uc 1 ADON 1 0 :1:7 
 ]
-[s S89 . 1 `uc 1 DONE 1 0 :1:0 
+[s S146 . 1 `uc 1 DONE 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 FM0 1 0 :1:2 
 `uc 1 FM1 1 0 :1:3 
 ]
-[s S94 . 1 `uc 1 GO_NOT_DONE 1 0 :1:0 
+[s S151 . 1 `uc 1 GO_NOT_DONE 1 0 :1:0 
 ]
-[s S96 . 1 `uc 1 GO_nDONE 1 0 :1:0 
+[s S153 . 1 `uc 1 GO_nDONE 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 ADFM0 1 0 :1:2 
 `uc 1 ADFM1 1 0 :1:3 
 ]
-[u S101 . 1 `S73 1 . 1 0 `S81 1 . 1 0 `S89 1 . 1 0 `S94 1 . 1 0 `S96 1 . 1 0 ]
-[v _ADCON0bits ADCON0bits `VES101  1 e 1 @1011 ]
+[u S158 . 1 `S130 1 . 1 0 `S138 1 . 1 0 `S146 1 . 1 0 `S151 1 . 1 0 `S153 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES158  1 e 1 @1011 ]
 "30343
 [v _ADCON1 ADCON1 `VEuc  1 e 1 @1012 ]
-[s S405 . 1 `uc 1 DSEN 1 0 :1:0 
+[s S374 . 1 `uc 1 DSEN 1 0 :1:0 
 `uc 1 . 1 0 :4:1 
 `uc 1 GPOL 1 0 :1:5 
 `uc 1 IPEN 1 0 :1:6 
 `uc 1 PPOL 1 0 :1:7 
 ]
 "30364
-[s S411 . 1 `uc 1 ADDSEN 1 0 :1:0 
+[s S380 . 1 `uc 1 ADDSEN 1 0 :1:0 
 `uc 1 . 1 0 :4:1 
 `uc 1 ADGPOL 1 0 :1:5 
 `uc 1 ADIPEN 1 0 :1:6 
 `uc 1 ADPPOL 1 0 :1:7 
 ]
-[u S417 . 1 `S405 1 . 1 0 `S411 1 . 1 0 ]
-[v _ADCON1bits ADCON1bits `VES417  1 e 1 @1012 ]
+[u S386 . 1 `S374 1 . 1 0 `S380 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES386  1 e 1 @1012 ]
 "30409
 [v _ADCON2 ADCON2 `VEuc  1 e 1 @1013 ]
-[s S281 . 1 `uc 1 MD 1 0 :3:0 
+[s S250 . 1 `uc 1 MD 1 0 :3:0 
 `uc 1 ACLR 1 0 :1:3 
 `uc 1 CRS 1 0 :3:4 
 `uc 1 PSIS 1 0 :1:7 
 ]
 "30446
-[s S286 . 1 `uc 1 ADMD0 1 0 :1:0 
+[s S255 . 1 `uc 1 ADMD0 1 0 :1:0 
 `uc 1 ADMD1 1 0 :1:1 
 `uc 1 ADMD2 1 0 :1:2 
 `uc 1 ADACLR 1 0 :1:3 
@@ -841,11 +825,11 @@ channel_ANC3 19
 `uc 1 ADCRS2 1 0 :1:6 
 `uc 1 ADPSIS 1 0 :1:7 
 ]
-[s S295 . 1 `uc 1 ADMD 1 0 :3:0 
+[s S264 . 1 `uc 1 ADMD 1 0 :3:0 
 `uc 1 . 1 0 :1:3 
 `uc 1 ADCRS 1 0 :3:4 
 ]
-[s S299 . 1 `uc 1 MD0 1 0 :1:0 
+[s S268 . 1 `uc 1 MD0 1 0 :1:0 
 `uc 1 MD1 1 0 :1:1 
 `uc 1 MD2 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -853,16 +837,16 @@ channel_ANC3 19
 `uc 1 CRS1 1 0 :1:5 
 `uc 1 CRS2 1 0 :1:6 
 ]
-[u S307 . 1 `S281 1 . 1 0 `S286 1 . 1 0 `S295 1 . 1 0 `S299 1 . 1 0 ]
-[v _ADCON2bits ADCON2bits `VES307  1 e 1 @1013 ]
+[u S276 . 1 `S250 1 . 1 0 `S255 1 . 1 0 `S264 1 . 1 0 `S268 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES276  1 e 1 @1013 ]
 "30551
 [v _ADCON3 ADCON3 `VEuc  1 e 1 @1014 ]
-[s S226 . 1 `uc 1 TMD 1 0 :3:0 
+[s S195 . 1 `uc 1 TMD 1 0 :3:0 
 `uc 1 SOI 1 0 :1:3 
 `uc 1 CALC 1 0 :3:4 
 ]
 "30586
-[s S230 . 1 `uc 1 ADTMD0 1 0 :1:0 
+[s S199 . 1 `uc 1 ADTMD0 1 0 :1:0 
 `uc 1 ADTMD1 1 0 :1:1 
 `uc 1 ADTMD2 1 0 :1:2 
 `uc 1 ADSOI 1 0 :1:3 
@@ -870,11 +854,11 @@ channel_ANC3 19
 `uc 1 ADCALC1 1 0 :1:5 
 `uc 1 ADCALC2 1 0 :1:6 
 ]
-[s S238 . 1 `uc 1 ADTMD 1 0 :3:0 
+[s S207 . 1 `uc 1 ADTMD 1 0 :3:0 
 `uc 1 . 1 0 :1:3 
 `uc 1 ADCALC 1 0 :3:4 
 ]
-[s S242 . 1 `uc 1 TMD0 1 0 :1:0 
+[s S211 . 1 `uc 1 TMD0 1 0 :1:0 
 `uc 1 TMD1 1 0 :1:1 
 `uc 1 TMD2 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -882,11 +866,11 @@ channel_ANC3 19
 `uc 1 CALC1 1 0 :1:5 
 `uc 1 CALC2 1 0 :1:6 
 ]
-[u S250 . 1 `S226 1 . 1 0 `S230 1 . 1 0 `S238 1 . 1 0 `S242 1 . 1 0 ]
-[v _ADCON3bits ADCON3bits `VES250  1 e 1 @1014 ]
+[u S219 . 1 `S195 1 . 1 0 `S199 1 . 1 0 `S207 1 . 1 0 `S211 1 . 1 0 ]
+[v _ADCON3bits ADCON3bits `VES219  1 e 1 @1014 ]
 "30681
 [v _ADSTAT ADSTAT `VEuc  1 e 1 @1015 ]
-[s S341 . 1 `uc 1 STAT 1 0 :3:0 
+[s S310 . 1 `uc 1 STAT 1 0 :3:0 
 `uc 1 . 1 0 :1:3 
 `uc 1 MATH 1 0 :1:4 
 `uc 1 LTHR 1 0 :1:5 
@@ -894,7 +878,7 @@ channel_ANC3 19
 `uc 1 AOV 1 0 :1:7 
 ]
 "30718
-[s S348 . 1 `uc 1 ADSTAT0 1 0 :1:0 
+[s S317 . 1 `uc 1 ADSTAT0 1 0 :1:0 
 `uc 1 ADSTAT1 1 0 :1:1 
 `uc 1 ADSTAT2 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -903,18 +887,18 @@ channel_ANC3 19
 `uc 1 ADUTHR 1 0 :1:6 
 `uc 1 ADAOV 1 0 :1:7 
 ]
-[s S357 . 1 `uc 1 ADSTAT 1 0 :3:0 
+[s S326 . 1 `uc 1 ADSTAT 1 0 :3:0 
 `uc 1 . 1 0 :4:3 
 `uc 1 ADOV 1 0 :1:7 
 ]
-[s S361 . 1 `uc 1 STAT0 1 0 :1:0 
+[s S330 . 1 `uc 1 STAT0 1 0 :1:0 
 `uc 1 STAT1 1 0 :1:1 
 `uc 1 STAT2 1 0 :1:2 
 `uc 1 . 1 0 :4:3 
 `uc 1 OV 1 0 :1:7 
 ]
-[u S367 . 1 `S341 1 . 1 0 `S348 1 . 1 0 `S357 1 . 1 0 `S361 1 . 1 0 ]
-[v _ADSTATbits ADSTATbits `VES367  1 e 1 @1015 ]
+[u S336 . 1 `S310 1 . 1 0 `S317 1 . 1 0 `S326 1 . 1 0 `S330 1 . 1 0 ]
+[v _ADSTATbits ADSTATbits `VES336  1 e 1 @1015 ]
 "30813
 [v _ADREF ADREF `VEuc  1 e 1 @1016 ]
 "30953
@@ -953,7 +937,7 @@ channel_ANC3 19
 [v _IOCCN IOCCN `VEuc  1 e 1 @1046 ]
 "31884
 [v _IOCCF IOCCF `VEuc  1 e 1 @1047 ]
-[s S181 . 1 `uc 1 INT0IE 1 0 :1:0 
+[s S91 . 1 `uc 1 INT0IE 1 0 :1:0 
 `uc 1 ZCDIE 1 0 :1:1 
 `uc 1 ADIE 1 0 :1:2 
 `uc 1 ACTIE 1 0 :1:3 
@@ -963,15 +947,15 @@ channel_ANC3 19
 `uc 1 SMT1PWAIE 1 0 :1:7 
 ]
 "35026
-[s S190 . 1 `uc 1 . 1 0 :4:0 
+[s S100 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 CM1IE 1 0 :1:4 
 ]
 "35026
-[u S193 . 1 `S181 1 . 1 0 `S190 1 . 1 0 ]
+[u S103 . 1 `S91 1 . 1 0 `S100 1 . 1 0 ]
 "35026
 "35026
-[v _PIE1bits PIE1bits `VES193  1 e 1 @1193 ]
-[s S570 . 1 `uc 1 ADTIE 1 0 :1:0 
+[v _PIE1bits PIE1bits `VES103  1 e 1 @1193 ]
+[s S536 . 1 `uc 1 ADTIE 1 0 :1:0 
 `uc 1 . 1 0 :3:1 
 `uc 1 DMA1SCNTIE 1 0 :1:4 
 `uc 1 DMA1DCNTIE 1 0 :1:5 
@@ -979,11 +963,11 @@ channel_ANC3 19
 `uc 1 DMA1AIE 1 0 :1:7 
 ]
 "35091
-[u S577 . 1 `S570 1 . 1 0 ]
+[u S543 . 1 `S536 1 . 1 0 ]
 "35091
 "35091
-[v _PIE2bits PIE2bits `VES577  1 e 1 @1194 ]
-[s S1038 . 1 `uc 1 SPI1RXIE 1 0 :1:0 
+[v _PIE2bits PIE2bits `VES543  1 e 1 @1194 ]
+[s S1003 . 1 `uc 1 SPI1RXIE 1 0 :1:0 
 `uc 1 SPI1TXIE 1 0 :1:1 
 `uc 1 SPI1IE 1 0 :1:2 
 `uc 1 TMR2IE 1 0 :1:3 
@@ -993,11 +977,11 @@ channel_ANC3 19
 `uc 1 TMR0IE 1 0 :1:7 
 ]
 "35138
-[u S1047 . 1 `S1038 1 . 1 0 ]
+[u S1012 . 1 `S1003 1 . 1 0 ]
 "35138
 "35138
-[v _PIE3bits PIE3bits `VES1047  1 e 1 @1195 ]
-[s S2200 . 1 `uc 1 U1RXIE 1 0 :1:0 
+[v _PIE3bits PIE3bits `VES1012  1 e 1 @1195 ]
+[s S2165 . 1 `uc 1 U1RXIE 1 0 :1:0 
 `uc 1 U1TXIE 1 0 :1:1 
 `uc 1 U1EIE 1 0 :1:2 
 `uc 1 U1IE 1 0 :1:3 
@@ -1007,11 +991,11 @@ channel_ANC3 19
 `uc 1 PWM1IE 1 0 :1:7 
 ]
 "35200
-[u S2209 . 1 `S2200 1 . 1 0 ]
+[u S2174 . 1 `S2165 1 . 1 0 ]
 "35200
 "35200
-[v _PIE4bits PIE4bits `VES2209  1 e 1 @1196 ]
-[s S136 . 1 `uc 1 INT0IF 1 0 :1:0 
+[v _PIE4bits PIE4bits `VES2174  1 e 1 @1196 ]
+[s S46 . 1 `uc 1 INT0IF 1 0 :1:0 
 `uc 1 ZCDIF 1 0 :1:1 
 `uc 1 ADIF 1 0 :1:2 
 `uc 1 ACTIF 1 0 :1:3 
@@ -1021,15 +1005,15 @@ channel_ANC3 19
 `uc 1 SMT1PWAIF 1 0 :1:7 
 ]
 "35673
-[s S145 . 1 `uc 1 . 1 0 :4:0 
+[s S55 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 CM1IF 1 0 :1:4 
 ]
 "35673
-[u S148 . 1 `S136 1 . 1 0 `S145 1 . 1 0 ]
+[u S58 . 1 `S46 1 . 1 0 `S55 1 . 1 0 ]
 "35673
 "35673
-[v _PIR1bits PIR1bits `VES148  1 e 1 @1204 ]
-[s S164 . 1 `uc 1 ADTIF 1 0 :1:0 
+[v _PIR1bits PIR1bits `VES58  1 e 1 @1204 ]
+[s S74 . 1 `uc 1 ADTIF 1 0 :1:0 
 `uc 1 . 1 0 :3:1 
 `uc 1 DMA1SCNTIF 1 0 :1:4 
 `uc 1 DMA1DCNTIF 1 0 :1:5 
@@ -1037,11 +1021,11 @@ channel_ANC3 19
 `uc 1 DMA1AIF 1 0 :1:7 
 ]
 "35738
-[u S171 . 1 `S164 1 . 1 0 ]
+[u S81 . 1 `S74 1 . 1 0 ]
 "35738
 "35738
-[v _PIR2bits PIR2bits `VES171  1 e 1 @1205 ]
-[s S1059 . 1 `uc 1 SPI1RXIF 1 0 :1:0 
+[v _PIR2bits PIR2bits `VES81  1 e 1 @1205 ]
+[s S1024 . 1 `uc 1 SPI1RXIF 1 0 :1:0 
 `uc 1 SPI1TXIF 1 0 :1:1 
 `uc 1 SPI1IF 1 0 :1:2 
 `uc 1 TMR2IF 1 0 :1:3 
@@ -1051,11 +1035,11 @@ channel_ANC3 19
 `uc 1 TMR0IF 1 0 :1:7 
 ]
 "35785
-[u S1068 . 1 `S1059 1 . 1 0 ]
+[u S1033 . 1 `S1024 1 . 1 0 ]
 "35785
 "35785
-[v _PIR3bits PIR3bits `VES1068  1 e 1 @1206 ]
-[s S2179 . 1 `uc 1 U1RXIF 1 0 :1:0 
+[v _PIR3bits PIR3bits `VES1033  1 e 1 @1206 ]
+[s S2144 . 1 `uc 1 U1RXIF 1 0 :1:0 
 `uc 1 U1TXIF 1 0 :1:1 
 `uc 1 U1EIF 1 0 :1:2 
 `uc 1 U1IF 1 0 :1:3 
@@ -1065,11 +1049,11 @@ channel_ANC3 19
 `uc 1 PWM1IF 1 0 :1:7 
 ]
 "35847
-[u S2188 . 1 `S2179 1 . 1 0 ]
+[u S2153 . 1 `S2144 1 . 1 0 ]
 "35847
 "35847
-[v _PIR4bits PIR4bits `VES2188  1 e 1 @1207 ]
-[s S978 . 1 `uc 1 INT1IF 1 0 :1:0 
+[v _PIR4bits PIR4bits `VES2153  1 e 1 @1207 ]
+[s S943 . 1 `uc 1 INT1IF 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 CWG1IF 1 0 :1:2 
 `uc 1 NCO1IF 1 0 :1:3 
@@ -1079,11 +1063,11 @@ channel_ANC3 19
 `uc 1 DMA2AIF 1 0 :1:7 
 ]
 "35975
-[u S987 . 1 `S978 1 . 1 0 ]
+[u S952 . 1 `S943 1 . 1 0 ]
 "35975
 "35975
-[v _PIR6bits PIR6bits `VES987  1 e 1 @1209 ]
-[s S1009 . 1 `uc 1 INT2IF 1 0 :1:0 
+[v _PIR6bits PIR6bits `VES952  1 e 1 @1209 ]
+[s S974 . 1 `uc 1 INT2IF 1 0 :1:0 
 `uc 1 . 1 0 :2:1 
 `uc 1 TMR4IF 1 0 :1:3 
 `uc 1 DMA4SCNTIF 1 0 :1:4 
@@ -1092,10 +1076,10 @@ channel_ANC3 19
 `uc 1 DMA4AIF 1 0 :1:7 
 ]
 "36202
-[u S1017 . 1 `S1009 1 . 1 0 ]
+[u S982 . 1 `S974 1 . 1 0 ]
 "36202
 "36202
-[v _PIR10bits PIR10bits `VES1017  1 e 1 @1213 ]
+[v _PIR10bits PIR10bits `VES982  1 e 1 @1213 ]
 "36237
 [v _LATA LATA `VEuc  1 e 1 @1214 ]
 "36282
@@ -1104,7 +1088,7 @@ channel_ANC3 19
 [v _TRISA TRISA `VEuc  1 e 1 @1222 ]
 "36382
 [v _TRISC TRISC `VEuc  1 e 1 @1224 ]
-[s S642 . 1 `uc 1 INT0EDG 1 0 :1:0 
+[s S608 . 1 `uc 1 INT0EDG 1 0 :1:0 
 `uc 1 INT1EDG 1 0 :1:1 
 `uc 1 INT2EDG 1 0 :1:2 
 `uc 1 . 1 0 :2:3 
@@ -1113,14 +1097,14 @@ channel_ANC3 19
 `uc 1 GIE 1 0 :1:7 
 ]
 "36552
-[s S650 . 1 `uc 1 . 1 0 :7:0 
+[s S616 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 GIEH 1 0 :1:7 
 ]
 "36552
-[u S653 . 1 `S642 1 . 1 0 `S650 1 . 1 0 ]
+[u S619 . 1 `S608 1 . 1 0 `S616 1 . 1 0 ]
 "36552
 "36552
-[v _INTCON0bits INTCON0bits `VES653  1 e 1 @1238 ]
+[v _INTCON0bits INTCON0bits `VES619  1 e 1 @1238 ]
 "37495
 [v _PRODL PRODL `VEuc  1 e 1 @1267 ]
 "37515
@@ -1284,11 +1268,11 @@ channel_ANC3 19
 [v TMR1_OverflowCallbackRegister@CallbackHandler CallbackHandler `*.37(v  1 p 2 0 ]
 "142
 } 0
-"213
+"214
 [v _TMR1_GateCallbackRegister TMR1_GateCallbackRegister `(v  1 e 1 0 ]
 {
 [v TMR1_GateCallbackRegister@CallbackHandler CallbackHandler `*.37(v  1 p 2 0 ]
-"216
+"217
 } 0
 "33 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
 [v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
@@ -1369,7 +1353,7 @@ channel_ANC3 19
 "9 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
 [v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
 {
-"68
+"65
 } 0
 "51 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
@@ -1389,7 +1373,7 @@ channel_ANC3 19
 "144 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
 [v _TMR1_DefaultOverflowCallback TMR1_DefaultOverflowCallback `(v  1 s 1 TMR1_DefaultOverflowCallback ]
 {
-"196
+"197
 } 0
 "129 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
 [v _TMR0_DefaultOverflowCallback TMR0_DefaultOverflowCallback `(v  1 s 1 TMR0_DefaultOverflowCallback ]
@@ -1422,18 +1406,14 @@ channel_ANC3 19
 {
 "67
 } 0
-"70 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+"67 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
 [v _ADCC_StartConversion ADCC_StartConversion `(v  1 e 1 0 ]
 {
 [v ADCC_StartConversion@channel channel `E12921  1 a 1 wreg ]
 [v ADCC_StartConversion@channel channel `E12921  1 a 1 wreg ]
+"70
 [v ADCC_StartConversion@channel channel `E12921  1 a 1 0 ]
-"80
-} 0
-"82
-[v _ADCC_IsConversionDone ADCC_IsConversionDone `(a  1 e 1 0 ]
-{
-"86
+"74
 } 0
 "31 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/pwm/src/ccp1.c
 [v _CCP1_LoadDutyValue CCP1_LoadDutyValue `(v  1 e 1 0 ]
@@ -1449,9 +1429,9 @@ channel_ANC3 19
 "227
 [v _DMA1_DefaultInterruptHandler DMA1_DefaultInterruptHandler `(v  1 e 1 0 ]
 {
-"233
+"231
 [v DMA1_DefaultInterruptHandler@ADC_result ADC_result `us  1 a 2 4 ]
-"298
+"296
 } 0
 "83 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
 [v i2_TMR1_Write TMR1_Write `(v  1 e 1 0 ]

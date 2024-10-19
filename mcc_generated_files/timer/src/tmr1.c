@@ -152,10 +152,10 @@ static void TMR1_DefaultOverflowCallback(void)
         
         ADCC_StartConversion(waveshape_adc_config_value); //get depth (12-bit linear)
         
-        current_adcc_type_ptr++;
+        //current_adcc_type_ptr++;
         
     }
-    
+    /*
     else if(*current_adcc_type_ptr == speed_adc_config_value){
         
         ADCC_StartConversion(speed_adc_config_value); //get speed (12-bit linear)
@@ -187,8 +187,9 @@ static void TMR1_DefaultOverflowCallback(void)
         current_adcc_type_ptr = adcc_type_array[0];
             
     }
-    
+    */
     size_t tmr3_value = TMR3_OVERFLOW_COUNT;
+    
     
     TMR3_Write(tmr3_value);
     TMR3_Start();
