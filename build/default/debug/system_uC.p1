@@ -1619,22 +1619,22 @@ Version 4.0 HI-TECH Software Intermediate Code
 ..
 ]
 "88
-[v _waveshape_adc_config_value `E13102 ~T0 @X0 1 e ]
+[v _waveshape_adc_config_value `CE13102 ~T0 @X0 1 s ]
 [i _waveshape_adc_config_value
 . `E13102 6
 ]
 "89
-[v _speed_adc_config_value `E13102 ~T0 @X0 1 e ]
+[v _speed_adc_config_value `CE13102 ~T0 @X0 1 s ]
 [i _speed_adc_config_value
 . `E13102 7
 ]
 "90
-[v _depth_adc_config_value `E13102 ~T0 @X0 1 e ]
+[v _depth_adc_config_value `CE13102 ~T0 @X0 1 s ]
 [i _depth_adc_config_value
 . `E13102 8
 ]
 "91
-[v _symmetry_adc_config_value `E13102 ~T0 @X0 1 e ]
+[v _symmetry_adc_config_value `CE13102 ~T0 @X0 1 s ]
 [i _symmetry_adc_config_value
 . `E13102 9
 ]
@@ -1684,7 +1684,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ]
 "102
-[v _adcc_type_array `*E13102 ~T0 @X0 -> 4 `i e ]
+[v _adcc_type_array `*CE13102 ~T0 @X0 -> 4 `i s ]
 [i _adcc_type_array
 :U ..
 &U _waveshape_adc_config_value
@@ -1694,7 +1694,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 ..
 ]
 "103
-[v _dma_type_array `*E13102 ~T0 @X0 -> 4 `i e ]
+[v _dma_type_array `*CE13102 ~T0 @X0 -> 4 `i s ]
 [i _dma_type_array
 :U ..
 &U _waveshape_adc_config_value
@@ -1704,9 +1704,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 ..
 ]
 "104
-[v _current_adcc_type_ptr `*E13102 ~T0 @X0 1 e ]
+[v _current_adcc_type_ptr `**CE13102 ~T0 @X0 1 e ]
 "105
-[v _current_dma_type_ptr `*E13102 ~T0 @X0 1 e ]
+[v _current_dma_type_ptr `**CE13102 ~T0 @X0 1 e ]
 "141
 [v _ADC_result `us ~T0 @X0 1 e ]
 "4 system_uC.c

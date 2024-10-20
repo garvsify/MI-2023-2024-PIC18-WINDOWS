@@ -103,6 +103,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v F13309 `(v ~T0 @X0 0 tf ]
 "130 mcc_generated_files/dma/src/../../../system_uC.h
 [v _current_waveshape `Vuc ~T0 @X0 0 e ]
+"131
+[v _current_speed_linear `Vus ~T0 @X0 0 e ]
 "144 ./mcc_generated_files/timer/tmr1.h
 [v _TMR1_Write `(v ~T0 @X0 0 ef1`ui ]
 "117
@@ -1705,22 +1707,22 @@ Version 4.0 HI-TECH Software Intermediate Code
 ..
 ]
 "88
-[v _waveshape_adc_config_value `E13143 ~T0 @X0 1 e ]
+[v _waveshape_adc_config_value `CE13143 ~T0 @X0 1 s ]
 [i _waveshape_adc_config_value
 . `E13143 6
 ]
 "89
-[v _speed_adc_config_value `E13143 ~T0 @X0 1 e ]
+[v _speed_adc_config_value `CE13143 ~T0 @X0 1 s ]
 [i _speed_adc_config_value
 . `E13143 7
 ]
 "90
-[v _depth_adc_config_value `E13143 ~T0 @X0 1 e ]
+[v _depth_adc_config_value `CE13143 ~T0 @X0 1 s ]
 [i _depth_adc_config_value
 . `E13143 8
 ]
 "91
-[v _symmetry_adc_config_value `E13143 ~T0 @X0 1 e ]
+[v _symmetry_adc_config_value `CE13143 ~T0 @X0 1 s ]
 [i _symmetry_adc_config_value
 . `E13143 9
 ]
@@ -1770,7 +1772,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ]
 "102
-[v _adcc_type_array `*E13143 ~T0 @X0 -> 4 `i e ]
+[v _adcc_type_array `*CE13143 ~T0 @X0 -> 4 `i s ]
 [i _adcc_type_array
 :U ..
 &U _waveshape_adc_config_value
@@ -1780,7 +1782,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 ..
 ]
 "103
-[v _dma_type_array `*E13143 ~T0 @X0 -> 4 `i e ]
+[v _dma_type_array `*CE13143 ~T0 @X0 -> 4 `i s ]
 [i _dma_type_array
 :U ..
 &U _waveshape_adc_config_value
@@ -1790,9 +1792,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 ..
 ]
 "104
-[v _current_adcc_type_ptr `*E13143 ~T0 @X0 1 e ]
+[v _current_adcc_type_ptr `**CE13143 ~T0 @X0 1 e ]
 "105
-[v _current_dma_type_ptr `*E13143 ~T0 @X0 1 e ]
+[v _current_dma_type_ptr `**CE13143 ~T0 @X0 1 e ]
 "141
 [v _ADC_result `us ~T0 @X0 1 e ]
 "5 mcc_generated_files/dma/src/dma1.c
@@ -2242,7 +2244,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "232
 [e = _ADC_result -> | -> -> *U + &U _adres * -> -> -> 0 `i `ui `ux -> -> # *U &U _adres `ui `ux `us `ui << -> -> *U + &U _adres * -> -> -> 1 `i `ui `ux -> -> # *U &U _adres `ui `ux `us `ui -> 8 `i `us ]
 "235
-[e $ ! == -> *U _current_dma_type_ptr `ui -> _waveshape_adc_config_value `ui 1873  ]
+[e $ ! == -> *U *U _current_dma_type_ptr `ui -> _waveshape_adc_config_value `ui 1873  ]
 {
 "237
 [e $ ! <= -> _ADC_result `ui -> -> 1365 `i `ui 1874  ]
@@ -2280,9 +2282,43 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U 1879 ]
 [e :U 1877 ]
 [e :U 1875 ]
+"250
+[e ++ _current_dma_type_ptr * -> -> 1 `i `x -> -> # *U _current_dma_type_ptr `i `x ]
 "252
 }
+[e $U 1880  ]
+"254
 [e :U 1873 ]
+[e $ ! == -> *U *U _current_dma_type_ptr `ui -> _speed_adc_config_value `ui 1881  ]
+{
+"256
+[e = _current_speed_linear _ADC_result ]
+"258
+[e ++ _current_dma_type_ptr * -> -> 1 `i `x -> -> # *U _current_dma_type_ptr `i `x ]
+"260
+}
+[e $U 1882  ]
+"262
+[e :U 1881 ]
+[e $ ! == -> *U *U _current_dma_type_ptr `ui -> _depth_adc_config_value `ui 1883  ]
+{
+"271
+[e ++ _current_dma_type_ptr * -> -> 1 `i `x -> -> # *U _current_dma_type_ptr `i `x ]
+"273
+}
+[e $U 1884  ]
+"275
+[e :U 1883 ]
+[e $ ! == -> *U *U _current_dma_type_ptr `ui -> _symmetry_adc_config_value `ui 1885  ]
+{
+"287
+[e = _current_dma_type_ptr &U _dma_type_array ]
+"289
+}
+[e :U 1885 ]
+[e :U 1884 ]
+[e :U 1882 ]
+[e :U 1880 ]
 "291
 [v _tmr1_value `ui ~T0 @X0 1 a ]
 [e = _tmr1_value -> -> 65450 `l `ui ]

@@ -148,15 +148,15 @@ static void TMR1_DefaultOverflowCallback(void)
     
     TMR1_Stop();
     
-    if(*current_adcc_type_ptr == waveshape_adc_config_value){
+    if(**current_adcc_type_ptr == waveshape_adc_config_value){
         
         ADCC_StartConversion(waveshape_adc_config_value); //get depth (12-bit linear)
         
-        //current_adcc_type_ptr++;
+        current_adcc_type_ptr++;
         
     }
-    /*
-    else if(*current_adcc_type_ptr == speed_adc_config_value){
+    
+    else if(**current_adcc_type_ptr == speed_adc_config_value){
         
         ADCC_StartConversion(speed_adc_config_value); //get speed (12-bit linear)
         
@@ -164,7 +164,7 @@ static void TMR1_DefaultOverflowCallback(void)
         
     }
     
-    else if(*current_adcc_type_ptr == depth_adc_config_value){
+    else if(**current_adcc_type_ptr == depth_adc_config_value){
             
         #if DEPTH_ON_OR_OFF == ON
             
@@ -176,7 +176,7 @@ static void TMR1_DefaultOverflowCallback(void)
             
     }
 
-    else if(*current_adcc_type_ptr == symmetry_adc_config_value){
+    else if(**current_adcc_type_ptr == symmetry_adc_config_value){
             
         #if SYMMETRY_ON_OR_OFF == ON
             
@@ -184,10 +184,10 @@ static void TMR1_DefaultOverflowCallback(void)
 
         #endif
             
-        current_adcc_type_ptr = adcc_type_array[0];
+        current_adcc_type_ptr = adcc_type_array;
             
     }
-    */
+    
     size_t tmr3_value = TMR3_OVERFLOW_COUNT;
     
     

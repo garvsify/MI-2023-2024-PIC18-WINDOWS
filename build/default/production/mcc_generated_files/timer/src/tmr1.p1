@@ -1721,22 +1721,22 @@ Version 4.0 HI-TECH Software Intermediate Code
 ..
 ]
 "88
-[v _waveshape_adc_config_value `E13102 ~T0 @X0 1 e ]
+[v _waveshape_adc_config_value `CE13102 ~T0 @X0 1 s ]
 [i _waveshape_adc_config_value
 . `E13102 6
 ]
 "89
-[v _speed_adc_config_value `E13102 ~T0 @X0 1 e ]
+[v _speed_adc_config_value `CE13102 ~T0 @X0 1 s ]
 [i _speed_adc_config_value
 . `E13102 7
 ]
 "90
-[v _depth_adc_config_value `E13102 ~T0 @X0 1 e ]
+[v _depth_adc_config_value `CE13102 ~T0 @X0 1 s ]
 [i _depth_adc_config_value
 . `E13102 8
 ]
 "91
-[v _symmetry_adc_config_value `E13102 ~T0 @X0 1 e ]
+[v _symmetry_adc_config_value `CE13102 ~T0 @X0 1 s ]
 [i _symmetry_adc_config_value
 . `E13102 9
 ]
@@ -1786,7 +1786,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ]
 "102
-[v _adcc_type_array `*E13102 ~T0 @X0 -> 4 `i e ]
+[v _adcc_type_array `*CE13102 ~T0 @X0 -> 4 `i s ]
 [i _adcc_type_array
 :U ..
 &U _waveshape_adc_config_value
@@ -1796,7 +1796,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 ..
 ]
 "103
-[v _dma_type_array `*E13102 ~T0 @X0 -> 4 `i e ]
+[v _dma_type_array `*CE13102 ~T0 @X0 -> 4 `i s ]
 [i _dma_type_array
 :U ..
 &U _waveshape_adc_config_value
@@ -1806,9 +1806,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 ..
 ]
 "104
-[v _current_adcc_type_ptr `*E13102 ~T0 @X0 1 e ]
+[v _current_adcc_type_ptr `**CE13102 ~T0 @X0 1 e ]
 "105
-[v _current_dma_type_ptr `*E13102 ~T0 @X0 1 e ]
+[v _current_dma_type_ptr `**CE13102 ~T0 @X0 1 e ]
 "141
 [v _ADC_result `us ~T0 @X0 1 e ]
 "8 mcc_generated_files/timer/src/tmr1.c
@@ -2041,13 +2041,47 @@ Version 4.0 HI-TECH Software Intermediate Code
 "149
 [e ( _TMR1_Stop ..  ]
 "151
-[e $ ! == -> *U _current_adcc_type_ptr `ui -> _waveshape_adc_config_value `ui 1859  ]
+[e $ ! == -> *U *U _current_adcc_type_ptr `ui -> _waveshape_adc_config_value `ui 1859  ]
 {
 "153
 [e ( _ADCC_StartConversion (1 _waveshape_adc_config_value ]
+"155
+[e ++ _current_adcc_type_ptr * -> -> 1 `i `x -> -> # *U _current_adcc_type_ptr `i `x ]
 "157
 }
+[e $U 1860  ]
+"159
 [e :U 1859 ]
+[e $ ! == -> *U *U _current_adcc_type_ptr `ui -> _speed_adc_config_value `ui 1861  ]
+{
+"161
+[e ( _ADCC_StartConversion (1 _speed_adc_config_value ]
+"163
+[e ++ _current_adcc_type_ptr * -> -> 1 `i `x -> -> # *U _current_adcc_type_ptr `i `x ]
+"165
+}
+[e $U 1862  ]
+"167
+[e :U 1861 ]
+[e $ ! == -> *U *U _current_adcc_type_ptr `ui -> _depth_adc_config_value `ui 1863  ]
+{
+"175
+[e ++ _current_adcc_type_ptr * -> -> 1 `i `x -> -> # *U _current_adcc_type_ptr `i `x ]
+"177
+}
+[e $U 1864  ]
+"179
+[e :U 1863 ]
+[e $ ! == -> *U *U _current_adcc_type_ptr `ui -> _symmetry_adc_config_value `ui 1865  ]
+{
+"187
+[e = _current_adcc_type_ptr &U _adcc_type_array ]
+"189
+}
+[e :U 1865 ]
+[e :U 1864 ]
+[e :U 1862 ]
+[e :U 1860 ]
 "191
 [v _tmr3_value `ui ~T0 @X0 1 a ]
 [e = _tmr3_value -> -> 65450 `l `ui ]
@@ -2066,9 +2100,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 [f ]
 "201
 [e ) -> . . _PIR3bits 0 4 `a ]
-[e $UE 1860  ]
+[e $UE 1866  ]
 "202
-[e :UE 1860 ]
+[e :UE 1866 ]
 }
 "204
 [v _TMR1_GateISR `(v ~T0 @X0 1 ef ]
@@ -2079,16 +2113,16 @@ Version 4.0 HI-TECH Software Intermediate Code
 "207
 [e = . . _PIR3bits 0 5 -> -> 0 `i `uc ]
 "208
-[e $ ! != _TMR1_GateCallback -> -> 0 `i `*F13303 1862  ]
+[e $ ! != _TMR1_GateCallback -> -> 0 `i `*F13303 1868  ]
 "209
 {
 "210
 [e ( *U _TMR1_GateCallback ..  ]
 "211
 }
-[e :U 1862 ]
+[e :U 1868 ]
 "212
-[e :UE 1861 ]
+[e :UE 1867 ]
 }
 "214
 [v _TMR1_GateCallbackRegister `(v ~T0 @X0 1 ef1`*F13305 ]
@@ -2102,7 +2136,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "216
 [e = _TMR1_GateCallback _CallbackHandler ]
 "217
-[e :UE 1863 ]
+[e :UE 1869 ]
 }
 "219
 [v _TMR1_DefaultGateCallback `(v ~T0 @X0 1 sf ]
@@ -2111,5 +2145,5 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U _TMR1_DefaultGateCallback ]
 [f ]
 "223
-[e :UE 1864 ]
+[e :UE 1870 ]
 }

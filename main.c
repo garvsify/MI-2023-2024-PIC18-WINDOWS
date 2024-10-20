@@ -44,8 +44,8 @@ int main(void){
     TMR0H = (uint8_t) final_TMR0;
      */
 
-    current_adcc_type_ptr = adcc_type_array[0];
-    current_dma_type_ptr = dma_type_array[0];
+    current_adcc_type_ptr = adcc_type_array;
+    current_dma_type_ptr = dma_type_array;
 
     size_t tmr1_value = TMR1_OVERFLOW_COUNT;
 
