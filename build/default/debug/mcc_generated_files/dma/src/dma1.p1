@@ -101,6 +101,14 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v F13305 `(v ~T0 @X0 0 tf ]
 [v F13307 `(v ~T0 @X0 0 tf ]
 [v F13309 `(v ~T0 @X0 0 tf ]
+"35189
+[s S1691 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1691 . U1RXIE U1TXIE U1EIE U1IE TMR3IE TMR3GIE PWM1PIE PWM1IE ]
+"35188
+[u S1690 `S1691 1 ]
+[n S1690 . . ]
+"35200
+[v _PIE4bits `VS1690 ~T0 @X0 0 e@1196 ]
 "130 mcc_generated_files/dma/src/../../../system_uC.h
 [v _current_waveshape `Vuc ~T0 @X0 0 e ]
 "131
@@ -109,6 +117,14 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _TMR1_Write `(v ~T0 @X0 0 ef1`ui ]
 "117
 [v _TMR1_Start `(v ~T0 @X0 0 ef ]
+"35127 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
+[s S1689 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1689 . SPI1RXIE SPI1TXIE SPI1IE TMR2IE TMR1IE TMR1GIE CCP1IE TMR0IE ]
+"35126
+[u S1688 `S1689 1 ]
+[n S1688 . . ]
+"35138
+[v _PIE3bits `VS1688 ~T0 @X0 0 e@1195 ]
 "269 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
 [; <" CLKRCON equ 039h ;# ">
 "373
@@ -1772,7 +1788,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ]
 "102
-[v _adcc_type_array `*CE13143 ~T0 @X0 -> 4 `i s ]
+[v _adcc_type_array `*CE13143 ~T0 @X0 -> 4 `i e ]
 [i _adcc_type_array
 :U ..
 &U _waveshape_adc_config_value
@@ -1782,7 +1798,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 ..
 ]
 "103
-[v _dma_type_array `*CE13143 ~T0 @X0 -> 4 `i s ]
+[v _dma_type_array `*CE13143 ~T0 @X0 -> 4 `i e ]
 [i _dma_type_array
 :U ..
 &U _waveshape_adc_config_value
@@ -2240,92 +2256,98 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U _DMA1_DefaultInterruptHandler ]
 [f ]
 "231
-[v _ADC_result `us ~T0 @X0 1 a ]
+[e = . . _PIE2bits 0 3 -> -> 0 `i `uc ]
 "232
-[e = _ADC_result -> | -> -> *U + &U _adres * -> -> -> 0 `i `ui `ux -> -> # *U &U _adres `ui `ux `us `ui << -> -> *U + &U _adres * -> -> -> 1 `i `ui `ux -> -> # *U &U _adres `ui `ux `us `ui -> 8 `i `us ]
+[e = . . _PIE4bits 0 4 -> -> 0 `i `uc ]
+"234
+[v _ADC_result `us ~T0 @X0 1 a ]
 "235
+[e = _ADC_result -> | -> -> *U + &U _adres * -> -> -> 0 `i `ui `ux -> -> # *U &U _adres `ui `ux `us `ui << -> -> *U + &U _adres * -> -> -> 1 `i `ui `ux -> -> # *U &U _adres `ui `ux `us `ui -> 8 `i `us ]
+"238
 [e $ ! == -> *U *U _current_dma_type_ptr `ui -> _waveshape_adc_config_value `ui 1873  ]
 {
-"237
+"240
 [e $ ! <= -> _ADC_result `ui -> -> 1365 `i `ui 1874  ]
 {
-"238
+"241
 [e = _current_waveshape -> -> 0 `i `uc ]
-"239
+"242
 }
 [e $U 1875  ]
-"240
+"243
 [e :U 1874 ]
 [e $ ! <= -> _ADC_result `ui -> -> 2730 `i `ui 1876  ]
 {
-"241
+"244
 [e = _current_waveshape -> -> 1 `i `uc ]
-"242
+"245
 }
 [e $U 1877  ]
-"243
+"246
 [e :U 1876 ]
 [e $ ! <= -> _ADC_result `ui -> -> 4095 `i `ui 1878  ]
 {
-"244
+"247
 [e = _current_waveshape -> -> 2 `i `uc ]
-"245
+"248
 }
 [e $U 1879  ]
-"246
+"249
 [e :U 1878 ]
 {
-"247
+"250
 [e = _current_waveshape -> -> 1 `i `uc ]
-"248
+"251
 }
 [e :U 1879 ]
 [e :U 1877 ]
 [e :U 1875 ]
-"250
+"253
 [e ++ _current_dma_type_ptr * -> -> 1 `i `x -> -> # *U _current_dma_type_ptr `i `x ]
-"252
+"255
 }
 [e $U 1880  ]
-"254
+"257
 [e :U 1873 ]
 [e $ ! == -> *U *U _current_dma_type_ptr `ui -> _speed_adc_config_value `ui 1881  ]
 {
-"256
+"259
 [e = _current_speed_linear _ADC_result ]
-"258
+"261
 [e ++ _current_dma_type_ptr * -> -> 1 `i `x -> -> # *U _current_dma_type_ptr `i `x ]
-"260
+"263
 }
 [e $U 1882  ]
-"262
+"265
 [e :U 1881 ]
 [e $ ! == -> *U *U _current_dma_type_ptr `ui -> _depth_adc_config_value `ui 1883  ]
 {
-"271
+"274
 [e ++ _current_dma_type_ptr * -> -> 1 `i `x -> -> # *U _current_dma_type_ptr `i `x ]
-"273
+"276
 }
 [e $U 1884  ]
-"275
+"278
 [e :U 1883 ]
 [e $ ! == -> *U *U _current_dma_type_ptr `ui -> _symmetry_adc_config_value `ui 1885  ]
 {
-"287
+"290
 [e = _current_dma_type_ptr &U _dma_type_array ]
-"289
+"292
 }
 [e :U 1885 ]
 [e :U 1884 ]
 [e :U 1882 ]
 [e :U 1880 ]
-"291
+"294
 [v _tmr1_value `ui ~T0 @X0 1 a ]
 [e = _tmr1_value -> -> 65450 `l `ui ]
-"293
-[e ( _TMR1_Write (1 _tmr1_value ]
-"294
-[e ( _TMR1_Start ..  ]
 "296
+[e ( _TMR1_Write (1 _tmr1_value ]
+"297
+[e ( _TMR1_Start ..  ]
+"299
+[e = . . _PIE3bits 0 4 -> -> 1 `i `uc ]
+"301
 [e :UE 1872 ]
 }

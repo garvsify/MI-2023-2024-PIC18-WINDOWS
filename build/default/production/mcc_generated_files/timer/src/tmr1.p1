@@ -120,6 +120,22 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _TMR3_Write `(v ~T0 @X0 0 ef1`ui ]
 "149
 [v _TMR3_Start `(v ~T0 @X0 0 ef ]
+"35189 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
+[s S1691 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1691 . U1RXIE U1TXIE U1EIE U1IE TMR3IE TMR3GIE PWM1PIE PWM1IE ]
+"35188
+[u S1690 `S1691 1 ]
+[n S1690 . . ]
+"35200
+[v _PIE4bits `VS1690 ~T0 @X0 0 e@1196 ]
+"35082
+[s S1687 :1 `uc 1 :3 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1687 . ADTIE . DMA1SCNTIE DMA1DCNTIE DMA1ORIE DMA1AIE ]
+"35081
+[u S1686 `S1687 1 ]
+[n S1686 . . ]
+"35091
+[v _PIE2bits `VS1686 ~T0 @X0 0 e@1194 ]
 [v F13303 `(v ~T0 @X0 0 tf ]
 [v F13305 `(v ~T0 @X0 0 tf ]
 [v F13307 `(v ~T0 @X0 0 tf ]
@@ -1786,7 +1802,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ]
 "102
-[v _adcc_type_array `*CE13102 ~T0 @X0 -> 4 `i s ]
+[v _adcc_type_array `*CE13102 ~T0 @X0 -> 4 `i e ]
 [i _adcc_type_array
 :U ..
 &U _waveshape_adc_config_value
@@ -1796,7 +1812,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 ..
 ]
 "103
-[v _dma_type_array `*CE13102 ~T0 @X0 -> 4 `i s ]
+[v _dma_type_array `*CE13102 ~T0 @X0 -> 4 `i e ]
 [i _dma_type_array
 :U ..
 &U _waveshape_adc_config_value
@@ -2039,111 +2055,117 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U _TMR1_DefaultOverflowCallback ]
 [f ]
 "149
-[e ( _TMR1_Stop ..  ]
+[e = . . _PIE3bits 0 4 -> -> 0 `i `uc ]
 "151
+[e ( _TMR1_Stop ..  ]
+"153
 [e $ ! == -> *U *U _current_adcc_type_ptr `ui -> _waveshape_adc_config_value `ui 1859  ]
 {
-"153
-[e ( _ADCC_StartConversion (1 _waveshape_adc_config_value ]
 "155
-[e ++ _current_adcc_type_ptr * -> -> 1 `i `x -> -> # *U _current_adcc_type_ptr `i `x ]
+[e ( _ADCC_StartConversion (1 _waveshape_adc_config_value ]
 "157
+[e ++ _current_adcc_type_ptr * -> -> 1 `i `x -> -> # *U _current_adcc_type_ptr `i `x ]
+"159
 }
 [e $U 1860  ]
-"159
+"161
 [e :U 1859 ]
 [e $ ! == -> *U *U _current_adcc_type_ptr `ui -> _speed_adc_config_value `ui 1861  ]
 {
-"161
-[e ( _ADCC_StartConversion (1 _speed_adc_config_value ]
 "163
-[e ++ _current_adcc_type_ptr * -> -> 1 `i `x -> -> # *U _current_adcc_type_ptr `i `x ]
+[e ( _ADCC_StartConversion (1 _speed_adc_config_value ]
 "165
+[e ++ _current_adcc_type_ptr * -> -> 1 `i `x -> -> # *U _current_adcc_type_ptr `i `x ]
+"167
 }
 [e $U 1862  ]
-"167
+"169
 [e :U 1861 ]
 [e $ ! == -> *U *U _current_adcc_type_ptr `ui -> _depth_adc_config_value `ui 1863  ]
 {
-"175
-[e ++ _current_adcc_type_ptr * -> -> 1 `i `x -> -> # *U _current_adcc_type_ptr `i `x ]
 "177
+[e ++ _current_adcc_type_ptr * -> -> 1 `i `x -> -> # *U _current_adcc_type_ptr `i `x ]
+"179
 }
 [e $U 1864  ]
-"179
+"181
 [e :U 1863 ]
 [e $ ! == -> *U *U _current_adcc_type_ptr `ui -> _symmetry_adc_config_value `ui 1865  ]
 {
-"187
-[e = _current_adcc_type_ptr &U _adcc_type_array ]
 "189
+[e = _current_adcc_type_ptr &U _adcc_type_array ]
+"191
 }
 [e :U 1865 ]
 [e :U 1864 ]
 [e :U 1862 ]
 [e :U 1860 ]
-"191
+"193
 [v _tmr3_value `ui ~T0 @X0 1 a ]
 [e = _tmr3_value -> -> 65450 `l `ui ]
-"194
+"196
 [e ( _TMR3_Write (1 _tmr3_value ]
-"195
-[e ( _TMR3_Start ..  ]
 "197
+[e ( _TMR3_Start ..  ]
+"199
+[e = . . _PIE4bits 0 4 -> -> 1 `i `uc ]
+"200
+[e = . . _PIE2bits 0 3 -> -> 1 `i `uc ]
+"202
 [e :UE 1858 ]
 }
-"199
+"204
 [v _TMR1_HasOverflowOccured `(a ~T0 @X0 1 ef ]
-"200
+"205
 {
 [e :U _TMR1_HasOverflowOccured ]
 [f ]
-"201
+"206
 [e ) -> . . _PIR3bits 0 4 `a ]
 [e $UE 1866  ]
-"202
+"207
 [e :UE 1866 ]
 }
-"204
+"209
 [v _TMR1_GateISR `(v ~T0 @X0 1 ef ]
-"205
+"210
 {
 [e :U _TMR1_GateISR ]
 [f ]
-"207
+"212
 [e = . . _PIR3bits 0 5 -> -> 0 `i `uc ]
-"208
+"213
 [e $ ! != _TMR1_GateCallback -> -> 0 `i `*F13303 1868  ]
-"209
+"214
 {
-"210
+"215
 [e ( *U _TMR1_GateCallback ..  ]
-"211
+"216
 }
 [e :U 1868 ]
-"212
+"217
 [e :UE 1867 ]
 }
-"214
+"219
 [v _TMR1_GateCallbackRegister `(v ~T0 @X0 1 ef1`*F13305 ]
-"215
+"220
 {
 [e :U _TMR1_GateCallbackRegister ]
-"214
+"219
 [v _CallbackHandler `*F13307 ~T0 @X0 1 r1 ]
-"215
+"220
 [f ]
-"216
+"221
 [e = _TMR1_GateCallback _CallbackHandler ]
-"217
+"222
 [e :UE 1869 ]
 }
-"219
+"224
 [v _TMR1_DefaultGateCallback `(v ~T0 @X0 1 sf ]
-"220
+"225
 {
 [e :U _TMR1_DefaultGateCallback ]
 [f ]
-"223
+"228
 [e :UE 1870 ]
 }

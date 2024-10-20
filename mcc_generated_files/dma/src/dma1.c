@@ -228,6 +228,9 @@ void DMA1_DefaultInterruptHandler(void){
     // add your DMA1 interrupt custom code
     // or set custom function using DMA1_SCNTIInterruptHandlerSet() /DMA1_DCNTIInterruptHandlerSet() /DMA1_AIInterruptHandlerSet() /DMA1_ORIInterruptHandlerSet()
     
+    PIE2bits.DMA1DCNTIE = 0;
+    PIE4bits.TMR3IE = 0;
+    
     uint16_t ADC_result; //concatenated ADC result
     ADC_result = (uint16_t)adres[0] | ((uint16_t)adres[1] << 8);
     //ADC_result = TWELVEBITMINUSONE - ADC_result;
@@ -292,6 +295,8 @@ void DMA1_DefaultInterruptHandler(void){
     
     TMR1_Write(tmr1_value);
     TMR1_Start(); //ADCC is triggered on overflow
+    
+    PIE3bits.TMR1IE = 1;
     
 }
 /**

@@ -43,6 +43,10 @@ int main(void){
     process_TMR0_and_prescaler_adjust();
     TMR0H = (uint8_t) final_TMR0;
      */
+    
+    PIE2bits.DMA1DCNTIE = 0;
+    PIE4bits.TMR3IE = 0;
+    
 
     current_adcc_type_ptr = adcc_type_array;
     current_dma_type_ptr = dma_type_array;
@@ -51,7 +55,6 @@ int main(void){
 
     TMR1_Write(tmr1_value);
     TMR1_Start(); //ADCC is triggered on overflow
-    //LATC4 = 1;
 
     T0CON1bits.CKPS = 0b0100;
     final_TMR0 = 100;

@@ -99,8 +99,8 @@
     const uint8_t YES = 1;
     const uint8_t NO = 0;
 
-    static const adcc_channel_t* adcc_type_array[4] = {&waveshape_adc_config_value, &speed_adc_config_value, &depth_adc_config_value, &symmetry_adc_config_value};
-    static const adcc_channel_t* dma_type_array[4] = {&waveshape_adc_config_value, &speed_adc_config_value, &depth_adc_config_value, &symmetry_adc_config_value}; //DMA type obviously need not be of adcc_channel_t type but just using for sameness
+    const adcc_channel_t* adcc_type_array[4] = {&waveshape_adc_config_value, &speed_adc_config_value, &depth_adc_config_value, &symmetry_adc_config_value};
+    const adcc_channel_t* dma_type_array[4] = {&waveshape_adc_config_value, &speed_adc_config_value, &depth_adc_config_value, &symmetry_adc_config_value}; //DMA type obviously need not be of adcc_channel_t type but just using for sameness
     const adcc_channel_t** current_adcc_type_ptr;
     const adcc_channel_t** current_dma_type_ptr; //DMA type obviously need not be of adcc_channel_t type but just using for sameness
     

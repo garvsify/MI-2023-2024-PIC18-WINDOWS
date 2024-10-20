@@ -1780,7 +1780,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ]
 "102
-[v _adcc_type_array `*CE13102 ~T0 @X0 -> 4 `i s ]
+[v _adcc_type_array `*CE13102 ~T0 @X0 -> 4 `i e ]
 [i _adcc_type_array
 :U ..
 &U _waveshape_adc_config_value
@@ -1790,7 +1790,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 ..
 ]
 "103
-[v _dma_type_array `*CE13102 ~T0 @X0 -> 4 `i s ]
+[v _dma_type_array `*CE13102 ~T0 @X0 -> 4 `i e ]
 [i _dma_type_array
 :U ..
 &U _waveshape_adc_config_value

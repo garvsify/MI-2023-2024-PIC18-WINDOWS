@@ -5,6 +5,22 @@ Version 4.0 HI-TECH Software Intermediate Code
 [p mainexit ]
 "4 ./mcc_generated_files/system/system.h
 [v _SYSTEM_Initialize `(v ~T0 @X0 0 ef ]
+"35082 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
+[s S1687 :1 `uc 1 :3 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1687 . ADTIE . DMA1SCNTIE DMA1DCNTIE DMA1ORIE DMA1AIE ]
+"35081
+[u S1686 `S1687 1 ]
+[n S1686 . . ]
+"35091
+[v _PIE2bits `VS1686 ~T0 @X0 0 e@1194 ]
+"35189
+[s S1691 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1691 . U1RXIE U1TXIE U1EIE U1IE TMR3IE TMR3GIE PWM1PIE PWM1IE ]
+"35188
+[u S1690 `S1691 1 ]
+[n S1690 . . ]
+"35200
+[v _PIE4bits `VS1690 ~T0 @X0 0 e@1196 ]
 "144 ./mcc_generated_files/timer/tmr1.h
 [v _TMR1_Write `(v ~T0 @X0 0 ef1`ui ]
 "117
@@ -1704,7 +1720,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ]
 "102
-[v _adcc_type_array `*CE13102 ~T0 @X0 -> 4 `i s ]
+[v _adcc_type_array `*CE13102 ~T0 @X0 -> 4 `i e ]
 [i _adcc_type_array
 :U ..
 &U _waveshape_adc_config_value
@@ -1714,7 +1730,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 ..
 ]
 "103
-[v _dma_type_array `*CE13102 ~T0 @X0 -> 4 `i s ]
+[v _dma_type_array `*CE13102 ~T0 @X0 -> 4 `i e ]
 [i _dma_type_array
 :U ..
 &U _waveshape_adc_config_value
@@ -1738,34 +1754,38 @@ Version 4.0 HI-TECH Software Intermediate Code
 "40
 [e ( _SYSTEM_Initialize ..  ]
 "47
-[e = _current_adcc_type_ptr &U _adcc_type_array ]
+[e = . . _PIE2bits 0 3 -> -> 0 `i `uc ]
 "48
+[e = . . _PIE4bits 0 4 -> -> 0 `i `uc ]
+"51
+[e = _current_adcc_type_ptr &U _adcc_type_array ]
+"52
 [e = _current_dma_type_ptr &U _dma_type_array ]
-"50
+"54
 [v _tmr1_value `ui ~T0 @X0 1 a ]
 [e = _tmr1_value -> -> 65450 `l `ui ]
-"52
-[e ( _TMR1_Write (1 _tmr1_value ]
-"53
-[e ( _TMR1_Start ..  ]
 "56
-[e = . . _T0CON1bits 0 0 -> -> 4 `i `uc ]
+[e ( _TMR1_Write (1 _tmr1_value ]
 "57
-[e = _final_TMR0 -> -> -> 100 `i `l `ul ]
-"58
-[e ( _TMR0_Start ..  ]
+[e ( _TMR1_Start ..  ]
+"59
+[e = . . _T0CON1bits 0 0 -> -> 4 `i `uc ]
 "60
+[e = _final_TMR0 -> -> -> 100 `i `l `ul ]
+"61
+[e ( _TMR0_Start ..  ]
+"63
 [e = . . _INTCON0bits 0 6 -> -> 1 `i `uc ]
-"62
+"65
 [e :U 1846 ]
 {
-"69
+"72
 [; <"  clrwdt ;# ">
-"70
+"73
 }
 [e :U 1845 ]
 [e $U 1846  ]
 [e :U 1847 ]
-"71
+"74
 [e :UE 1844 ]
 }
