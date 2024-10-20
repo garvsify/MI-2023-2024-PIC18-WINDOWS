@@ -29,9 +29,9 @@
 uint8_t get_current_pot_values(void){
     
     //WAVESHAPE
-    ADC_type_flag = WAVESHAPE_FLAG;
+    /*ADC_type_flag = WAVESHAPE_FLAG;
     ADCC_StartConversion(waveshape_adc_config_value);
-    
+    */
     //SPEED
     /*ADC_type_flag = SPEED_FLAG;
     ADCC_StartConversion(speed_adc_config_value); //get speed (12-bit linear)*/

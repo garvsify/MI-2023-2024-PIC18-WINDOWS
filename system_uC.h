@@ -84,11 +84,14 @@
     #endif
 
 
+
     const uint8_t TMR0_prescaler_bits[9] = {0b00001000,0b00000111,0b00000110,0b00000101,0b00000100,0b00000011,0b00000010,0b00000001,0b00000000}; //256,128,64,32,16,8,4,2,1 - values do extend beyond 256 but we don't need them
-    static const adcc_channel_t waveshape_adc_config_value = channel_ANC0;
-    static const adcc_channel_t speed_adc_config_value = channel_ANC1;
-    static const adcc_channel_t depth_adc_config_value = channel_ANC2;
-    static const adcc_channel_t symmetry_adc_config_value = channel_ANC3;
+    
+    extern volatile const adcc_channel_t waveshape_adc_config_value;
+    extern volatile const adcc_channel_t speed_adc_config_value;
+    extern volatile const adcc_channel_t depth_adc_config_value;
+    extern volatile const adcc_channel_t symmetry_adc_config_value;
+    
     const uint8_t POSITIVE = 1;
     const uint8_t NEGATIVE = 0;
     const uint8_t DO_NOTHING = 0;
@@ -99,10 +102,10 @@
     const uint8_t YES = 1;
     const uint8_t NO = 0;
 
-    const adcc_channel_t* adcc_type_array[4] = {&waveshape_adc_config_value, &speed_adc_config_value, &depth_adc_config_value, &symmetry_adc_config_value};
-    const adcc_channel_t* dma_type_array[4] = {&waveshape_adc_config_value, &speed_adc_config_value, &depth_adc_config_value, &symmetry_adc_config_value}; //DMA type obviously need not be of adcc_channel_t type but just using for sameness
-    const adcc_channel_t** current_adcc_type_ptr;
-    const adcc_channel_t** current_dma_type_ptr; //DMA type obviously need not be of adcc_channel_t type but just using for sameness
+    volatile const adcc_channel_t* adcc_type_array[4] = {&waveshape_adc_config_value, &speed_adc_config_value, &depth_adc_config_value, &symmetry_adc_config_value};
+    volatile const adcc_channel_t* dma_type_array[4] = {&waveshape_adc_config_value, &speed_adc_config_value, &depth_adc_config_value, &symmetry_adc_config_value}; //DMA type obviously need not be of adcc_channel_t type but just using for sameness
+    extern volatile const adcc_channel_t** volatile current_adcc_type_ptr;
+    extern volatile const adcc_channel_t** volatile current_dma_type_ptr; //DMA type obviously need not be of adcc_channel_t type but just using for sameness
     
     
     uint8_t get_current_pot_values(void);

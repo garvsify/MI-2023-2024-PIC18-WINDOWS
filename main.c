@@ -35,6 +35,14 @@ HOW THE DMA/ADCC STUFF WORKS:
 
  */
 
+    volatile const adcc_channel_t waveshape_adc_config_value = channel_ANC0;
+    volatile const adcc_channel_t speed_adc_config_value = channel_ANC1;
+    volatile const adcc_channel_t depth_adc_config_value = channel_ANC2;
+    volatile const adcc_channel_t symmetry_adc_config_value = channel_ANC3;
+    
+    volatile const adcc_channel_t** volatile current_adcc_type_ptr = adcc_type_array;
+    volatile const adcc_channel_t** volatile current_dma_type_ptr = dma_type_array;
+
 int main(void){
 
     SYSTEM_Initialize();
@@ -46,10 +54,6 @@ int main(void){
     
     PIE2bits.DMA1DCNTIE = 0;
     PIE4bits.TMR3IE = 0;
-    
-
-    current_adcc_type_ptr = adcc_type_array;
-    current_dma_type_ptr = dma_type_array;
 
     size_t tmr1_value = TMR1_OVERFLOW_COUNT;
 

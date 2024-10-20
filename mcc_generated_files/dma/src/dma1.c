@@ -249,46 +249,26 @@ void DMA1_DefaultInterruptHandler(void){
         else{
             current_waveshape = SINE_MODE; //if error, return sine
         }
-        
         current_dma_type_ptr++;
-        
     }
     
     else if(**current_dma_type_ptr == speed_adc_config_value){
         
         current_speed_linear = ADC_result;
-        
         current_dma_type_ptr++;
-        
     }
     
     else if(**current_dma_type_ptr == depth_adc_config_value){
             
-        #if DEPTH_ON_OR_OFF == ON
-            
-            current_depth = ADC_result;
-            current_depth = current_depth >> 2; //convert to 8-bit
-            
-        #endif
-
+        current_depth = ADC_result;
+        current_depth = current_depth >> 2; //convert to 8-bit
         current_dma_type_ptr++;
-            
     }
 
     else if(**current_dma_type_ptr == symmetry_adc_config_value){
-            
-        #if SYMMETRY_ON_OR_OFF == ON
-            
-            #if SYMMETRY_ADC_RESOLUTION == 8
 
-            current_symmetry = current_symmetry >> 2; //convert to 8-bit
-                
-#endif
-            
-        #endif
-            
+        current_symmetry = current_symmetry >> 2; //convert to 8-bit
         current_dma_type_ptr = dma_type_array;
-                        
     }
     
     size_t tmr1_value = TMR1_OVERFLOW_COUNT;

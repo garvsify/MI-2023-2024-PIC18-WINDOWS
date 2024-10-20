@@ -1,8 +1,0 @@
-
-Memory Summary:
-    Program space        used   C4Ch (  3148) of  8000h bytes   (  9.6%)
-    Data space           used    80h (   128) of   800h bytes   (  6.2%)
-    Configuration bits   used     4h (     4) of     9h words   ( 44.4%)
-    EEPROM space         used     0h (     0) of   200h bytes   (  0.0%)
-    ID Location space    used     0h (     0) of    40h bytes   (  0.0%)
-

@@ -1,7 +1,15 @@
 Version 4.0 HI-TECH Software Intermediate Code
-"88 mcc_generated_files/timer/src/../../../system_uC.h
+"105 mcc_generated_files/timer/src/../../../system_uC.h
 [c E13119 58 59 60 61 62 63 16 17 18 19 .. ]
 [n E13119 . channel_DAC2 channel_VSS channel_Temp channel_DAC1 channel_FVR_Buffer1 channel_FVR_Buffer2 channel_ANC0 channel_ANC1 channel_ANC2 channel_ANC3  ]
+"90
+[v _waveshape_adc_config_value `CVE13119 ~T0 @X0 0 e ]
+"91
+[v _speed_adc_config_value `CVE13119 ~T0 @X0 0 e ]
+"92
+[v _depth_adc_config_value `CVE13119 ~T0 @X0 0 e ]
+"93
+[v _symmetry_adc_config_value `CVE13119 ~T0 @X0 0 e ]
 [v F12923 `(v ~T0 @X0 0 tf ]
 [v F12925 `(v ~T0 @X0 0 tf ]
 [v F12927 `(v ~T0 @X0 0 tf ]
@@ -23,8 +31,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v F12947 `(v ~T0 @X0 0 tf ]
 "137
 [v _TMR0_OverflowCallbackRegister `(v ~T0 @X0 0 ef1`*F12947 ]
-[v F13283 `(v ~T0 @X0 0 tf ]
 [v F13285 `(v ~T0 @X0 0 tf ]
+[v F13287 `(v ~T0 @X0 0 tf ]
 "19342 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
 [v _TMR0H `Vuc ~T0 @X0 0 e@793 ]
 "19204
@@ -68,24 +76,24 @@ Version 4.0 HI-TECH Software Intermediate Code
 [n S956 . . . . . ]
 "19630
 [v _T0CON0bits `VS956 ~T0 @X0 0 e@794 ]
-[v F13308 `(v ~T0 @X0 0 tf ]
 [v F13310 `(v ~T0 @X0 0 tf ]
 [v F13312 `(v ~T0 @X0 0 tf ]
-"127 mcc_generated_files/timer/src/../../../system_uC.h
+[v F13314 `(v ~T0 @X0 0 tf ]
+"130 mcc_generated_files/timer/src/../../../system_uC.h
 [v _duty `Vus ~T0 @X0 0 e ]
-"133
+"136
 [v _current_depth `Vus ~T0 @X0 0 e ]
-"119
+"122
 [v _final_TMR0 `Vul ~T0 @X0 0 e ]
 "45541 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
 [v _TMR0IF `Vb ~T0 @X0 0 e@9655 ]
-"130 mcc_generated_files/timer/src/../../../system_uC.h
+"133 mcc_generated_files/timer/src/../../../system_uC.h
 [v _current_waveshape `Vuc ~T0 @X0 0 e ]
-"135
+"138
 [v _current_one_quadrant_index `Vuc ~T0 @X0 0 e ]
-"137
+"140
 [v _current_quadrant `Vuc ~T0 @X0 0 e ]
-"136
+"139
 [v _current_halfcycle `Vuc ~T0 @X0 0 e ]
 "25 ./mcc_generated_files/pwm/ccp1.h
 [v _CCP1_LoadDutyValue `(v ~T0 @X0 0 ef1`us ]
@@ -1671,7 +1679,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 1023 `i `us
 ..
 ]
-"87 mcc_generated_files/timer/src/../../../system_uC.h
+"88 mcc_generated_files/timer/src/../../../system_uC.h
 [v _TMR0_prescaler_bits `Cuc ~T0 @X0 -> 9 `i e ]
 [i _TMR0_prescaler_bits
 :U ..
@@ -1686,73 +1694,53 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"88
-[v _waveshape_adc_config_value `CE13119 ~T0 @X0 1 s ]
-[i _waveshape_adc_config_value
-. `E13119 6
-]
-"89
-[v _speed_adc_config_value `CE13119 ~T0 @X0 1 s ]
-[i _speed_adc_config_value
-. `E13119 7
-]
-"90
-[v _depth_adc_config_value `CE13119 ~T0 @X0 1 s ]
-[i _depth_adc_config_value
-. `E13119 8
-]
-"91
-[v _symmetry_adc_config_value `CE13119 ~T0 @X0 1 s ]
-[i _symmetry_adc_config_value
-. `E13119 9
-]
-"92
+"95
 [v _POSITIVE `Cuc ~T0 @X0 1 e ]
 [i _POSITIVE
 -> -> 1 `i `uc
 ]
-"93
+"96
 [v _NEGATIVE `Cuc ~T0 @X0 1 e ]
 [i _NEGATIVE
 -> -> 0 `i `uc
 ]
-"94
+"97
 [v _DO_NOTHING `Cuc ~T0 @X0 1 e ]
 [i _DO_NOTHING
 -> -> 0 `i `uc
 ]
-"95
+"98
 [v _DIVIDE_BY_TWO `Cuc ~T0 @X0 1 e ]
 [i _DIVIDE_BY_TWO
 -> -> 1 `i `uc
 ]
-"96
+"99
 [v _MULTIPLY_BY_TWO `Cuc ~T0 @X0 1 e ]
 [i _MULTIPLY_BY_TWO
 -> -> 2 `i `uc
 ]
-"97
+"100
 [v _DIVIDE_BY_FOUR `Cuc ~T0 @X0 1 e ]
 [i _DIVIDE_BY_FOUR
 -> -> 3 `i `uc
 ]
-"98
+"101
 [v _DONT_CARE `Cuc ~T0 @X0 1 e ]
 [i _DONT_CARE
 -> -> 4 `i `uc
 ]
-"99
+"102
 [v _YES `Cuc ~T0 @X0 1 e ]
 [i _YES
 -> -> 1 `i `uc
 ]
-"100
+"103
 [v _NO `Cuc ~T0 @X0 1 e ]
 [i _NO
 -> -> 0 `i `uc
 ]
-"102
-[v _adcc_type_array `*CE13119 ~T0 @X0 -> 4 `i e ]
+"105
+[v _adcc_type_array `*CVE13119 ~T0 @X0 -> 4 `i e ]
 [i _adcc_type_array
 :U ..
 &U _waveshape_adc_config_value
@@ -1761,8 +1749,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 &U _symmetry_adc_config_value
 ..
 ]
-"103
-[v _dma_type_array `*CE13119 ~T0 @X0 -> 4 `i e ]
+"106
+[v _dma_type_array `*CVE13119 ~T0 @X0 -> 4 `i e ]
 [i _dma_type_array
 :U ..
 &U _waveshape_adc_config_value
@@ -1771,11 +1759,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 &U _symmetry_adc_config_value
 ..
 ]
-"104
-[v _current_adcc_type_ptr `**CE13119 ~T0 @X0 1 e ]
-"105
-[v _current_dma_type_ptr `**CE13119 ~T0 @X0 1 e ]
-"141
+"144
 [v _ADC_result `us ~T0 @X0 1 e ]
 "5 mcc_generated_files/timer/src/tmr0.c
 [v _Timer0 `CS1844 ~T0 @X0 1 e ]
@@ -1787,12 +1771,12 @@ Version 4.0 HI-TECH Software Intermediate Code
 &U _TMR0_Stop
 &U _TMR0_Reload
 &U _TMR0_OverflowCallbackRegister
--> -> -> 0 `i `*v `*F13283
+-> -> -> 0 `i `*v `*F13285
 ..
 ..
 ]
 "14
-[v _TMR0_OverflowCallback `*F13285 ~T0 @X0 1 s ]
+[v _TMR0_OverflowCallback `*F13287 ~T0 @X0 1 s ]
 "21
 [v _res0 `Vuc ~T0 @X0 1 e ]
 [i _res0
@@ -1940,7 +1924,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "93
 [e = . . _PIR3bits 0 7 -> -> 0 `i `uc ]
 "94
-[e $ ! != _TMR0_OverflowCallback -> -> 0 `i `*F13308 1853  ]
+[e $ ! != _TMR0_OverflowCallback -> -> 0 `i `*F13310 1853  ]
 "95
 {
 "96
@@ -1952,12 +1936,12 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :UE 1852 ]
 }
 "100
-[v _TMR0_OverflowCallbackRegister `(v ~T0 @X0 1 ef1`*F13310 ]
+[v _TMR0_OverflowCallbackRegister `(v ~T0 @X0 1 ef1`*F13312 ]
 "101
 {
 [e :U _TMR0_OverflowCallbackRegister ]
 "100
-[v _CallbackHandler `*F13312 ~T0 @X0 1 r1 ]
+[v _CallbackHandler `*F13314 ~T0 @X0 1 r1 ]
 "101
 [f ]
 "102

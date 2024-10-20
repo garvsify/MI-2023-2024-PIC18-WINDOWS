@@ -1,9 +1,15 @@
 Version 4.0 HI-TECH Software Intermediate Code
-"88 ./system_uC.h
+"105 ./system_uC.h
 [c E13102 58 59 60 61 62 63 16 17 18 19 .. ]
 [n E13102 . channel_DAC2 channel_VSS channel_Temp channel_DAC1 channel_FVR_Buffer1 channel_FVR_Buffer2 channel_ANC0 channel_ANC1 channel_ANC2 channel_ANC3  ]
-"55 ./mcc_generated_files/adc/adcc.h
-[v _ADCC_StartConversion `(v ~T0 @X0 0 ef1`E13102 ]
+"90
+[v _waveshape_adc_config_value `CVE13102 ~T0 @X0 0 e ]
+"91
+[v _speed_adc_config_value `CVE13102 ~T0 @X0 0 e ]
+"92
+[v _depth_adc_config_value `CVE13102 ~T0 @X0 0 e ]
+"93
+[v _symmetry_adc_config_value `CVE13102 ~T0 @X0 0 e ]
 "19726 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
 [s S962 :4 `uc 1 :1 `uc 1 :3 `uc 1 ]
 [n S962 . CKPS ASYNC CS ]
@@ -1603,7 +1609,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 1023 `i `us
 ..
 ]
-"87 ./system_uC.h
+"88 ./system_uC.h
 [v _TMR0_prescaler_bits `Cuc ~T0 @X0 -> 9 `i e ]
 [i _TMR0_prescaler_bits
 :U ..
@@ -1618,73 +1624,53 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"88
-[v _waveshape_adc_config_value `CE13102 ~T0 @X0 1 s ]
-[i _waveshape_adc_config_value
-. `E13102 6
-]
-"89
-[v _speed_adc_config_value `CE13102 ~T0 @X0 1 s ]
-[i _speed_adc_config_value
-. `E13102 7
-]
-"90
-[v _depth_adc_config_value `CE13102 ~T0 @X0 1 s ]
-[i _depth_adc_config_value
-. `E13102 8
-]
-"91
-[v _symmetry_adc_config_value `CE13102 ~T0 @X0 1 s ]
-[i _symmetry_adc_config_value
-. `E13102 9
-]
-"92
+"95
 [v _POSITIVE `Cuc ~T0 @X0 1 e ]
 [i _POSITIVE
 -> -> 1 `i `uc
 ]
-"93
+"96
 [v _NEGATIVE `Cuc ~T0 @X0 1 e ]
 [i _NEGATIVE
 -> -> 0 `i `uc
 ]
-"94
+"97
 [v _DO_NOTHING `Cuc ~T0 @X0 1 e ]
 [i _DO_NOTHING
 -> -> 0 `i `uc
 ]
-"95
+"98
 [v _DIVIDE_BY_TWO `Cuc ~T0 @X0 1 e ]
 [i _DIVIDE_BY_TWO
 -> -> 1 `i `uc
 ]
-"96
+"99
 [v _MULTIPLY_BY_TWO `Cuc ~T0 @X0 1 e ]
 [i _MULTIPLY_BY_TWO
 -> -> 2 `i `uc
 ]
-"97
+"100
 [v _DIVIDE_BY_FOUR `Cuc ~T0 @X0 1 e ]
 [i _DIVIDE_BY_FOUR
 -> -> 3 `i `uc
 ]
-"98
+"101
 [v _DONT_CARE `Cuc ~T0 @X0 1 e ]
 [i _DONT_CARE
 -> -> 4 `i `uc
 ]
-"99
+"102
 [v _YES `Cuc ~T0 @X0 1 e ]
 [i _YES
 -> -> 1 `i `uc
 ]
-"100
+"103
 [v _NO `Cuc ~T0 @X0 1 e ]
 [i _NO
 -> -> 0 `i `uc
 ]
-"102
-[v _adcc_type_array `*CE13102 ~T0 @X0 -> 4 `i e ]
+"105
+[v _adcc_type_array `*CVE13102 ~T0 @X0 -> 4 `i e ]
 [i _adcc_type_array
 :U ..
 &U _waveshape_adc_config_value
@@ -1693,8 +1679,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 &U _symmetry_adc_config_value
 ..
 ]
-"103
-[v _dma_type_array `*CE13102 ~T0 @X0 -> 4 `i e ]
+"106
+[v _dma_type_array `*CVE13102 ~T0 @X0 -> 4 `i e ]
 [i _dma_type_array
 :U ..
 &U _waveshape_adc_config_value
@@ -1703,11 +1689,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 &U _symmetry_adc_config_value
 ..
 ]
-"104
-[v _current_adcc_type_ptr `**CE13102 ~T0 @X0 1 e ]
-"105
-[v _current_dma_type_ptr `**CE13102 ~T0 @X0 1 e ]
-"141
+"144
 [v _ADC_result `us ~T0 @X0 1 e ]
 "4 system_uC.c
 [v _current_waveshape `Vuc ~T0 @X0 1 e ]
@@ -1823,10 +1805,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 {
 [e :U _get_current_pot_values ]
 [f ]
-"32
-[e = _ADC_type_flag -> -> 0 `i `uc ]
-"33
-[e ( _ADCC_StartConversion (1 _waveshape_adc_config_value ]
 "51
 [e ) -> -> 1 `i `uc ]
 [e $UE 1844  ]
