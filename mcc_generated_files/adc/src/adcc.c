@@ -52,7 +52,8 @@ void ADCC_Initialize(void){
     //ADCCS FOSC/64; 
     ADCLK = 0x1F;
     //GO_nDONE undefined; ADFM right; ADON enabled; ADCS FOSC; ADCONT disabled; 
-    ADCON0 = 0x84;
+    ADCON0 = 0x84; //non-continuous
+    //ADCON0 = 0xC4; //continuous
     
     //Clear the ADC interrupt flag
     PIR1bits.ADIF = 0;

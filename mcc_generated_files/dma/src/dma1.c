@@ -233,7 +233,7 @@ void DMA1_DefaultInterruptHandler(void){
     
     uint16_t ADC_result; //concatenated ADC result
     ADC_result = (uint16_t)adres[0] | ((uint16_t)adres[1] << 8);
-    //ADC_result = TWELVEBITMINUSONE - ADC_result;
+    ADC_result = TWELVEBITMINUSONE - ADC_result;
     
     if(**current_dma_type_ptr == waveshape_adc_config_value){
         
@@ -268,12 +268,10 @@ void DMA1_DefaultInterruptHandler(void){
     else if(**current_dma_type_ptr == symmetry_adc_config_value){
 
         current_symmetry = current_symmetry >> 2; //convert to 8-bit
-        current_dma_type_ptr = dma_type_array;
+        current_dma_type_ptr = &dma_type_array[0];
     }
     
-    size_t tmr1_value = TMR1_OVERFLOW_COUNT;
-    
-    TMR1_Write(tmr1_value);
+    TMR1_Write(TMR1_OVERFLOW_COUNT);
     TMR1_Start(); //ADCC is triggered on overflow
     
     PIE3bits.TMR1IE = 1;

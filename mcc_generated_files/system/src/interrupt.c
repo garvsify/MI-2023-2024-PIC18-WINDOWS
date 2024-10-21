@@ -58,13 +58,13 @@ void __interrupt() INTERRUPT_InterruptManager (void)
     {
         TMR0_OverflowISR();
     }
-    else if(PIE2bits.DMA1DCNTIE == 1 && PIR2bits.DMA1DCNTIF == 1)
-    {
-        DMA1_DMADCNTI_ISR();
-    }
     else if(PIE3bits.TMR1IE == 1 && PIR3bits.TMR1IF == 1)
     {
         TMR1_OverflowISR();
+    }
+    else if(PIE2bits.DMA1DCNTIE == 1 && PIR2bits.DMA1DCNTIF == 1)
+    {
+        DMA1_DMADCNTI_ISR();
     }
     /*else if(PIE4bits.TMR3IE == 1 && PIR4bits.TMR3IF == 1)
     {

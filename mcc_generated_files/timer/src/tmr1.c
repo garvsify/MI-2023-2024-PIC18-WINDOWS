@@ -150,33 +150,16 @@ static void TMR1_DefaultOverflowCallback(void)
     
     TMR1_Stop();
     
-    if(**current_adcc_type_ptr == waveshape_adc_config_value){
-        
-        ADCC_StartConversion(&waveshape_adc_config_value); //get depth (12-bit linear)
+    ADCC_StartConversion(&waveshape_adc_config_value);
+    
+    if(waveshape_adc_config_value != symmetry_adc_config_value){
         current_adcc_type_ptr++;
     }
-    
-    else if(**current_adcc_type_ptr == speed_adc_config_value){
-        
-        ADCC_StartConversion(&speed_adc_config_value); //get speed (12-bit linear)
-        current_adcc_type_ptr++;
+    else{
+        current_adcc_type_ptr = &adcc_type_array[0]; 
     }
     
-    else if(**current_adcc_type_ptr == depth_adc_config_value){
-            
-        ADCC_StartConversion(&depth_adc_config_value); //get depth (12-bit linear)
-        current_adcc_type_ptr++;
-    }
-
-    else if(**current_adcc_type_ptr == symmetry_adc_config_value){
-            
-        ADCC_StartConversion(&symmetry_adc_config_value); //get symmetry (12-bit linear)
-        current_adcc_type_ptr = adcc_type_array;  
-    }
-    
-    size_t tmr3_value = TMR3_OVERFLOW_COUNT;
-    
-    TMR3_Write(tmr3_value);
+    TMR3_Write(TMR3_OVERFLOW_COUNT);
     TMR3_Start();
     
     PIE4bits.TMR3IE = 1;

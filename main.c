@@ -35,13 +35,13 @@ HOW THE DMA/ADCC STUFF WORKS:
 
  */
 
-    volatile const adcc_channel_t waveshape_adc_config_value = channel_ANC0;
-    volatile const adcc_channel_t speed_adc_config_value = channel_ANC1;
-    volatile const adcc_channel_t depth_adc_config_value = channel_ANC2;
-    volatile const adcc_channel_t symmetry_adc_config_value = channel_ANC3;
+volatile const adcc_channel_t waveshape_adc_config_value = channel_ANC0;
+volatile const adcc_channel_t speed_adc_config_value = channel_ANC1;
+volatile const adcc_channel_t depth_adc_config_value = channel_ANC2;
+volatile const adcc_channel_t symmetry_adc_config_value = channel_ANC3;
     
-    volatile const adcc_channel_t** volatile current_adcc_type_ptr = adcc_type_array;
-    volatile const adcc_channel_t** volatile current_dma_type_ptr = dma_type_array;
+volatile const adcc_channel_t** volatile current_adcc_type_ptr = &adcc_type_array[0];
+volatile const adcc_channel_t** volatile current_dma_type_ptr = &dma_type_array[0];
 
 int main(void){
 
@@ -49,15 +49,12 @@ int main(void){
 
     /*process_TMR0_raw_speed_and_prescaler();
     process_TMR0_and_prescaler_adjust();
-    TMR0H = (uint8_t) final_TMR0;
-     */
+    TMR0H = (uint8_t) final_TMR0;*/
     
     PIE2bits.DMA1DCNTIE = 0;
     PIE4bits.TMR3IE = 0;
 
-    size_t tmr1_value = TMR1_OVERFLOW_COUNT;
-
-    TMR1_Write(tmr1_value);
+    TMR1_Write(TMR1_OVERFLOW_COUNT);
     TMR1_Start(); //ADCC is triggered on overflow
 
     T0CON1bits.CKPS = 0b0100;
