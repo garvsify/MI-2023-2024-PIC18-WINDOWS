@@ -255,19 +255,20 @@ void DMA1_DefaultInterruptHandler(void){
     else if(**current_dma_type_ptr == speed_adc_config_value){
         
         current_speed_linear = ADC_result;
+        current_speed_linear = current_speed_linear >> 2; //convert to 10-bit
         current_dma_type_ptr++;
     }
     
     else if(**current_dma_type_ptr == depth_adc_config_value){
             
         current_depth = ADC_result;
-        current_depth = current_depth >> 2; //convert to 8-bit
+        current_depth = current_depth >> 4; //convert to 8-bit
         current_dma_type_ptr++;
     }
 
     else if(**current_dma_type_ptr == symmetry_adc_config_value){
 
-        current_symmetry = current_symmetry >> 2; //convert to 8-bit
+        current_symmetry = current_symmetry >> 4; //convert to 8-bit
         current_dma_type_ptr = &dma_type_array[0];
     }
     

@@ -13,6 +13,10 @@ Version 4.0 HI-TECH Software Intermediate Code
 [p mainexit ]
 "4 ./mcc_generated_files/system/system.h
 [v _SYSTEM_Initialize `(v ~T0 @X0 0 ef ]
+"111 ./system_uC.h
+[v _process_TMR0_raw_speed_and_prescaler `(uc ~T0 @X0 0 ef ]
+"118
+[v _process_TMR0_and_prescaler_adjust `(uc ~T0 @X0 0 ef ]
 "35082 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
 [s S1687 :1 `uc 1 :3 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S1687 . ADTIE . DMA1SCNTIE DMA1DCNTIE DMA1ORIE DMA1AIE ]
@@ -33,25 +37,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _TMR1_Write `(v ~T0 @X0 0 ef1`ui ]
 "117
 [v _TMR1_Start `(v ~T0 @X0 0 ef ]
-"19726 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
-[s S962 :4 `uc 1 :1 `uc 1 :3 `uc 1 ]
-[n S962 . CKPS ASYNC CS ]
-"19731
-[s S963 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S963 . CKPS0 CKPS1 CKPS2 CKPS3 T0ASYNC CS0 CS1 CS2 ]
-"19741
-[s S964 :4 `uc 1 :1 `uc 1 :3 `uc 1 ]
-[n S964 . T0CKPS . T0CS ]
-"19746
-[s S965 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S965 . T0CKPS0 T0CKPS1 T0CKPS2 T0CKPS3 . T0CS0 T0CS1 T0CS2 ]
-"19725
-[u S961 `S962 1 `S963 1 `S964 1 `S965 1 ]
-[n S961 . . . . . ]
-"19757
-[v _T0CON1bits `VS961 ~T0 @X0 0 e@795 ]
-"122 ./system_uC.h
-[v _final_TMR0 `Vul ~T0 @X0 0 e ]
 "85 ./mcc_generated_files/timer/tmr0.h
 [v _TMR0_Start `(v ~T0 @X0 0 ef ]
 "36538 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
@@ -1727,7 +1712,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 &U _symmetry_adc_config_value
 ..
 ]
-"144
+"143
 [v _ADC_result `us ~T0 @X0 1 e ]
 "38 main.c
 [v _waveshape_adc_config_value `CVE13102 ~T0 @X0 1 e ]
@@ -1749,13 +1734,13 @@ Version 4.0 HI-TECH Software Intermediate Code
 [i _symmetry_adc_config_value
 . `E13102 9
 ]
-[v F13264 `**CVE13102 ~T0 @X0 1 t ]
+[v F13263 `**CVE13102 ~T0 @X0 1 t ]
 "43
 [v _current_adcc_type_ptr `V**CVE13102 ~T0 @X0 1 e ]
 [i _current_adcc_type_ptr
 &U *U + &U _adcc_type_array * -> -> -> 0 `i `ui `ux -> -> # *U &U _adcc_type_array `ui `ux
 ]
-[v F13266 `**CVE13102 ~T0 @X0 1 t ]
+[v F13265 `**CVE13102 ~T0 @X0 1 t ]
 "44
 [v _current_dma_type_ptr `V**CVE13102 ~T0 @X0 1 e ]
 [i _current_dma_type_ptr
@@ -1769,32 +1754,36 @@ Version 4.0 HI-TECH Software Intermediate Code
 [f ]
 "48
 [e ( _SYSTEM_Initialize ..  ]
-"54
+"50
+[e ( _process_TMR0_raw_speed_and_prescaler ..  ]
+"51
+[e ( _process_TMR0_and_prescaler_adjust ..  ]
+"53
 [e = . . _PIE2bits 0 3 -> -> 0 `i `uc ]
-"55
+"54
 [e = . . _PIE4bits 0 4 -> -> 0 `i `uc ]
-"57
+"56
 [e ( _TMR1_Write (1 -> -> 65450 `l `ui ]
-"58
+"57
 [e ( _TMR1_Start ..  ]
-"60
-[e = . . _T0CON1bits 0 0 -> -> 4 `i `uc ]
 "61
-[e = _final_TMR0 -> -> -> 100 `i `l `ul ]
-"62
 [e ( _TMR0_Start ..  ]
-"64
+"63
 [e = . . _INTCON0bits 0 6 -> -> 1 `i `uc ]
-"66
+"65
 [e :U 1846 ]
 {
-"73
+"67
+[e ( _process_TMR0_raw_speed_and_prescaler ..  ]
+"68
+[e ( _process_TMR0_and_prescaler_adjust ..  ]
+"70
 [; <"  clrwdt ;# ">
-"74
+"71
 }
 [e :U 1845 ]
 [e $U 1846  ]
 [e :U 1847 ]
-"75
+"72
 [e :UE 1844 ]
 }

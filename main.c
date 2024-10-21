@@ -47,9 +47,8 @@ int main(void){
 
     SYSTEM_Initialize();
 
-    /*process_TMR0_raw_speed_and_prescaler();
+    process_TMR0_raw_speed_and_prescaler();
     process_TMR0_and_prescaler_adjust();
-    TMR0H = (uint8_t) final_TMR0;*/
     
     PIE2bits.DMA1DCNTIE = 0;
     PIE4bits.TMR3IE = 0;
@@ -57,18 +56,16 @@ int main(void){
     TMR1_Write(TMR1_OVERFLOW_COUNT);
     TMR1_Start(); //ADCC is triggered on overflow
 
-    T0CON1bits.CKPS = 0b0100;
-    final_TMR0 = 100;
+    //T0CON1bits.CKPS = 0b0100;
+    //final_TMR0 = 100;
     TMR0_Start();
 
     INTERRUPT_GlobalInterruptEnable();
 
     while(1){
 
-        /*
         process_TMR0_raw_speed_and_prescaler();
-        process_TMR0_and_prescaler_adjust();*/
-
+        process_TMR0_and_prescaler_adjust();
 
         ClrWdt();
     }
