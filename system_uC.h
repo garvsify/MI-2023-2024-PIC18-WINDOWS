@@ -108,7 +108,6 @@
     extern volatile const adcc_channel_t** volatile current_dma_type_ptr; //DMA type obviously need not be of adcc_channel_t type but just using for sameness
     
     
-    uint8_t get_current_pot_values(void);
     uint8_t process_TMR0_raw_speed_and_prescaler(void);
     uint8_t turn_TMR0_prescaler_OFF(void);
     uint8_t turn_TMR0_prescaler_ON(void);

@@ -65,7 +65,7 @@ int main(void){
 
     while(1){
 
-        /*get_current_pot_values();
+        /*
         process_TMR0_raw_speed_and_prescaler();
         process_TMR0_and_prescaler_adjust();*/
 

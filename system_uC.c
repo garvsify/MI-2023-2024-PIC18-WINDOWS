@@ -24,32 +24,6 @@
     volatile uint8_t TMR0_prescaler_final_index = 0;  
     volatile uint8_t ADC_type_flag = 0;
     adc_result_t ADC_result = 0;
-    
-
-uint8_t get_current_pot_values(void){
-    
-    //WAVESHAPE
-    /*ADC_type_flag = WAVESHAPE_FLAG;
-    ADCC_StartConversion(waveshape_adc_config_value);
-    */
-    //SPEED
-    /*ADC_type_flag = SPEED_FLAG;
-    ADCC_StartConversion(speed_adc_config_value); //get speed (12-bit linear)*/
-    
-    //DEPTH
-    #if DEPTH_ON_OR_OFF == 1
-        ADC_type_flag = DEPTH_FLAG;
-        ADCC_StartConversion(depth_adc_config_value); //get depth (12-bit linear)
-    #endif
-
-    //SYMMETRY
-    #if SYMMETRY_ON_OR_OFF == 1
-        ADC_type_flag = SYMMETRY_FLAG;
-        ADCC_GetSingleConversion(symmetry_adc_config_value); //get symmetry (12-bit linear)
-    #endif
-
-    return 1;
-}
 
 
 uint8_t process_TMR0_raw_speed_and_prescaler(void){
