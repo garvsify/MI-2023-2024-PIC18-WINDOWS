@@ -245,41 +245,62 @@ void DMA1_DefaultInterruptHandler(void){
     ADC_result = (uint16_t)adres[0] | ((uint16_t)adres[1] << 8);
     ADC_result = TWELVEBITMINUSONE - ADC_result;
     
-    if(**current_dma_type_ptr == waveshape_adc_config_value){
-        
-        if(ADC_result <= TRIANGLE_MODE_ADC_THRESHOLD){
-            current_waveshape = TRIANGLE_MODE; //triangle wave
-        }
-        else if (ADC_result <= SINE_MODE_ADC_THRESHOLD){
-            current_waveshape = SINE_MODE; //sine wave
-        }
-        else if (ADC_result <= SQUARE_MODE_ADC_THRESHOLD){
-            current_waveshape = SQUARE_MODE; //square wave
-        }
-        else{
-            current_waveshape = SINE_MODE; //if error, return sine
-        }
-        current_dma_type_ptr++;
-    }
     
-    else if(**current_dma_type_ptr == speed_adc_config_value){
+    switch(**current_dma_type_ptr){
         
-        current_speed_linear = ADC_result;
-        current_speed_linear = current_speed_linear >> 2; //convert to 10-bit
-        current_dma_type_ptr++;
-    }
-    
-    else if(**current_dma_type_ptr == depth_adc_config_value){
+        case 0x10: //waveshape_adc_config_value
             
-        current_depth = ADC_result;
-        current_depth = current_depth >> 4; //convert to 8-bit
-        current_dma_type_ptr++;
-    }
-
-    else if(**current_dma_type_ptr == symmetry_adc_config_value){
-
-        current_symmetry = current_symmetry >> 4; //convert to 8-bit
-        current_dma_type_ptr = &dma_type_array[0];
+            /*if(ADC_result <= TRIANGLE_MODE_ADC_THRESHOLD){
+                current_waveshape = TRIANGLE_MODE; //triangle wave
+            }
+            else if (ADC_result <= SINE_MODE_ADC_THRESHOLD){
+                current_waveshape = SINE_MODE; //sine wave
+            }
+            else if (ADC_result <= SQUARE_MODE_ADC_THRESHOLD){
+                current_waveshape = SQUARE_MODE; //square wave
+            }
+            else{
+                current_waveshape = SINE_MODE; //if error, return sine
+            }*/
+            current_dma_type_ptr++;
+            break;
+        
+        case 0x11: //speed_adc_config_value
+            
+            /*current_speed_linear = ADC_result;
+            current_speed_linear = current_speed_linear >> 2; //convert to 10-bit
+            current_dma_type_ptr++;*/
+            if(ADC_result <= TRIANGLE_MODE_ADC_THRESHOLD){
+                current_waveshape = TRIANGLE_MODE; //triangle wave
+            }
+            else if (ADC_result <= SINE_MODE_ADC_THRESHOLD){
+                current_waveshape = SINE_MODE; //sine wave
+            }
+            else if (ADC_result <= SQUARE_MODE_ADC_THRESHOLD){
+                current_waveshape = SQUARE_MODE; //square wave
+            }
+            else{
+                current_waveshape = SINE_MODE; //if error, return sine
+            }
+            break;
+            
+        case 0x12: //depth_adc_config_value
+            
+            current_depth = ADC_result;
+            current_depth = current_depth >> 4; //convert to 8-bit
+            current_dma_type_ptr++;
+            break;
+        
+        case 0x13: //symmetry_adc_config_value
+            
+            current_symmetry = ADC_result;
+            current_symmetry = current_symmetry >> 4; //convert to 8-bit
+            current_dma_type_ptr = &dma_type_array[0];
+            break;
+        
+        default:
+            
+            break;
     }
     
     TMR1_Write(TMR1_OVERFLOW_COUNT);
@@ -288,7 +309,6 @@ void DMA1_DefaultInterruptHandler(void){
     PIE3bits.TMR1IE = 1;
     
     adcc_counter++;
-    
 }
 /**
  End of File

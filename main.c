@@ -50,16 +50,19 @@ int main(void){
     INTERRUPT_GlobalInterruptEnable();
 
     TMR1_Write(TMR1_OVERFLOW_COUNT);
-    TMR1_Start(); //ADCC is triggered on overflow
+    TMR1_Start(); //ADCC is triggered on overflow, including TMR3, which then triggers the DMA transfer on its overflow
     
     while(ready_to_start_oscillator == 0){} //wait for all adcc values to be loaded
+    
+    //process_TMR0_raw_speed_and_prescaler(); 
+    //process_TMR0_and_prescaler_adjust();
     
     TMR0_Start(); //start oscillator
 
     while(1){
 
-        process_TMR0_raw_speed_and_prescaler();
-        process_TMR0_and_prescaler_adjust();
+        //process_TMR0_raw_speed_and_prescaler();
+        //process_TMR0_and_prescaler_adjust();
 
         ClrWdt();
     }

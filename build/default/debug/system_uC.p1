@@ -1810,22 +1810,22 @@ Version 4.0 HI-TECH Software Intermediate Code
 "29
 [v _waveshape_adc_config_value `CVE13102 ~T0 @X0 1 e ]
 [i _waveshape_adc_config_value
-. `E13102 6
+-> -> 16 `i `E13102
 ]
 "30
 [v _speed_adc_config_value `CVE13102 ~T0 @X0 1 e ]
 [i _speed_adc_config_value
-. `E13102 7
+-> -> 17 `i `E13102
 ]
 "31
 [v _depth_adc_config_value `CVE13102 ~T0 @X0 1 e ]
 [i _depth_adc_config_value
-. `E13102 8
+-> -> 18 `i `E13102
 ]
 "32
 [v _symmetry_adc_config_value `CVE13102 ~T0 @X0 1 e ]
 [i _symmetry_adc_config_value
-. `E13102 9
+-> -> 19 `i `E13102
 ]
 [v F13289 `**CVE13102 ~T0 @X0 1 t ]
 "34

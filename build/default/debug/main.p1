@@ -75,10 +75,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _ready_to_start_oscillator `Vuc ~T0 @X0 0 e ]
 "85 ./mcc_generated_files/timer/tmr0.h
 [v _TMR0_Start `(v ~T0 @X0 0 ef ]
-"111 ./system_uC.h
-[v _process_TMR0_raw_speed_and_prescaler `(uc ~T0 @X0 0 ef ]
-"118
-[v _process_TMR0_and_prescaler_adjust `(uc ~T0 @X0 0 ef ]
 "269 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
 [; <" CLKRCON equ 039h ;# ">
 "373
@@ -1777,22 +1773,18 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U 1845 ]
 [e $ == -> _ready_to_start_oscillator `i -> 0 `i 1846  ]
 [e :U 1847 ]
-"57
+"60
 [e ( _TMR0_Start ..  ]
-"59
+"62
 [e :U 1849 ]
 {
-"61
-[e ( _process_TMR0_raw_speed_and_prescaler ..  ]
-"62
-[e ( _process_TMR0_and_prescaler_adjust ..  ]
-"64
+"67
 [; <"  clrwdt ;# ">
-"65
+"68
 }
 [e :U 1848 ]
 [e $U 1849  ]
 [e :U 1850 ]
-"66
+"69
 [e :UE 1844 ]
 }

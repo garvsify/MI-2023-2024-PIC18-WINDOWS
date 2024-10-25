@@ -124,8 +124,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _current_dma_type_ptr `V**CVE13143 ~T0 @X0 0 e ]
 "132
 [v _current_waveshape `Vuc ~T0 @X0 0 e ]
-"133
-[v _current_speed_linear `Vus ~T0 @X0 0 e ]
 "135
 [v _current_depth `Vus ~T0 @X0 0 e ]
 "136
@@ -2284,98 +2282,97 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e = _ADC_result -> | -> -> *U + &U _adres * -> -> -> 0 `i `ui `ux -> -> # *U &U _adres `ui `ux `us `ui << -> -> *U + &U _adres * -> -> -> 1 `i `ui `ux -> -> # *U &U _adres `ui `ux `us `ui -> 8 `i `us ]
 "246
 [e = _ADC_result -> - -> -> 4095 `i `ui -> _ADC_result `ui `us ]
-"248
-[e $ ! == -> *U *U _current_dma_type_ptr `ui -> _waveshape_adc_config_value `ui 1876  ]
-{
-"250
-[e $ ! <= -> _ADC_result `ui -> -> 1365 `i `ui 1877  ]
+"249
+[e $U 1877  ]
 {
 "251
-[e = _current_waveshape -> -> 0 `i `uc ]
-"252
-}
-[e $U 1878  ]
-"253
-[e :U 1877 ]
-[e $ ! <= -> _ADC_result `ui -> -> 2730 `i `ui 1879  ]
-{
-"254
-[e = _current_waveshape -> -> 1 `i `uc ]
-"255
-}
-[e $U 1880  ]
-"256
-[e :U 1879 ]
-[e $ ! <= -> _ADC_result `ui -> -> 4095 `i `ui 1881  ]
-{
-"257
-[e = _current_waveshape -> -> 2 `i `uc ]
-"258
-}
-[e $U 1882  ]
-"259
-[e :U 1881 ]
-{
-"260
-[e = _current_waveshape -> -> 1 `i `uc ]
-"261
-}
-[e :U 1882 ]
-[e :U 1880 ]
 [e :U 1878 ]
-"262
-[e ++ _current_dma_type_ptr * -> -> 1 `i `x -> -> # *U _current_dma_type_ptr `i `x ]
-"263
-}
-[e $U 1883  ]
 "265
-[e :U 1876 ]
-[e $ ! == -> *U *U _current_dma_type_ptr `ui -> _speed_adc_config_value `ui 1884  ]
-{
-"267
-[e = _current_speed_linear _ADC_result ]
-"268
-[e = _current_speed_linear -> >> -> _current_speed_linear `ui -> 2 `i `us ]
-"269
 [e ++ _current_dma_type_ptr * -> -> 1 `i `x -> -> # *U _current_dma_type_ptr `i `x ]
-"270
-}
-[e $U 1885  ]
-"272
-[e :U 1884 ]
-[e $ ! == -> *U *U _current_dma_type_ptr `ui -> _depth_adc_config_value `ui 1886  ]
+"266
+[e $U 1876  ]
+"268
+[e :U 1879 ]
+"273
+[e $ ! <= -> _ADC_result `ui -> -> 1365 `i `ui 1880  ]
 {
 "274
-[e = _current_depth _ADC_result ]
+[e = _current_waveshape -> -> 0 `i `uc ]
 "275
-[e = _current_depth -> >> -> _current_depth `ui -> 4 `i `us ]
+}
+[e $U 1881  ]
 "276
-[e ++ _current_dma_type_ptr * -> -> 1 `i `x -> -> # *U _current_dma_type_ptr `i `x ]
-"277
-}
-[e $U 1887  ]
-"279
-[e :U 1886 ]
-[e $ ! == -> *U *U _current_dma_type_ptr `ui -> _symmetry_adc_config_value `ui 1888  ]
+[e :U 1880 ]
+[e $ ! <= -> _ADC_result `ui -> -> 2730 `i `ui 1882  ]
 {
-"281
-[e = _current_symmetry >> _current_symmetry -> 4 `i ]
-"282
-[e = _current_dma_type_ptr &U *U + &U _dma_type_array * -> -> -> 0 `i `ui `ux -> -> # *U &U _dma_type_array `ui `ux ]
-"283
+"277
+[e = _current_waveshape -> -> 1 `i `uc ]
+"278
 }
-[e :U 1888 ]
-[e :U 1887 ]
+[e $U 1883  ]
+"279
+[e :U 1882 ]
+[e $ ! <= -> _ADC_result `ui -> -> 4095 `i `ui 1884  ]
+{
+"280
+[e = _current_waveshape -> -> 2 `i `uc ]
+"281
+}
+[e $U 1885  ]
+"282
+[e :U 1884 ]
+{
+"283
+[e = _current_waveshape -> -> 1 `i `uc ]
+"284
+}
 [e :U 1885 ]
 [e :U 1883 ]
+[e :U 1881 ]
 "285
-[e ( _TMR1_Write (1 -> -> 65450 `l `ui ]
-"286
-[e ( _TMR1_Start ..  ]
-"288
-[e = . . _PIE3bits 0 4 -> -> 1 `i `uc ]
+[e $U 1876  ]
+"287
+[e :U 1886 ]
+"289
+[e = _current_depth _ADC_result ]
 "290
-[e ++ _adcc_counter -> -> 1 `i `Vuc ]
+[e = _current_depth -> >> -> _current_depth `ui -> 4 `i `us ]
+"291
+[e ++ _current_dma_type_ptr * -> -> 1 `i `x -> -> # *U _current_dma_type_ptr `i `x ]
 "292
+[e $U 1876  ]
+"294
+[e :U 1887 ]
+"296
+[e = _current_symmetry -> _ADC_result `ul ]
+"297
+[e = _current_symmetry >> _current_symmetry -> 4 `i ]
+"298
+[e = _current_dma_type_ptr &U *U + &U _dma_type_array * -> -> -> 0 `i `ui `ux -> -> # *U &U _dma_type_array `ui `ux ]
+"299
+[e $U 1876  ]
+"301
+[e :U 1888 ]
+"303
+[e $U 1876  ]
+"304
+}
+[e $U 1876  ]
+[e :U 1877 ]
+[e [\ -> *U *U _current_dma_type_ptr `ui , $ -> -> 16 `i `ui 1878
+ , $ -> -> 17 `i `ui 1879
+ , $ -> -> 18 `i `ui 1886
+ , $ -> -> 19 `i `ui 1887
+ 1888 ]
+[e :U 1876 ]
+"306
+[e ( _TMR1_Write (1 -> -> 65450 `l `ui ]
+"307
+[e ( _TMR1_Start ..  ]
+"309
+[e = . . _PIE3bits 0 4 -> -> 1 `i `uc ]
+"311
+[e ++ _adcc_counter -> -> 1 `i `Vuc ]
+"312
 [e :UE 1872 ]
 }
