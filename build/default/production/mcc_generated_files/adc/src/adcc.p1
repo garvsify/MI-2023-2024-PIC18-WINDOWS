@@ -1551,16 +1551,16 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :UE 1843 ]
 }
 "68
-[v _ADCC_StartConversion `(v ~T0 @X0 1 ef1`*CVE12921 ]
+[v _ADCC_StartConversion `(v ~T0 @X0 1 ef1`E12921 ]
 "69
 {
 [e :U _ADCC_StartConversion ]
 "68
-[v _channel `*CVE12921 ~T0 @X0 1 r1 ]
+[v _channel `E12921 ~T0 @X0 1 r1 ]
 "69
 [f ]
 "71
-[e = _ADPCH -> *U _channel `uc ]
+[e = _ADPCH -> _channel `uc ]
 "74
 [e = . . _ADCON0bits 1 0 -> -> 1 `i `uc ]
 "75

@@ -52,7 +52,7 @@ void ADCC_Initialize(void);
  *                  Refer to adcc_channel_t for the available list of channels.
  * @return None.
 */
-void ADCC_StartConversion(volatile const adcc_channel_t* channel);
+void ADCC_StartConversion(adcc_channel_t channel);
 
 /**
  * @ingroup adcc

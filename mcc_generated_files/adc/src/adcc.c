@@ -65,10 +65,10 @@ void ADCC_Initialize(void){
     PIE1bits.ADIE = 0;
 }
 
-void ADCC_StartConversion(volatile const adcc_channel_t* channel)
+void ADCC_StartConversion(adcc_channel_t channel)
 {
     //Selects the A/D channel
-    ADPCH = *channel;
+    ADPCH = channel;
 
     //Starts the conversion
     ADCON0bits.ADGO = 1;

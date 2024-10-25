@@ -250,26 +250,6 @@ void DMA1_DefaultInterruptHandler(void){
         
         case 0x10: //waveshape_adc_config_value
             
-            /*if(ADC_result <= TRIANGLE_MODE_ADC_THRESHOLD){
-                current_waveshape = TRIANGLE_MODE; //triangle wave
-            }
-            else if (ADC_result <= SINE_MODE_ADC_THRESHOLD){
-                current_waveshape = SINE_MODE; //sine wave
-            }
-            else if (ADC_result <= SQUARE_MODE_ADC_THRESHOLD){
-                current_waveshape = SQUARE_MODE; //square wave
-            }
-            else{
-                current_waveshape = SINE_MODE; //if error, return sine
-            }*/
-            current_dma_type_ptr++;
-            break;
-        
-        case 0x11: //speed_adc_config_value
-            
-            /*current_speed_linear = ADC_result;
-            current_speed_linear = current_speed_linear >> 2; //convert to 10-bit
-            current_dma_type_ptr++;*/
             if(ADC_result <= TRIANGLE_MODE_ADC_THRESHOLD){
                 current_waveshape = TRIANGLE_MODE; //triangle wave
             }
@@ -282,6 +262,14 @@ void DMA1_DefaultInterruptHandler(void){
             else{
                 current_waveshape = SINE_MODE; //if error, return sine
             }
+            current_dma_type_ptr++;
+            break;
+        
+        case 0x11: //speed_adc_config_value
+            
+            current_speed_linear = ADC_result;
+            current_speed_linear = current_speed_linear >> 2; //convert to 10-bit
+            current_dma_type_ptr++;
             break;
             
         case 0x12: //depth_adc_config_value

@@ -123,7 +123,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v F13298 `(v ~T0 @X0 0 tf ]
 [v F13300 `(v ~T0 @X0 0 tf ]
 "55 ./mcc_generated_files/adc/adcc.h
-[v _ADCC_StartConversion `(v ~T0 @X0 0 ef1`*CVE13102 ]
+[v _ADCC_StartConversion `(v ~T0 @X0 0 ef1`E13102 ]
 [v F13214 `**CVE13102 ~T0 @X0 1 t ]
 "107 mcc_generated_files/timer/src/../../../system_uC.h
 [v _current_adcc_type_ptr `V**CVE13102 ~T0 @X0 0 e ]
@@ -2048,9 +2048,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 "151
 [e ( _TMR1_Stop ..  ]
 "153
-[e ( _ADCC_StartConversion (1 &U _waveshape_adc_config_value ]
+[e ( _ADCC_StartConversion (1 *U *U _current_adcc_type_ptr ]
 "155
-[e $ ! != -> _waveshape_adc_config_value `ui -> _symmetry_adc_config_value `ui 1859  ]
+[e $ ! != -> *U *U _current_adcc_type_ptr `ui -> _symmetry_adc_config_value `ui 1859  ]
 {
 "156
 [e ++ _current_adcc_type_ptr * -> -> 1 `i `x -> -> # *U _current_adcc_type_ptr `i `x ]
