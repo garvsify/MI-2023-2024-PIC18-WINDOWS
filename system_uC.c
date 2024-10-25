@@ -24,6 +24,15 @@
     volatile uint8_t TMR0_prescaler_final_index = 0;  
     volatile uint8_t ADC_type_flag = 0;
     adc_result_t ADC_result = 0;
+    volatile uint8_t ready_to_start_oscillator = 0;
+    
+    volatile const adcc_channel_t waveshape_adc_config_value = channel_ANC0;
+    volatile const adcc_channel_t speed_adc_config_value = channel_ANC1;
+    volatile const adcc_channel_t depth_adc_config_value = channel_ANC2;
+    volatile const adcc_channel_t symmetry_adc_config_value = channel_ANC3;
+    
+    volatile const adcc_channel_t** volatile current_adcc_type_ptr = &adcc_type_array[0];
+    volatile const adcc_channel_t** volatile current_dma_type_ptr = &dma_type_array[0];
 
 
 uint8_t process_TMR0_raw_speed_and_prescaler(void){

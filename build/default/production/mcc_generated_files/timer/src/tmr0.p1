@@ -31,8 +31,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v F12947 `(v ~T0 @X0 0 tf ]
 "137
 [v _TMR0_OverflowCallbackRegister `(v ~T0 @X0 0 ef1`*F12947 ]
-[v F13284 `(v ~T0 @X0 0 tf ]
 [v F13286 `(v ~T0 @X0 0 tf ]
+[v F13288 `(v ~T0 @X0 0 tf ]
 "19342 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
 [v _TMR0H `Vuc ~T0 @X0 0 e@793 ]
 "19204
@@ -76,9 +76,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 [n S956 . . . . . ]
 "19630
 [v _T0CON0bits `VS956 ~T0 @X0 0 e@794 ]
-[v F13309 `(v ~T0 @X0 0 tf ]
 [v F13311 `(v ~T0 @X0 0 tf ]
 [v F13313 `(v ~T0 @X0 0 tf ]
+[v F13315 `(v ~T0 @X0 0 tf ]
 "129 mcc_generated_files/timer/src/../../../system_uC.h
 [v _duty `Vus ~T0 @X0 0 e ]
 "135
@@ -1761,6 +1761,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 ]
 "143
 [v _ADC_result `us ~T0 @X0 1 e ]
+"155
+[v _adcc_counter `Vuc ~T0 @X0 1 e ]
 "5 mcc_generated_files/timer/src/tmr0.c
 [v _Timer0 `CS1844 ~T0 @X0 1 e ]
 [i _Timer0
@@ -1771,12 +1773,12 @@ Version 4.0 HI-TECH Software Intermediate Code
 &U _TMR0_Stop
 &U _TMR0_Reload
 &U _TMR0_OverflowCallbackRegister
--> -> -> 0 `i `*v `*F13284
+-> -> -> 0 `i `*v `*F13286
 ..
 ..
 ]
 "14
-[v _TMR0_OverflowCallback `*F13286 ~T0 @X0 1 s ]
+[v _TMR0_OverflowCallback `*F13288 ~T0 @X0 1 s ]
 "21
 [v _res0 `Vuc ~T0 @X0 1 e ]
 [i _res0
@@ -1924,7 +1926,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "93
 [e = . . _PIR3bits 0 7 -> -> 0 `i `uc ]
 "94
-[e $ ! != _TMR0_OverflowCallback -> -> 0 `i `*F13309 1853  ]
+[e $ ! != _TMR0_OverflowCallback -> -> 0 `i `*F13311 1853  ]
 "95
 {
 "96
@@ -1936,12 +1938,12 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :UE 1852 ]
 }
 "100
-[v _TMR0_OverflowCallbackRegister `(v ~T0 @X0 1 ef1`*F13311 ]
+[v _TMR0_OverflowCallbackRegister `(v ~T0 @X0 1 ef1`*F13313 ]
 "101
 {
 [e :U _TMR0_OverflowCallbackRegister ]
 "100
-[v _CallbackHandler `*F13313 ~T0 @X0 1 r1 ]
+[v _CallbackHandler `*F13315 ~T0 @X0 1 r1 ]
 "101
 [f ]
 "102

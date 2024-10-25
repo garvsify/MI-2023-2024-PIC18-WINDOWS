@@ -35,32 +35,26 @@ HOW THE DMA/ADCC STUFF WORKS:
 
  */
 
-volatile const adcc_channel_t waveshape_adc_config_value = channel_ANC0;
-volatile const adcc_channel_t speed_adc_config_value = channel_ANC1;
-volatile const adcc_channel_t depth_adc_config_value = channel_ANC2;
-volatile const adcc_channel_t symmetry_adc_config_value = channel_ANC3;
-    
-volatile const adcc_channel_t** volatile current_adcc_type_ptr = &adcc_type_array[0];
-volatile const adcc_channel_t** volatile current_dma_type_ptr = &dma_type_array[0];
-
 int main(void){
 
     SYSTEM_Initialize();
-
-    process_TMR0_raw_speed_and_prescaler();
-    process_TMR0_and_prescaler_adjust();
+    
+    //set some arbitrary speed values
+    T0CON1bits.CKPS = 0b0100;
+    final_TMR0 = 100;
     
     PIE2bits.DMA1DCNTIE = 0;
     PIE4bits.TMR3IE = 0;
+    PIE3bits.TMR1IE = 1;
+    
+    INTERRUPT_GlobalInterruptEnable();
 
     TMR1_Write(TMR1_OVERFLOW_COUNT);
     TMR1_Start(); //ADCC is triggered on overflow
-
-    //T0CON1bits.CKPS = 0b0100;
-    //final_TMR0 = 100;
-    TMR0_Start();
-
-    INTERRUPT_GlobalInterruptEnable();
+    
+    while(ready_to_start_oscillator == 0){} //wait for all adcc values to be loaded
+    
+    TMR0_Start(); //start oscillator
 
     while(1){
 

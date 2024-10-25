@@ -10,7 +10,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _depth_adc_config_value `CVE13102 ~T0 @X0 0 e ]
 "93
 [v _symmetry_adc_config_value `CVE13102 ~T0 @X0 0 e ]
-[v F13260 `(v ~T0 @X0 0 tf ]
+[v F13262 `(v ~T0 @X0 0 tf ]
 [v F12922 `(v ~T0 @X0 0 tf ]
 [v F12924 `(v ~T0 @X0 0 tf ]
 [v F12926 `(v ~T0 @X0 0 tf ]
@@ -32,9 +32,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v F12950 `(v ~T0 @X0 0 tf ]
 "227
 [v _TMR3_OverflowCallbackRegister `(v ~T0 @X0 0 ef1`*F12950 ]
-[v F13270 `(v ~T0 @X0 0 tf ]
 [v F13272 `(v ~T0 @X0 0 tf ]
-[v F13275 `(v ~T0 @X0 0 tf ]
+[v F13274 `(v ~T0 @X0 0 tf ]
+[v F13277 `(v ~T0 @X0 0 tf ]
 "20720 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
 [s S1008 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 ]
 [n S1008 . ON RD16 NOT_SYNC . CKPS ]
@@ -119,12 +119,12 @@ Version 4.0 HI-TECH Software Intermediate Code
 [n S1019 . . . . . . . . . ]
 "20985
 [v _T3GCONbits `VS1019 ~T0 @X0 0 e@806 ]
-[v F13294 `(v ~T0 @X0 0 tf ]
 [v F13296 `(v ~T0 @X0 0 tf ]
 [v F13298 `(v ~T0 @X0 0 tf ]
-[v F13303 `(v ~T0 @X0 0 tf ]
+[v F13300 `(v ~T0 @X0 0 tf ]
 [v F13305 `(v ~T0 @X0 0 tf ]
 [v F13307 `(v ~T0 @X0 0 tf ]
+[v F13309 `(v ~T0 @X0 0 tf ]
 "269 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
 [; <" CLKRCON equ 039h ;# ">
 "373
@@ -1789,10 +1789,12 @@ Version 4.0 HI-TECH Software Intermediate Code
 ]
 "143
 [v _ADC_result `us ~T0 @X0 1 e ]
+"155
+[v _adcc_counter `Vuc ~T0 @X0 1 e ]
 "44 mcc_generated_files/timer/src/tmr3.c
 [v _timer3ReloadVal `Vus ~T0 @X0 1 e ]
 "45
-[v _TMR3_InterruptHandler `*F13260 ~T0 @X0 1 e ]
+[v _TMR3_InterruptHandler `*F13262 ~T0 @X0 1 e ]
 "47
 [v _Timer3 `CS1843 ~T0 @X0 1 e ]
 [i _Timer3
@@ -1803,14 +1805,14 @@ Version 4.0 HI-TECH Software Intermediate Code
 &U _TMR3_Stop
 &U _TMR3_PeriodCountSet
 &U _TMR3_OverflowCallbackRegister
--> -> -> 0 `i `*v `*F13270
+-> -> -> 0 `i `*v `*F13272
 ..
 ..
 ]
 "55
-[v _TMR3_OverflowCallback `*F13272 ~T0 @X0 1 s ]
+[v _TMR3_OverflowCallback `*F13274 ~T0 @X0 1 s ]
 "57
-[v _TMR3_GateCallback `*F13275 ~T0 @X0 1 s ]
+[v _TMR3_GateCallback `*F13277 ~T0 @X0 1 s ]
 "60
 [v _TMR3_Initialize `(v ~T0 @X0 1 ef ]
 "61
@@ -1985,7 +1987,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "165
 [e = . . _PIR4bits 0 4 -> -> 0 `i `uc ]
 "167
-[e $ ! != _TMR3_OverflowCallback -> -> 0 `i `*F13294 1856  ]
+[e $ ! != _TMR3_OverflowCallback -> -> 0 `i `*F13296 1856  ]
 "168
 {
 "169
@@ -1997,12 +1999,12 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :UE 1855 ]
 }
 "173
-[v _TMR3_OverflowCallbackRegister `(v ~T0 @X0 1 ef1`*F13296 ]
+[v _TMR3_OverflowCallbackRegister `(v ~T0 @X0 1 ef1`*F13298 ]
 "174
 {
 [e :U _TMR3_OverflowCallbackRegister ]
 "173
-[v _CallbackHandler `*F13298 ~T0 @X0 1 r1 ]
+[v _CallbackHandler `*F13300 ~T0 @X0 1 r1 ]
 "174
 [f ]
 "175
@@ -2040,7 +2042,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "193
 [e = . . _PIR4bits 0 5 -> -> 0 `i `uc ]
 "194
-[e $ ! != _TMR3_GateCallback -> -> 0 `i `*F13303 1861  ]
+[e $ ! != _TMR3_GateCallback -> -> 0 `i `*F13305 1861  ]
 "195
 {
 "196
@@ -2052,12 +2054,12 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :UE 1860 ]
 }
 "200
-[v _TMR3_GateCallbackRegister `(v ~T0 @X0 1 ef1`*F13305 ]
+[v _TMR3_GateCallbackRegister `(v ~T0 @X0 1 ef1`*F13307 ]
 "201
 {
 [e :U _TMR3_GateCallbackRegister ]
 "200
-[v _CallbackHandler `*F13307 ~T0 @X0 1 r1 ]
+[v _CallbackHandler `*F13309 ~T0 @X0 1 r1 ]
 "201
 [f ]
 "202
