@@ -69,8 +69,8 @@ void TMR3_Initialize(void)
     T3CLK = 0x4;
     //TMRH 255; 
     TMR3H = 0xFF;
-    //TMRL 170; 
-    TMR3L = 0xAA;
+    //TMRL 100; 
+    TMR3L = 0x64;
 
     // Load the TMR3 value to reload variable
     timer3ReloadVal=((uint16_t)TMR3H << 8) | TMR3L;
@@ -86,8 +86,8 @@ void TMR3_Initialize(void)
     // Enabling TMRI interrupt.
     PIE4bits.TMR3IE = 1;
     
-    //TMRON enabled; TRD16 disabled; nTSYNC do_not_synchronize; TCKPS 1:8; 
-    T3CON = 0x35;
+    //TMRON enabled; TRD16 disabled; nTSYNC synchronize; TCKPS 1:1; 
+    T3CON = 0x1;
 }
 
 void TMR3_Start(void)

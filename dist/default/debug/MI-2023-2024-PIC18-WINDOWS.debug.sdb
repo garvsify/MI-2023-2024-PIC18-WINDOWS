@@ -16,7 +16,7 @@ channel_ANC1 17
 channel_ANC2 18
 channel_ANC3 19
 ]
-"105 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS/system_uC.h
+"107 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS/system_uC.h
 [e E13143 . `uc
 channel_DAC2 58
 channel_VSS 59
@@ -78,7 +78,7 @@ TMR2_UART2_TX_EDGE 21
 TMR2_UART3_RX_EDGE 22
 TMR2_UART3_TX_EDGE 23
 ]
-"105 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS/system_uC.h
+"107 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS/system_uC.h
 [e E13119 . `uc
 channel_DAC2 58
 channel_VSS 59
@@ -115,7 +115,7 @@ channel_ANC1 17
 channel_ANC2 18
 channel_ANC3 19
 ]
-"105 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS/system_uC.h
+"107 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS/system_uC.h
 [e E13102 . `uc
 channel_DAC2 58
 channel_VSS 59
@@ -284,13 +284,13 @@ channel_ANC3 19
 [v _TMR3_DefaultGateCallback TMR3_DefaultGateCallback `(v  1 s 1 TMR3_DefaultGateCallback ]
 "62 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\system_uC.c
 [v _adjust_and_set_TMR0_prescaler adjust_and_set_TMR0_prescaler `(uc  1 e 1 0 ]
-"88 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS/system_uC.h
+"90 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS/system_uC.h
 [v _TMR0_prescaler_bits TMR0_prescaler_bits `C[9]uc  1 e 9 0 ]
-"105
+"107
 [v _adcc_type_array adcc_type_array `[4]*.32CVEE13143  1 e 8 0 ]
-"106
+"108
 [v _dma_type_array dma_type_array `[4]*.32CVEE13143  1 e 8 0 ]
-"155
+"157
 [v _adcc_counter adcc_counter `VEuc  1 e 1 0 ]
 "7 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS/wavetables.h
 [v _sine_table_one_quadrant sine_table_one_quadrant `C[129]us  1 e 258 0 ]

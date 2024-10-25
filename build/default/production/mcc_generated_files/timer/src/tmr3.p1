@@ -1,14 +1,14 @@
 Version 4.0 HI-TECH Software Intermediate Code
-"105 mcc_generated_files/timer/src/../../../system_uC.h
+"107 mcc_generated_files/timer/src/../../../system_uC.h
 [c E13102 58 59 60 61 62 63 16 17 18 19 .. ]
 [n E13102 . channel_DAC2 channel_VSS channel_Temp channel_DAC1 channel_FVR_Buffer1 channel_FVR_Buffer2 channel_ANC0 channel_ANC1 channel_ANC2 channel_ANC3  ]
-"90
-[v _waveshape_adc_config_value `CVE13102 ~T0 @X0 0 e ]
-"91
-[v _speed_adc_config_value `CVE13102 ~T0 @X0 0 e ]
 "92
-[v _depth_adc_config_value `CVE13102 ~T0 @X0 0 e ]
+[v _waveshape_adc_config_value `CVE13102 ~T0 @X0 0 e ]
 "93
+[v _speed_adc_config_value `CVE13102 ~T0 @X0 0 e ]
+"94
+[v _depth_adc_config_value `CVE13102 ~T0 @X0 0 e ]
+"95
 [v _symmetry_adc_config_value `CVE13102 ~T0 @X0 0 e ]
 [v F13262 `(v ~T0 @X0 0 tf ]
 [v F12922 `(v ~T0 @X0 0 tf ]
@@ -1707,7 +1707,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 1023 `i `us
 ..
 ]
-"88 mcc_generated_files/timer/src/../../../system_uC.h
+"90 mcc_generated_files/timer/src/../../../system_uC.h
 [v _TMR0_prescaler_bits `Cuc ~T0 @X0 -> 9 `i e ]
 [i _TMR0_prescaler_bits
 :U ..
@@ -1722,52 +1722,52 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"95
+"97
 [v _POSITIVE `Cuc ~T0 @X0 1 e ]
 [i _POSITIVE
 -> -> 1 `i `uc
 ]
-"96
+"98
 [v _NEGATIVE `Cuc ~T0 @X0 1 e ]
 [i _NEGATIVE
 -> -> 0 `i `uc
 ]
-"97
+"99
 [v _DO_NOTHING `Cuc ~T0 @X0 1 e ]
 [i _DO_NOTHING
 -> -> 0 `i `uc
 ]
-"98
+"100
 [v _DIVIDE_BY_TWO `Cuc ~T0 @X0 1 e ]
 [i _DIVIDE_BY_TWO
 -> -> 1 `i `uc
 ]
-"99
+"101
 [v _MULTIPLY_BY_TWO `Cuc ~T0 @X0 1 e ]
 [i _MULTIPLY_BY_TWO
 -> -> 2 `i `uc
 ]
-"100
+"102
 [v _DIVIDE_BY_FOUR `Cuc ~T0 @X0 1 e ]
 [i _DIVIDE_BY_FOUR
 -> -> 3 `i `uc
 ]
-"101
+"103
 [v _DONT_CARE `Cuc ~T0 @X0 1 e ]
 [i _DONT_CARE
 -> -> 4 `i `uc
 ]
-"102
+"104
 [v _YES `Cuc ~T0 @X0 1 e ]
 [i _YES
 -> -> 1 `i `uc
 ]
-"103
+"105
 [v _NO `Cuc ~T0 @X0 1 e ]
 [i _NO
 -> -> 0 `i `uc
 ]
-"105
+"107
 [v _adcc_type_array `*CVE13102 ~T0 @X0 -> 4 `i e ]
 [i _adcc_type_array
 :U ..
@@ -1777,7 +1777,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 &U _symmetry_adc_config_value
 ..
 ]
-"106
+"108
 [v _dma_type_array `*CVE13102 ~T0 @X0 -> 4 `i e ]
 [i _dma_type_array
 :U ..
@@ -1787,9 +1787,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 &U _symmetry_adc_config_value
 ..
 ]
-"143
+"145
 [v _ADC_result `us ~T0 @X0 1 e ]
-"155
+"157
 [v _adcc_counter `Vuc ~T0 @X0 1 e ]
 "44 mcc_generated_files/timer/src/tmr3.c
 [v _timer3ReloadVal `Vus ~T0 @X0 1 e ]
@@ -1830,7 +1830,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "71
 [e = _TMR3H -> -> 255 `i `uc ]
 "73
-[e = _TMR3L -> -> 170 `i `uc ]
+[e = _TMR3L -> -> 100 `i `uc ]
 "76
 [e = _timer3ReloadVal -> | << -> -> _TMR3H `us `ui -> 8 `i -> _TMR3L `ui `us ]
 "79
@@ -1842,7 +1842,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "87
 [e = . . _PIE4bits 0 4 -> -> 1 `i `uc ]
 "90
-[e = _T3CON -> -> 53 `i `uc ]
+[e = _T3CON -> -> 1 `i `uc ]
 "91
 [e :UE 1844 ]
 }

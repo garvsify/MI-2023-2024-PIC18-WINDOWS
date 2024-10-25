@@ -2,12 +2,12 @@
 
 manifest_file_version: 1.0.0
 project: MI-2023_2024-PIC18
-creation_date: 2024-10-20T19:58:57.914+01:00[Europe/London]
+creation_date: 2024-10-25T17:02:50.410+01:00[Europe/London]
 operating_system: Windows 10
 mcc_mode: IDE
 mcc_mode_version: v6.20
 device_name: PIC18F05Q40
-compiler: XC8 2.46
+compiler: XC8 2.50
 mcc_version: 5.5.1
 mcc_core_version: 5.7.1
 content_manager_version: 5.0.1

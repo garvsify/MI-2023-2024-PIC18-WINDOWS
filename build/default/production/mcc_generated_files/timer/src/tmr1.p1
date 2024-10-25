@@ -1,14 +1,14 @@
 Version 4.0 HI-TECH Software Intermediate Code
-"105 mcc_generated_files/timer/src/../../../system_uC.h
+"107 mcc_generated_files/timer/src/../../../system_uC.h
 [c E13102 58 59 60 61 62 63 16 17 18 19 .. ]
 [n E13102 . channel_DAC2 channel_VSS channel_Temp channel_DAC1 channel_FVR_Buffer1 channel_FVR_Buffer2 channel_ANC0 channel_ANC1 channel_ANC2 channel_ANC3  ]
-"90
-[v _waveshape_adc_config_value `CVE13102 ~T0 @X0 0 e ]
-"91
-[v _speed_adc_config_value `CVE13102 ~T0 @X0 0 e ]
 "92
-[v _depth_adc_config_value `CVE13102 ~T0 @X0 0 e ]
+[v _waveshape_adc_config_value `CVE13102 ~T0 @X0 0 e ]
 "93
+[v _speed_adc_config_value `CVE13102 ~T0 @X0 0 e ]
+"94
+[v _depth_adc_config_value `CVE13102 ~T0 @X0 0 e ]
+"95
 [v _symmetry_adc_config_value `CVE13102 ~T0 @X0 0 e ]
 [v F13262 `(v ~T0 @X0 0 tf ]
 [v F12922 `(v ~T0 @X0 0 tf ]
@@ -122,11 +122,11 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v F13296 `(v ~T0 @X0 0 tf ]
 [v F13298 `(v ~T0 @X0 0 tf ]
 [v F13300 `(v ~T0 @X0 0 tf ]
-[v F13214 `**CVE13102 ~T0 @X0 1 t ]
-"107 mcc_generated_files/timer/src/../../../system_uC.h
-[v _current_adcc_type_ptr `V**CVE13102 ~T0 @X0 0 e ]
 "55 ./mcc_generated_files/adc/adcc.h
 [v _ADCC_StartConversion `(v ~T0 @X0 0 ef1`E13102 ]
+[v F13214 `**CVE13102 ~T0 @X0 1 t ]
+"109 mcc_generated_files/timer/src/../../../system_uC.h
+[v _current_adcc_type_ptr `V**CVE13102 ~T0 @X0 0 e ]
 "176 ./mcc_generated_files/timer/tmr3.h
 [v _TMR3_Write `(v ~T0 @X0 0 ef1`ui ]
 "149
@@ -147,9 +147,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 [n S1686 . . ]
 "35091
 [v _PIE2bits `VS1686 ~T0 @X0 0 e@1194 ]
-[v F13307 `(v ~T0 @X0 0 tf ]
-[v F13309 `(v ~T0 @X0 0 tf ]
-[v F13311 `(v ~T0 @X0 0 tf ]
+[v F13306 `(v ~T0 @X0 0 tf ]
+[v F13308 `(v ~T0 @X0 0 tf ]
+[v F13310 `(v ~T0 @X0 0 tf ]
 "269 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
 [; <" CLKRCON equ 039h ;# ">
 "373
@@ -1732,7 +1732,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 1023 `i `us
 ..
 ]
-"88 mcc_generated_files/timer/src/../../../system_uC.h
+"90 mcc_generated_files/timer/src/../../../system_uC.h
 [v _TMR0_prescaler_bits `Cuc ~T0 @X0 -> 9 `i e ]
 [i _TMR0_prescaler_bits
 :U ..
@@ -1747,52 +1747,52 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"95
+"97
 [v _POSITIVE `Cuc ~T0 @X0 1 e ]
 [i _POSITIVE
 -> -> 1 `i `uc
 ]
-"96
+"98
 [v _NEGATIVE `Cuc ~T0 @X0 1 e ]
 [i _NEGATIVE
 -> -> 0 `i `uc
 ]
-"97
+"99
 [v _DO_NOTHING `Cuc ~T0 @X0 1 e ]
 [i _DO_NOTHING
 -> -> 0 `i `uc
 ]
-"98
+"100
 [v _DIVIDE_BY_TWO `Cuc ~T0 @X0 1 e ]
 [i _DIVIDE_BY_TWO
 -> -> 1 `i `uc
 ]
-"99
+"101
 [v _MULTIPLY_BY_TWO `Cuc ~T0 @X0 1 e ]
 [i _MULTIPLY_BY_TWO
 -> -> 2 `i `uc
 ]
-"100
+"102
 [v _DIVIDE_BY_FOUR `Cuc ~T0 @X0 1 e ]
 [i _DIVIDE_BY_FOUR
 -> -> 3 `i `uc
 ]
-"101
+"103
 [v _DONT_CARE `Cuc ~T0 @X0 1 e ]
 [i _DONT_CARE
 -> -> 4 `i `uc
 ]
-"102
+"104
 [v _YES `Cuc ~T0 @X0 1 e ]
 [i _YES
 -> -> 1 `i `uc
 ]
-"103
+"105
 [v _NO `Cuc ~T0 @X0 1 e ]
 [i _NO
 -> -> 0 `i `uc
 ]
-"105
+"107
 [v _adcc_type_array `*CVE13102 ~T0 @X0 -> 4 `i e ]
 [i _adcc_type_array
 :U ..
@@ -1802,7 +1802,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 &U _symmetry_adc_config_value
 ..
 ]
-"106
+"108
 [v _dma_type_array `*CVE13102 ~T0 @X0 -> 4 `i e ]
 [i _dma_type_array
 :U ..
@@ -1812,9 +1812,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 &U _symmetry_adc_config_value
 ..
 ]
-"143
+"145
 [v _ADC_result `us ~T0 @X0 1 e ]
-"155
+"157
 [v _adcc_counter `Vuc ~T0 @X0 1 e ]
 "8 mcc_generated_files/timer/src/tmr1.c
 [v _timer1ReloadVal `Vus ~T0 @X0 1 e ]
@@ -1855,7 +1855,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "35
 [e = _TMR1H -> -> 255 `i `uc ]
 "37
-[e = _TMR1L -> -> 170 `i `uc ]
+[e = _TMR1L -> -> 100 `i `uc ]
 "40
 [e = _timer1ReloadVal -> | << -> -> _TMR1H `us `ui -> 8 `i -> _TMR1L `ui `us ]
 "43
@@ -1867,7 +1867,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "51
 [e = . . _PIE3bits 0 4 -> -> 1 `i `uc ]
 "54
-[e = _T1CON -> -> 53 `i `uc ]
+[e = _T1CON -> -> 1 `i `uc ]
 "55
 [e :UE 1844 ]
 }
@@ -2048,89 +2048,86 @@ Version 4.0 HI-TECH Software Intermediate Code
 "151
 [e ( _TMR1_Stop ..  ]
 "153
-[v _adc_config `E13102 ~T0 @X0 1 a ]
-[e = _adc_config *U *U _current_adcc_type_ptr ]
+[e ( _ADCC_StartConversion (1 *U *U _current_adcc_type_ptr ]
 "155
-[e ( _ADCC_StartConversion (1 _adc_config ]
-"157
 [e $ ! != -> *U *U _current_adcc_type_ptr `ui -> _symmetry_adc_config_value `ui 1859  ]
 {
-"158
+"156
 [e ++ _current_adcc_type_ptr * -> -> 1 `i `x -> -> # *U _current_adcc_type_ptr `i `x ]
-"159
+"157
 }
 [e $U 1860  ]
-"160
+"158
 [e :U 1859 ]
 {
-"161
+"159
 [e = _current_adcc_type_ptr &U *U + &U _adcc_type_array * -> -> -> 0 `i `ui `ux -> -> # *U &U _adcc_type_array `ui `ux ]
-"162
+"160
 }
 [e :U 1860 ]
-"164
-[e ( _TMR3_Write (1 -> -> 65450 `l `ui ]
-"165
+"162
+[e ( _TMR3_Write (1 -> -> 65350 `l `ui ]
+"163
 [e ( _TMR3_Start ..  ]
-"167
+"165
 [e = . . _PIE4bits 0 4 -> -> 1 `i `uc ]
-"168
+"166
 [e = . . _PIE2bits 0 3 -> -> 1 `i `uc ]
-"170
+"168
 [e :UE 1858 ]
 }
-"172
+"170
 [v _TMR1_HasOverflowOccured `(a ~T0 @X0 1 ef ]
-"173
+"171
 {
 [e :U _TMR1_HasOverflowOccured ]
 [f ]
-"174
+"172
 [e ) -> . . _PIR3bits 0 4 `a ]
 [e $UE 1861  ]
-"175
+"173
 [e :UE 1861 ]
 }
-"177
+"175
 [v _TMR1_GateISR `(v ~T0 @X0 1 ef ]
-"178
+"176
 {
 [e :U _TMR1_GateISR ]
 [f ]
-"180
+"178
 [e = . . _PIR3bits 0 5 -> -> 0 `i `uc ]
-"181
-[e $ ! != _TMR1_GateCallback -> -> 0 `i `*F13307 1863  ]
-"182
+"179
+[e $ ! != _TMR1_GateCallback -> -> 0 `i `*F13306 1863  ]
+"180
 {
-"183
+"181
 [e ( *U _TMR1_GateCallback ..  ]
-"184
+"182
 }
 [e :U 1863 ]
-"185
+"183
 [e :UE 1862 ]
 }
-"187
-[v _TMR1_GateCallbackRegister `(v ~T0 @X0 1 ef1`*F13309 ]
-"188
+"185
+[v _TMR1_GateCallbackRegister `(v ~T0 @X0 1 ef1`*F13308 ]
+"186
 {
 [e :U _TMR1_GateCallbackRegister ]
-"187
-[v _CallbackHandler `*F13311 ~T0 @X0 1 r1 ]
-"188
+"185
+[v _CallbackHandler `*F13310 ~T0 @X0 1 r1 ]
+"186
 [f ]
-"189
+"187
 [e = _TMR1_GateCallback _CallbackHandler ]
-"190
+"188
 [e :UE 1864 ]
 }
-"192
+"190
 [v _TMR1_DefaultGateCallback `(v ~T0 @X0 1 sf ]
-"193
+"191
 {
 [e :U _TMR1_DefaultGateCallback ]
 [f ]
-"196
+"194
 [e :UE 1865 ]
 }

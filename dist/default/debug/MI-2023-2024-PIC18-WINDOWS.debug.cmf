@@ -68,7 +68,7 @@ dataCOMRAM COMRAM 1 557 557 4 1 1
 bssCOMRAM COMRAM 1 501 501 48 1 1
 mediumconst MEDIUMCONST 0 7DB4 7DB4 24C 1 2
 config CONFIG 4 300000 300000 9 1 1
-$C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_9.o
+$C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_9.o
 init CODE 0 1A 1A 4 1 2
 reset_vec CODE 0 0 0 6 1 2
 config CONFIG 4 300000 300000 9 1 1
@@ -517,55 +517,55 @@ FC text41 CODE >278:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_gene
 50E text0 CODE >60:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\main.c
 512 text0 CODE >62:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\main.c
 512 text0 CODE >67:C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\main.c
-462 cinit CODE >19539:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-462 cinit CODE >19541:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-462 cinit CODE >19544:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-462 cinit CODE >19708:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-464 cinit CODE >19709:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-466 cinit CODE >19710:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-468 cinit CODE >19711:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-46A cinit CODE >19712:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-46C cinit CODE >19713:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-46E cinit CODE >19714:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-472 cinit CODE >19715:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-476 cinit CODE >19716:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-476 cinit CODE >19717:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-478 cinit CODE >19718:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-47C cinit CODE >19719:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-47E cinit CODE >19720:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-480 cinit CODE >19721:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-482 cinit CODE >19725:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-484 cinit CODE >19726:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-486 cinit CODE >19727:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-488 cinit CODE >19728:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-48A cinit CODE >19729:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-48C cinit CODE >19730:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-48E cinit CODE >19731:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-492 cinit CODE >19732:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-496 cinit CODE >19733:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-496 cinit CODE >19734:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-498 cinit CODE >19735:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-49C cinit CODE >19736:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-49E cinit CODE >19737:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-4A0 cinit CODE >19738:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-4A2 cinit CODE >19742:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-4A6 cinit CODE >19743:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-4A8 cinit CODE >19744:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-4A8 cinit CODE >19745:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-4AA cinit CODE >19746:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-4AC cinit CODE >19747:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-4AE cinit CODE >19755:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-4B0 cinit CODE >19756:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-4B2 cinit CODE >19757:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-4B4 cinit CODE >19758:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-4B6 cinit CODE >19759:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-4B8 cinit CODE >19760:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-4BA cinit CODE >19761:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-4BC cinit CODE >19767:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-4BC cinit CODE >19770:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-4BE cinit CODE >19771:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-4C0 cinit CODE >19772:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
-4C2 cinit CODE >19773:C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_1.s
+462 cinit CODE >19539:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+462 cinit CODE >19541:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+462 cinit CODE >19544:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+462 cinit CODE >19708:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+464 cinit CODE >19709:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+466 cinit CODE >19710:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+468 cinit CODE >19711:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+46A cinit CODE >19712:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+46C cinit CODE >19713:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+46E cinit CODE >19714:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+472 cinit CODE >19715:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+476 cinit CODE >19716:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+476 cinit CODE >19717:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+478 cinit CODE >19718:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+47C cinit CODE >19719:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+47E cinit CODE >19720:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+480 cinit CODE >19721:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+482 cinit CODE >19725:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+484 cinit CODE >19726:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+486 cinit CODE >19727:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+488 cinit CODE >19728:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+48A cinit CODE >19729:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+48C cinit CODE >19730:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+48E cinit CODE >19731:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+492 cinit CODE >19732:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+496 cinit CODE >19733:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+496 cinit CODE >19734:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+498 cinit CODE >19735:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+49C cinit CODE >19736:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+49E cinit CODE >19737:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+4A0 cinit CODE >19738:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+4A2 cinit CODE >19742:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+4A6 cinit CODE >19743:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+4A8 cinit CODE >19744:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+4A8 cinit CODE >19745:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+4AA cinit CODE >19746:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+4AC cinit CODE >19747:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+4AE cinit CODE >19755:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+4B0 cinit CODE >19756:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+4B2 cinit CODE >19757:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+4B4 cinit CODE >19758:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+4B6 cinit CODE >19759:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+4B8 cinit CODE >19760:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+4BA cinit CODE >19761:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+4BC cinit CODE >19767:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+4BC cinit CODE >19770:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+4BE cinit CODE >19771:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+4C0 cinit CODE >19772:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
+4C2 cinit CODE >19773:C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_1.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -589,7 +589,7 @@ __Hspace_2 0 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hspace_4 600009 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __HidataBANK5 0 0 ABS 0 idataBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__mediumconst 7DB4 0 MEDIUMCONST 0 mediumconst C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_9.o
+__mediumconst 7DB4 0 MEDIUMCONST 0 mediumconst C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_9.o
 _INT0_DefaultInterruptHandler 0 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __end_of_CCP1_Initialize 892 0 CODE 0 text26 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __end_of_speed_adc_config_value 7FFE 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
@@ -608,16 +608,16 @@ _T2PR 31D 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _TMR2 31C 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _WPUA 401 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _WPUC 411 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-___sp 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_9.o
+___sp 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_9.o
 _duty 529 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _main 4C6 0 CODE 0 text0 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _res0 540 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _res1 53F 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _res2 53E 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _res3 53D 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-___stack_hi 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_9.o
-___stack_lo 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_9.o
-start 1A 0 CODE 0 init C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_9.o
+___stack_hi 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_9.o
+___stack_lo 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_9.o
+start 1A 0 CODE 0 init C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_9.o
 __end_of_TMR1_Stop 94C 0 CODE 0 text37 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _TMR1_Start 8A2 0 CODE 0 text2 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _current_dma_type_ptr 559 0 COMRAM 1 dataCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
@@ -643,11 +643,11 @@ __end_of_Timer3 7FC5 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024
 _TMR1_Stop 946 0 CODE 0 text37 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __HdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _TMR2_Stop 0 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__accesstop 560 0 ABS 0 - C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_9.o
-intlevel0 0 0 CODE 0 text C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_9.o
-intlevel1 0 0 CODE 0 text C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_9.o
-intlevel2 0 0 CODE 0 text C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_9.o
-intlevel3 0 0 CODE 0 text C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_9.o
+__accesstop 560 0 ABS 0 - C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_9.o
+intlevel0 0 0 CODE 0 text C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_9.o
+intlevel1 0 0 CODE 0 text C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_9.o
+intlevel2 0 0 CODE 0 text C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_9.o
+intlevel3 0 0 CODE 0 text C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_9.o
 __LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _duty_low_byte 535 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _TMR3_Stop 0 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
@@ -691,8 +691,8 @@ _ANSELA 400 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _ANSELC 410 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _TMR1_GateCallbackRegister 8F4 0 CODE 0 text12 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __end_of_TMR1_DefaultOverflowCallback 3FA 0 CODE 0 text31 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-___inthi_sp 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_9.o
-___intlo_sp 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_9.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_9.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_9.o
 __end_of_TMR1_Start 8B2 0 CODE 0 text2 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __end_of_TMR1_Write 6AC 0 CODE 0 text1 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __LdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
@@ -774,7 +774,7 @@ _Timer2 7FDD 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-W
 _Timer3 7FB9 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _TMR1_Start$intlevel0 8AC 0 CODE 0 text2 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _depth_adc_config_value 7FFC 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-isa$xinst 0 0 ABS 0 - C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_9.o
+isa$xinst 0 0 ABS 0 - C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_9.o
 _DMAnCON0bits FC 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _DMAnCON1bits FD 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __end_of_ADCC_Initialize 640 0 CODE 0 text27 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
@@ -807,7 +807,7 @@ __Hbank12 0 0 ABS 0 bank12 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hbigram 0 0 ABS 0 bigram dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hbigsfr 0 0 ABS 0 bigsfr dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_9.o
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_9.o
 _DMA1_DCNTIInterruptHandlerSet 930 0 CODE 0 text23 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hcomram 0 0 ABS 0 comram dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Hconfig 300009 0 CONFIG 4 config dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
@@ -1008,18 +1008,18 @@ _ready_to_start_oscillator 546 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2
 __Lcomram 0 0 ABS 0 comram dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Lconfig 0 0 CONFIG 4 config dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Lfarbss 0 0 FARRAM 0 farbss dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-___inthi_stack_hi 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_9.o
-___inthi_stack_lo 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_9.o
+___inthi_stack_hi 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_9.o
+___inthi_stack_lo 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_9.o
 _raw_TMR0 505 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Lfardata 0 0 FARRAM 0 fardata dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-isa$std 1 0 ABS 0 - C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_9.o
+isa$std 1 0 ABS 0 - C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_9.o
 __end_of_CLOCK_Initialize 87E 0 CODE 0 text25 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _ADC_type_flag 531 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _TMR3_Start 940 0 CODE 0 text36 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _TMR3_Write 7A4 0 CODE 0 text35 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _current_speed_linear 52F 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-stackhi 0 0 ABS 0 - C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_9.o
-stacklo 0 0 ABS 0 - C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_9.o
+stackhi 0 0 ABS 0 - C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_9.o
+stacklo 0 0 ABS 0 - C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_9.o
 _dma_type_array 576 0 BANK5 1 dataBANK5 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __end_of_depth_adc_config_value 7FFD 0 MEDIUMCONST 0 mediumconst dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _OSCCON1 AD 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
@@ -1127,7 +1127,7 @@ __Ltext40 0 0 ABS 0 text40 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Ltext41 0 0 ABS 0 text41 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Ltext42 0 0 ABS 0 text42 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Ltext43 0 0 ABS 0 text43 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-__ramtop E00 0 RAM 0 ramtop C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_9.o
+__ramtop E00 0 RAM 0 ramtop C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_9.o
 __Lpowerup 0 0 CODE 0 powerup dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _TMR1_OverflowCallbackRegister 8EA 0 CODE 0 text11 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
@@ -1142,11 +1142,11 @@ INT0_SetInterruptHandler@InterruptHandler 586 0 BANK5 1 cstackBANK5 dist/default
 __end_of_TMR1_GateCallbackRegister 8FE 0 CODE 0 text12 dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _SLRCONA 403 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _SLRCONC 413 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-___heap_hi 0 0 ABS 0 - C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_9.o
-___heap_lo 0 0 ABS 0 - C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_9.o
+___heap_hi 0 0 ABS 0 - C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_9.o
+___heap_lo 0 0 ABS 0 - C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_9.o
 ___param_bank 0 0 ABS 0 - dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
-___intlo_stack_hi 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_9.o
-___intlo_stack_lo 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAs4vk.\driver_tmp_9.o
+___intlo_stack_hi 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_9.o
+___intlo_stack_lo 0 0 STACK 2 stack C:\Users\JAMESG~1\AppData\Local\Temp\xcAsfe4.\driver_tmp_9.o
 __Hbigdata 0 0 BIGRAM 1 bigdata dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 __end_of__initialization 4BC 0 CODE 0 cinit dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
 _ADC_result 52B 0 COMRAM 1 bssCOMRAM dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
