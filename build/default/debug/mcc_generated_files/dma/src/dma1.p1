@@ -2367,7 +2367,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 }
 [e $U 1876  ]
 [e :U 1877 ]
-[e [\ -> *U *U _current_dma_type_ptr `ui , $ -> -> 16 `i `ui 1878
+[e [\ -> _waveshape_adc_config_value `ui , $ -> -> 16 `i `ui 1878
  , $ -> -> 17 `i `ui 1885
  , $ -> -> 18 `i `ui 1886
  , $ -> -> 19 `i `ui 1887

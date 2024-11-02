@@ -1,6 +1,6 @@
 
 18F05Q40 Memory Summary:
-    Program space        used   BA2h (  2978) of  8000h bytes   (  9.1%)
+    Program space        used   B92h (  2962) of  8000h bytes   (  9.0%)
     Data space           used    84h (   132) of   800h bytes   (  6.4%)
     Configuration bits   used     4h (     4) of     9h words   ( 44.4%)
     EEPROM space         used     0h (     0) of   200h bytes   (  0.0%)

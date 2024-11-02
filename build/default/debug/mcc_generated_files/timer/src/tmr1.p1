@@ -2048,7 +2048,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "151
 [e ( _TMR1_Stop ..  ]
 "153
-[e ( _ADCC_StartConversion (1 *U *U _current_adcc_type_ptr ]
+[e ( _ADCC_StartConversion (1 _waveshape_adc_config_value ]
 "155
 [e $ ! != -> *U *U _current_adcc_type_ptr `ui -> _symmetry_adc_config_value `ui 1859  ]
 {
