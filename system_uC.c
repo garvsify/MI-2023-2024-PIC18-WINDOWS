@@ -31,7 +31,6 @@
     volatile const adcc_channel_t depth_adc_config_value = 0x12;
     volatile const adcc_channel_t symmetry_adc_config_value = 0x13;
     
-    volatile const adcc_channel_t** volatile current_adcc_type_ptr = &adcc_type_array[0];
     volatile const adcc_channel_t** volatile current_dma_type_ptr = &dma_type_array[0];
 
 

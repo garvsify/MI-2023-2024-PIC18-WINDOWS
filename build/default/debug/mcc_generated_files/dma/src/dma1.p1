@@ -109,8 +109,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v F13308 `(v ~T0 @X0 0 tf ]
 [v F13310 `(v ~T0 @X0 0 tf ]
 [v F13312 `(v ~T0 @X0 0 tf ]
-"41860
-[v _LATC4 `Vb ~T0 @X0 0 e@9732 ]
 "35189
 [s S1691 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S1691 . U1RXIE U1TXIE U1EIE U1IE TMR3IE TMR3GIE PWM1PIE PWM1IE ]
@@ -144,8 +142,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 [n S1688 . . ]
 "35138
 [v _PIE3bits `VS1688 ~T0 @X0 0 e@1195 ]
-"41863
-[v _LATC5 `Vb ~T0 @X0 0 e@9733 ]
 "269 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
 [; <" CLKRCON equ 039h ;# ">
 "373
@@ -2254,8 +2250,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 {
 [e :U _DMA1_DefaultInterruptHandler ]
 [f ]
-"231
-[e = _LATC4 -> -> 0 `i `b ]
 "233
 [e = . . _PIE2bits 0 3 -> -> 0 `i `uc ]
 "234
@@ -2387,8 +2381,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e = . . _PIE3bits 0 4 -> -> 1 `i `uc ]
 "301
 [e ++ _adcc_counter -> -> 1 `i `Vuc ]
-"303
-[e = _LATC5 -> -> 1 `i `b ]
 "304
 [e :UE 1872 ]
 }

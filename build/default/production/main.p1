@@ -13,25 +13,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 [p mainexit ]
 "4 ./mcc_generated_files/system/system.h
 [v _SYSTEM_Initialize `(v ~T0 @X0 0 ef ]
-"19726 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
-[s S962 :4 `uc 1 :1 `uc 1 :3 `uc 1 ]
-[n S962 . CKPS ASYNC CS ]
-"19731
-[s S963 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S963 . CKPS0 CKPS1 CKPS2 CKPS3 T0ASYNC CS0 CS1 CS2 ]
-"19741
-[s S964 :4 `uc 1 :1 `uc 1 :3 `uc 1 ]
-[n S964 . T0CKPS . T0CS ]
-"19746
-[s S965 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S965 . T0CKPS0 T0CKPS1 T0CKPS2 T0CKPS3 . T0CS0 T0CS1 T0CS2 ]
-"19725
-[u S961 `S962 1 `S963 1 `S964 1 `S965 1 ]
-[n S961 . . . . . ]
-"19757
-[v _T0CON1bits `VS961 ~T0 @X0 0 e@795 ]
-"121 ./system_uC.h
-[v _final_TMR0 `Vul ~T0 @X0 0 e ]
 "35082 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
 [s S1687 :1 `uc 1 :3 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S1687 . ADTIE . DMA1SCNTIE DMA1DCNTIE DMA1ORIE DMA1AIE ]
@@ -71,8 +52,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _TMR1_Write `(v ~T0 @X0 0 ef1`ui ]
 "117
 [v _TMR1_Start `(v ~T0 @X0 0 ef ]
-"41863 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
-[v _LATC5 `Vb ~T0 @X0 0 e@9733 ]
 "154 ./system_uC.h
 [v _ready_to_start_oscillator `Vuc ~T0 @X0 0 e ]
 "111
@@ -1755,10 +1734,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 [f ]
 "40
 [e ( _SYSTEM_Initialize ..  ]
-"43
-[e = . . _T0CON1bits 0 0 -> -> 4 `i `uc ]
-"44
-[e = _final_TMR0 -> -> -> 100 `i `l `ul ]
 "46
 [e = . . _PIE2bits 0 3 -> -> 0 `i `uc ]
 "47
@@ -1771,8 +1746,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e ( _TMR1_Write (1 -> -> 65301 `l `ui ]
 "53
 [e ( _TMR1_Start ..  ]
-"54
-[e = _LATC5 -> -> 1 `i `b ]
 "56
 [e $U 1845  ]
 [e :U 1846 ]

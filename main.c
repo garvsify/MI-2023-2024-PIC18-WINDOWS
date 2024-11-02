@@ -40,8 +40,8 @@ int main(void){
     SYSTEM_Initialize();
     
     //set some arbitrary speed values
-    T0CON1bits.CKPS = 0b0100;
-    final_TMR0 = 100;
+    /*T0CON1bits.CKPS = 0b0100;
+    final_TMR0 = 100;*/
     
     PIE2bits.DMA1DCNTIE = 0;
     PIE4bits.TMR3IE = 0;
@@ -51,9 +51,9 @@ int main(void){
 
     TMR1_Write(TMR1_OVERFLOW_COUNT);
     TMR1_Start(); //ADCC is triggered on overflow, including TMR3, which then triggers the DMA transfer on its overflow
-    LATC5 = 1;
+    //LATC5 = 1;
     
-    while(ready_to_start_oscillator == 0){} //wait for all adcc values to be loaded
+    //while(ready_to_start_oscillator == 0){} //wait for all adcc values to be loaded
     
     process_TMR0_raw_speed_and_prescaler(); 
     process_TMR0_and_prescaler_adjust();

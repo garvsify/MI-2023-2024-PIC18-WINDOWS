@@ -122,8 +122,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v F13296 `(v ~T0 @X0 0 tf ]
 [v F13298 `(v ~T0 @X0 0 tf ]
 [v F13300 `(v ~T0 @X0 0 tf ]
-"41863
-[v _LATC5 `Vb ~T0 @X0 0 e@9733 ]
 "55 ./mcc_generated_files/adc/adcc.h
 [v _ADCC_StartConversion `(v ~T0 @X0 0 ef1`E13102 ]
 [v F13216 `**CVE13102 ~T0 @X0 1 t ]
@@ -133,9 +131,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _TMR3_Write `(v ~T0 @X0 0 ef1`ui ]
 "149
 [v _TMR3_Start `(v ~T0 @X0 0 ef ]
-"41860 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
-[v _LATC4 `Vb ~T0 @X0 0 e@9732 ]
-"35189
+"35189 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
 [s S1691 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S1691 . U1RXIE U1TXIE U1EIE U1IE TMR3IE TMR3GIE PWM1PIE PWM1IE ]
 "35188
@@ -2047,8 +2043,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 {
 [e :U _TMR1_DefaultOverflowCallback ]
 [f ]
-"149
-[e = _LATC5 -> -> 0 `i `b ]
 "151
 [e = . . _PIE3bits 0 4 -> -> 0 `i `uc ]
 "153
@@ -2059,8 +2053,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e ( _TMR3_Write (1 -> -> 65300 `l `ui ]
 "158
 [e ( _TMR3_Start ..  ]
-"160
-[e = _LATC4 -> -> 1 `i `b ]
 "162
 [e = . . _PIE4bits 0 4 -> -> 1 `i `uc ]
 "163
