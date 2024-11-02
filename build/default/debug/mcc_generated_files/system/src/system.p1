@@ -23,7 +23,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _INTERRUPT_Initialize `(v ~T0 @X0 0 ef ]
 "17 mcc_generated_files/system/src/system.c
 [v _SystemArbiter_Initialize `(v ~T0 @X0 0 ef ]
-"5622 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
+"5622 /opt/microchip/xc8/v2.50/pic/include/proc/pic18f05q40.h
 [v _PRLOCK `Vuc ~T0 @X0 0 e@180 ]
 "5642
 [v _SCANPR `Vuc ~T0 @X0 0 e@181 ]
@@ -51,7 +51,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [n S259 . . ]
 "5632
 [v _PRLOCKbits `VS259 ~T0 @X0 0 e@180 ]
-"269 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
+"269 /opt/microchip/xc8/v2.50/pic/include/proc/pic18f05q40.h
 [; <" CLKRCON equ 039h ;# ">
 "373
 [; <" CLKRCLK equ 03Ah ;# ">

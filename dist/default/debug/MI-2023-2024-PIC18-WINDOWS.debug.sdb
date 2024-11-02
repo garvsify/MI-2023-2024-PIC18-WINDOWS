@@ -3,7 +3,7 @@
 [d edition pro ]
 [d chip 18F05Q40 ]
 [d frameptr 1249 ]
-"68 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+"68 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/adc/src/adcc.c
 [e E12921 . `uc
 channel_DAC2 58
 channel_VSS 59
@@ -16,7 +16,7 @@ channel_ANC1 17
 channel_ANC2 18
 channel_ANC3 19
 ]
-"105 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS/system_uC.h
+"105 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/system_uC.h
 [e E13143 . `uc
 channel_DAC2 58
 channel_VSS 59
@@ -29,7 +29,7 @@ channel_ANC1 17
 channel_ANC2 18
 channel_ANC3 19
 ]
-"48 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
+"48 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/timer/src/tmr2.c
 [e E12937 . `uc
 TMR2_ROP_STARTS_TMRON 0
 TMR2_ROP_STARTS_TMRON_ERSHIGH 1
@@ -78,7 +78,7 @@ TMR2_UART2_TX_EDGE 21
 TMR2_UART3_RX_EDGE 22
 TMR2_UART3_TX_EDGE 23
 ]
-"105 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS/system_uC.h
+"105 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/system_uC.h
 [e E13119 . `uc
 channel_DAC2 58
 channel_VSS 59
@@ -115,7 +115,7 @@ channel_ANC1 17
 channel_ANC2 18
 channel_ANC3 19
 ]
-"105 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS/system_uC.h
+"105 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/system_uC.h
 [e E13102 . `uc
 channel_DAC2 58
 channel_VSS 59
@@ -140,37 +140,37 @@ channel_ANC1 17
 channel_ANC2 18
 channel_ANC3 19
 ]
-"4 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\fleq.c
+"4 /opt/microchip/xc8/v2.50/pic/sources/c99/common/fleq.c
 [v ___fleq __fleq `(b  1 e 0 0 ]
-"62 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\float.c
+"62 /opt/microchip/xc8/v2.50/pic/sources/c99/common/float.c
 [v ___ftpack __ftpack `(f  1 e 4 0 ]
-"86 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\ftadd.c
+"86 /opt/microchip/xc8/v2.50/pic/sources/c99/common/ftadd.c
 [v ___ftadd __ftadd `(f  1 e 4 0 ]
-"54 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\ftdiv.c
+"54 /opt/microchip/xc8/v2.50/pic/sources/c99/common/ftdiv.c
 [v ___ftdiv __ftdiv `(f  1 e 4 0 ]
-"62 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\ftmul.c
+"62 /opt/microchip/xc8/v2.50/pic/sources/c99/common/ftmul.c
 [v ___ftmul __ftmul `(f  1 e 4 0 ]
-"19 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\ftsub.c
+"19 /opt/microchip/xc8/v2.50/pic/sources/c99/common/ftsub.c
 [v ___ftsub __ftsub `(f  1 e 4 0 ]
-"10 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\sprcadd.c
+"10 /opt/microchip/xc8/v2.50/pic/sources/c99/common/sprcadd.c
 [v ___fladd __fladd `(d  1 e 4 0 ]
 "245
 [v ___flsub __flsub `(d  1 e 4 0 ]
-"11 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\sprcdiv.c
+"11 /opt/microchip/xc8/v2.50/pic/sources/c99/common/sprcdiv.c
 [v ___fldiv __fldiv `(d  1 e 4 0 ]
-"8 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\sprcmul.c
+"8 /opt/microchip/xc8/v2.50/pic/sources/c99/common/sprcmul.c
 [v ___flmul __flmul `(d  1 e 4 0 ]
-"15 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\Umul32.c
+"15 /opt/microchip/xc8/v2.50/pic/sources/c99/common/Umul32.c
 [v ___lmul __lmul `(ul  1 e 4 0 ]
-"91 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\Umul64.c
+"91 /opt/microchip/xc8/v2.50/pic/sources/c99/common/Umul64.c
 [v ___omul __omul `(uo  1 e 8 0 ]
-"38 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\main.c
+"38 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/main.c
 [v _main main `(i  1 e 2 0 ]
-"9 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+"9 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/adc/src/adcc.c
 [v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
 "68
 [v _ADCC_StartConversion ADCC_StartConversion `(v  1 e 1 0 ]
-"23 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+"23 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/dma/src/dma1.c
 [v _DMA1_Initialize DMA1_Initialize `(v  1 e 1 0 ]
 "208
 [v _DMA1_SCNTIInterruptHandlerSet DMA1_SCNTIInterruptHandlerSet `(v  1 e 1 0 ]
@@ -180,13 +180,13 @@ channel_ANC3 19
 [v _DMA1_DCNTIInterruptHandlerSet DMA1_DCNTIInterruptHandlerSet `(v  1 e 1 0 ]
 "227
 [v _DMA1_DefaultInterruptHandler DMA1_DefaultInterruptHandler `(v  1 e 1 0 ]
-"14 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/pwm/src/ccp1.c
+"14 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/pwm/src/ccp1.c
 [v _CCP1_Initialize CCP1_Initialize `(v  1 e 1 0 ]
 "31
 [v _CCP1_LoadDutyValue CCP1_LoadDutyValue `(v  1 e 1 0 ]
-"4 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/clock.c
+"4 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/system/src/clock.c
 [v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
-"13 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+"13 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/system/src/interrupt.c
 [v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
 "51
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
@@ -208,15 +208,15 @@ channel_ANC3 19
 [v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
 "155
 [v _INT2_DefaultInterruptHandler INT2_DefaultInterruptHandler `(v  1 e 1 0 ]
-"21 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
+"21 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/system/src/pins.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
-"19 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+"19 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/system/src/system.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 "35
 [v _CPU_Initialize CPU_Initialize `(v  1 e 1 0 ]
 "60
 [v _SystemArbiter_Initialize SystemArbiter_Initialize `(v  1 e 1 0 ]
-"33 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+"33 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/timer/src/tmr0.c
 [v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
 "58
 [v _TMR0_Start TMR0_Start `(v  1 e 1 0 ]
@@ -230,7 +230,7 @@ channel_ANC3 19
 [v _TMR0_OverflowCallbackRegister TMR0_OverflowCallbackRegister `(v  1 e 1 0 ]
 "129
 [v _TMR0_DefaultOverflowCallback TMR0_DefaultOverflowCallback `(v  1 s 1 TMR0_DefaultOverflowCallback ]
-"24 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+"24 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/timer/src/tmr1.c
 [v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
 "57
 [v _TMR1_Start TMR1_Start `(v  1 e 1 0 ]
@@ -252,7 +252,7 @@ channel_ANC3 19
 [v _TMR1_GateCallbackRegister TMR1_GateCallbackRegister `(v  1 e 1 0 ]
 "187
 [v _TMR1_DefaultGateCallback TMR1_DefaultGateCallback `(v  1 s 1 TMR1_DefaultGateCallback ]
-"20 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
+"20 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/timer/src/tmr2.c
 [v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
 "60
 [v _TMR2_Start TMR2_Start `(v  1 e 1 0 ]
@@ -264,7 +264,7 @@ channel_ANC3 19
 [v _TMR2_OverflowCallbackRegister TMR2_OverflowCallbackRegister `(v  1 e 1 0 ]
 "106
 [v _TMR2_DefaultOverflowCallback TMR2_DefaultOverflowCallback `(v  1 s 1 TMR2_DefaultOverflowCallback ]
-"60 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+"60 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/timer/src/tmr3.c
 [v _TMR3_Initialize TMR3_Initialize `(v  1 e 1 0 ]
 "93
 [v _TMR3_Start TMR3_Start `(v  1 e 1 0 ]
@@ -282,17 +282,17 @@ channel_ANC3 19
 [v _TMR3_GateCallbackRegister TMR3_GateCallbackRegister `(v  1 e 1 0 ]
 "205
 [v _TMR3_DefaultGateCallback TMR3_DefaultGateCallback `(v  1 s 1 TMR3_DefaultGateCallback ]
-"61 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\system_uC.c
+"61 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/system_uC.c
 [v _adjust_and_set_TMR0_prescaler adjust_and_set_TMR0_prescaler `(uc  1 e 1 0 ]
-"88 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS/system_uC.h
+"88 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/system_uC.h
 [v _TMR0_prescaler_bits TMR0_prescaler_bits `C[9]uc  1 e 9 0 ]
 "106
 [v _dma_type_array dma_type_array `[4]*.32CVEE13143  1 e 8 0 ]
-"7 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS/wavetables.h
+"7 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/wavetables.h
 [v _sine_table_one_quadrant sine_table_one_quadrant `C[129]us  1 e 258 0 ]
 "8
 [v _tri_table_one_quadrant tri_table_one_quadrant `C[129]us  1 e 258 0 ]
-"5055 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
+"5055 /opt/microchip/xc8/v2.50/pic/include/proc/pic18f05q40.h
 [v _ACTCON ACTCON `VEuc  1 e 1 @172 ]
 "5125
 [v _OSCCON1 OSCCON1 `VEuc  1 e 1 @173 ]
@@ -1097,19 +1097,19 @@ channel_ANC3 19
 [v _PRODH PRODH `VEuc  1 e 1 @1268 ]
 "45541
 [v _TMR0IF TMR0IF `VEb  1 e 0 @9655 ]
-"5 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+"5 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/dma/src/dma1.c
 [v _DMA1_SCNTI_InterruptHandler DMA1_SCNTI_InterruptHandler `*.37(v  1 e 2 0 ]
 "7
 [v _DMA1_DCNTI_InterruptHandler DMA1_DCNTI_InterruptHandler `*.37(v  1 e 2 0 ]
 "17
 [v _adres adres `[2]uc  1 e 2 0 ]
-"9 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+"9 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/system/src/interrupt.c
 [v _INT0_InterruptHandler INT0_InterruptHandler `*.37(v  1 e 2 0 ]
 "10
 [v _INT1_InterruptHandler INT1_InterruptHandler `*.37(v  1 e 2 0 ]
 "11
 [v _INT2_InterruptHandler INT2_InterruptHandler `*.37(v  1 e 2 0 ]
-"14 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+"14 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/timer/src/tmr0.c
 [v _TMR0_OverflowCallback TMR0_OverflowCallback `*.37(v  1 s 2 TMR0_OverflowCallback ]
 "21
 [v _res0 res0 `VEuc  1 e 1 0 ]
@@ -1131,21 +1131,21 @@ channel_ANC3 19
 [v _result_of_low_by_high result_of_low_by_high `VEul  1 e 4 0 ]
 "30
 [v _multiply_product multiply_product `VEul  1 e 4 0 ]
-"8 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+"8 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/timer/src/tmr1.c
 [v _timer1ReloadVal timer1ReloadVal `VEus  1 e 2 0 ]
 "19
 [v _TMR1_OverflowCallback TMR1_OverflowCallback `*.37(v  1 s 2 TMR1_OverflowCallback ]
 "21
 [v _TMR1_GateCallback TMR1_GateCallback `*.37(v  1 s 2 TMR1_GateCallback ]
-"13 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
+"13 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/timer/src/tmr2.c
 [v _TMR2_OverflowCallback TMR2_OverflowCallback `*.37(v  1 s 2 TMR2_OverflowCallback ]
-"44 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+"44 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/timer/src/tmr3.c
 [v _timer3ReloadVal timer3ReloadVal `VEus  1 e 2 0 ]
 "55
 [v _TMR3_OverflowCallback TMR3_OverflowCallback `*.37(v  1 s 2 TMR3_OverflowCallback ]
 "57
 [v _TMR3_GateCallback TMR3_GateCallback `*.37(v  1 s 2 TMR3_GateCallback ]
-"4 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\system_uC.c
+"4 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/system_uC.c
 [v _current_waveshape current_waveshape `VEuc  1 e 1 0 ]
 "5
 [v _current_speed_linear current_speed_linear `VEus  1 e 2 0 ]
@@ -1201,12 +1201,12 @@ channel_ANC3 19
 [v _symmetry_adc_config_value symmetry_adc_config_value `CVEE13143  1 e 1 0 ]
 "34
 [v _current_dma_type_ptr current_dma_type_ptr `VE*.39*.32CVEE13143  1 e 2 0 ]
-"38 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\main.c
+"38 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/main.c
 [v _main main `(i  1 e 2 0 ]
 {
 "72
 } 0
-"83 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+"83 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/timer/src/tmr1.c
 [v _TMR1_Write TMR1_Write `(v  1 e 1 0 ]
 {
 [v TMR1_Write@timerVal timerVal `ui  1 p 2 0 ]
@@ -1217,17 +1217,17 @@ channel_ANC3 19
 {
 "61
 } 0
-"58 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+"58 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/timer/src/tmr0.c
 [v _TMR0_Start TMR0_Start `(v  1 e 1 0 ]
 {
 "61
 } 0
-"19 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+"19 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/system/src/system.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 {
 "33
 } 0
-"60 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+"60 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/timer/src/tmr3.c
 [v _TMR3_Initialize TMR3_Initialize `(v  1 e 1 0 ]
 {
 "91
@@ -1244,7 +1244,7 @@ channel_ANC3 19
 [v TMR3_GateCallbackRegister@CallbackHandler CallbackHandler `*.37(v  1 p 2 0 ]
 "203
 } 0
-"20 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
+"20 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/timer/src/tmr2.c
 [v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
 {
 "46
@@ -1255,7 +1255,7 @@ channel_ANC3 19
 [v TMR2_OverflowCallbackRegister@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
 "104
 } 0
-"24 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+"24 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/timer/src/tmr1.c
 [v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
 {
 "55
@@ -1272,7 +1272,7 @@ channel_ANC3 19
 [v TMR1_GateCallbackRegister@CallbackHandler CallbackHandler `*.37(v  1 p 2 0 ]
 "185
 } 0
-"33 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+"33 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/timer/src/tmr0.c
 [v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
 {
 "56
@@ -1283,17 +1283,17 @@ channel_ANC3 19
 [v TMR0_OverflowCallbackRegister@CallbackHandler CallbackHandler `*.37(v  1 p 2 0 ]
 "103
 } 0
-"60 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+"60 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/system/src/system.c
 [v _SystemArbiter_Initialize SystemArbiter_Initialize `(v  1 e 1 0 ]
 {
 "66
 } 0
-"21 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/pins.c
+"21 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/system/src/pins.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
 {
 "87
 } 0
-"13 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+"13 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/system/src/interrupt.c
 [v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
 {
 "42
@@ -1316,7 +1316,7 @@ channel_ANC3 19
 [v INT0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
 "101
 } 0
-"23 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+"23 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/dma/src/dma1.c
 [v _DMA1_Initialize DMA1_Initialize `(v  1 e 1 0 ]
 {
 "62
@@ -1333,57 +1333,57 @@ channel_ANC3 19
 [v DMA1_DCNTIInterruptHandlerSet@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
 "225
 } 0
-"35 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
+"35 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/system/src/system.c
 [v _CPU_Initialize CPU_Initialize `(v  1 e 1 0 ]
 {
 "57
 } 0
-"4 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/clock.c
+"4 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/system/src/clock.c
 [v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
 {
 "23
 } 0
-"14 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/pwm/src/ccp1.c
+"14 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/pwm/src/ccp1.c
 [v _CCP1_Initialize CCP1_Initialize `(v  1 e 1 0 ]
 {
 "29
 } 0
-"9 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+"9 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/adc/src/adcc.c
 [v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
 {
 "66
 } 0
-"51 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/interrupt.c
+"51 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/system/src/interrupt.c
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
 {
 "79
 } 0
-"125 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+"125 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/timer/src/tmr1.c
 [v _TMR1_OverflowISR TMR1_OverflowISR `(v  1 e 1 0 ]
 {
 "137
 } 0
-"90 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+"90 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/timer/src/tmr0.c
 [v _TMR0_OverflowISR TMR0_OverflowISR `(v  1 e 1 0 ]
 {
 "98
 } 0
-"144 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+"144 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/timer/src/tmr1.c
 [v _TMR1_DefaultOverflowCallback TMR1_DefaultOverflowCallback `(v  1 s 1 TMR1_DefaultOverflowCallback ]
 {
 "165
 } 0
-"129 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
+"129 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/timer/src/tmr0.c
 [v _TMR0_DefaultOverflowCallback TMR0_DefaultOverflowCallback `(v  1 s 1 TMR0_DefaultOverflowCallback ]
 {
 "187
 } 0
-"106 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
+"106 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/timer/src/tmr2.c
 [v _TMR2_DefaultOverflowCallback TMR2_DefaultOverflowCallback `(v  1 s 1 TMR2_DefaultOverflowCallback ]
 {
 "110
 } 0
-"178 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr3.c
+"178 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/timer/src/tmr3.c
 [v _TMR3_DefaultOverflowCallback TMR3_DefaultOverflowCallback `(v  1 s 1 TMR3_DefaultOverflowCallback ]
 {
 "183
@@ -1399,12 +1399,12 @@ channel_ANC3 19
 {
 "97
 } 0
-"63 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+"63 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/timer/src/tmr1.c
 [v _TMR1_Stop TMR1_Stop `(v  1 e 1 0 ]
 {
 "67
 } 0
-"68 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/adc/src/adcc.c
+"68 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/adc/src/adcc.c
 [v _ADCC_StartConversion ADCC_StartConversion `(v  1 e 1 0 ]
 {
 [v ADCC_StartConversion@channel channel `E12921  1 p 1 wreg ]
@@ -1413,13 +1413,13 @@ channel_ANC3 19
 [v ADCC_StartConversion@channel channel `E12921  1 p 1 0 ]
 "75
 } 0
-"31 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/pwm/src/ccp1.c
+"31 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/pwm/src/ccp1.c
 [v _CCP1_LoadDutyValue CCP1_LoadDutyValue `(v  1 e 1 0 ]
 {
 [v CCP1_LoadDutyValue@dutyValue dutyValue `us  1 p 2 0 ]
 "47
 } 0
-"213 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
+"213 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/dma/src/dma1.c
 [v _DMA1_DMADCNTI_ISR DMA1_DMADCNTI_ISR `(v  1 e 1 0 ]
 {
 "220
@@ -1431,7 +1431,7 @@ channel_ANC3 19
 [v DMA1_DefaultInterruptHandler@ADC_result ADC_result `us  1 a 2 6 ]
 "292
 } 0
-"83 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
+"83 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/timer/src/tmr1.c
 [v i2_TMR1_Write TMR1_Write `(v  1 e 1 0 ]
 {
 [v i2TMR1_Write@timerVal timerVal `ui  1 p 2 0 ]

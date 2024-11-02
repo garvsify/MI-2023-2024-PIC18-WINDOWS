@@ -1,19 +1,19 @@
 ### HEXMate logfile and output summary ###
 
 ### Command-line arguments ###
- C:\Users\JAMESG~1\AppData\Local\Temp\xcAs5r0.\driver_tmp_3.o
- -Odist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.hex
- -logfile=dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.hxl
+ /tmp/xcXbdEeMf/driver_tmp_3.o
+ -Odist/default/debug/MI-2023-2024-PIC18-WINDOWS.debug.hex
+ -logfile=dist/default/debug/MI-2023-2024-PIC18-WINDOWS.debug.hxl
  -addressing=1
  -break=300000
 
 ### Memory Usage ###
  Input file ranges:
-  0h - 5h		(C:\Users\JAMESG~1\AppData\Local\Temp\xcAs5r0.\driver_tmp_3.o)
-  8h - Bh		(C:\Users\JAMESG~1\AppData\Local\Temp\xcAs5r0.\driver_tmp_3.o)
-  18h - 8D5h		(C:\Users\JAMESG~1\AppData\Local\Temp\xcAs5r0.\driver_tmp_3.o)
-  7DB4h - 7FFFh		(C:\Users\JAMESG~1\AppData\Local\Temp\xcAs5r0.\driver_tmp_3.o)
-  300000h - 300008h		(C:\Users\JAMESG~1\AppData\Local\Temp\xcAs5r0.\driver_tmp_3.o)
+  0h - 5h		(/tmp/xcXbdEeMf/driver_tmp_3.o)
+  8h - Bh		(/tmp/xcXbdEeMf/driver_tmp_3.o)
+  18h - 8D5h		(/tmp/xcXbdEeMf/driver_tmp_3.o)
+  7DB4h - 7FFFh		(/tmp/xcXbdEeMf/driver_tmp_3.o)
+  300000h - 300008h		(/tmp/xcXbdEeMf/driver_tmp_3.o)
  Unused ranges:
   6h - 7h
   Ch - 17h
@@ -23,7 +23,7 @@
 ### Hex Memory Map ###
  Legend:
   -- = Unused memory
-  H1 = Input file             (C:\Users\JAMESG~1\AppData\Local\Temp\xcAs5r0.\driver_tmp_3.o)
+  H1 = Input file             (/tmp/xcXbdEeMf/driver_tmp_3.o)
 ----------------------------------------------------------
          | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
 ----------------------------------------------------------

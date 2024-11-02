@@ -10,7 +10,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _depth_adc_config_value `CVE13102 ~T0 @X0 0 e ]
 "93
 [v _symmetry_adc_config_value `CVE13102 ~T0 @X0 0 e ]
-"19726 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
+"19726 /opt/microchip/xc8/v2.50/pic/include/proc/pic18f05q40.h
 [s S962 :4 `uc 1 :1 `uc 1 :3 `uc 1 ]
 [n S962 . CKPS ASYNC CS ]
 "19731
@@ -27,7 +27,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [n S961 . . . . . ]
 "19757
 [v _T0CON1bits `VS961 ~T0 @X0 0 e@795 ]
-"269 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
+"269 /opt/microchip/xc8/v2.50/pic/include/proc/pic18f05q40.h
 [; <" CLKRCON equ 039h ;# ">
 "373
 [; <" CLKRCLK equ 03Ah ;# ">

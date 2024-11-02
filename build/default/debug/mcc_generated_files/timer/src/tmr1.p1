@@ -35,7 +35,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v F13270 `(v ~T0 @X0 0 tf ]
 [v F13272 `(v ~T0 @X0 0 tf ]
 [v F13275 `(v ~T0 @X0 0 tf ]
-"18295 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
+"18295 /opt/microchip/xc8/v2.50/pic/include/proc/pic18f05q40.h
 [s S891 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 ]
 [n S891 . ON RD16 NOT_SYNC . CKPS ]
 "18302
@@ -72,7 +72,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _TMR1_GateCallbackRegister `(v ~T0 @X0 0 ef1`*F12956 ]
 "22 mcc_generated_files/timer/src/tmr1.c
 [v _TMR1_DefaultGateCallback `(v ~T0 @X0 0 sf ]
-"35774 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
+"35774 /opt/microchip/xc8/v2.50/pic/include/proc/pic18f05q40.h
 [s S1713 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S1713 . SPI1RXIF SPI1TXIF SPI1IF TMR2IF TMR1IF TMR1GIF CCP1IF TMR0IF ]
 "35773
@@ -131,7 +131,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _TMR3_Write `(v ~T0 @X0 0 ef1`ui ]
 "149
 [v _TMR3_Start `(v ~T0 @X0 0 ef ]
-"35189 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
+"35189 /opt/microchip/xc8/v2.50/pic/include/proc/pic18f05q40.h
 [s S1691 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S1691 . U1RXIE U1TXIE U1EIE U1IE TMR3IE TMR3GIE PWM1PIE PWM1IE ]
 "35188
@@ -150,7 +150,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v F13303 `(v ~T0 @X0 0 tf ]
 [v F13305 `(v ~T0 @X0 0 tf ]
 [v F13307 `(v ~T0 @X0 0 tf ]
-"269 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
+"269 /opt/microchip/xc8/v2.50/pic/include/proc/pic18f05q40.h
 [; <" CLKRCON equ 039h ;# ">
 "373
 [; <" CLKRCLK equ 03Ah ;# ">

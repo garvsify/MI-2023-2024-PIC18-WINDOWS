@@ -1,5 +1,5 @@
 Version 4.0 HI-TECH Software Intermediate Code
-"36237 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
+"36237 /opt/microchip/xc8/v2.50/pic/include/proc/pic18f05q40.h
 [v _LATA `Vuc ~T0 @X0 0 e@1214 ]
 "36282
 [v _LATC `Vuc ~T0 @X0 0 e@1216 ]
@@ -47,7 +47,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _IOCCN `Vuc ~T0 @X0 0 e@1046 ]
 "31884
 [v _IOCCF `Vuc ~T0 @X0 0 e@1047 ]
-"269 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
+"269 /opt/microchip/xc8/v2.50/pic/include/proc/pic18f05q40.h
 [; <" CLKRCON equ 039h ;# ">
 "373
 [; <" CLKRCLK equ 03Ah ;# ">

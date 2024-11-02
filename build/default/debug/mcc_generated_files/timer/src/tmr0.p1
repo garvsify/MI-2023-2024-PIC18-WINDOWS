@@ -33,7 +33,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _TMR0_OverflowCallbackRegister `(v ~T0 @X0 0 ef1`*F12947 ]
 [v F13284 `(v ~T0 @X0 0 tf ]
 [v F13286 `(v ~T0 @X0 0 tf ]
-"19342 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
+"19342 /opt/microchip/xc8/v2.50/pic/include/proc/pic18f05q40.h
 [v _TMR0H `Vuc ~T0 @X0 0 e@793 ]
 "19204
 [v _TMR0L `Vuc ~T0 @X0 0 e@792 ]
@@ -41,7 +41,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _T0CON1 `Vuc ~T0 @X0 0 e@795 ]
 "15 mcc_generated_files/timer/src/tmr0.c
 [v _TMR0_DefaultOverflowCallback `(v ~T0 @X0 0 sf ]
-"35774 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
+"35774 /opt/microchip/xc8/v2.50/pic/include/proc/pic18f05q40.h
 [s S1713 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S1713 . SPI1RXIF SPI1TXIF SPI1IF TMR2IF TMR1IF TMR1GIF CCP1IF TMR0IF ]
 "35773
@@ -85,7 +85,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _current_depth `Vus ~T0 @X0 0 e ]
 "121
 [v _final_TMR0 `Vul ~T0 @X0 0 e ]
-"45541 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
+"45541 /opt/microchip/xc8/v2.50/pic/include/proc/pic18f05q40.h
 [v _TMR0IF `Vb ~T0 @X0 0 e@9655 ]
 "132 mcc_generated_files/timer/src/../../../system_uC.h
 [v _current_waveshape `Vuc ~T0 @X0 0 e ]
@@ -97,7 +97,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _current_halfcycle `Vuc ~T0 @X0 0 e ]
 "25 ./mcc_generated_files/pwm/ccp1.h
 [v _CCP1_LoadDutyValue `(v ~T0 @X0 0 ef1`us ]
-"269 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
+"269 /opt/microchip/xc8/v2.50/pic/include/proc/pic18f05q40.h
 [; <" CLKRCON equ 039h ;# ">
 "373
 [; <" CLKRCLK equ 03Ah ;# ">

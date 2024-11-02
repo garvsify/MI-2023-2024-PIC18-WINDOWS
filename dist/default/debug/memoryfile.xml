@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
-  <executable name="dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.hex">
+  <executable name="dist/default/debug/MI-2023-2024-PIC18-WINDOWS.debug.hex">
     <memory name="program">
       <units>bytes</units>
       <length>32768</length>

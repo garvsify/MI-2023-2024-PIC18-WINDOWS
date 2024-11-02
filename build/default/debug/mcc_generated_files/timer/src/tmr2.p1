@@ -22,7 +22,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _TMR2_OverflowCallbackRegister `(v ~T0 @X0 0 ef1`*F12998 ]
 [v F13010 `(v ~T0 @X0 0 tf ]
 [v F13012 `(v ~T0 @X0 0 tf ]
-"20212 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
+"20212 /opt/microchip/xc8/v2.50/pic/include/proc/pic18f05q40.h
 [v _T2CLKCON `Vuc ~T0 @X0 0 e@800 ]
 "20084
 [v _T2HLT `Vuc ~T0 @X0 0 e@799 ]
@@ -34,12 +34,12 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _T2TMR `Vuc ~T0 @X0 0 e@796 ]
 "14 mcc_generated_files/timer/src/tmr2.c
 [v _TMR2_DefaultOverflowCallback `(v ~T0 @X0 0 sf ]
-"19938 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
+"19938 /opt/microchip/xc8/v2.50/pic/include/proc/pic18f05q40.h
 [v _T2CON `Vuc ~T0 @X0 0 e@798 ]
 "48 mcc_generated_files/timer/src/tmr2.c
 [c E12937 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 22 23 17 18 19 .. ]
 [n E12937 . TMR2_ROP_STARTS_TMRON TMR2_ROP_STARTS_TMRON_ERSHIGH TMR2_ROP_STARTS_TMRON_ERSLOW TMR2_ROP_RESETS_ERSBOTHEDGE TMR2_ROP_RESETS_ERSRISINGEDGE TMR2_ROP_RESETS_ERSFALLINGEDGE TMR2_ROP_RESETS_ERSLOW TMR2_ROP_RESETS_ERSHIGH TMR2_OS_STARTS_TMRON TMR2_OS_STARTS_ERSRISINGEDGE TMR2_OS_STARTS_ERSFALLINGEDGE TMR2_OS_STARTS_ERSBOTHEDGE TMR2_OS_STARTS_ERSFIRSTRISINGEDGE TMR2_OS_STARTS_ERSFIRSTFALLINGEDGE TMR2_OS_STARTS_ERSRISINGEDGEDETECT TMR2_OS_STARTS_ERSFALLINGEDGEDETECT TMR2_OS_STARTS_TMRON_ERSHIGH TMR2_OS_STARTS_TMRON_ERSLOW TMR2_MS_STARTS_TMRON_ERSRISINGEDGEDETECT TMR2_MS_STARTS_TMRON_ERSFALLINGEDGEDETECT TMR2_MS_STARTS_TMRON_ERSBOTHEDGE  ]
-"20090 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
+"20090 /opt/microchip/xc8/v2.50/pic/include/proc/pic18f05q40.h
 [s S980 :5 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S980 . MODE CKSYNC CKPOL PSYNC ]
 "20096
@@ -59,7 +59,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "54 mcc_generated_files/timer/src/tmr2.c
 [c E12960 0 2 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 .. ]
 [n E12960 . TMR2_T2INPPS_PIN TMR2_TMR4_POSTSCALED TMR2_CCP1OUT TMR2_PWM1_OUT1 TMR2_PWM1_OUT2 TMR2_PWM2_OUT1 TMR2_PWM2_OUT2 TMR2_PWM3_OUT1 TMR2_PWM3_OUT2 TMR2_CMP1_OUT TMR2_CMP2_OUT TMR2_ZCD_OUT TMR2_CLC1_OUT TMR2_CLC2_OUT TMR2_CLC3_OUT TMR2_CLC4_OUT TMR2_UART1_RX_EDGE TMR2_UART1_TX_EDGE TMR2_UART2_RX_EDGE TMR2_UART2_TX_EDGE TMR2_UART3_RX_EDGE TMR2_UART3_TX_EDGE  ]
-"20376 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
+"20376 /opt/microchip/xc8/v2.50/pic/include/proc/pic18f05q40.h
 [s S995 :8 `uc 1 ]
 [n S995 . RSEL ]
 "20379
@@ -108,7 +108,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v F13029 `(v ~T0 @X0 0 tf ]
 [v F13031 `(v ~T0 @X0 0 tf ]
 [v F13033 `(v ~T0 @X0 0 tf ]
-"269 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
+"269 /opt/microchip/xc8/v2.50/pic/include/proc/pic18f05q40.h
 [; <" CLKRCON equ 039h ;# ">
 "373
 [; <" CLKRCLK equ 03Ah ;# ">

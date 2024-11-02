@@ -1,5 +1,5 @@
 Version 4.0 HI-TECH Software Intermediate Code
-"27174 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
+"27174 /opt/microchip/xc8/v2.50/pic/include/proc/pic18f05q40.h
 [v _ADLTHL `Vuc ~T0 @X0 0 e@985 ]
 "27302
 [v _ADLTHH `Vuc ~T0 @X0 0 e@986 ]
@@ -76,7 +76,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "68 mcc_generated_files/adc/src/adcc.c
 [c E12921 58 59 60 61 62 63 16 17 18 19 .. ]
 [n E12921 . channel_DAC2 channel_VSS channel_Temp channel_DAC1 channel_FVR_Buffer1 channel_FVR_Buffer2 channel_ANC0 channel_ANC1 channel_ANC2 channel_ANC3  ]
-"30219 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
+"30219 /opt/microchip/xc8/v2.50/pic/include/proc/pic18f05q40.h
 [s S1451 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S1451 . GO . FM CS . CONT ON ]
 "30228
@@ -180,7 +180,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [n S1456 . . . ]
 "30364
 [v _ADCON1bits `VS1456 ~T0 @X0 0 e@1012 ]
-"269 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
+"269 /opt/microchip/xc8/v2.50/pic/include/proc/pic18f05q40.h
 [; <" CLKRCON equ 039h ;# ">
 "373
 [; <" CLKRCLK equ 03Ah ;# ">

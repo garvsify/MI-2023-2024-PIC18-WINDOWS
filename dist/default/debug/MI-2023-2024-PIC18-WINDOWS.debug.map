@@ -2,22 +2,20 @@ Microchip MPLAB XC8 Compiler V2.50
 
 Linker command line:
 
--W-3 \
-  --edf=C:\Program Files\Microchip\xc8\v2.50\pic\dat\20240725155939_en.msgs \
+-W-3 --edf=/opt/microchip/xc8/v2.50/pic/dat/20240725155939_en.msgs \
   -pivt0x8=08h -cn \
-  -h+dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.sym \
-  --cmf=dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.cmf -z \
-  -Q18F05Q40 -oC:\Users\JAMESG~1\AppData\Local\Temp\xcAs5r0.\driver_tmp_3.o \
-  --defsym=__MPLAB_BUILD=1 --fixupoverflow=error \
+  -h+dist/default/debug/MI-2023-2024-PIC18-WINDOWS.debug.sym \
+  --cmf=dist/default/debug/MI-2023-2024-PIC18-WINDOWS.debug.cmf -z \
+  -Q18F05Q40 -o/tmp/xcXbdEeMf/driver_tmp_3.o --defsym=__MPLAB_BUILD=1 \
+  --fixupoverflow=error \
   -Mdist/default/debug/MI-2023-2024-PIC18-WINDOWS.debug.map \
-  --md=C:\Users\JAMESG~1\AppData\Local\Temp\xcAs5r0.\driver_tmp_0.dat -E1 \
-  -ver=XC8 Compiler --acfsm=1493 -ACODE=00h-07FFFh -ACONST=00h-07FFFh \
-  -ASMALLCONST=0E00h-0EFFhx114 -AMEDIUMCONST=0E00h-07FFFh \
-  -ACOMRAM=0501h-055Fh -AABS1=0500h-0CFFh -ABIGRAM=0501h-0CFFh \
-  -ARAM=0560h-05FFh,0600h-06FFhx7 -ABANK5=0560h-05FFh -ABANK6=0600h-06FFh \
-  -ABANK7=0700h-07FFh -ABANK8=0800h-08FFh -ABANK9=0900h-09FFh \
-  -ABANK10=0A00h-0AFFh -ABANK11=0B00h-0BFFh -ABANK12=0C00h-0CFFh \
-  -ASFR=00h-0FFhx4,0400h-045Fh,0460h-04FFh,0D00h-0DFFh \
+  --md=/tmp/xcXbdEeMf/driver_tmp_0.dat -E1 -ver=XC8 Compiler --acfsm=1493 \
+  -ACODE=00h-07FFFh -ACONST=00h-07FFFh -ASMALLCONST=0E00h-0EFFhx114 \
+  -AMEDIUMCONST=0E00h-07FFFh -ACOMRAM=0501h-055Fh -AABS1=0500h-0CFFh \
+  -ABIGRAM=0501h-0CFFh -ARAM=0560h-05FFh,0600h-06FFhx7 -ABANK5=0560h-05FFh \
+  -ABANK6=0600h-06FFh -ABANK7=0700h-07FFh -ABANK8=0800h-08FFh \
+  -ABANK9=0900h-09FFh -ABANK10=0A00h-0AFFh -ABANK11=0B00h-0BFFh \
+  -ABANK12=0C00h-0CFFh -ASFR=00h-0FFhx4,0400h-045Fh,0460h-04FFh,0D00h-0DFFh \
   -ABIGSFR=00h-04FFh,0D00h-0DFFh -ACONFIG=0300000h-0300011h \
   -AIDLOC=0200000h-020003Fh -AEEDATA=0380000h-03801FFh -peeprom_data=EEDATA \
   -preset_vec=00h -ppowerup=CODE,init -pramtop=0E00h \
@@ -27,8 +25,8 @@ Linker command line:
   -pfarbss=FARRAM,fardata=FARRAM,nvFARRAM=FARRAM \
   -pintsave_regs=BIGRAM,bigbss=BIGRAM,bigdata=BIGRAM -pbss=RAM \
   -pidata=CODE,irdata=CODE,ibigdata=CODE,ifardata=CODE -prparam=COMRAM \
-  C:\Users\JAMESG~1\AppData\Local\Temp\xcAs5r0.\driver_tmp_9.o \
-  dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o 
+  /tmp/xcXbdEeMf/driver_tmp_9.o \
+  dist/default/debug/MI-2023-2024-PIC18-WINDOWS.debug.o 
 
 Object code version is 3.11
 
@@ -37,11 +35,11 @@ Machine type is 18F05Q40
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\JAMESG~1\AppData\Local\Temp\xcAs5r0.\driver_tmp_9.o
+/tmp/xcXbdEeMf/driver_tmp_9.o
                 config                           300000   300000        9        0       4
                 init                                 1A       1A        4        4       0
                 reset_vec                             0        0        6        0       0
-dist/default/debug\MI-2023-2024-PIC18-WINDOWS.debug.o
+dist/default/debug/MI-2023-2024-PIC18-WINDOWS.debug.o
                 config                           300000   300000        9        0       4
                 mediumconst                        7DB4     7DB4      24C     3EDA       0
                 ivt0x8                                8        8       12        4       0
@@ -213,10 +211,10 @@ TOTAL           Name                               Link     Load   Length     Sp
 SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class
 
                 reset_vec                      000000  000006  000006         0       0  CODE    
-                ivt0x8                         000008  0008CE  0008D6         4       0  CODE    
-                bssCOMRAM                      000501  00005B  00055C       501       1  COMRAM  
                 nvBANK5                        000560  000026  000586       560       1  BANK5   
+                bssCOMRAM                      000501  00005B  00055C       501       1  COMRAM  
                 mediumconst                    007DB4  00024C  008000      3EDA       0  MEDIUMCO
+                ivt0x8                         000008  0008CE  0008D6         4       0  CODE    
 
 
 UNUSED ADDRESS RANGES

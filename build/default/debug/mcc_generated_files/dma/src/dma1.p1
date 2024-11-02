@@ -12,7 +12,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _symmetry_adc_config_value `CVE13143 ~T0 @X0 0 e ]
 [v F13259 `(v ~T0 @X0 0 tf ]
 [v F13261 `(v ~T0 @X0 0 tf ]
-"6804 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
+"6804 /opt/microchip/xc8/v2.50/pic/include/proc/pic18f05q40.h
 [v _DMASELECT `Vuc ~T0 @X0 0 e@232 ]
 "7902
 [v _DMAnSSA `Vum ~T0 @X0 0 e@249 ]
@@ -54,7 +54,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v F12951 `(v ~T0 @X0 0 tf ]
 "255 ./mcc_generated_files/dma/dma1.h
 [v _DMA1_SCNTIInterruptHandlerSet `(v ~T0 @X0 0 ef1`*F12951 ]
-"8108 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
+"8108 /opt/microchip/xc8/v2.50/pic/include/proc/pic18f05q40.h
 [v _DMAnCON0 `Vuc ~T0 @X0 0 e@252 ]
 "8114
 [s S387 :1 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
@@ -132,7 +132,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _TMR1_Write `(v ~T0 @X0 0 ef1`ui ]
 "117
 [v _TMR1_Start `(v ~T0 @X0 0 ef ]
-"35127 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
+"35127 /opt/microchip/xc8/v2.50/pic/include/proc/pic18f05q40.h
 [s S1689 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S1689 . SPI1RXIE SPI1TXIE SPI1IE TMR2IE TMR1IE TMR1GIE CCP1IE TMR0IE ]
 "35126
@@ -140,7 +140,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [n S1688 . . ]
 "35138
 [v _PIE3bits `VS1688 ~T0 @X0 0 e@1195 ]
-"269 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
+"269 /opt/microchip/xc8/v2.50/pic/include/proc/pic18f05q40.h
 [; <" CLKRCON equ 039h ;# ">
 "373
 [; <" CLKRCLK equ 03Ah ;# ">
