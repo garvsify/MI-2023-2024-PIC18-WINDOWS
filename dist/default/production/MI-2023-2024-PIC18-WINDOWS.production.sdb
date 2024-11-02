@@ -286,8 +286,6 @@ channel_ANC3 19
 [v _adjust_and_set_TMR0_prescaler adjust_and_set_TMR0_prescaler `(uc  1 e 1 0 ]
 "90 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS/system_uC.h
 [v _TMR0_prescaler_bits TMR0_prescaler_bits `C[9]uc  1 e 9 0 ]
-"107
-[v _adcc_type_array adcc_type_array `[4]*.32CVEE13143  1 e 8 0 ]
 "108
 [v _dma_type_array dma_type_array `[4]*.32CVEE13143  1 e 8 0 ]
 "157

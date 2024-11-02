@@ -246,7 +246,7 @@ void DMA1_DefaultInterruptHandler(void){
     ADC_result = TWELVEBITMINUSONE - ADC_result;
     
     
-    switch(waveshape_adc_config_value){
+    switch(**current_dma_type_ptr){
         
         case 0x10: //waveshape_adc_config_value
             

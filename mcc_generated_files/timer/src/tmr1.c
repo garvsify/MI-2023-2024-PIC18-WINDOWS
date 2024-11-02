@@ -150,14 +150,14 @@ static void TMR1_DefaultOverflowCallback(void)
     
     TMR1_Stop();
     
-    ADCC_StartConversion(waveshape_adc_config_value);
+    ADCC_StartConversion(**current_dma_type_ptr);
     
-    if(**current_adcc_type_ptr != symmetry_adc_config_value){
+    /*if(**current_adcc_type_ptr != symmetry_adc_config_value){
         current_adcc_type_ptr++;
     }
     else{
         current_adcc_type_ptr = &adcc_type_array[0]; 
-    }
+    }*/
     
     TMR3_Write(TMR3_OVERFLOW_COUNT);
     TMR3_Start();
