@@ -38,6 +38,8 @@
   Section: Included Files
 */
 #include <stdint.h>
+#include <xc.h>
+#include "../../system_uC.h"
 
 /**
  * @ingroup dma1
@@ -67,7 +69,7 @@
  * @var uint8_t adres
  * @brief Destination address.
  */
-extern uint8_t adres[2];
+static uint8_t adres[2];
 
 /**
  * @ingroup dma1
@@ -268,7 +270,7 @@ void DMA1_DMASCNTI_ISR(void);
  * @param *InterruptHandler - Callback function for the destination count interrupt event.
  * @return None.
  */
-void DMA1_DCNTIInterruptHandlerSet(void (* InterruptHandler)(void));
+void DMA1_DCNTIInterruptHandlerSet(void (* InterruptHandler)(struct Global_Variables global_variables));
 
 /**
  * @ingroup dma1

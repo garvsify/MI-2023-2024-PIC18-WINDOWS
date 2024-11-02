@@ -61,6 +61,11 @@
     #define SYMMETRY_FLAG 3
     #define TMR1_OVERFLOW_COUNT 65301 //okay for some STRANGE AF reason, if you set the TMR1 and TMR3 count periods exactly the same it fucks things up so DON'T CHANGE THESE VALUES
     #define TMR3_OVERFLOW_COUNT 65300 //okay for some STRANGE AF reason, if you set the TMR1 and TMR3 count periods exactly the same it fucks things up so DON'T CHANGE THESE VALUES
+    #define WAVESHAPE_ADC_CONFIG_VALUE 0x10;
+    #define SPEED_ADC_CONFIG_VALUE 0x11;
+    #define DEPTH_ADC_CONFIG_VALUE 0x12;
+    #define SYMMETRY_ADC_CONFIG_VALUE 0x13;
+
 
     #define SYMMETRY_ADC_RESOLUTION 8
 
@@ -126,23 +131,19 @@
         volatile uint8_t res3;
         volatile uint8_t ready_to_start_oscillator;
         
-        volatile const adcc_channel_t waveshape_adc_config_value = 0x10;
-        volatile const adcc_channel_t speed_adc_config_value = 0x11;
-        volatile const adcc_channel_t depth_adc_config_value = 0x12;
-        volatile const adcc_channel_t symmetry_adc_config_value = 0x13;
-        volatile const uint8_t TMR0_prescaler_bits[9] = {0b00001000,0b00000111,0b00000110,0b00000101,0b00000100,0b00000011,0b00000010,0b00000001,0b00000000}; //256,128,64,32,16,8,4,2,1 - values do extend beyond 256 but we don't need them
+        volatile const uint8_t TMR0_prescaler_bits[9];
         volatile const adcc_channel_t** volatile current_dma_type_ptr;
-        volatile const adcc_channel_t* dma_type_array[4] = {&waveshape_adc_config_value, &speed_adc_config_value, &depth_adc_config_value, &symmetry_adc_config_value}; //DMA type obviously need not be of adcc_channel_t type but just using for sameness
-    };
+        volatile const adcc_channel_t waveshape_adc_config_value;
+        volatile const adcc_channel_t speed_adc_config_value;
+        volatile const adcc_channel_t depth_adc_config_value;
+        volatile const adcc_channel_t symmetry_adc_config_value;
+        };
     
-    uint8_t process_TMR0_raw_speed_and_prescaler(void);
-    uint8_t turn_TMR0_prescaler_OFF(void);
-    uint8_t turn_TMR0_prescaler_ON(void);
-    uint8_t adjust_TMR0(void);
-    uint8_t adjust_and_set_TMR0_prescaler(void);
+    uint8_t process_TMR0_raw_speed_and_prescaler(struct Global_Variables global_variables);
+    uint8_t process_TMR0_and_prescaler_adjust(struct Global_Variables global_variables);
+    uint8_t adjust_and_set_TMR0_prescaler(struct Global_Variables global_variables);
     uint8_t shorten_period(void);
     uint8_t lengthen_period(void);
-    uint8_t process_TMR0_and_prescaler_adjust(void);
     
     extern struct Global_Variables global_variables;
     

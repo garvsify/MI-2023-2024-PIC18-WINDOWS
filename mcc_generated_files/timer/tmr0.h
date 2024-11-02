@@ -2,6 +2,8 @@
 #define TMR0_H
 
 #include <xc.h>
+#include <stdint.h>
+#include "../../system_uC.h"
 
 
 /**
@@ -134,10 +136,10 @@ void TMR0_OverflowISR(void);
  * @param CallbackHandler - Pointer to the custom callback.
  * @return None.
  */
- void TMR0_OverflowCallbackRegister(void (* CallbackHandler)(void));
+ void TMR0_OverflowCallbackRegister(void (* CallbackHandler)(struct Global_Variables global_variables));
 
  
- uint8_t multiply_duty_by_current_depth_and_divide_by_256(void);
+ uint8_t multiply_duty_by_current_depth_and_divide_by_256(struct Global_Variables global_variables);
 
 /**
  * @}

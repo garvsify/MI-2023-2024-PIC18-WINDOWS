@@ -7,8 +7,8 @@ struct Global_Variables global_variables = {.current_waveshape = SINE_MODE,
                                             .current_depth = 0,
                                             .current_symmetry = 0,
                                             .current_one_quadrant_index = 0,
-                                            .current_halfcycle = 0,
-                                            .current_quadrant = 0,
+                                            .current_halfcycle = FIRST_HALFCYCLE,
+                                            .current_quadrant = FIRST_QUADRANT,
                                             .how_many_128 = 0,
                                             .final_TMR0 = 0,
                                             .TMR0_prescaler_adjust = 0,
@@ -20,8 +20,19 @@ struct Global_Variables global_variables = {.current_waveshape = SINE_MODE,
                                             .duty = 0,
                                             .TMR0_prescaler_final_index = 0,
                                             .ADC_result = 0,
-                                            .ready_to_start_oscillator = 0
+                                            .ready_to_start_oscillator = 0,
+                                            .waveshape_adc_config_value = WAVESHAPE_ADC_CONFIG_VALUE,
+                                            .speed_adc_config_value = SPEED_ADC_CONFIG_VALUE,
+                                            .depth_adc_config_value = DEPTH_ADC_CONFIG_VALUE,
+                                            .symmetry_adc_config_value = SYMMETRY_ADC_CONFIG_VALUE,
+                                            
 };
+
+= {0b00001000,0b00000111,0b00000110,0b00000101,0b00000100,0b00000011,0b00000010,0b00000001,0b00000000}; //256,128,64,32,16,8,4,2,1 - values do extend beyond 256 but we don't need them
+       
+
+volatile const adcc_channel_t* dma_type_array[4] = {&waveshape_adc_config_value, &speed_adc_config_value, &depth_adc_config_value, &symmetry_adc_config_value}; //DMA type obviously need not be of adcc_channel_t type but just using for sameness
+    
 
 
 uint8_t process_TMR0_raw_speed_and_prescaler(struct Global_Variables global_variables){

@@ -1,10 +1,8 @@
-#include <xc.h>
 #include "../dma1.h"
-#include "../../../system_uC.h"
 
 void (*DMA1_SCNTI_InterruptHandler)(void);
 
-void (*DMA1_DCNTI_InterruptHandler)(void);
+void (*DMA1_DCNTI_InterruptHandler)(struct Global_Variables global_variables);
 
 /**
  * @ingroup dma1
@@ -12,9 +10,9 @@ void (*DMA1_DCNTI_InterruptHandler)(void);
  * @param None.
  * @return None.
  */
-void DMA1_DefaultInterruptHandler(void);
+void DMA1_DefaultInterruptHandler(struct Global_Variables global_variables);
 
-uint8_t adres[2];
+static uint8_t adres[2];
 
 /**
   Section: DMA1 APIs
@@ -51,8 +49,7 @@ void DMA1_Initialize(void)
     
     PIE2bits.DMA1DCNTIE = 1;
 	DMA1_DCNTIInterruptHandlerSet(DMA1_DefaultInterruptHandler);
-    PIE2bits.DMA1SCNTIE = 1; 
-	DMA1_SCNTIInterruptHandlerSet(DMA1_DefaultInterruptHandler);
+    PIE2bits.DMA1SCNTIE = 1;
     PIE2bits.DMA1AIE = 0;
     PIE2bits.DMA1ORIE = 0;
 	
@@ -216,15 +213,15 @@ void DMA1_DMADCNTI_ISR(void)
     PIR2bits.DMA1DCNTIF = 0;
 
     if (DMA1_DCNTI_InterruptHandler)
-            DMA1_DCNTI_InterruptHandler();
+            DMA1_DCNTI_InterruptHandler(global_variables);
 }
 
-void DMA1_SetDCNTIInterruptHandler(void (* InterruptHandler)(void))
+void DMA1_SetDCNTIInterruptHandler(void (* InterruptHandler)(struct Global_Variables global_variables))
 {
 	 DMA1_DCNTI_InterruptHandler = InterruptHandler;
 }
 
-void DMA1_DefaultInterruptHandler(void){
+void DMA1_DefaultInterruptHandler(struct Global_Variables global_variables){
     // add your DMA1 interrupt custom code
     // or set custom function using DMA1_SCNTIInterruptHandlerSet() /DMA1_DCNTIInterruptHandlerSet() /DMA1_AIInterruptHandlerSet() /DMA1_ORIInterruptHandlerSet()
     
@@ -238,44 +235,44 @@ void DMA1_DefaultInterruptHandler(void){
     ADC_result = TWELVEBITMINUSONE - ADC_result;
     
     
-    switch(**current_dma_type_ptr){
+    switch(**global_variables.current_dma_type_ptr){
         
         case 0x10: //waveshape_adc_config_value
             
             if(ADC_result <= TRIANGLE_MODE_ADC_THRESHOLD){
-                current_waveshape = TRIANGLE_MODE; //triangle wave
+                global_variables.current_waveshape = TRIANGLE_MODE; //triangle wave
             }
             else if (ADC_result <= SINE_MODE_ADC_THRESHOLD){
-                current_waveshape = SINE_MODE; //sine wave
+                global_variables.current_waveshape = SINE_MODE; //sine wave
             }
             else if (ADC_result <= SQUARE_MODE_ADC_THRESHOLD){
-                current_waveshape = SQUARE_MODE; //square wave
+                global_variables.current_waveshape = SQUARE_MODE; //square wave
             }
             else{
-                current_waveshape = SINE_MODE; //if error, return sine
+                global_variables.current_waveshape = SINE_MODE; //if error, return sine
             }
-            current_dma_type_ptr++;
+            global_variables.current_dma_type_ptr++;
             break;
         
         case 0x11: //speed_adc_config_value
             
-            current_speed_linear = ADC_result;
-            current_speed_linear = current_speed_linear >> 2; //convert to 10-bit
-            current_dma_type_ptr++;
+            global_variables.current_speed_linear = ADC_result;
+            global_variables.current_speed_linear = global_variables.current_speed_linear >> 2; //convert to 10-bit
+            global_variables.current_dma_type_ptr++;
             break;
             
         case 0x12: //depth_adc_config_value
             
-            current_depth = ADC_result;
-            current_depth = current_depth >> 4; //convert to 8-bit
-            current_dma_type_ptr++;
+            global_variables.current_depth = ADC_result;
+            global_variables.current_depth = global_variables.current_depth >> 4; //convert to 8-bit
+            global_variables.current_dma_type_ptr++;
             break;
         
         case 0x13: //symmetry_adc_config_value
             
-            current_symmetry = ADC_result;
-            current_symmetry = current_symmetry >> 4; //convert to 8-bit
-            current_dma_type_ptr = &dma_type_array[0];
+            global_variables.current_symmetry = ADC_result;
+            global_variables.current_symmetry = global_variables.current_symmetry >> 4; //convert to 8-bit
+            global_variables.current_dma_type_ptr = &global_variables.dma_type_array[0];
             break;
         
         default:
