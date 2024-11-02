@@ -233,16 +233,6 @@ void DMA1_DefaultInterruptHandler(void){
     PIE2bits.DMA1DCNTIE = 0;
     PIE4bits.TMR3IE = 0;
     
-    if(adcc_counter < 4){
-        ready_to_start_oscillator = 0;
-    }
-    else{
-        ready_to_start_oscillator = 1;
-    }
-    if(adcc_counter == 255){
-        adcc_counter = 4;
-    }
-    
     uint16_t ADC_result; //concatenated ADC result
     ADC_result = (uint16_t)adres[0] | ((uint16_t)adres[1] << 8);
     ADC_result = TWELVEBITMINUSONE - ADC_result;
@@ -297,9 +287,7 @@ void DMA1_DefaultInterruptHandler(void){
     TMR1_Start(); //ADCC is triggered on overflow
     
     PIE3bits.TMR1IE = 1;
-    
-    adcc_counter++;
-    
+
     //LATC5 = 1;
 }
 /**

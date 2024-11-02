@@ -1691,8 +1691,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 ]
 "143
 [v _ADC_result `us ~T0 @X0 1 e ]
-"155
-[v _adcc_counter `Vuc ~T0 @X0 1 e ]
 "4 system_uC.c
 [v _current_waveshape `Vuc ~T0 @X0 1 e ]
 [i _current_waveshape
@@ -1827,7 +1825,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [i _symmetry_adc_config_value
 -> -> 19 `i `E13102
 ]
-[v F13289 `**CVE13102 ~T0 @X0 1 t ]
+[v F13287 `**CVE13102 ~T0 @X0 1 t ]
 "34
 [v _current_dma_type_ptr `V**CVE13102 ~T0 @X0 1 e ]
 [i _current_dma_type_ptr

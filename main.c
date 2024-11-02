@@ -39,13 +39,12 @@ int main(void){
 
     SYSTEM_Initialize();
     
-    //set some arbitrary speed values
-    /*T0CON1bits.CKPS = 0b0100;
-    final_TMR0 = 100;*/
-    
+    //Only enable TMR1 interrupt and TMR0 interrupt
     PIE2bits.DMA1DCNTIE = 0;
     PIE4bits.TMR3IE = 0;
     PIE3bits.TMR1IE = 1;
+    PIE3bits.TMR0IE = 1;
+    
     
     INTERRUPT_GlobalInterruptEnable();
 
@@ -53,17 +52,20 @@ int main(void){
     TMR1_Start(); //ADCC is triggered on overflow, including TMR3, which then triggers the DMA transfer on its overflow
     //LATC5 = 1;
     
-    //while(ready_to_start_oscillator == 0){} //wait for all adcc values to be loaded
+    current_speed_linear = 0;
+    current_waveshape = SINE_MODE;
+    T0CON1bits.CKPS = 10;
+    final_TMR0 = 12;
     
-    process_TMR0_raw_speed_and_prescaler(); 
-    process_TMR0_and_prescaler_adjust();
+    //process_TMR0_raw_speed_and_prescaler(); 
+    //process_TMR0_and_prescaler_adjust();
     
     TMR0_Start(); //start oscillator
 
     while(1){
-
-        process_TMR0_raw_speed_and_prescaler();
-        process_TMR0_and_prescaler_adjust();
+        
+        //process_TMR0_raw_speed_and_prescaler();
+        //process_TMR0_and_prescaler_adjust();
 
         ClrWdt();
     }

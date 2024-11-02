@@ -1691,8 +1691,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 ]
 "143
 [v _ADC_result `us ~T0 @X0 1 e ]
-"155
-[v _adcc_counter `Vuc ~T0 @X0 1 e ]
 "4 system_uC.c
 [v _current_waveshape `Vuc ~T0 @X0 1 e ]
 [i _current_waveshape
@@ -1827,128 +1825,122 @@ Version 4.0 HI-TECH Software Intermediate Code
 [i _symmetry_adc_config_value
 -> -> 19 `i `E13102
 ]
-[v F13289 `**CVE13102 ~T0 @X0 1 t ]
+[v F13287 `**CVE13102 ~T0 @X0 1 t ]
 "34
-[v _current_adcc_type_ptr `V**CVE13102 ~T0 @X0 1 e ]
-[i _current_adcc_type_ptr
-&U *U + &U _adcc_type_array * -> -> -> 0 `i `ui `ux -> -> # *U &U _adcc_type_array `ui `ux
-]
-[v F13291 `**CVE13102 ~T0 @X0 1 t ]
-"35
 [v _current_dma_type_ptr `V**CVE13102 ~T0 @X0 1 e ]
 [i _current_dma_type_ptr
 &U *U + &U _dma_type_array * -> -> -> 0 `i `ui `ux -> -> # *U &U _dma_type_array `ui `ux
 ]
-"38
+"37
 [v _process_TMR0_raw_speed_and_prescaler `(uc ~T0 @X0 1 ef ]
 {
 [e :U _process_TMR0_raw_speed_and_prescaler ]
 [f ]
-"40
+"39
 [e = _current_speed_linear_32 -> _current_speed_linear `ul ]
-"41
+"40
 [e = _speed_control_32 * _current_speed_linear_32 -> -> -> 600 `i `l `ul ]
-"42
+"41
 [e = _speed_control_32 >> _speed_control_32 -> 10 `i ]
-"43
+"42
 [e = _speed_control -> _speed_control_32 `us ]
-"45
+"44
 [e $ ! <= -> _speed_control `ui -> - -> 127 `i -> 12 `i `ui 1845  ]
 {
-"46
+"45
 [e = _raw_TMR0 -> -> + -> -> _speed_control `uc `i -> 12 `i `l `ul ]
-"47
+"46
 [e = _TMR0_base_prescaler_bits_index -> -> 1 `i `uc ]
-"48
+"47
 }
 [e $U 1846  ]
-"49
+"48
 [e :U 1845 ]
 {
-"50
+"49
 [v _speed_control_subtracted `us ~T0 @X0 1 a ]
-"51
+"50
 [e = _speed_control_subtracted -> - -> _speed_control `ui -> - -> 127 `i -> 12 `i `ui `us ]
-"52
+"51
 [e = _how_many_128 -> >> -> _speed_control_subtracted `ui -> 7 `i `uc ]
-"53
+"52
 [e = _raw_TMR0 -> -> - -> _speed_control_subtracted `ui -> -> << -> _how_many_128 `i -> 7 `i `us `ui `uc `ul ]
-"56
+"55
 [e = _TMR0_base_prescaler_bits_index -> + -> _how_many_128 `i -> 2 `i `uc ]
-"57
+"56
 }
 [e :U 1846 ]
-"58
+"57
 [e ) -> -> 1 `i `uc ]
 [e $UE 1844  ]
-"59
+"58
 [e :UE 1844 ]
 }
-"62
+"61
 [v _adjust_and_set_TMR0_prescaler `(uc ~T0 @X0 1 ef ]
 {
 [e :U _adjust_and_set_TMR0_prescaler ]
 [f ]
-"64
+"63
 [e $ ! == -> _TMR0_prescaler_adjust `i -> _DIVIDE_BY_TWO `i 1848  ]
 {
-"65
+"64
 [e = _TMR0_prescaler_final_index -> + -> _TMR0_base_prescaler_bits_index `i -> 1 `i `uc ]
-"66
+"65
 }
 [e $U 1849  ]
-"67
+"66
 [e :U 1848 ]
 [e $ ! == -> _TMR0_prescaler_adjust `i -> _DIVIDE_BY_FOUR `i 1850  ]
 {
-"68
+"67
 [e = _TMR0_prescaler_final_index -> + -> _TMR0_base_prescaler_bits_index `i -> 2 `i `uc ]
-"69
+"68
 }
 [e $U 1851  ]
-"70
+"69
 [e :U 1850 ]
 [e $ ! == -> _TMR0_prescaler_adjust `i -> _MULTIPLY_BY_TWO `i 1852  ]
 {
-"71
+"70
 [e = _TMR0_prescaler_final_index -> - -> _TMR0_base_prescaler_bits_index `i -> 1 `i `uc ]
-"72
+"71
 }
 [e $U 1853  ]
-"73
+"72
 [e :U 1852 ]
 [e $ ! == -> _TMR0_prescaler_adjust `i -> _DO_NOTHING `i 1854  ]
 {
-"74
+"73
 [e = _TMR0_prescaler_final_index _TMR0_base_prescaler_bits_index ]
-"75
+"74
 }
 [e :U 1854 ]
 [e :U 1853 ]
 [e :U 1851 ]
 [e :U 1849 ]
-"76
+"75
 [e = . . _T0CON1bits 0 0 *U + &U _TMR0_prescaler_bits * -> _TMR0_prescaler_final_index `ux -> -> # *U &U _TMR0_prescaler_bits `ui `ux ]
-"77
+"76
 [e ) -> -> 1 `i `uc ]
 [e $UE 1847  ]
-"78
+"77
 [e :UE 1847 ]
 }
-"118
+"117
 [v _process_TMR0_and_prescaler_adjust `(uc ~T0 @X0 1 ef ]
 {
 [e :U _process_TMR0_and_prescaler_adjust ]
 [f ]
-"162
+"161
 [e = _final_TMR0 _raw_TMR0 ]
-"163
+"162
 [e = _TMR0_prescaler_adjust _DO_NOTHING ]
-"164
+"163
 [e ( _adjust_and_set_TMR0_prescaler ..  ]
-"167
+"166
 [e ) -> -> 1 `i `uc ]
 [e $UE 1855  ]
-"168
+"167
 [e :UE 1855 ]
 }

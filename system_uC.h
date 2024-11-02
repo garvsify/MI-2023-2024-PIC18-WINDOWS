@@ -151,7 +151,5 @@
     volatile extern uint8_t res1;
     volatile extern uint8_t res2;
     volatile extern uint8_t res3;
-    volatile extern uint8_t ready_to_start_oscillator;
-    volatile uint8_t adcc_counter;
     
 #endif

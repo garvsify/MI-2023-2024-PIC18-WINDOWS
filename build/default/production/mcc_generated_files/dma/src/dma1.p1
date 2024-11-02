@@ -10,8 +10,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _depth_adc_config_value `CVE13143 ~T0 @X0 0 e ]
 "93
 [v _symmetry_adc_config_value `CVE13143 ~T0 @X0 0 e ]
+[v F13259 `(v ~T0 @X0 0 tf ]
 [v F13261 `(v ~T0 @X0 0 tf ]
-[v F13263 `(v ~T0 @X0 0 tf ]
 "6804 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
 [v _DMASELECT `Vuc ~T0 @X0 0 e@232 ]
 "7902
@@ -103,12 +103,12 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _PRLOCKbits `VS259 ~T0 @X0 0 e@180 ]
 "5710
 [v _DMA1PR `Vuc ~T0 @X0 0 e@182 ]
+[v F13299 `(v ~T0 @X0 0 tf ]
 [v F13301 `(v ~T0 @X0 0 tf ]
 [v F13303 `(v ~T0 @X0 0 tf ]
-[v F13305 `(v ~T0 @X0 0 tf ]
+[v F13306 `(v ~T0 @X0 0 tf ]
 [v F13308 `(v ~T0 @X0 0 tf ]
 [v F13310 `(v ~T0 @X0 0 tf ]
-[v F13312 `(v ~T0 @X0 0 tf ]
 "35189
 [s S1691 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S1691 . U1RXIE U1TXIE U1EIE U1IE TMR3IE TMR3GIE PWM1PIE PWM1IE ]
@@ -117,9 +117,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [n S1690 . . ]
 "35200
 [v _PIE4bits `VS1690 ~T0 @X0 0 e@1196 ]
-"154 mcc_generated_files/dma/src/../../../system_uC.h
-[v _ready_to_start_oscillator `Vuc ~T0 @X0 0 e ]
-"132
+"132 mcc_generated_files/dma/src/../../../system_uC.h
 [v _current_waveshape `Vuc ~T0 @X0 0 e ]
 [v F13216 `**CVE13143 ~T0 @X0 1 t ]
 "108
@@ -1806,12 +1804,10 @@ Version 4.0 HI-TECH Software Intermediate Code
 ]
 "143
 [v _ADC_result `us ~T0 @X0 1 e ]
-"155
-[v _adcc_counter `Vuc ~T0 @X0 1 e ]
 "5 mcc_generated_files/dma/src/dma1.c
-[v _DMA1_SCNTI_InterruptHandler `*F13261 ~T0 @X0 1 e ]
+[v _DMA1_SCNTI_InterruptHandler `*F13259 ~T0 @X0 1 e ]
 "7
-[v _DMA1_DCNTI_InterruptHandler `*F13263 ~T0 @X0 1 e ]
+[v _DMA1_DCNTI_InterruptHandler `*F13261 ~T0 @X0 1 e ]
 "17
 [v _adres `uc ~T0 @X0 -> 2 `i e ]
 "23
@@ -2194,7 +2190,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "202
 [e = . . _PIR2bits 0 2 -> -> 0 `i `uc ]
 "204
-[e $ ! != _DMA1_SCNTI_InterruptHandler -> -> 0 `i `*F13301 1867  ]
+[e $ ! != _DMA1_SCNTI_InterruptHandler -> -> 0 `i `*F13299 1867  ]
 "205
 [e ( *U _DMA1_SCNTI_InterruptHandler ..  ]
 [e :U 1867 ]
@@ -2202,12 +2198,12 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :UE 1866 ]
 }
 "208
-[v _DMA1_SCNTIInterruptHandlerSet `(v ~T0 @X0 1 ef1`*F13303 ]
+[v _DMA1_SCNTIInterruptHandlerSet `(v ~T0 @X0 1 ef1`*F13301 ]
 "209
 {
 [e :U _DMA1_SCNTIInterruptHandlerSet ]
 "208
-[v _InterruptHandler `*F13305 ~T0 @X0 1 r1 ]
+[v _InterruptHandler `*F13303 ~T0 @X0 1 r1 ]
 "209
 [f ]
 "210
@@ -2224,7 +2220,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "216
 [e = . . _PIR2bits 0 3 -> -> 0 `i `uc ]
 "218
-[e $ ! != _DMA1_DCNTI_InterruptHandler -> -> 0 `i `*F13308 1870  ]
+[e $ ! != _DMA1_DCNTI_InterruptHandler -> -> 0 `i `*F13306 1870  ]
 "219
 [e ( *U _DMA1_DCNTI_InterruptHandler ..  ]
 [e :U 1870 ]
@@ -2232,12 +2228,12 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :UE 1869 ]
 }
 "222
-[v _DMA1_DCNTIInterruptHandlerSet `(v ~T0 @X0 1 ef1`*F13310 ]
+[v _DMA1_DCNTIInterruptHandlerSet `(v ~T0 @X0 1 ef1`*F13308 ]
 "223
 {
 [e :U _DMA1_DCNTIInterruptHandlerSet ]
 "222
-[v _InterruptHandler `*F13312 ~T0 @X0 1 r1 ]
+[v _InterruptHandler `*F13310 ~T0 @X0 1 r1 ]
 "223
 [f ]
 "224
@@ -2255,132 +2251,106 @@ Version 4.0 HI-TECH Software Intermediate Code
 "234
 [e = . . _PIE4bits 0 4 -> -> 0 `i `uc ]
 "236
-[e $ ! < -> _adcc_counter `i -> 4 `i 1873  ]
-{
+[v _ADC_result `us ~T0 @X0 1 a ]
 "237
-[e = _ready_to_start_oscillator -> -> 0 `i `uc ]
+[e = _ADC_result -> | -> -> *U + &U _adres * -> -> -> 0 `i `ui `ux -> -> # *U &U _adres `ui `ux `us `ui << -> -> *U + &U _adres * -> -> -> 1 `i `ui `ux -> -> # *U &U _adres `ui `ux `us `ui -> 8 `i `us ]
 "238
-}
-[e $U 1874  ]
-"239
-[e :U 1873 ]
-{
-"240
-[e = _ready_to_start_oscillator -> -> 1 `i `uc ]
+[e = _ADC_result -> - -> -> 4095 `i `ui -> _ADC_result `ui `us ]
 "241
-}
-[e :U 1874 ]
-"242
-[e $ ! == -> _adcc_counter `i -> 255 `i 1875  ]
+[e $U 1874  ]
 {
 "243
-[e = _adcc_counter -> -> 4 `i `uc ]
-"244
-}
 [e :U 1875 ]
+"245
+[e $ ! <= -> _ADC_result `ui -> -> 1365 `i `ui 1876  ]
+{
 "246
-[v _ADC_result `us ~T0 @X0 1 a ]
-"247
-[e = _ADC_result -> | -> -> *U + &U _adres * -> -> -> 0 `i `ui `ux -> -> # *U &U _adres `ui `ux `us `ui << -> -> *U + &U _adres * -> -> -> 1 `i `ui `ux -> -> # *U &U _adres `ui `ux `us `ui -> 8 `i `us ]
-"248
-[e = _ADC_result -> - -> -> 4095 `i `ui -> _ADC_result `ui `us ]
-"251
-[e $U 1877  ]
-{
-"253
-[e :U 1878 ]
-"255
-[e $ ! <= -> _ADC_result `ui -> -> 1365 `i `ui 1879  ]
-{
-"256
 [e = _current_waveshape -> -> 0 `i `uc ]
-"257
+"247
 }
-[e $U 1880  ]
-"258
-[e :U 1879 ]
-[e $ ! <= -> _ADC_result `ui -> -> 2730 `i `ui 1881  ]
-{
-"259
-[e = _current_waveshape -> -> 1 `i `uc ]
-"260
-}
-[e $U 1882  ]
-"261
-[e :U 1881 ]
-[e $ ! <= -> _ADC_result `ui -> -> 4095 `i `ui 1883  ]
-{
-"262
-[e = _current_waveshape -> -> 2 `i `uc ]
-"263
-}
-[e $U 1884  ]
-"264
-[e :U 1883 ]
-{
-"265
-[e = _current_waveshape -> -> 1 `i `uc ]
-"266
-}
-[e :U 1884 ]
-[e :U 1882 ]
-[e :U 1880 ]
-"267
-[e ++ _current_dma_type_ptr * -> -> 1 `i `x -> -> # *U _current_dma_type_ptr `i `x ]
-"268
-[e $U 1876  ]
-"270
-[e :U 1885 ]
-"272
-[e = _current_speed_linear _ADC_result ]
-"273
-[e = _current_speed_linear -> >> -> _current_speed_linear `ui -> 2 `i `us ]
-"274
-[e ++ _current_dma_type_ptr * -> -> 1 `i `x -> -> # *U _current_dma_type_ptr `i `x ]
-"275
-[e $U 1876  ]
-"277
-[e :U 1886 ]
-"279
-[e = _current_depth _ADC_result ]
-"280
-[e = _current_depth -> >> -> _current_depth `ui -> 4 `i `us ]
-"281
-[e ++ _current_dma_type_ptr * -> -> 1 `i `x -> -> # *U _current_dma_type_ptr `i `x ]
-"282
-[e $U 1876  ]
-"284
-[e :U 1887 ]
-"286
-[e = _current_symmetry -> _ADC_result `ul ]
-"287
-[e = _current_symmetry >> _current_symmetry -> 4 `i ]
-"288
-[e = _current_dma_type_ptr &U *U + &U _dma_type_array * -> -> -> 0 `i `ui `ux -> -> # *U &U _dma_type_array `ui `ux ]
-"289
-[e $U 1876  ]
-"291
-[e :U 1888 ]
-"293
-[e $U 1876  ]
-"294
-}
-[e $U 1876  ]
-[e :U 1877 ]
-[e [\ -> *U *U _current_dma_type_ptr `ui , $ -> -> 16 `i `ui 1878
- , $ -> -> 17 `i `ui 1885
- , $ -> -> 18 `i `ui 1886
- , $ -> -> 19 `i `ui 1887
- 1888 ]
+[e $U 1877  ]
+"248
 [e :U 1876 ]
-"296
+[e $ ! <= -> _ADC_result `ui -> -> 2730 `i `ui 1878  ]
+{
+"249
+[e = _current_waveshape -> -> 1 `i `uc ]
+"250
+}
+[e $U 1879  ]
+"251
+[e :U 1878 ]
+[e $ ! <= -> _ADC_result `ui -> -> 4095 `i `ui 1880  ]
+{
+"252
+[e = _current_waveshape -> -> 2 `i `uc ]
+"253
+}
+[e $U 1881  ]
+"254
+[e :U 1880 ]
+{
+"255
+[e = _current_waveshape -> -> 1 `i `uc ]
+"256
+}
+[e :U 1881 ]
+[e :U 1879 ]
+[e :U 1877 ]
+"257
+[e ++ _current_dma_type_ptr * -> -> 1 `i `x -> -> # *U _current_dma_type_ptr `i `x ]
+"258
+[e $U 1873  ]
+"260
+[e :U 1882 ]
+"262
+[e = _current_speed_linear _ADC_result ]
+"263
+[e = _current_speed_linear -> >> -> _current_speed_linear `ui -> 2 `i `us ]
+"264
+[e ++ _current_dma_type_ptr * -> -> 1 `i `x -> -> # *U _current_dma_type_ptr `i `x ]
+"265
+[e $U 1873  ]
+"267
+[e :U 1883 ]
+"269
+[e = _current_depth _ADC_result ]
+"270
+[e = _current_depth -> >> -> _current_depth `ui -> 4 `i `us ]
+"271
+[e ++ _current_dma_type_ptr * -> -> 1 `i `x -> -> # *U _current_dma_type_ptr `i `x ]
+"272
+[e $U 1873  ]
+"274
+[e :U 1884 ]
+"276
+[e = _current_symmetry -> _ADC_result `ul ]
+"277
+[e = _current_symmetry >> _current_symmetry -> 4 `i ]
+"278
+[e = _current_dma_type_ptr &U *U + &U _dma_type_array * -> -> -> 0 `i `ui `ux -> -> # *U &U _dma_type_array `ui `ux ]
+"279
+[e $U 1873  ]
+"281
+[e :U 1885 ]
+"283
+[e $U 1873  ]
+"284
+}
+[e $U 1873  ]
+[e :U 1874 ]
+[e [\ -> *U *U _current_dma_type_ptr `ui , $ -> -> 16 `i `ui 1875
+ , $ -> -> 17 `i `ui 1882
+ , $ -> -> 18 `i `ui 1883
+ , $ -> -> 19 `i `ui 1884
+ 1885 ]
+[e :U 1873 ]
+"286
 [e ( _TMR1_Write (1 -> -> 65301 `l `ui ]
-"297
+"287
 [e ( _TMR1_Start ..  ]
-"299
+"289
 [e = . . _PIE3bits 0 4 -> -> 1 `i `uc ]
-"301
-[e ++ _adcc_counter -> -> 1 `i `Vuc ]
-"304
+"292
 [e :UE 1872 ]
 }
