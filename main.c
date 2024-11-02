@@ -55,15 +55,15 @@ int main(void){
     
     while(ready_to_start_oscillator == 0){} //wait for all adcc values to be loaded
     
-    //process_TMR0_raw_speed_and_prescaler(); 
-    //process_TMR0_and_prescaler_adjust();
+    process_TMR0_raw_speed_and_prescaler(); 
+    process_TMR0_and_prescaler_adjust();
     
     TMR0_Start(); //start oscillator
 
     while(1){
 
-        //process_TMR0_raw_speed_and_prescaler();
-        //process_TMR0_and_prescaler_adjust();
+        process_TMR0_raw_speed_and_prescaler();
+        process_TMR0_and_prescaler_adjust();
 
         ClrWdt();
     }

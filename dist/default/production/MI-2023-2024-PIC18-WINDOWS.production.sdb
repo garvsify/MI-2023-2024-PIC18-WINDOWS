@@ -16,7 +16,7 @@ channel_ANC1 17
 channel_ANC2 18
 channel_ANC3 19
 ]
-"108 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS/system_uC.h
+"105 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS/system_uC.h
 [e E13143 . `uc
 channel_DAC2 58
 channel_VSS 59
@@ -78,7 +78,7 @@ TMR2_UART2_TX_EDGE 21
 TMR2_UART3_RX_EDGE 22
 TMR2_UART3_TX_EDGE 23
 ]
-"108 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS/system_uC.h
+"105 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS/system_uC.h
 [e E13119 . `uc
 channel_DAC2 58
 channel_VSS 59
@@ -115,7 +115,7 @@ channel_ANC1 17
 channel_ANC2 18
 channel_ANC3 19
 ]
-"108 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS/system_uC.h
+"105 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS/system_uC.h
 [e E13102 . `uc
 channel_DAC2 58
 channel_VSS 59
@@ -282,13 +282,17 @@ channel_ANC3 19
 [v _TMR3_GateCallbackRegister TMR3_GateCallbackRegister `(v  1 e 1 0 ]
 "205
 [v _TMR3_DefaultGateCallback TMR3_DefaultGateCallback `(v  1 s 1 TMR3_DefaultGateCallback ]
-"62 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\system_uC.c
+"38 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\system_uC.c
+[v _process_TMR0_raw_speed_and_prescaler process_TMR0_raw_speed_and_prescaler `(uc  1 e 1 0 ]
+"62
 [v _adjust_and_set_TMR0_prescaler adjust_and_set_TMR0_prescaler `(uc  1 e 1 0 ]
-"91 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS/system_uC.h
+"118
+[v _process_TMR0_and_prescaler_adjust process_TMR0_and_prescaler_adjust `(uc  1 e 1 0 ]
+"88 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS/system_uC.h
 [v _TMR0_prescaler_bits TMR0_prescaler_bits `C[9]uc  1 e 9 0 ]
-"109
+"106
 [v _dma_type_array dma_type_array `[4]*.32CVEE13143  1 e 8 0 ]
-"158
+"155
 [v _adcc_counter adcc_counter `VEuc  1 e 1 0 ]
 "7 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS/wavetables.h
 [v _sine_table_one_quadrant sine_table_one_quadrant `C[129]us  1 e 258 0 ]
@@ -1214,10 +1218,37 @@ channel_ANC3 19
 {
 "70
 } 0
+"38 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\system_uC.c
+[v _process_TMR0_raw_speed_and_prescaler process_TMR0_raw_speed_and_prescaler `(uc  1 e 1 0 ]
+{
+"50
+[v process_TMR0_raw_speed_and_prescaler@speed_control_subtracted speed_control_subtracted `us  1 a 2 12 ]
+"59
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"17
+[v ___lmul@product product `ul  1 a 4 14 ]
+"15
+[v ___lmul@multiplier multiplier `ul  1 p 4 0 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 4 ]
+"129
+} 0
+"118 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\system_uC.c
+[v _process_TMR0_and_prescaler_adjust process_TMR0_and_prescaler_adjust `(uc  1 e 1 0 ]
+{
+"168
+} 0
+"62
+[v _adjust_and_set_TMR0_prescaler adjust_and_set_TMR0_prescaler `(uc  1 e 1 0 ]
+{
+"78
+} 0
 "83 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
 [v _TMR1_Write TMR1_Write `(v  1 e 1 0 ]
 {
-[v TMR1_Write@timerVal timerVal `ui  1 p 2 0 ]
+[v TMR1_Write@timerVal timerVal `ui  1 p 2 14 ]
 "103
 } 0
 "57
@@ -1243,13 +1274,13 @@ channel_ANC3 19
 "173
 [v _TMR3_OverflowCallbackRegister TMR3_OverflowCallbackRegister `(v  1 e 1 0 ]
 {
-[v TMR3_OverflowCallbackRegister@CallbackHandler CallbackHandler `*.37(v  1 p 2 0 ]
+[v TMR3_OverflowCallbackRegister@CallbackHandler CallbackHandler `*.37(v  1 p 2 14 ]
 "176
 } 0
 "200
 [v _TMR3_GateCallbackRegister TMR3_GateCallbackRegister `(v  1 e 1 0 ]
 {
-[v TMR3_GateCallbackRegister@CallbackHandler CallbackHandler `*.37(v  1 p 2 0 ]
+[v TMR3_GateCallbackRegister@CallbackHandler CallbackHandler `*.37(v  1 p 2 14 ]
 "203
 } 0
 "20 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr2.c
@@ -1260,7 +1291,7 @@ channel_ANC3 19
 "101
 [v _TMR2_OverflowCallbackRegister TMR2_OverflowCallbackRegister `(v  1 e 1 0 ]
 {
-[v TMR2_OverflowCallbackRegister@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+[v TMR2_OverflowCallbackRegister@InterruptHandler InterruptHandler `*.37(v  1 p 2 14 ]
 "104
 } 0
 "24 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr1.c
@@ -1271,13 +1302,13 @@ channel_ANC3 19
 "139
 [v _TMR1_OverflowCallbackRegister TMR1_OverflowCallbackRegister `(v  1 e 1 0 ]
 {
-[v TMR1_OverflowCallbackRegister@CallbackHandler CallbackHandler `*.37(v  1 p 2 0 ]
+[v TMR1_OverflowCallbackRegister@CallbackHandler CallbackHandler `*.37(v  1 p 2 14 ]
 "142
 } 0
 "182
 [v _TMR1_GateCallbackRegister TMR1_GateCallbackRegister `(v  1 e 1 0 ]
 {
-[v TMR1_GateCallbackRegister@CallbackHandler CallbackHandler `*.37(v  1 p 2 0 ]
+[v TMR1_GateCallbackRegister@CallbackHandler CallbackHandler `*.37(v  1 p 2 14 ]
 "185
 } 0
 "33 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/timer/src/tmr0.c
@@ -1288,7 +1319,7 @@ channel_ANC3 19
 "100
 [v _TMR0_OverflowCallbackRegister TMR0_OverflowCallbackRegister `(v  1 e 1 0 ]
 {
-[v TMR0_OverflowCallbackRegister@CallbackHandler CallbackHandler `*.37(v  1 p 2 0 ]
+[v TMR0_OverflowCallbackRegister@CallbackHandler CallbackHandler `*.37(v  1 p 2 14 ]
 "103
 } 0
 "60 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
@@ -1309,19 +1340,19 @@ channel_ANC3 19
 "151
 [v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
 {
-[v INT2_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+[v INT2_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 14 ]
 "153
 } 0
 "125
 [v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
 {
-[v INT1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+[v INT1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 14 ]
 "127
 } 0
 "99
 [v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
 {
-[v INT0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+[v INT0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 14 ]
 "101
 } 0
 "23 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/dma/src/dma1.c
@@ -1332,13 +1363,13 @@ channel_ANC3 19
 "208
 [v _DMA1_SCNTIInterruptHandlerSet DMA1_SCNTIInterruptHandlerSet `(v  1 e 1 0 ]
 {
-[v DMA1_SCNTIInterruptHandlerSet@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+[v DMA1_SCNTIInterruptHandlerSet@InterruptHandler InterruptHandler `*.37(v  1 p 2 14 ]
 "211
 } 0
 "222
 [v _DMA1_DCNTIInterruptHandlerSet DMA1_DCNTIInterruptHandlerSet `(v  1 e 1 0 ]
 {
-[v DMA1_DCNTIInterruptHandlerSet@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+[v DMA1_DCNTIInterruptHandlerSet@InterruptHandler InterruptHandler `*.37(v  1 p 2 14 ]
 "225
 } 0
 "35 C:\Users\jamesgarvey\git\MI-2023-2024-PIC18-WINDOWS\mcc_generated_files/system/src/system.c
