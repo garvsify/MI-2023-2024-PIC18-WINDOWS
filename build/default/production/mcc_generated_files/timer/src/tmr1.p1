@@ -1,14 +1,14 @@
 Version 4.0 HI-TECH Software Intermediate Code
-"107 mcc_generated_files/timer/src/../../../system_uC.h
+"108 mcc_generated_files/timer/src/../../../system_uC.h
 [c E13102 58 59 60 61 62 63 16 17 18 19 .. ]
 [n E13102 . channel_DAC2 channel_VSS channel_Temp channel_DAC1 channel_FVR_Buffer1 channel_FVR_Buffer2 channel_ANC0 channel_ANC1 channel_ANC2 channel_ANC3  ]
-"92
-[v _waveshape_adc_config_value `CVE13102 ~T0 @X0 0 e ]
 "93
-[v _speed_adc_config_value `CVE13102 ~T0 @X0 0 e ]
+[v _waveshape_adc_config_value `CVE13102 ~T0 @X0 0 e ]
 "94
-[v _depth_adc_config_value `CVE13102 ~T0 @X0 0 e ]
+[v _speed_adc_config_value `CVE13102 ~T0 @X0 0 e ]
 "95
+[v _depth_adc_config_value `CVE13102 ~T0 @X0 0 e ]
+"96
 [v _symmetry_adc_config_value `CVE13102 ~T0 @X0 0 e ]
 [v F13262 `(v ~T0 @X0 0 tf ]
 [v F12922 `(v ~T0 @X0 0 tf ]
@@ -122,16 +122,20 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v F13296 `(v ~T0 @X0 0 tf ]
 [v F13298 `(v ~T0 @X0 0 tf ]
 [v F13300 `(v ~T0 @X0 0 tf ]
+"41863
+[v _LATC5 `Vb ~T0 @X0 0 e@9733 ]
 "55 ./mcc_generated_files/adc/adcc.h
 [v _ADCC_StartConversion `(v ~T0 @X0 0 ef1`E13102 ]
 [v F13216 `**CVE13102 ~T0 @X0 1 t ]
-"110 mcc_generated_files/timer/src/../../../system_uC.h
+"111 mcc_generated_files/timer/src/../../../system_uC.h
 [v _current_dma_type_ptr `V**CVE13102 ~T0 @X0 0 e ]
 "176 ./mcc_generated_files/timer/tmr3.h
 [v _TMR3_Write `(v ~T0 @X0 0 ef1`ui ]
 "149
 [v _TMR3_Start `(v ~T0 @X0 0 ef ]
-"35189 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
+"41860 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
+[v _LATC4 `Vb ~T0 @X0 0 e@9732 ]
+"35189
 [s S1691 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S1691 . U1RXIE U1TXIE U1EIE U1IE TMR3IE TMR3GIE PWM1PIE PWM1IE ]
 "35188
@@ -1732,7 +1736,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 1023 `i `us
 ..
 ]
-"90 mcc_generated_files/timer/src/../../../system_uC.h
+"91 mcc_generated_files/timer/src/../../../system_uC.h
 [v _TMR0_prescaler_bits `Cuc ~T0 @X0 -> 9 `i e ]
 [i _TMR0_prescaler_bits
 :U ..
@@ -1747,52 +1751,52 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"97
+"98
 [v _POSITIVE `Cuc ~T0 @X0 1 e ]
 [i _POSITIVE
 -> -> 1 `i `uc
 ]
-"98
+"99
 [v _NEGATIVE `Cuc ~T0 @X0 1 e ]
 [i _NEGATIVE
 -> -> 0 `i `uc
 ]
-"99
+"100
 [v _DO_NOTHING `Cuc ~T0 @X0 1 e ]
 [i _DO_NOTHING
 -> -> 0 `i `uc
 ]
-"100
+"101
 [v _DIVIDE_BY_TWO `Cuc ~T0 @X0 1 e ]
 [i _DIVIDE_BY_TWO
 -> -> 1 `i `uc
 ]
-"101
+"102
 [v _MULTIPLY_BY_TWO `Cuc ~T0 @X0 1 e ]
 [i _MULTIPLY_BY_TWO
 -> -> 2 `i `uc
 ]
-"102
+"103
 [v _DIVIDE_BY_FOUR `Cuc ~T0 @X0 1 e ]
 [i _DIVIDE_BY_FOUR
 -> -> 3 `i `uc
 ]
-"103
+"104
 [v _DONT_CARE `Cuc ~T0 @X0 1 e ]
 [i _DONT_CARE
 -> -> 4 `i `uc
 ]
-"104
+"105
 [v _YES `Cuc ~T0 @X0 1 e ]
 [i _YES
 -> -> 1 `i `uc
 ]
-"105
+"106
 [v _NO `Cuc ~T0 @X0 1 e ]
 [i _NO
 -> -> 0 `i `uc
 ]
-"107
+"108
 [v _adcc_type_array `*CVE13102 ~T0 @X0 -> 4 `i e ]
 [i _adcc_type_array
 :U ..
@@ -1802,7 +1806,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 &U _symmetry_adc_config_value
 ..
 ]
-"108
+"109
 [v _dma_type_array `*CVE13102 ~T0 @X0 -> 4 `i e ]
 [i _dma_type_array
 :U ..
@@ -1812,9 +1816,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 &U _symmetry_adc_config_value
 ..
 ]
-"145
+"146
 [v _ADC_result `us ~T0 @X0 1 e ]
-"157
+"158
 [v _adcc_counter `Vuc ~T0 @X0 1 e ]
 "8 mcc_generated_files/timer/src/tmr1.c
 [v _timer1ReloadVal `Vus ~T0 @X0 1 e ]
@@ -2044,74 +2048,78 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U _TMR1_DefaultOverflowCallback ]
 [f ]
 "149
-[e = . . _PIE3bits 0 4 -> -> 0 `i `uc ]
+[e = _LATC5 -> -> 0 `i `b ]
 "151
-[e ( _TMR1_Stop ..  ]
+[e = . . _PIE3bits 0 4 -> -> 0 `i `uc ]
 "153
+[e ( _TMR1_Stop ..  ]
+"155
 [e ( _ADCC_StartConversion (1 *U *U _current_dma_type_ptr ]
-"162
-[e ( _TMR3_Write (1 -> -> 65350 `l `ui ]
-"163
+"157
+[e ( _TMR3_Write (1 -> -> 65300 `l `ui ]
+"158
 [e ( _TMR3_Start ..  ]
-"165
+"160
+[e = _LATC4 -> -> 1 `i `b ]
+"162
 [e = . . _PIE4bits 0 4 -> -> 1 `i `uc ]
-"166
+"163
 [e = . . _PIE2bits 0 3 -> -> 1 `i `uc ]
-"168
+"165
 [e :UE 1858 ]
 }
-"170
+"167
 [v _TMR1_HasOverflowOccured `(a ~T0 @X0 1 ef ]
-"171
+"168
 {
 [e :U _TMR1_HasOverflowOccured ]
 [f ]
-"172
+"169
 [e ) -> . . _PIR3bits 0 4 `a ]
 [e $UE 1859  ]
-"173
+"170
 [e :UE 1859 ]
 }
-"175
+"172
 [v _TMR1_GateISR `(v ~T0 @X0 1 ef ]
-"176
+"173
 {
 [e :U _TMR1_GateISR ]
 [f ]
-"178
+"175
 [e = . . _PIR3bits 0 5 -> -> 0 `i `uc ]
-"179
+"176
 [e $ ! != _TMR1_GateCallback -> -> 0 `i `*F13305 1861  ]
-"180
+"177
 {
-"181
+"178
 [e ( *U _TMR1_GateCallback ..  ]
-"182
+"179
 }
 [e :U 1861 ]
-"183
+"180
 [e :UE 1860 ]
 }
-"185
+"182
 [v _TMR1_GateCallbackRegister `(v ~T0 @X0 1 ef1`*F13307 ]
-"186
+"183
 {
 [e :U _TMR1_GateCallbackRegister ]
-"185
+"182
 [v _CallbackHandler `*F13309 ~T0 @X0 1 r1 ]
-"186
+"183
 [f ]
-"187
+"184
 [e = _TMR1_GateCallback _CallbackHandler ]
-"188
+"185
 [e :UE 1862 ]
 }
-"190
+"187
 [v _TMR1_DefaultGateCallback `(v ~T0 @X0 1 sf ]
-"191
+"188
 {
 [e :U _TMR1_DefaultGateCallback ]
 [f ]
-"194
+"191
 [e :UE 1863 ]
 }

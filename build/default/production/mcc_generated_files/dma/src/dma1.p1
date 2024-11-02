@@ -1,14 +1,14 @@
 Version 4.0 HI-TECH Software Intermediate Code
-"107 mcc_generated_files/dma/src/../../../system_uC.h
+"108 mcc_generated_files/dma/src/../../../system_uC.h
 [c E13143 58 59 60 61 62 63 16 17 18 19 .. ]
 [n E13143 . channel_DAC2 channel_VSS channel_Temp channel_DAC1 channel_FVR_Buffer1 channel_FVR_Buffer2 channel_ANC0 channel_ANC1 channel_ANC2 channel_ANC3  ]
-"92
-[v _waveshape_adc_config_value `CVE13143 ~T0 @X0 0 e ]
 "93
-[v _speed_adc_config_value `CVE13143 ~T0 @X0 0 e ]
+[v _waveshape_adc_config_value `CVE13143 ~T0 @X0 0 e ]
 "94
-[v _depth_adc_config_value `CVE13143 ~T0 @X0 0 e ]
+[v _speed_adc_config_value `CVE13143 ~T0 @X0 0 e ]
 "95
+[v _depth_adc_config_value `CVE13143 ~T0 @X0 0 e ]
+"96
 [v _symmetry_adc_config_value `CVE13143 ~T0 @X0 0 e ]
 [v F13261 `(v ~T0 @X0 0 tf ]
 [v F13263 `(v ~T0 @X0 0 tf ]
@@ -109,6 +109,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v F13308 `(v ~T0 @X0 0 tf ]
 [v F13310 `(v ~T0 @X0 0 tf ]
 [v F13312 `(v ~T0 @X0 0 tf ]
+"41860
+[v _LATC4 `Vb ~T0 @X0 0 e@9732 ]
 "35189
 [s S1691 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S1691 . U1RXIE U1TXIE U1EIE U1IE TMR3IE TMR3GIE PWM1PIE PWM1IE ]
@@ -117,18 +119,18 @@ Version 4.0 HI-TECH Software Intermediate Code
 [n S1690 . . ]
 "35200
 [v _PIE4bits `VS1690 ~T0 @X0 0 e@1196 ]
-"156 mcc_generated_files/dma/src/../../../system_uC.h
+"157 mcc_generated_files/dma/src/../../../system_uC.h
 [v _ready_to_start_oscillator `Vuc ~T0 @X0 0 e ]
-"134
+"135
 [v _current_waveshape `Vuc ~T0 @X0 0 e ]
 [v F13216 `**CVE13143 ~T0 @X0 1 t ]
-"110
+"111
 [v _current_dma_type_ptr `V**CVE13143 ~T0 @X0 0 e ]
-"135
+"136
 [v _current_speed_linear `Vus ~T0 @X0 0 e ]
-"137
-[v _current_depth `Vus ~T0 @X0 0 e ]
 "138
+[v _current_depth `Vus ~T0 @X0 0 e ]
+"139
 [v _current_symmetry `Vul ~T0 @X0 0 e ]
 "144 ./mcc_generated_files/timer/tmr1.h
 [v _TMR1_Write `(v ~T0 @X0 0 ef1`ui ]
@@ -142,6 +144,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [n S1688 . . ]
 "35138
 [v _PIE3bits `VS1688 ~T0 @X0 0 e@1195 ]
+"41863
+[v _LATC5 `Vb ~T0 @X0 0 e@9733 ]
 "269 C:/Users/jamesgarvey/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f05q40.h
 [; <" CLKRCON equ 039h ;# ">
 "373
@@ -1724,7 +1728,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 1023 `i `us
 ..
 ]
-"90 mcc_generated_files/dma/src/../../../system_uC.h
+"91 mcc_generated_files/dma/src/../../../system_uC.h
 [v _TMR0_prescaler_bits `Cuc ~T0 @X0 -> 9 `i e ]
 [i _TMR0_prescaler_bits
 :U ..
@@ -1739,52 +1743,52 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"97
+"98
 [v _POSITIVE `Cuc ~T0 @X0 1 e ]
 [i _POSITIVE
 -> -> 1 `i `uc
 ]
-"98
+"99
 [v _NEGATIVE `Cuc ~T0 @X0 1 e ]
 [i _NEGATIVE
 -> -> 0 `i `uc
 ]
-"99
+"100
 [v _DO_NOTHING `Cuc ~T0 @X0 1 e ]
 [i _DO_NOTHING
 -> -> 0 `i `uc
 ]
-"100
+"101
 [v _DIVIDE_BY_TWO `Cuc ~T0 @X0 1 e ]
 [i _DIVIDE_BY_TWO
 -> -> 1 `i `uc
 ]
-"101
+"102
 [v _MULTIPLY_BY_TWO `Cuc ~T0 @X0 1 e ]
 [i _MULTIPLY_BY_TWO
 -> -> 2 `i `uc
 ]
-"102
+"103
 [v _DIVIDE_BY_FOUR `Cuc ~T0 @X0 1 e ]
 [i _DIVIDE_BY_FOUR
 -> -> 3 `i `uc
 ]
-"103
+"104
 [v _DONT_CARE `Cuc ~T0 @X0 1 e ]
 [i _DONT_CARE
 -> -> 4 `i `uc
 ]
-"104
+"105
 [v _YES `Cuc ~T0 @X0 1 e ]
 [i _YES
 -> -> 1 `i `uc
 ]
-"105
+"106
 [v _NO `Cuc ~T0 @X0 1 e ]
 [i _NO
 -> -> 0 `i `uc
 ]
-"107
+"108
 [v _adcc_type_array `*CVE13143 ~T0 @X0 -> 4 `i e ]
 [i _adcc_type_array
 :U ..
@@ -1794,7 +1798,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 &U _symmetry_adc_config_value
 ..
 ]
-"108
+"109
 [v _dma_type_array `*CVE13143 ~T0 @X0 -> 4 `i e ]
 [i _dma_type_array
 :U ..
@@ -1804,9 +1808,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 &U _symmetry_adc_config_value
 ..
 ]
-"145
+"146
 [v _ADC_result `us ~T0 @X0 1 e ]
-"157
+"158
 [v _adcc_counter `Vuc ~T0 @X0 1 e ]
 "5 mcc_generated_files/dma/src/dma1.c
 [v _DMA1_SCNTI_InterruptHandler `*F13261 ~T0 @X0 1 e ]
@@ -2251,119 +2255,121 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U _DMA1_DefaultInterruptHandler ]
 [f ]
 "231
+[e = _LATC4 -> -> 0 `i `b ]
+"233
 [e = . . _PIE2bits 0 3 -> -> 0 `i `uc ]
-"232
-[e = . . _PIE4bits 0 4 -> -> 0 `i `uc ]
 "234
+[e = . . _PIE4bits 0 4 -> -> 0 `i `uc ]
+"236
 [e $ ! < -> _adcc_counter `i -> 4 `i 1873  ]
 {
-"235
+"237
 [e = _ready_to_start_oscillator -> -> 0 `i `uc ]
-"236
+"238
 }
 [e $U 1874  ]
-"237
+"239
 [e :U 1873 ]
 {
-"238
+"240
 [e = _ready_to_start_oscillator -> -> 1 `i `uc ]
-"239
+"241
 }
 [e :U 1874 ]
-"240
+"242
 [e $ ! == -> _adcc_counter `i -> 255 `i 1875  ]
 {
-"241
+"243
 [e = _adcc_counter -> -> 4 `i `uc ]
-"242
+"244
 }
 [e :U 1875 ]
-"244
-[v _ADC_result `us ~T0 @X0 1 a ]
-"245
-[e = _ADC_result -> | -> -> *U + &U _adres * -> -> -> 0 `i `ui `ux -> -> # *U &U _adres `ui `ux `us `ui << -> -> *U + &U _adres * -> -> -> 1 `i `ui `ux -> -> # *U &U _adres `ui `ux `us `ui -> 8 `i `us ]
 "246
+[v _ADC_result `us ~T0 @X0 1 a ]
+"247
+[e = _ADC_result -> | -> -> *U + &U _adres * -> -> -> 0 `i `ui `ux -> -> # *U &U _adres `ui `ux `us `ui << -> -> *U + &U _adres * -> -> -> 1 `i `ui `ux -> -> # *U &U _adres `ui `ux `us `ui -> 8 `i `us ]
+"248
 [e = _ADC_result -> - -> -> 4095 `i `ui -> _ADC_result `ui `us ]
-"249
+"251
 [e $U 1877  ]
 {
-"251
-[e :U 1878 ]
 "253
+[e :U 1878 ]
+"255
 [e $ ! <= -> _ADC_result `ui -> -> 1365 `i `ui 1879  ]
 {
-"254
+"256
 [e = _current_waveshape -> -> 0 `i `uc ]
-"255
+"257
 }
 [e $U 1880  ]
-"256
+"258
 [e :U 1879 ]
 [e $ ! <= -> _ADC_result `ui -> -> 2730 `i `ui 1881  ]
 {
-"257
+"259
 [e = _current_waveshape -> -> 1 `i `uc ]
-"258
+"260
 }
 [e $U 1882  ]
-"259
+"261
 [e :U 1881 ]
 [e $ ! <= -> _ADC_result `ui -> -> 4095 `i `ui 1883  ]
 {
-"260
+"262
 [e = _current_waveshape -> -> 2 `i `uc ]
-"261
+"263
 }
 [e $U 1884  ]
-"262
+"264
 [e :U 1883 ]
 {
-"263
+"265
 [e = _current_waveshape -> -> 1 `i `uc ]
-"264
+"266
 }
 [e :U 1884 ]
 [e :U 1882 ]
 [e :U 1880 ]
-"265
+"267
 [e ++ _current_dma_type_ptr * -> -> 1 `i `x -> -> # *U _current_dma_type_ptr `i `x ]
-"266
-[e $U 1876  ]
 "268
-[e :U 1885 ]
+[e $U 1876  ]
 "270
-[e = _current_speed_linear _ADC_result ]
-"271
-[e = _current_speed_linear -> >> -> _current_speed_linear `ui -> 2 `i `us ]
+[e :U 1885 ]
 "272
-[e ++ _current_dma_type_ptr * -> -> 1 `i `x -> -> # *U _current_dma_type_ptr `i `x ]
+[e = _current_speed_linear _ADC_result ]
 "273
-[e $U 1876  ]
-"275
-[e :U 1886 ]
-"277
-[e = _current_depth _ADC_result ]
-"278
-[e = _current_depth -> >> -> _current_depth `ui -> 4 `i `us ]
-"279
+[e = _current_speed_linear -> >> -> _current_speed_linear `ui -> 2 `i `us ]
+"274
 [e ++ _current_dma_type_ptr * -> -> 1 `i `x -> -> # *U _current_dma_type_ptr `i `x ]
+"275
+[e $U 1876  ]
+"277
+[e :U 1886 ]
+"279
+[e = _current_depth _ADC_result ]
 "280
-[e $U 1876  ]
+[e = _current_depth -> >> -> _current_depth `ui -> 4 `i `us ]
+"281
+[e ++ _current_dma_type_ptr * -> -> 1 `i `x -> -> # *U _current_dma_type_ptr `i `x ]
 "282
-[e :U 1887 ]
+[e $U 1876  ]
 "284
-[e = _current_symmetry -> _ADC_result `ul ]
-"285
-[e = _current_symmetry >> _current_symmetry -> 4 `i ]
+[e :U 1887 ]
 "286
-[e = _current_dma_type_ptr &U *U + &U _dma_type_array * -> -> -> 0 `i `ui `ux -> -> # *U &U _dma_type_array `ui `ux ]
+[e = _current_symmetry -> _ADC_result `ul ]
 "287
-[e $U 1876  ]
+[e = _current_symmetry >> _current_symmetry -> 4 `i ]
+"288
+[e = _current_dma_type_ptr &U *U + &U _dma_type_array * -> -> -> 0 `i `ui `ux -> -> # *U &U _dma_type_array `ui `ux ]
 "289
-[e :U 1888 ]
-"291
 [e $U 1876  ]
-"292
+"291
+[e :U 1888 ]
+"293
+[e $U 1876  ]
+"294
 }
 [e $U 1876  ]
 [e :U 1877 ]
@@ -2373,14 +2379,16 @@ Version 4.0 HI-TECH Software Intermediate Code
  , $ -> -> 19 `i `ui 1887
  1888 ]
 [e :U 1876 ]
-"294
-[e ( _TMR1_Write (1 -> -> 65350 `l `ui ]
-"295
-[e ( _TMR1_Start ..  ]
+"296
+[e ( _TMR1_Write (1 -> -> 65301 `l `ui ]
 "297
-[e = . . _PIE3bits 0 4 -> -> 1 `i `uc ]
+[e ( _TMR1_Start ..  ]
 "299
+[e = . . _PIE3bits 0 4 -> -> 1 `i `uc ]
+"301
 [e ++ _adcc_counter -> -> 1 `i `Vuc ]
-"300
+"303
+[e = _LATC5 -> -> 1 `i `b ]
+"304
 [e :UE 1872 ]
 }

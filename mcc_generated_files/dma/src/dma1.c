@@ -228,6 +228,8 @@ void DMA1_DefaultInterruptHandler(void){
     // add your DMA1 interrupt custom code
     // or set custom function using DMA1_SCNTIInterruptHandlerSet() /DMA1_DCNTIInterruptHandlerSet() /DMA1_AIInterruptHandlerSet() /DMA1_ORIInterruptHandlerSet()
     
+    LATC4 = 0;
+    
     PIE2bits.DMA1DCNTIE = 0;
     PIE4bits.TMR3IE = 0;
     
@@ -297,6 +299,8 @@ void DMA1_DefaultInterruptHandler(void){
     PIE3bits.TMR1IE = 1;
     
     adcc_counter++;
+    
+    LATC5 = 1;
 }
 /**
  End of File

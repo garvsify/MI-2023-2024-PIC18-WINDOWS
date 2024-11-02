@@ -51,6 +51,7 @@ int main(void){
 
     TMR1_Write(TMR1_OVERFLOW_COUNT);
     TMR1_Start(); //ADCC is triggered on overflow, including TMR3, which then triggers the DMA transfer on its overflow
+    LATC5 = 1;
     
     while(ready_to_start_oscillator == 0){} //wait for all adcc values to be loaded
     

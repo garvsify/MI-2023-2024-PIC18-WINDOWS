@@ -59,10 +59,8 @@
     #define SPEED_FLAG 1
     #define DEPTH_FLAG 2
     #define SYMMETRY_FLAG 3
-    //#define TMR1_OVERFLOW_COUNT 65450
-    #define TMR1_OVERFLOW_COUNT 65350
-    //#define TMR3_OVERFLOW_COUNT 65450
-    #define TMR3_OVERFLOW_COUNT 65350
+    #define TMR1_OVERFLOW_COUNT 65301 //okay for some STRANGE AF reason, if you set the TMR1 and TMR3 count periods exactly the same it fucks things up so DON'T CHANGE THESE VALUES
+    #define TMR3_OVERFLOW_COUNT 65300 //okay for some STRANGE AF reason, if you set the TMR1 and TMR3 count periods exactly the same it fucks things up so DON'T CHANGE THESE VALUES
 
     #define SYMMETRY_ADC_RESOLUTION 8
 

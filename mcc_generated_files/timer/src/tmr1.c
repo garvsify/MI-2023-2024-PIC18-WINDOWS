@@ -146,21 +146,18 @@ static void TMR1_DefaultOverflowCallback(void)
     //Add your interrupt code here or
     //Use TMR1_OverflowCallbackRegister function to use Custom ISR
     
+    LATC5 = 0;
+    
     PIE3bits.TMR1IE = 0;
     
     TMR1_Stop();
     
     ADCC_StartConversion(**current_dma_type_ptr);
     
-    /*if(**current_adcc_type_ptr != symmetry_adc_config_value){
-        current_adcc_type_ptr++;
-    }
-    else{
-        current_adcc_type_ptr = &adcc_type_array[0]; 
-    }*/
-    
     TMR3_Write(TMR3_OVERFLOW_COUNT);
     TMR3_Start();
+    
+    LATC4 = 1;
     
     PIE4bits.TMR3IE = 1;
     PIE2bits.DMA1DCNTIE = 1;
