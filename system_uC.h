@@ -82,15 +82,6 @@
         #define SYMMETRY_ADC_FULL_SCALE 255
         #define SYMMETRY_ADC_HALF_SCALE 128
     #endif
-
-
-
-    const uint8_t TMR0_prescaler_bits[9] = {0b00001000,0b00000111,0b00000110,0b00000101,0b00000100,0b00000011,0b00000010,0b00000001,0b00000000}; //256,128,64,32,16,8,4,2,1 - values do extend beyond 256 but we don't need them
-    
-    extern volatile const adcc_channel_t waveshape_adc_config_value;
-    extern volatile const adcc_channel_t speed_adc_config_value;
-    extern volatile const adcc_channel_t depth_adc_config_value;
-    extern volatile const adcc_channel_t symmetry_adc_config_value;
     
     const uint8_t POSITIVE = 1;
     const uint8_t NEGATIVE = 0;
@@ -101,12 +92,48 @@
     const uint8_t DONT_CARE = 4;
     const uint8_t YES = 1;
     const uint8_t NO = 0;
-
-    volatile const adcc_channel_t* adcc_type_array[4] = {&waveshape_adc_config_value, &speed_adc_config_value, &depth_adc_config_value, &symmetry_adc_config_value};
-    volatile const adcc_channel_t* dma_type_array[4] = {&waveshape_adc_config_value, &speed_adc_config_value, &depth_adc_config_value, &symmetry_adc_config_value}; //DMA type obviously need not be of adcc_channel_t type but just using for sameness
-    extern volatile const  adcc_channel_t** volatile current_adcc_type_ptr;
-    extern volatile const adcc_channel_t** volatile current_dma_type_ptr; //DMA type obviously need not be of adcc_channel_t type but just using for sameness
     
+    struct Global_Variables{
+        volatile uint32_t final_TMR0;
+        volatile uint8_t TMR0_prescaler_adjust;
+        volatile uint32_t raw_TMR0;
+        volatile uint8_t TMR0_base_prescaler_bits_index;
+        volatile uint8_t TMR0_prescaler_final_index;
+        volatile uint8_t symmetry_status;
+        volatile uint16_t speed_control;
+        volatile uint32_t speed_control_32;
+        volatile uint8_t how_many_128;
+        volatile uint16_t duty;
+        volatile uint8_t current_waveshape;
+        volatile uint16_t current_speed_linear;
+        volatile uint32_t current_speed_linear_32;
+        volatile uint16_t current_depth;
+        volatile uint32_t current_symmetry;
+        volatile uint8_t current_one_quadrant_index;
+        volatile uint8_t current_halfcycle;
+        volatile uint8_t current_quadrant;
+        volatile uint8_t prescaler_final_index;
+        adc_result_t ADC_result;
+        volatile uint8_t dutyL;
+        volatile uint8_t dutyH;
+        volatile uint8_t current_depthL;
+        volatile uint16_t result_of_low_by_low;
+        volatile uint32_t result_of_low_by_high;
+        volatile int32_t multiply_product;
+        volatile uint8_t res0;
+        volatile uint8_t res1;
+        volatile uint8_t res2;
+        volatile uint8_t res3;
+        volatile uint8_t ready_to_start_oscillator;
+        
+        volatile const adcc_channel_t waveshape_adc_config_value = 0x10;
+        volatile const adcc_channel_t speed_adc_config_value = 0x11;
+        volatile const adcc_channel_t depth_adc_config_value = 0x12;
+        volatile const adcc_channel_t symmetry_adc_config_value = 0x13;
+        volatile const uint8_t TMR0_prescaler_bits[9] = {0b00001000,0b00000111,0b00000110,0b00000101,0b00000100,0b00000011,0b00000010,0b00000001,0b00000000}; //256,128,64,32,16,8,4,2,1 - values do extend beyond 256 but we don't need them
+        volatile const adcc_channel_t** volatile current_dma_type_ptr;
+        volatile const adcc_channel_t* dma_type_array[4] = {&waveshape_adc_config_value, &speed_adc_config_value, &depth_adc_config_value, &symmetry_adc_config_value}; //DMA type obviously need not be of adcc_channel_t type but just using for sameness
+    };
     
     uint8_t process_TMR0_raw_speed_and_prescaler(void);
     uint8_t turn_TMR0_prescaler_OFF(void);
@@ -116,40 +143,7 @@
     uint8_t shorten_period(void);
     uint8_t lengthen_period(void);
     uint8_t process_TMR0_and_prescaler_adjust(void);
-
     
-    volatile extern uint32_t final_TMR0;
-    volatile extern uint8_t TMR0_prescaler_adjust;
-    volatile extern uint32_t raw_TMR0;
-    volatile extern uint8_t base_prescaler_bits_index;
-    volatile extern uint8_t symmetry_status;
-    volatile extern uint16_t speed_control;
-    volatile extern uint32_t speed_control_32;
-    volatile extern uint8_t how_many_128;
-    volatile extern uint16_t duty;
-    volatile extern uint8_t duty_low_byte;
-    volatile extern uint8_t duty_high_byte;
-    volatile extern uint8_t current_waveshape;
-    volatile extern uint16_t current_speed_linear;
-    volatile extern uint32_t current_speed_linear_32;
-    volatile extern uint16_t current_depth;
-    volatile extern uint32_t current_symmetry;
-    volatile extern uint8_t current_one_quadrant_index;
-    volatile extern uint8_t current_halfcycle;
-    volatile extern uint8_t current_quadrant;
-    volatile extern uint8_t prescaler_overflow_flag;
-    volatile extern uint8_t prescaler_final_index;
-    volatile extern uint8_t ADC_type_flag;
-    adc_result_t ADC_result;
-    volatile extern uint8_t dutyL;
-    volatile extern uint8_t dutyH;
-    volatile extern uint8_t current_depthL;
-    volatile extern uint16_t result_of_low_by_low;
-    volatile extern uint32_t result_of_low_by_high;
-    volatile extern uint32_t multiply_product;
-    volatile extern uint8_t res0;
-    volatile extern uint8_t res1;
-    volatile extern uint8_t res2;
-    volatile extern uint8_t res3;
+    extern struct Global_Variables global_variables;
     
 #endif

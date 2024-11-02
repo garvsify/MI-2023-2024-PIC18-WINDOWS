@@ -1,58 +1,48 @@
 #include "system_uC.h"
 #include <xc.h>
 
-    volatile uint8_t current_waveshape = 0;
-    volatile uint16_t current_speed_linear = 0;
-    volatile uint32_t current_speed_linear_32 = 0;
-    volatile uint16_t current_depth = 0;
-    volatile uint32_t current_symmetry = 0;
-    volatile uint8_t current_one_quadrant_index = 0;
-    volatile uint8_t current_halfcycle = 0;
-    volatile uint8_t current_quadrant = 0;
-    volatile uint8_t how_many_128 = 0;
-    volatile uint32_t final_TMR0 = 0;
-    volatile uint8_t TMR0_prescaler_adjust = 0;
-    volatile uint32_t raw_TMR0 = 0;
-    volatile uint8_t TMR0_base_prescaler_bits_index = 0;
-    volatile uint8_t symmetry_status = 0;
-    volatile uint16_t speed_control = 0;
-    volatile uint32_t speed_control_32 = 0;
-    volatile uint8_t duty_low_byte;
-    volatile uint8_t duty_high_byte;
-    volatile uint16_t duty = 0;
-    volatile uint8_t TMR0_prescaler_overflow_flag = 0;
-    volatile uint8_t TMR0_prescaler_final_index = 0;  
-    volatile uint8_t ADC_type_flag = 0;
-    adc_result_t ADC_result = 0;
-    volatile uint8_t ready_to_start_oscillator = 0;
-    
-    volatile const adcc_channel_t waveshape_adc_config_value = 0x10;
-    volatile const adcc_channel_t speed_adc_config_value = 0x11;
-    volatile const adcc_channel_t depth_adc_config_value = 0x12;
-    volatile const adcc_channel_t symmetry_adc_config_value = 0x13;
-    
-    volatile const adcc_channel_t** volatile current_dma_type_ptr = &dma_type_array[0];
+struct Global_Variables global_variables = {.current_waveshape = SINE_MODE,
+                                            .current_speed_linear = 0,
+                                            .current_speed_linear_32 = 0,
+                                            .current_depth = 0,
+                                            .current_symmetry = 0,
+                                            .current_one_quadrant_index = 0,
+                                            .current_halfcycle = 0,
+                                            .current_quadrant = 0,
+                                            .how_many_128 = 0,
+                                            .final_TMR0 = 0,
+                                            .TMR0_prescaler_adjust = 0,
+                                            .raw_TMR0 = 0,
+                                            .TMR0_base_prescaler_bits_index = 0,
+                                            .symmetry_status = 0,
+                                            .speed_control = 0,
+                                            .speed_control_32 = 0,
+                                            .duty = 0,
+                                            .TMR0_prescaler_final_index = 0,
+                                            .ADC_result = 0,
+                                            .ready_to_start_oscillator = 0
+};
 
 
-uint8_t process_TMR0_raw_speed_and_prescaler(void){
+uint8_t process_TMR0_raw_speed_and_prescaler(struct Global_Variables global_variables){
     
-    current_speed_linear_32 = current_speed_linear;
-    speed_control_32 = current_speed_linear_32 * NUMBER_OF_FREQUENCY_STEPS;
-    speed_control_32 = speed_control_32 >> 10;
-    speed_control = (uint16_t) speed_control_32;
+    global_variables.current_speed_linear_32 = global_variables.current_speed_linear;
+    global_variables.speed_control_32 = global_variables.current_speed_linear_32 * NUMBER_OF_FREQUENCY_STEPS;
+    global_variables.speed_control_32 = global_variables.speed_control_32 >> 10;
+    global_variables.speed_control = (uint16_t) global_variables.speed_control_32;
     //speed_control = (speed_adc_10_bit/1024)*883
-        if(speed_control <= (127-12)){ //inequality is correct!
-            raw_TMR0 = (uint8_t) speed_control + 12; //set TMR0
-            TMR0_base_prescaler_bits_index = 1;
+        if(global_variables.speed_control <= (127-12)){ //inequality is correct!
+            global_variables.raw_TMR0 = (uint8_t) global_variables.speed_control + 12; //set TMR0
+            global_variables.TMR0_base_prescaler_bits_index = 1;
         }
         else{ 	//(speed_control > (127-12))
             uint16_t speed_control_subtracted;
-            speed_control_subtracted = speed_control - (127-12);
-            how_many_128 = (uint8_t)(speed_control_subtracted >> 7); //divide by 128, i.e. return how many 128s go into the speed_control
-            raw_TMR0 = (uint8_t)(speed_control_subtracted - (uint16_t)(how_many_128 << 7)); //how_many_128*128, set TMR0
+            speed_control_subtracted = global_variables.speed_control - (127-12);
+            global_variables.how_many_128 = (uint8_t)(speed_control_subtracted >> 7); //divide by 128, i.e. return how many 128s go into the speed_control
+            global_variables.raw_TMR0 = (uint8_t)(speed_control_subtracted - (uint16_t)(global_variables.how_many_128 << 7)); //how_many_128*128, set TMR0
             //biggest how_many_128 for NUMBER_OF_FREQUENCY_STEPS == 600 is 3
             //biggest base_prescaler_bits_index == 5 for NUMBER_OF_FREQUENCY_STEPS == 600
-            TMR0_base_prescaler_bits_index = (uint8_t)(how_many_128 + 2);   
+            global_variables.TMR0_base_prescaler_bits_index = (uint8_t)(global_variables.how_many_128 + 2);   
         }
     return 1;
 }
@@ -60,19 +50,19 @@ uint8_t process_TMR0_raw_speed_and_prescaler(void){
 
 uint8_t adjust_and_set_TMR0_prescaler(void){
     
-    if(TMR0_prescaler_adjust == DIVIDE_BY_TWO){
-        TMR0_prescaler_final_index = TMR0_base_prescaler_bits_index + 1;
+    if(global_variables.TMR0_prescaler_adjust == DIVIDE_BY_TWO){
+        global_variables.TMR0_prescaler_final_index = global_variables.TMR0_base_prescaler_bits_index + 1;
     }
-    else if(TMR0_prescaler_adjust == DIVIDE_BY_FOUR){
-        TMR0_prescaler_final_index = TMR0_base_prescaler_bits_index + 2;
+    else if(global_variables.TMR0_prescaler_adjust == DIVIDE_BY_FOUR){
+        global_variables.TMR0_prescaler_final_index = global_variables.TMR0_base_prescaler_bits_index + 2;
     }
-    else if(TMR0_prescaler_adjust == MULTIPLY_BY_TWO){
-        TMR0_prescaler_final_index = TMR0_base_prescaler_bits_index - 1;
+    else if(global_variables.TMR0_prescaler_adjust == MULTIPLY_BY_TWO){
+        global_variables.TMR0_prescaler_final_index = global_variables.TMR0_base_prescaler_bits_index - 1;
     }
-    else if(TMR0_prescaler_adjust == DO_NOTHING){
-        TMR0_prescaler_final_index = TMR0_base_prescaler_bits_index;
+    else if(global_variables.TMR0_prescaler_adjust == DO_NOTHING){
+        global_variables.TMR0_prescaler_final_index = global_variables.TMR0_base_prescaler_bits_index;
     }
-    T0CON1bits.CKPS = TMR0_prescaler_bits[TMR0_prescaler_final_index];
+    T0CON1bits.CKPS = global_variables.TMR0_prescaler_bits[global_variables.TMR0_prescaler_final_index];
     return 1;
 }
 
@@ -158,8 +148,8 @@ uint8_t process_TMR0_and_prescaler_adjust(void){
     #endif
 
     #if SYMMETRY_ON_OR_OFF == 0
-        final_TMR0 = raw_TMR0;
-        TMR0_prescaler_adjust = DO_NOTHING;
+        global_variables.final_TMR0 = global_variables.raw_TMR0;
+        global_variables.TMR0_prescaler_adjust = DO_NOTHING;
         adjust_and_set_TMR0_prescaler();
     #endif
 

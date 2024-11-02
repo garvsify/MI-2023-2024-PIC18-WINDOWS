@@ -45,27 +45,26 @@ int main(void){
     PIE3bits.TMR1IE = 1;
     PIE3bits.TMR0IE = 1;
     
-    
     INTERRUPT_GlobalInterruptEnable();
 
     TMR1_Write(TMR1_OVERFLOW_COUNT);
     TMR1_Start(); //ADCC is triggered on overflow, including TMR3, which then triggers the DMA transfer on its overflow
     //LATC5 = 1;
     
-    current_speed_linear = 0;
-    current_waveshape = SINE_MODE;
-    T0CON1bits.CKPS = 10;
-    final_TMR0 = 12;
+    global_variables.current_speed_linear = 0;
+    global_variables.current_waveshape = SINE_MODE;
+    //T0CON1bits.CKPS = 10;
+    //final_TMR0 = 12;
     
-    //process_TMR0_raw_speed_and_prescaler(); 
-    //process_TMR0_and_prescaler_adjust();
+    process_TMR0_raw_speed_and_prescaler(); 
+    process_TMR0_and_prescaler_adjust();
     
     TMR0_Start(); //start oscillator
 
     while(1){
         
-        //process_TMR0_raw_speed_and_prescaler();
-        //process_TMR0_and_prescaler_adjust();
+        process_TMR0_raw_speed_and_prescaler();
+        process_TMR0_and_prescaler_adjust();
 
         ClrWdt();
     }
