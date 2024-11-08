@@ -59,7 +59,7 @@ int main(void){
     uint8_t flag = 1;
     while(flag){ //DO NOT CHANGE THIS TO 'while(global_variables.oscillator_ready == 0){}' IT DOES NOT WORK FOR SOME STUPID REASON!
     
-        flag = global_variables.oscillator_ready;
+        flag = !global_variables.oscillator_ready;
     };
     
     process_TMR0_raw_speed_and_prescaler();

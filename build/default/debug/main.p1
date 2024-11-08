@@ -1715,7 +1715,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U 1849 ]
 {
 "62
-[e = _flag . _global_variables 37 ]
+[e = _flag -> -> ! != -> . _global_variables 37 `i -> 0 `i `i `uc ]
 "63
 }
 [e :U 1848 ]
