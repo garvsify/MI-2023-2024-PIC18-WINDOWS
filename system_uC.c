@@ -21,21 +21,17 @@ struct Global_Variables global_variables = {.current_waveshape = SINE_MODE,
                                             .TMR0_prescaler_final_index = 0,
                                             .ADC_result = 0,
                                             .ready_to_start_oscillator = 0,
-                                            .waveshape_adc_config_value = WAVESHAPE_ADC_CONFIG_VALUE,
-                                            .speed_adc_config_value = SPEED_ADC_CONFIG_VALUE,
-                                            .depth_adc_config_value = DEPTH_ADC_CONFIG_VALUE,
-                                            .symmetry_adc_config_value = SYMMETRY_ADC_CONFIG_VALUE,
-                                            
-};
-
-= {0b00001000,0b00000111,0b00000110,0b00000101,0b00000100,0b00000011,0b00000010,0b00000001,0b00000000}; //256,128,64,32,16,8,4,2,1 - values do extend beyond 256 but we don't need them
-       
-
-volatile const adcc_channel_t* dma_type_array[4] = {&waveshape_adc_config_value, &speed_adc_config_value, &depth_adc_config_value, &symmetry_adc_config_value}; //DMA type obviously need not be of adcc_channel_t type but just using for sameness
-    
+                                            .waveshape_adc_config_value = 0x10,//WAVESHAPE_ADC_CONFIG_VALUE,
+                                            .speed_adc_config_value = 0x11,//SPEED_ADC_CONFIG_VALUE,
+                                            .depth_adc_config_value = 0x12,//DEPTH_ADC_CONFIG_VALUE,
+                                            .symmetry_adc_config_value = 0x13,//SYMMETRY_ADC_CONFIG_VALUE
+                                            .prescaler_values = {0b00001000,0b00000111,0b00000110,0b00000101,0b00000100,0b00000011,0b00000010,0b00000001,0b00000000}, //256,128,64,32,16,8,4,2,1 - values do extend beyond 256 but we don't need them
+                                            .dma_type_array = {&global_variables.waveshape_adc_config_value, &global_variables.speed_adc_config_value, &global_variables.depth_adc_config_value, &global_variables.symmetry_adc_config_value},
+                                            .current_dma_type_ptr = &global_variables.dma_type_array[0]
+}; 
 
 
-uint8_t process_TMR0_raw_speed_and_prescaler(struct Global_Variables global_variables){
+uint8_t process_TMR0_raw_speed_and_prescaler(void){
     
     global_variables.current_speed_linear_32 = global_variables.current_speed_linear;
     global_variables.speed_control_32 = global_variables.current_speed_linear_32 * NUMBER_OF_FREQUENCY_STEPS;

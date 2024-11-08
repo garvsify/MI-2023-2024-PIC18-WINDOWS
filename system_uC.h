@@ -124,7 +124,7 @@
         volatile uint8_t current_depthL;
         volatile uint16_t result_of_low_by_low;
         volatile uint32_t result_of_low_by_high;
-        volatile int32_t multiply_product;
+        volatile uint32_t multiply_product;
         volatile uint8_t res0;
         volatile uint8_t res1;
         volatile uint8_t res2;
@@ -137,11 +137,14 @@
         volatile const adcc_channel_t speed_adc_config_value;
         volatile const adcc_channel_t depth_adc_config_value;
         volatile const adcc_channel_t symmetry_adc_config_value;
+        
+        volatile const uint8_t prescaler_values[9];
+        volatile const adcc_channel_t* dma_type_array[4];
         };
     
-    uint8_t process_TMR0_raw_speed_and_prescaler(struct Global_Variables global_variables);
-    uint8_t process_TMR0_and_prescaler_adjust(struct Global_Variables global_variables);
-    uint8_t adjust_and_set_TMR0_prescaler(struct Global_Variables global_variables);
+    uint8_t process_TMR0_raw_speed_and_prescaler(void);
+    uint8_t process_TMR0_and_prescaler_adjust(void);
+    uint8_t adjust_and_set_TMR0_prescaler(void);
     uint8_t shorten_period(void);
     uint8_t lengthen_period(void);
     

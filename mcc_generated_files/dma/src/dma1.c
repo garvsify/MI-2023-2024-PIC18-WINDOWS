@@ -1,8 +1,11 @@
 #include "../dma1.h"
+#include "../../../system_uC.h"
+
+extern struct Global_Variables global_variables;
 
 void (*DMA1_SCNTI_InterruptHandler)(void);
 
-void (*DMA1_DCNTI_InterruptHandler)(struct Global_Variables global_variables);
+void (*DMA1_DCNTI_InterruptHandler)(void);
 
 /**
  * @ingroup dma1
@@ -10,7 +13,7 @@ void (*DMA1_DCNTI_InterruptHandler)(struct Global_Variables global_variables);
  * @param None.
  * @return None.
  */
-void DMA1_DefaultInterruptHandler(struct Global_Variables global_variables);
+void DMA1_DefaultInterruptHandler(void);
 
 static uint8_t adres[2];
 
@@ -213,15 +216,15 @@ void DMA1_DMADCNTI_ISR(void)
     PIR2bits.DMA1DCNTIF = 0;
 
     if (DMA1_DCNTI_InterruptHandler)
-            DMA1_DCNTI_InterruptHandler(global_variables);
+            DMA1_DCNTI_InterruptHandler();
 }
 
-void DMA1_SetDCNTIInterruptHandler(void (* InterruptHandler)(struct Global_Variables global_variables))
+void DMA1_SetDCNTIInterruptHandler(void (* InterruptHandler)(void))
 {
 	 DMA1_DCNTI_InterruptHandler = InterruptHandler;
 }
 
-void DMA1_DefaultInterruptHandler(struct Global_Variables global_variables){
+void DMA1_DefaultInterruptHandler(void){
     // add your DMA1 interrupt custom code
     // or set custom function using DMA1_SCNTIInterruptHandlerSet() /DMA1_DCNTIInterruptHandlerSet() /DMA1_AIInterruptHandlerSet() /DMA1_ORIInterruptHandlerSet()
     

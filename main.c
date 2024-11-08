@@ -53,18 +53,18 @@ int main(void){
     
     global_variables.current_speed_linear = 0;
     global_variables.current_waveshape = SINE_MODE;
-    //T0CON1bits.CKPS = 10;
-    //final_TMR0 = 12;
+    T0CON1bits.CKPS = 10;
+    global_variables.final_TMR0 = 12;
     
-    process_TMR0_raw_speed_and_prescaler(); 
-    process_TMR0_and_prescaler_adjust();
+    //process_TMR0_raw_speed_and_prescaler(); 
+    //process_TMR0_and_prescaler_adjust();
     
     TMR0_Start(); //start oscillator
 
     while(1){
         
-        process_TMR0_raw_speed_and_prescaler();
-        process_TMR0_and_prescaler_adjust();
+        //process_TMR0_raw_speed_and_prescaler();
+        //process_TMR0_and_prescaler_adjust();
 
         ClrWdt();
     }

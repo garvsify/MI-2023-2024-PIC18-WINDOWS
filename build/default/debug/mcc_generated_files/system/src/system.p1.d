@@ -9,6 +9,7 @@ mcc_generated_files/system/src/../../dma/../../system_uC.h  \
 wavetables.h  \
 pinouts.h  \
 mcc_generated_files/system/interrupt.h  \
+mcc_generated_files/system/src/../../../system_uC.h  \
 mcc_generated_files/timer/tmr3.h  \
 mcc_generated_files/timer/timer_interface.h  \
 mcc_generated_files/timer/tmr2.h  \

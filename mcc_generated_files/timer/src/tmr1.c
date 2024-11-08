@@ -152,7 +152,7 @@ static void TMR1_DefaultOverflowCallback(void)
     
     TMR1_Stop();
     
-    ADCC_StartConversion(**current_dma_type_ptr);
+    ADCC_StartConversion(**(global_variables.current_dma_type_ptr));
     
     TMR3_Write(TMR3_OVERFLOW_COUNT);
     TMR3_Start();

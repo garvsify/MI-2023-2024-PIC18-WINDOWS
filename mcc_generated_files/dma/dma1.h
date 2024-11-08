@@ -37,9 +37,11 @@
 /**
   Section: Included Files
 */
+#include "../../system_uC.h"
 #include <stdint.h>
 #include <xc.h>
-#include "../../system_uC.h"
+
+extern struct Global_Variables global_variables; //compiler not happy with extern struct declaration even though it's in system_uC.h lol
 
 /**
  * @ingroup dma1
@@ -270,7 +272,7 @@ void DMA1_DMASCNTI_ISR(void);
  * @param *InterruptHandler - Callback function for the destination count interrupt event.
  * @return None.
  */
-void DMA1_DCNTIInterruptHandlerSet(void (* InterruptHandler)(struct Global_Variables global_variables));
+void DMA1_DCNTIInterruptHandlerSet(void (* InterruptHandler)(void));
 
 /**
  * @ingroup dma1

@@ -2,7 +2,7 @@
 #define INTERRUPT_H
 
 #include <xc.h>
-
+#include "../../system_uC.h"
 
 /**
  * @ingroup interrupt

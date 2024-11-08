@@ -11,8 +11,8 @@ const struct TMR_INTERFACE Timer0 = {
     .Tasks = NULL
 };
 
-static void (*TMR0_OverflowCallback)(struct Global_Variables global_variables);
-static void TMR0_DefaultOverflowCallback(struct Global_Variables global_variables);
+static void (*TMR0_OverflowCallback)(void);
+static void TMR0_DefaultOverflowCallback(void);
 
 /**
   Section: TMR0 APIs
@@ -85,12 +85,12 @@ void TMR0_OverflowISR(void)
     }
 }
 
-void TMR0_OverflowCallbackRegister(void (* CallbackHandler)(struct Global_Variables global_variables))
+void TMR0_OverflowCallbackRegister(void (* CallbackHandler)(void))
 {
     TMR0_OverflowCallback = CallbackHandler;
 }
 
-uint8_t multiply_duty_by_current_depth_and_divide_by_256(struct Global_Variables global_variables){
+uint8_t multiply_duty_by_current_depth_and_divide_by_256(void){
     
     global_variables.dutyL = (uint8_t)global_variables.duty;
     global_variables.dutyH = global_variables.duty >> 8;
@@ -114,7 +114,7 @@ uint8_t multiply_duty_by_current_depth_and_divide_by_256(struct Global_Variables
     return 1;
 }
 
-static void TMR0_DefaultOverflowCallback(struct Global_Variables global_variables)
+static void TMR0_DefaultOverflowCallback(void)
 {
     TMR0H = (uint8_t)global_variables.final_TMR0; //this line must go here, or at least very near the beginning!
         //LATC5 = 1; //start ISR length measurement

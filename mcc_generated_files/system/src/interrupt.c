@@ -4,6 +4,9 @@
 #include "../../timer/tmr1.h"
 #include "../../timer/tmr3.h"
 #include "../interrupt.h"
+#include "../../../system_uC.h"
+
+extern struct Global_Variables global_variables;
 
 
 void (*INT0_InterruptHandler)(void);
@@ -50,7 +53,7 @@ void  INTERRUPT_Initialize (void)
  */
 void __interrupt() INTERRUPT_InterruptManager (void)
 {
-    
+   
     INTERRUPT_GlobalInterruptDisable();
     
     // interrupt handler

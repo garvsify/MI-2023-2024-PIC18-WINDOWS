@@ -5,6 +5,8 @@
 #include <stdint.h>
 #include "../../system_uC.h"
 
+extern struct Global_Variables global_variables; //compiler not happy with extern struct declaration even though it's in system_uC.h lol
+
 
 /**
  * @ingroup tmr0
@@ -136,10 +138,10 @@ void TMR0_OverflowISR(void);
  * @param CallbackHandler - Pointer to the custom callback.
  * @return None.
  */
- void TMR0_OverflowCallbackRegister(void (* CallbackHandler)(struct Global_Variables global_variables));
+ void TMR0_OverflowCallbackRegister(void (* CallbackHandler)(void));
 
  
- uint8_t multiply_duty_by_current_depth_and_divide_by_256(struct Global_Variables global_variables);
+ uint8_t multiply_duty_by_current_depth_and_divide_by_256(void);
 
 /**
  * @}
