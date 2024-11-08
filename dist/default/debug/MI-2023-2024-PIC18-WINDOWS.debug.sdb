@@ -16,8 +16,8 @@ channel_ANC1 17
 channel_ANC2 18
 channel_ANC3 19
 ]
-"246 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/dma/src/dma1.c
-[e E13118 . `uc
+"233 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/dma/src/dma1.c
+[e E13116 . `uc
 channel_DAC2 58
 channel_VSS 59
 channel_Temp 60
@@ -92,7 +92,7 @@ channel_ANC2 18
 channel_ANC3 19
 ]
 "155 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/timer/src/tmr1.c
-[e E13118 . `uc
+[e E13116 . `uc
 channel_DAC2 58
 channel_VSS 59
 channel_Temp 60
@@ -104,8 +104,8 @@ channel_ANC1 17
 channel_ANC2 18
 channel_ANC3 19
 ]
-"54 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/main.c
-[e E13118 . `uc
+"62 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/main.c
+[e E13116 . `uc
 channel_DAC2 58
 channel_VSS 59
 channel_Temp 60
@@ -118,7 +118,7 @@ channel_ANC2 18
 channel_ANC3 19
 ]
 "4 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/system_uC.c
-[e E13118 . `uc
+[e E13116 . `uc
 channel_DAC2 58
 channel_VSS 59
 channel_Temp 60
@@ -270,8 +270,12 @@ channel_ANC3 19
 [v _TMR3_GateCallbackRegister TMR3_GateCallbackRegister `(v  1 e 1 0 ]
 "205
 [v _TMR3_DefaultGateCallback TMR3_DefaultGateCallback `(v  1 s 1 TMR3_DefaultGateCallback ]
-"58 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/system_uC.c
+"35 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/system_uC.c
+[v _process_TMR0_raw_speed_and_prescaler process_TMR0_raw_speed_and_prescaler `(uc  1 e 1 0 ]
+"59
 [v _adjust_and_set_TMR0_prescaler adjust_and_set_TMR0_prescaler `(uc  1 e 1 0 ]
+"116
+[v _process_TMR0_and_prescaler_adjust process_TMR0_and_prescaler_adjust `(uc  1 e 1 0 ]
 "7 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/wavetables.h
 [v _sine_table_one_quadrant sine_table_one_quadrant `C[129]us  1 e 258 0 ]
 "8
@@ -474,12 +478,12 @@ channel_ANC3 19
 [v _T0CON0bits T0CON0bits `VES1708  1 e 1 @794 ]
 "19720
 [v _T0CON1 T0CON1 `VEuc  1 e 1 @795 ]
-[s S2626 . 1 `uc 1 CKPS 1 0 :4:0 
+[s S2706 . 1 `uc 1 CKPS 1 0 :4:0 
 `uc 1 ASYNC 1 0 :1:4 
 `uc 1 CS 1 0 :3:5 
 ]
 "19757
-[s S2630 . 1 `uc 1 CKPS0 1 0 :1:0 
+[s S2710 . 1 `uc 1 CKPS0 1 0 :1:0 
 `uc 1 CKPS1 1 0 :1:1 
 `uc 1 CKPS2 1 0 :1:2 
 `uc 1 CKPS3 1 0 :1:3 
@@ -488,11 +492,11 @@ channel_ANC3 19
 `uc 1 CS1 1 0 :1:6 
 `uc 1 CS2 1 0 :1:7 
 ]
-[s S2639 . 1 `uc 1 T0CKPS 1 0 :4:0 
+[s S2719 . 1 `uc 1 T0CKPS 1 0 :4:0 
 `uc 1 . 1 0 :1:4 
 `uc 1 T0CS 1 0 :3:5 
 ]
-[s S2643 . 1 `uc 1 T0CKPS0 1 0 :1:0 
+[s S2723 . 1 `uc 1 T0CKPS0 1 0 :1:0 
 `uc 1 T0CKPS1 1 0 :1:1 
 `uc 1 T0CKPS2 1 0 :1:2 
 `uc 1 T0CKPS3 1 0 :1:3 
@@ -501,8 +505,8 @@ channel_ANC3 19
 `uc 1 T0CS1 1 0 :1:6 
 `uc 1 T0CS2 1 0 :1:7 
 ]
-[u S2652 . 1 `S2626 1 . 1 0 `S2630 1 . 1 0 `S2639 1 . 1 0 `S2643 1 . 1 0 ]
-[v _T0CON1bits T0CON1bits `VES2652  1 e 1 @795 ]
+[u S2732 . 1 `S2706 1 . 1 0 `S2710 1 . 1 0 `S2719 1 . 1 0 `S2723 1 . 1 0 ]
+[v _T0CON1bits T0CON1bits `VES2732  1 e 1 @795 ]
 "19862
 [v _T2TMR T2TMR `VEuc  1 e 1 @796 ]
 "19867
@@ -951,7 +955,7 @@ channel_ANC3 19
 "35138
 "35138
 [v _PIE3bits PIE3bits `VES763  1 e 1 @1195 ]
-[s S632 . 1 `uc 1 U1RXIE 1 0 :1:0 
+[s S724 . 1 `uc 1 U1RXIE 1 0 :1:0 
 `uc 1 U1TXIE 1 0 :1:1 
 `uc 1 U1EIE 1 0 :1:2 
 `uc 1 U1IE 1 0 :1:3 
@@ -961,10 +965,10 @@ channel_ANC3 19
 `uc 1 PWM1IE 1 0 :1:7 
 ]
 "35200
-[u S641 . 1 `S632 1 . 1 0 ]
+[u S733 . 1 `S724 1 . 1 0 ]
 "35200
 "35200
-[v _PIE4bits PIE4bits `VES641  1 e 1 @1196 ]
+[v _PIE4bits PIE4bits `VES733  1 e 1 @1196 ]
 [s S46 . 1 `uc 1 INT0IF 1 0 :1:0 
 `uc 1 ZCDIF 1 0 :1:1 
 `uc 1 ADIF 1 0 :1:2 
@@ -1109,13 +1113,42 @@ channel_ANC3 19
 [v _TMR3_OverflowCallback TMR3_OverflowCallback `*.37(v  1 s 2 TMR3_OverflowCallback ]
 "57
 [v _TMR3_GateCallback TMR3_GateCallback `*.37(v  1 s 2 TMR3_GateCallback ]
-[s S665 Global_Variables 90 `VEul 1 final_TMR0 4 0 `VEuc 1 TMR0_prescaler_adjust 1 4 `VEul 1 raw_TMR0 4 5 `VEuc 1 TMR0_base_prescaler_bits_index 1 9 `VEuc 1 TMR0_prescaler_final_index 1 10 `VEuc 1 symmetry_status 1 11 `VEus 1 speed_control 2 12 `VEul 1 speed_control_32 4 14 `VEuc 1 how_many_128 1 18 `VEus 1 duty 2 19 `VEuc 1 current_waveshape 1 21 `VEus 1 current_speed_linear 2 22 `VEul 1 current_speed_linear_32 4 24 `VEus 1 current_depth 2 28 `VEul 1 current_symmetry 4 30 `VEuc 1 current_one_quadrant_index 1 34 `VEuc 1 current_halfcycle 1 35 `VEuc 1 current_quadrant 1 36 `VEuc 1 prescaler_final_index 1 37 `us 1 ADC_result 2 38 `VEuc 1 dutyL 1 40 `VEuc 1 dutyH 1 41 `VEuc 1 current_depthL 1 42 `VEus 1 result_of_low_by_low 2 43 `VEul 1 result_of_low_by_high 4 45 `VEul 1 multiply_product 4 49 `VEuc 1 res0 1 53 `VEuc 1 res1 1 54 `VEuc 1 res2 1 55 `VEuc 1 res3 1 56 `VEuc 1 ready_to_start_oscillator 1 57 `CVE[9]uc 1 TMR0_prescaler_bits 9 58 `VE*.39*.39CVEE13118 1 current_dma_type_ptr 2 67 `CVEE13118 1 waveshape_adc_config_value 1 69 `CVEE13118 1 speed_adc_config_value 1 70 `CVEE13118 1 depth_adc_config_value 1 71 `CVEE13118 1 symmetry_adc_config_value 1 72 `CVE[9]uc 1 prescaler_values 9 73 `[4]*.39CVEE13118 1 dma_type_array 8 82 ]
+[s S644 Global_Variables 82 `VEul 1 final_TMR0 4 0 `VEuc 1 TMR0_prescaler_adjust 1 4 `VEul 1 raw_TMR0 4 5 `VEuc 1 TMR0_base_prescaler_bits_index 1 9 `VEuc 1 TMR0_prescaler_final_index 1 10 `VEuc 1 symmetry_status 1 11 `VEus 1 speed_control 2 12 `VEul 1 speed_control_32 4 14 `VEuc 1 how_many_128 1 18 `VEus 1 duty 2 19 `VEuc 1 current_waveshape 1 21 `VEus 1 current_speed_linear 2 22 `VEul 1 current_speed_linear_32 4 24 `VEus 1 current_depth 2 28 `VEul 1 current_symmetry 4 30 `VEuc 1 current_one_quadrant_index 1 34 `VEuc 1 current_halfcycle 1 35 `VEuc 1 current_quadrant 1 36 `VEuc 1 prescaler_final_index 1 37 `us 1 ADC_result 2 38 `VEuc 1 dutyL 1 40 `VEuc 1 dutyH 1 41 `VEuc 1 current_depthL 1 42 `VEus 1 result_of_low_by_low 2 43 `VEul 1 result_of_low_by_high 4 45 `VEul 1 multiply_product 4 49 `VEuc 1 res0 1 53 `VEuc 1 res1 1 54 `VEuc 1 res2 1 55 `VEuc 1 res3 1 56 `VE*.39*.39CVEE13116 1 current_dma_type_ptr 2 57 `CVEE13116 1 waveshape_adc_config_value 1 59 `CVEE13116 1 speed_adc_config_value 1 60 `CVEE13116 1 depth_adc_config_value 1 61 `CVEE13116 1 symmetry_adc_config_value 1 62 `[4]*.39CVEE13116 1 dma_type_array 8 63 `CVE[9]uc 1 TMR0_prescaler_bits 9 71 `VEuc 1 oscillator_ready 1 80 `VEuc 1 adc_counter 1 81 ]
 "4 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/system_uC.c
-[v _global_variables global_variables `VES665  1 e 90 0 ]
+[v _global_variables global_variables `VES644  1 e 82 0 ]
 "38 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/main.c
 [v _main main `(i  1 e 2 0 ]
 {
-"71
+"59
+[v main@flag flag `uc  1 a 1 32 ]
+"77
+} 0
+"35 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/system_uC.c
+[v _process_TMR0_raw_speed_and_prescaler process_TMR0_raw_speed_and_prescaler `(uc  1 e 1 0 ]
+{
+"47
+[v process_TMR0_raw_speed_and_prescaler@speed_control_subtracted speed_control_subtracted `us  1 a 2 30 ]
+"56
+} 0
+"15 /opt/microchip/xc8/v2.50/pic/sources/c99/common/Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"17
+[v ___lmul@product product `ul  1 a 4 22 ]
+"15
+[v ___lmul@multiplier multiplier `ul  1 p 4 14 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 18 ]
+"129
+} 0
+"116 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/system_uC.c
+[v _process_TMR0_and_prescaler_adjust process_TMR0_and_prescaler_adjust `(uc  1 e 1 0 ]
+{
+"166
+} 0
+"59
+[v _adjust_and_set_TMR0_prescaler adjust_and_set_TMR0_prescaler `(uc  1 e 1 0 ]
+{
+"76
 } 0
 "83 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/timer/src/tmr1.c
 [v _TMR1_Write TMR1_Write `(v  1 e 1 0 ]
@@ -1332,9 +1365,9 @@ channel_ANC3 19
 "227
 [v _DMA1_DefaultInterruptHandler DMA1_DefaultInterruptHandler `(v  1 e 1 0 ]
 {
-"236
+"244
 [v DMA1_DefaultInterruptHandler@ADC_result ADC_result `us  1 a 2 6 ]
-"292
+"300
 } 0
 "83 /home/parallels/Documents/git/MI-2023-2024-PIC18-WINDOWS/mcc_generated_files/timer/src/tmr1.c
 [v i2_TMR1_Write TMR1_Write `(v  1 e 1 0 ]

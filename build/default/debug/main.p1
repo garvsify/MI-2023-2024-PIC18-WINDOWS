@@ -41,32 +41,19 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _TMR1_Write `(v ~T0 @X0 0 ef1`ui ]
 "117
 [v _TMR1_Start `(v ~T0 @X0 0 ef ]
-"54 main.c
-[c E13118 58 59 60 61 62 63 16 17 18 19 .. ]
-[n E13118 . channel_DAC2 channel_VSS channel_Temp channel_DAC1 channel_FVR_Buffer1 channel_FVR_Buffer2 channel_ANC0 channel_ANC1 channel_ANC2 channel_ANC3  ]
-[v F13117 `**CVE13118 ~T0 @X0 1 t ]
+"62 main.c
+[c E13116 58 59 60 61 62 63 16 17 18 19 .. ]
+[n E13116 . channel_DAC2 channel_VSS channel_Temp channel_DAC1 channel_FVR_Buffer1 channel_FVR_Buffer2 channel_ANC0 channel_ANC1 channel_ANC2 channel_ANC3  ]
+[v F13115 `**CVE13116 ~T0 @X0 1 t ]
 "101 ./mcc_generated_files/dma/../../system_uC.h
-[s S1845 `Vul 1 `Vuc 1 `Vul 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vus 1 `Vul 1 `Vuc 1 `Vus 1 `Vuc 1 `Vus 1 `Vul 1 `Vus 1 `Vul 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vuc 1 `us 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vus 1 `Vul 1 `Vul 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vuc 1 `CVuc -> 9 `i `V**CVE13118 1 `CVE13118 1 `CVE13118 1 `CVE13118 1 `CVE13118 1 `CVuc -> 9 `i `*CVE13118 -> 4 `i ]
-[n S1845 Global_Variables final_TMR0 TMR0_prescaler_adjust raw_TMR0 TMR0_base_prescaler_bits_index TMR0_prescaler_final_index symmetry_status speed_control speed_control_32 how_many_128 duty current_waveshape current_speed_linear current_speed_linear_32 current_depth current_symmetry current_one_quadrant_index current_halfcycle current_quadrant prescaler_final_index ADC_result dutyL dutyH current_depthL result_of_low_by_low result_of_low_by_high multiply_product res0 res1 res2 res3 ready_to_start_oscillator TMR0_prescaler_bits current_dma_type_ptr waveshape_adc_config_value speed_adc_config_value depth_adc_config_value symmetry_adc_config_value prescaler_values dma_type_array ]
-"151
+[s S1845 `Vul 1 `Vuc 1 `Vul 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vus 1 `Vul 1 `Vuc 1 `Vus 1 `Vuc 1 `Vus 1 `Vul 1 `Vus 1 `Vul 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vuc 1 `us 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vus 1 `Vul 1 `Vul 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vuc 1 `V**CVE13116 1 `CVE13116 1 `CVE13116 1 `CVE13116 1 `CVE13116 1 `*CVE13116 -> 4 `i `CVuc -> 9 `i `Vuc 1 `Vuc 1 ]
+[n S1845 Global_Variables final_TMR0 TMR0_prescaler_adjust raw_TMR0 TMR0_base_prescaler_bits_index TMR0_prescaler_final_index symmetry_status speed_control speed_control_32 how_many_128 duty current_waveshape current_speed_linear current_speed_linear_32 current_depth current_symmetry current_one_quadrant_index current_halfcycle current_quadrant prescaler_final_index ADC_result dutyL dutyH current_depthL result_of_low_by_low result_of_low_by_high multiply_product res0 res1 res2 res3 current_dma_type_ptr waveshape_adc_config_value speed_adc_config_value depth_adc_config_value symmetry_adc_config_value dma_type_array TMR0_prescaler_bits oscillator_ready adc_counter ]
+"152
 [v _global_variables `S1845 ~T0 @X0 0 e ]
-"19726 /home/parallels/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8/pic/include/proc/pic18f05q40.h
-[s S962 :4 `uc 1 :1 `uc 1 :3 `uc 1 ]
-[n S962 . CKPS ASYNC CS ]
-"19731
-[s S963 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S963 . CKPS0 CKPS1 CKPS2 CKPS3 T0ASYNC CS0 CS1 CS2 ]
-"19741
-[s S964 :4 `uc 1 :1 `uc 1 :3 `uc 1 ]
-[n S964 . T0CKPS . T0CS ]
-"19746
-[s S965 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S965 . T0CKPS0 T0CKPS1 T0CKPS2 T0CKPS3 . T0CS0 T0CS1 T0CS2 ]
-"19725
-[u S961 `S962 1 `S963 1 `S964 1 `S965 1 ]
-[n S961 . . . . . ]
-"19757
-[v _T0CON1bits `VS961 ~T0 @X0 0 e@795 ]
+"146
+[v _process_TMR0_raw_speed_and_prescaler `(uc ~T0 @X0 0 ef ]
+"147
+[v _process_TMR0_and_prescaler_adjust `(uc ~T0 @X0 0 ef ]
 "89 ./mcc_generated_files/timer/tmr0.h
 [v _TMR0_Start `(v ~T0 @X0 0 ef ]
 "269 /home/parallels/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8/pic/include/proc/pic18f05q40.h
@@ -1720,26 +1707,41 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e ( _TMR1_Write (1 -> -> 65301 `l `ui ]
 "51
 [e ( _TMR1_Start ..  ]
-"54
-[e = . _global_variables 11 -> -> 0 `i `us ]
-"55
-[e = . _global_variables 10 -> -> 1 `i `uc ]
-"56
-[e = . . _T0CON1bits 0 0 -> -> 10 `i `uc ]
-"57
-[e = . _global_variables 0 -> -> -> 12 `i `l `ul ]
-"62
-[e ( _TMR0_Start ..  ]
-"64
+"59
+[v _flag `uc ~T0 @X0 1 a ]
+[e = _flag -> -> 1 `i `uc ]
+"60
+[e $U 1848  ]
 [e :U 1849 ]
 {
-"69
-[; <"  clrwdt ;# ">
-"70
+"62
+[e = _flag . _global_variables 37 ]
+"63
 }
 [e :U 1848 ]
-[e $U 1849  ]
+"60
+[e $ != -> _flag `i -> 0 `i 1849  ]
 [e :U 1850 ]
-"71
+"65
+[e ( _process_TMR0_raw_speed_and_prescaler ..  ]
+"66
+[e ( _process_TMR0_and_prescaler_adjust ..  ]
+"68
+[e ( _TMR0_Start ..  ]
+"70
+[e :U 1852 ]
+{
+"72
+[e ( _process_TMR0_raw_speed_and_prescaler ..  ]
+"73
+[e ( _process_TMR0_and_prescaler_adjust ..  ]
+"75
+[; <"  clrwdt ;# ">
+"76
+}
+[e :U 1851 ]
+[e $U 1852  ]
+[e :U 1853 ]
+"77
 [e :UE 1847 ]
 }

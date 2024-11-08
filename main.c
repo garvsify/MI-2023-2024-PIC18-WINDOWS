@@ -51,20 +51,26 @@ int main(void){
     TMR1_Start(); //ADCC is triggered on overflow, including TMR3, which then triggers the DMA transfer on its overflow
     //LATC5 = 1;
     
-    global_variables.current_speed_linear = 0;
+    /*global_variables.current_speed_linear = 0;
     global_variables.current_waveshape = SINE_MODE;
     T0CON1bits.CKPS = 10;
-    global_variables.final_TMR0 = 12;
+    global_variables.final_TMR0 = 12;*/
     
-    //process_TMR0_raw_speed_and_prescaler(); 
-    //process_TMR0_and_prescaler_adjust();
+    uint8_t flag = 1;
+    while(flag){ //DO NOT CHANGE THIS TO 'while(global_variables.oscillator_ready == 0){}' IT DOES NOT WORK FOR SOME STUPID REASON!
+    
+        flag = global_variables.oscillator_ready;
+    };
+    
+    process_TMR0_raw_speed_and_prescaler();
+    process_TMR0_and_prescaler_adjust();
     
     TMR0_Start(); //start oscillator
 
     while(1){
         
-        //process_TMR0_raw_speed_and_prescaler();
-        //process_TMR0_and_prescaler_adjust();
+        process_TMR0_raw_speed_and_prescaler();
+        process_TMR0_and_prescaler_adjust();
 
         ClrWdt();
     }

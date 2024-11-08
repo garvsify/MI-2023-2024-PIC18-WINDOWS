@@ -129,17 +129,18 @@
         volatile uint8_t res1;
         volatile uint8_t res2;
         volatile uint8_t res3;
-        volatile uint8_t ready_to_start_oscillator;
         
-        volatile const uint8_t TMR0_prescaler_bits[9];
         volatile const adcc_channel_t** volatile current_dma_type_ptr;
         volatile const adcc_channel_t waveshape_adc_config_value;
         volatile const adcc_channel_t speed_adc_config_value;
         volatile const adcc_channel_t depth_adc_config_value;
         volatile const adcc_channel_t symmetry_adc_config_value;
         
-        volatile const uint8_t prescaler_values[9];
         volatile const adcc_channel_t* dma_type_array[4];
+        volatile const uint8_t TMR0_prescaler_bits[9];
+        
+        volatile uint8_t oscillator_ready;
+        volatile uint8_t adc_counter;
         };
     
     uint8_t process_TMR0_raw_speed_and_prescaler(void);

@@ -112,15 +112,15 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v F13346 `(v ~T0 @X0 0 tf ]
 [v F13348 `(v ~T0 @X0 0 tf ]
 "155 mcc_generated_files/timer/src/tmr1.c
-[c E13118 58 59 60 61 62 63 16 17 18 19 .. ]
-[n E13118 . channel_DAC2 channel_VSS channel_Temp channel_DAC1 channel_FVR_Buffer1 channel_FVR_Buffer2 channel_ANC0 channel_ANC1 channel_ANC2 channel_ANC3  ]
+[c E13116 58 59 60 61 62 63 16 17 18 19 .. ]
+[n E13116 . channel_DAC2 channel_VSS channel_Temp channel_DAC1 channel_FVR_Buffer1 channel_FVR_Buffer2 channel_ANC0 channel_ANC1 channel_ANC2 channel_ANC3  ]
 "55 ./mcc_generated_files/adc/adcc.h
-[v _ADCC_StartConversion `(v ~T0 @X0 0 ef1`E13118 ]
-[v F13117 `**CVE13118 ~T0 @X0 1 t ]
+[v _ADCC_StartConversion `(v ~T0 @X0 0 ef1`E13116 ]
+[v F13115 `**CVE13116 ~T0 @X0 1 t ]
 "101 ./mcc_generated_files/dma/../../system_uC.h
-[s S1845 `Vul 1 `Vuc 1 `Vul 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vus 1 `Vul 1 `Vuc 1 `Vus 1 `Vuc 1 `Vus 1 `Vul 1 `Vus 1 `Vul 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vuc 1 `us 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vus 1 `Vul 1 `Vul 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vuc 1 `CVuc -> 9 `i `V**CVE13118 1 `CVE13118 1 `CVE13118 1 `CVE13118 1 `CVE13118 1 `CVuc -> 9 `i `*CVE13118 -> 4 `i ]
-[n S1845 Global_Variables final_TMR0 TMR0_prescaler_adjust raw_TMR0 TMR0_base_prescaler_bits_index TMR0_prescaler_final_index symmetry_status speed_control speed_control_32 how_many_128 duty current_waveshape current_speed_linear current_speed_linear_32 current_depth current_symmetry current_one_quadrant_index current_halfcycle current_quadrant prescaler_final_index ADC_result dutyL dutyH current_depthL result_of_low_by_low result_of_low_by_high multiply_product res0 res1 res2 res3 ready_to_start_oscillator TMR0_prescaler_bits current_dma_type_ptr waveshape_adc_config_value speed_adc_config_value depth_adc_config_value symmetry_adc_config_value prescaler_values dma_type_array ]
-"151
+[s S1845 `Vul 1 `Vuc 1 `Vul 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vus 1 `Vul 1 `Vuc 1 `Vus 1 `Vuc 1 `Vus 1 `Vul 1 `Vus 1 `Vul 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vuc 1 `us 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vus 1 `Vul 1 `Vul 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vuc 1 `V**CVE13116 1 `CVE13116 1 `CVE13116 1 `CVE13116 1 `CVE13116 1 `*CVE13116 -> 4 `i `CVuc -> 9 `i `Vuc 1 `Vuc 1 ]
+[n S1845 Global_Variables final_TMR0 TMR0_prescaler_adjust raw_TMR0 TMR0_base_prescaler_bits_index TMR0_prescaler_final_index symmetry_status speed_control speed_control_32 how_many_128 duty current_waveshape current_speed_linear current_speed_linear_32 current_depth current_symmetry current_one_quadrant_index current_halfcycle current_quadrant prescaler_final_index ADC_result dutyL dutyH current_depthL result_of_low_by_low result_of_low_by_high multiply_product res0 res1 res2 res3 current_dma_type_ptr waveshape_adc_config_value speed_adc_config_value depth_adc_config_value symmetry_adc_config_value dma_type_array TMR0_prescaler_bits oscillator_ready adc_counter ]
+"152
 [v _global_variables `S1845 ~T0 @X0 0 e ]
 "176 ./mcc_generated_files/timer/tmr3.h
 [v _TMR3_Write `(v ~T0 @X0 0 ef1`ui ]
@@ -2006,7 +2006,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "153
 [e ( _TMR1_Stop ..  ]
 "155
-[e ( _ADCC_StartConversion (1 *U *U . _global_variables 32 ]
+[e ( _ADCC_StartConversion (1 *U *U . _global_variables 30 ]
 "157
 [e ( _TMR3_Write (1 -> -> 65300 `l `ui ]
 "158

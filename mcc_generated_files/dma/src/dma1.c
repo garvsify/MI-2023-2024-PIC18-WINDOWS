@@ -230,6 +230,14 @@ void DMA1_DefaultInterruptHandler(void){
     
     //LATC4 = 0;
     
+    if(global_variables.adc_counter < 4){
+        global_variables.oscillator_ready = 0;
+        global_variables.adc_counter++;
+    }
+    else{
+        global_variables.oscillator_ready = 1;
+    }
+    
     PIE2bits.DMA1DCNTIE = 0;
     PIE4bits.TMR3IE = 0;
     

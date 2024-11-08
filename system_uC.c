@@ -20,14 +20,15 @@ struct Global_Variables global_variables = {.current_waveshape = SINE_MODE,
                                             .duty = 0,
                                             .TMR0_prescaler_final_index = 0,
                                             .ADC_result = 0,
-                                            .ready_to_start_oscillator = 0,
                                             .waveshape_adc_config_value = 0x10,//WAVESHAPE_ADC_CONFIG_VALUE,
                                             .speed_adc_config_value = 0x11,//SPEED_ADC_CONFIG_VALUE,
                                             .depth_adc_config_value = 0x12,//DEPTH_ADC_CONFIG_VALUE,
                                             .symmetry_adc_config_value = 0x13,//SYMMETRY_ADC_CONFIG_VALUE
-                                            .prescaler_values = {0b00001000,0b00000111,0b00000110,0b00000101,0b00000100,0b00000011,0b00000010,0b00000001,0b00000000}, //256,128,64,32,16,8,4,2,1 - values do extend beyond 256 but we don't need them
+                                            .TMR0_prescaler_bits = {0b00001000,0b00000111,0b00000110,0b00000101,0b00000100,0b00000011,0b00000010,0b00000001,0b00000000}, //256,128,64,32,16,8,4,2,1 - values do extend beyond 256 but we don't need them
                                             .dma_type_array = {&global_variables.waveshape_adc_config_value, &global_variables.speed_adc_config_value, &global_variables.depth_adc_config_value, &global_variables.symmetry_adc_config_value},
-                                            .current_dma_type_ptr = &global_variables.dma_type_array[0]
+                                            .current_dma_type_ptr = &global_variables.dma_type_array[0],
+                                            .adc_counter = 0,
+                                            .oscillator_ready = 0
 }; 
 
 
@@ -70,6 +71,7 @@ uint8_t adjust_and_set_TMR0_prescaler(void){
         global_variables.TMR0_prescaler_final_index = global_variables.TMR0_base_prescaler_bits_index;
     }
     T0CON1bits.CKPS = global_variables.TMR0_prescaler_bits[global_variables.TMR0_prescaler_final_index];
+
     return 1;
 }
 

@@ -95,7 +95,16 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v F13356 `(v ~T0 @X0 0 tf ]
 [v F13358 `(v ~T0 @X0 0 tf ]
 [v F13360 `(v ~T0 @X0 0 tf ]
-"35189
+"233 mcc_generated_files/dma/src/dma1.c
+[c E13116 58 59 60 61 62 63 16 17 18 19 .. ]
+[n E13116 . channel_DAC2 channel_VSS channel_Temp channel_DAC1 channel_FVR_Buffer1 channel_FVR_Buffer2 channel_ANC0 channel_ANC1 channel_ANC2 channel_ANC3  ]
+[v F13115 `**CVE13116 ~T0 @X0 1 t ]
+"101 ./mcc_generated_files/timer/../../system_uC.h
+[s S1845 `Vul 1 `Vuc 1 `Vul 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vus 1 `Vul 1 `Vuc 1 `Vus 1 `Vuc 1 `Vus 1 `Vul 1 `Vus 1 `Vul 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vuc 1 `us 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vus 1 `Vul 1 `Vul 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vuc 1 `V**CVE13116 1 `CVE13116 1 `CVE13116 1 `CVE13116 1 `CVE13116 1 `*CVE13116 -> 4 `i `CVuc -> 9 `i `Vuc 1 `Vuc 1 ]
+[n S1845 Global_Variables final_TMR0 TMR0_prescaler_adjust raw_TMR0 TMR0_base_prescaler_bits_index TMR0_prescaler_final_index symmetry_status speed_control speed_control_32 how_many_128 duty current_waveshape current_speed_linear current_speed_linear_32 current_depth current_symmetry current_one_quadrant_index current_halfcycle current_quadrant prescaler_final_index ADC_result dutyL dutyH current_depthL result_of_low_by_low result_of_low_by_high multiply_product res0 res1 res2 res3 current_dma_type_ptr waveshape_adc_config_value speed_adc_config_value depth_adc_config_value symmetry_adc_config_value dma_type_array TMR0_prescaler_bits oscillator_ready adc_counter ]
+"4 mcc_generated_files/dma/src/dma1.c
+[v _global_variables `S1845 ~T0 @X0 0 e ]
+"35189 /home/parallels/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8/pic/include/proc/pic18f05q40.h
 [s S1691 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S1691 . U1RXIE U1TXIE U1EIE U1IE TMR3IE TMR3GIE PWM1PIE PWM1IE ]
 "35188
@@ -103,15 +112,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 [n S1690 . . ]
 "35200
 [v _PIE4bits `VS1690 ~T0 @X0 0 e@1196 ]
-"246 mcc_generated_files/dma/src/dma1.c
-[c E13118 58 59 60 61 62 63 16 17 18 19 .. ]
-[n E13118 . channel_DAC2 channel_VSS channel_Temp channel_DAC1 channel_FVR_Buffer1 channel_FVR_Buffer2 channel_ANC0 channel_ANC1 channel_ANC2 channel_ANC3  ]
-[v F13117 `**CVE13118 ~T0 @X0 1 t ]
-"101 ./mcc_generated_files/timer/../../system_uC.h
-[s S1845 `Vul 1 `Vuc 1 `Vul 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vus 1 `Vul 1 `Vuc 1 `Vus 1 `Vuc 1 `Vus 1 `Vul 1 `Vus 1 `Vul 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vuc 1 `us 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vus 1 `Vul 1 `Vul 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vuc 1 `CVuc -> 9 `i `V**CVE13118 1 `CVE13118 1 `CVE13118 1 `CVE13118 1 `CVE13118 1 `CVuc -> 9 `i `*CVE13118 -> 4 `i ]
-[n S1845 Global_Variables final_TMR0 TMR0_prescaler_adjust raw_TMR0 TMR0_base_prescaler_bits_index TMR0_prescaler_final_index symmetry_status speed_control speed_control_32 how_many_128 duty current_waveshape current_speed_linear current_speed_linear_32 current_depth current_symmetry current_one_quadrant_index current_halfcycle current_quadrant prescaler_final_index ADC_result dutyL dutyH current_depthL result_of_low_by_low result_of_low_by_high multiply_product res0 res1 res2 res3 ready_to_start_oscillator TMR0_prescaler_bits current_dma_type_ptr waveshape_adc_config_value speed_adc_config_value depth_adc_config_value symmetry_adc_config_value prescaler_values dma_type_array ]
-"4 mcc_generated_files/dma/src/dma1.c
-[v _global_variables `S1845 ~T0 @X0 0 e ]
 "144 ./mcc_generated_files/timer/tmr1.h
 [v _TMR1_Write `(v ~T0 @X0 0 ef1`ui ]
 "117
@@ -2194,110 +2194,128 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U _DMA1_DefaultInterruptHandler ]
 [f ]
 "233
-[e = . . _PIE2bits 0 3 -> -> 0 `i `uc ]
+[e $ ! < -> . _global_variables 38 `i -> 4 `i 1876  ]
+{
 "234
-[e = . . _PIE4bits 0 4 -> -> 0 `i `uc ]
+[e = . _global_variables 37 -> -> 0 `i `uc ]
+"235
+[e ++ . _global_variables 38 -> -> 1 `i `Vuc ]
 "236
-[v _ADC_result `us ~T0 @X0 1 a ]
-"237
-[e = _ADC_result -> | -> -> *U + &U _adres * -> -> -> 0 `i `ui `ux -> -> # *U &U _adres `ui `ux `us `ui << -> -> *U + &U _adres * -> -> -> 1 `i `ui `ux -> -> # *U &U _adres `ui `ux `us `ui -> 8 `i `us ]
-"238
-[e = _ADC_result -> - -> -> 4095 `i `ui -> _ADC_result `ui `us ]
-"241
-[e $U 1877  ]
-{
-"243
-[e :U 1878 ]
-"245
-[e $ ! <= -> _ADC_result `ui -> -> 1365 `i `ui 1879  ]
-{
-"246
-[e = . _global_variables 10 -> -> 0 `i `uc ]
-"247
 }
-[e $U 1880  ]
-"248
-[e :U 1879 ]
-[e $ ! <= -> _ADC_result `ui -> -> 2730 `i `ui 1881  ]
+[e $U 1877  ]
+"237
+[e :U 1876 ]
 {
+"238
+[e = . _global_variables 37 -> -> 1 `i `uc ]
+"239
+}
+[e :U 1877 ]
+"241
+[e = . . _PIE2bits 0 3 -> -> 0 `i `uc ]
+"242
+[e = . . _PIE4bits 0 4 -> -> 0 `i `uc ]
+"244
+[v _ADC_result `us ~T0 @X0 1 a ]
+"245
+[e = _ADC_result -> | -> -> *U + &U _adres * -> -> -> 0 `i `ui `ux -> -> # *U &U _adres `ui `ux `us `ui << -> -> *U + &U _adres * -> -> -> 1 `i `ui `ux -> -> # *U &U _adres `ui `ux `us `ui -> 8 `i `us ]
+"246
+[e = _ADC_result -> - -> -> 4095 `i `ui -> _ADC_result `ui `us ]
 "249
-[e = . _global_variables 10 -> -> 1 `i `uc ]
-"250
+[e $U 1879  ]
+{
+"251
+[e :U 1880 ]
+"253
+[e $ ! <= -> _ADC_result `ui -> -> 1365 `i `ui 1881  ]
+{
+"254
+[e = . _global_variables 10 -> -> 0 `i `uc ]
+"255
 }
 [e $U 1882  ]
-"251
+"256
 [e :U 1881 ]
-[e $ ! <= -> _ADC_result `ui -> -> 4095 `i `ui 1883  ]
+[e $ ! <= -> _ADC_result `ui -> -> 2730 `i `ui 1883  ]
 {
-"252
-[e = . _global_variables 10 -> -> 2 `i `uc ]
-"253
+"257
+[e = . _global_variables 10 -> -> 1 `i `uc ]
+"258
 }
 [e $U 1884  ]
-"254
+"259
 [e :U 1883 ]
+[e $ ! <= -> _ADC_result `ui -> -> 4095 `i `ui 1885  ]
 {
-"255
-[e = . _global_variables 10 -> -> 1 `i `uc ]
-"256
+"260
+[e = . _global_variables 10 -> -> 2 `i `uc ]
+"261
 }
+[e $U 1886  ]
+"262
+[e :U 1885 ]
+{
+"263
+[e = . _global_variables 10 -> -> 1 `i `uc ]
+"264
+}
+[e :U 1886 ]
 [e :U 1884 ]
 [e :U 1882 ]
-[e :U 1880 ]
-"257
-[e ++ . _global_variables 32 * -> -> 1 `i `x -> -> # *U . _global_variables 32 `i `x ]
-"258
-[e $U 1876  ]
-"260
-[e :U 1885 ]
-"262
-[e = . _global_variables 11 _ADC_result ]
-"263
-[e = . _global_variables 11 -> >> -> . _global_variables 11 `ui -> 2 `i `us ]
-"264
-[e ++ . _global_variables 32 * -> -> 1 `i `x -> -> # *U . _global_variables 32 `i `x ]
 "265
-[e $U 1876  ]
-"267
-[e :U 1886 ]
-"269
-[e = . _global_variables 13 _ADC_result ]
-"270
-[e = . _global_variables 13 -> >> -> . _global_variables 13 `ui -> 4 `i `us ]
-"271
-[e ++ . _global_variables 32 * -> -> 1 `i `x -> -> # *U . _global_variables 32 `i `x ]
-"272
-[e $U 1876  ]
-"274
+[e ++ . _global_variables 30 * -> -> 1 `i `x -> -> # *U . _global_variables 30 `i `x ]
+"266
+[e $U 1878  ]
+"268
 [e :U 1887 ]
-"276
-[e = . _global_variables 14 -> _ADC_result `ul ]
-"277
-[e = . _global_variables 14 >> . _global_variables 14 -> 4 `i ]
-"278
-[e = . _global_variables 32 &U *U + &U . _global_variables 38 * -> -> -> 0 `i `ui `ux -> -> # *U &U . _global_variables 38 `ui `ux ]
-"279
-[e $U 1876  ]
-"281
+"270
+[e = . _global_variables 11 _ADC_result ]
+"271
+[e = . _global_variables 11 -> >> -> . _global_variables 11 `ui -> 2 `i `us ]
+"272
+[e ++ . _global_variables 30 * -> -> 1 `i `x -> -> # *U . _global_variables 30 `i `x ]
+"273
+[e $U 1878  ]
+"275
 [e :U 1888 ]
-"283
-[e $U 1876  ]
+"277
+[e = . _global_variables 13 _ADC_result ]
+"278
+[e = . _global_variables 13 -> >> -> . _global_variables 13 `ui -> 4 `i `us ]
+"279
+[e ++ . _global_variables 30 * -> -> 1 `i `x -> -> # *U . _global_variables 30 `i `x ]
+"280
+[e $U 1878  ]
+"282
+[e :U 1889 ]
 "284
-}
-[e $U 1876  ]
-[e :U 1877 ]
-[e [\ -> *U *U . _global_variables 32 `ui , $ -> -> 16 `i `ui 1878
- , $ -> -> 17 `i `ui 1885
- , $ -> -> 18 `i `ui 1886
- , $ -> -> 19 `i `ui 1887
- 1888 ]
-[e :U 1876 ]
+[e = . _global_variables 14 -> _ADC_result `ul ]
+"285
+[e = . _global_variables 14 >> . _global_variables 14 -> 4 `i ]
 "286
-[e ( _TMR1_Write (1 -> -> 65301 `l `ui ]
+[e = . _global_variables 30 &U *U + &U . _global_variables 35 * -> -> -> 0 `i `ui `ux -> -> # *U &U . _global_variables 35 `ui `ux ]
 "287
-[e ( _TMR1_Start ..  ]
+[e $U 1878  ]
 "289
-[e = . . _PIE3bits 0 4 -> -> 1 `i `uc ]
+[e :U 1890 ]
+"291
+[e $U 1878  ]
 "292
+}
+[e $U 1878  ]
+[e :U 1879 ]
+[e [\ -> *U *U . _global_variables 30 `ui , $ -> -> 16 `i `ui 1880
+ , $ -> -> 17 `i `ui 1887
+ , $ -> -> 18 `i `ui 1888
+ , $ -> -> 19 `i `ui 1889
+ 1890 ]
+[e :U 1878 ]
+"294
+[e ( _TMR1_Write (1 -> -> 65301 `l `ui ]
+"295
+[e ( _TMR1_Start ..  ]
+"297
+[e = . . _PIE3bits 0 4 -> -> 1 `i `uc ]
+"300
 [e :UE 1875 ]
 }

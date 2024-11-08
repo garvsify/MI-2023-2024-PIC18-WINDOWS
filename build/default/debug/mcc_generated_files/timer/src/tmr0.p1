@@ -71,10 +71,10 @@ Version 4.0 HI-TECH Software Intermediate Code
 "95 mcc_generated_files/timer/src/tmr0.c
 [c E13087 58 59 60 61 62 63 16 17 18 19 .. ]
 [n E13087 . channel_DAC2 channel_VSS channel_Temp channel_DAC1 channel_FVR_Buffer1 channel_FVR_Buffer2 channel_ANC0 channel_ANC1 channel_ANC2 channel_ANC3  ]
-[v F13177 `**CVE13087 ~T0 @X0 1 t ]
+[v F13175 `**CVE13087 ~T0 @X0 1 t ]
 "101 ./mcc_generated_files/dma/../../system_uC.h
-[s S1845 `Vul 1 `Vuc 1 `Vul 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vus 1 `Vul 1 `Vuc 1 `Vus 1 `Vuc 1 `Vus 1 `Vul 1 `Vus 1 `Vul 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vuc 1 `us 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vus 1 `Vul 1 `Vul 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vuc 1 `CVuc -> 9 `i `V**CVE13087 1 `CVE13087 1 `CVE13087 1 `CVE13087 1 `CVE13087 1 `CVuc -> 9 `i `*CVE13087 -> 4 `i ]
-[n S1845 Global_Variables final_TMR0 TMR0_prescaler_adjust raw_TMR0 TMR0_base_prescaler_bits_index TMR0_prescaler_final_index symmetry_status speed_control speed_control_32 how_many_128 duty current_waveshape current_speed_linear current_speed_linear_32 current_depth current_symmetry current_one_quadrant_index current_halfcycle current_quadrant prescaler_final_index ADC_result dutyL dutyH current_depthL result_of_low_by_low result_of_low_by_high multiply_product res0 res1 res2 res3 ready_to_start_oscillator TMR0_prescaler_bits current_dma_type_ptr waveshape_adc_config_value speed_adc_config_value depth_adc_config_value symmetry_adc_config_value prescaler_values dma_type_array ]
+[s S1845 `Vul 1 `Vuc 1 `Vul 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vus 1 `Vul 1 `Vuc 1 `Vus 1 `Vuc 1 `Vus 1 `Vul 1 `Vus 1 `Vul 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vuc 1 `us 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vus 1 `Vul 1 `Vul 1 `Vuc 1 `Vuc 1 `Vuc 1 `Vuc 1 `V**CVE13087 1 `CVE13087 1 `CVE13087 1 `CVE13087 1 `CVE13087 1 `*CVE13087 -> 4 `i `CVuc -> 9 `i `Vuc 1 `Vuc 1 ]
+[n S1845 Global_Variables final_TMR0 TMR0_prescaler_adjust raw_TMR0 TMR0_base_prescaler_bits_index TMR0_prescaler_final_index symmetry_status speed_control speed_control_32 how_many_128 duty current_waveshape current_speed_linear current_speed_linear_32 current_depth current_symmetry current_one_quadrant_index current_halfcycle current_quadrant prescaler_final_index ADC_result dutyL dutyH current_depthL result_of_low_by_low result_of_low_by_high multiply_product res0 res1 res2 res3 current_dma_type_ptr waveshape_adc_config_value speed_adc_config_value depth_adc_config_value symmetry_adc_config_value dma_type_array TMR0_prescaler_bits oscillator_ready adc_counter ]
 "8 ./mcc_generated_files/timer/tmr0.h
 [v _global_variables `S1845 ~T0 @X0 0 e ]
 "45541 /home/parallels/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8/pic/include/proc/pic18f05q40.h
